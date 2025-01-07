@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://dlu6ai5f346mr"]
+
+[ext_resource type="Script" path="res://Simple Enemy Demo/SimpleEnemy.gd" id="1_quxav"]
+[ext_resource type="Texture2D" uid="uid://dfsywr4iaf8rm" path="res://Simple Enemy Demo/icon.svg" id="2_a027e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5sx8t"]
+size = Vector2(126, 119)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7lrgi"]
+radius = 374.342
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ji7qj"]
+size = Vector2(141, 128)
+
+[node name="SimpleEnemy" type="CharacterBody2D"]
+script = ExtResource("1_quxav")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -0.5)
+shape = SubResource("RectangleShape2D_5sx8t")
+
+[node name="Icon" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0.388235, 0.34902, 1)
+texture = ExtResource("2_a027e")
+
+[node name="Vision" type="Area2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Vision"]
+shape = SubResource("CircleShape2D_7lrgi")
+metadata/_edit_lock_ = true
+
+[node name="hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(-0.5, -2)
+shape = SubResource("RectangleShape2D_ji7qj")
+
+[connection signal="body_entered" from="Vision" to="." method="_on_vision_body_entered"]
+[connection signal="body_exited" from="Vision" to="." method="_on_vision_body_exited"]
+[connection signal="body_entered" from="hitbox" to="." method="_on_hitbox_body_entered"]

@@ -1,0 +1,86 @@
+[gd_scene load_steps=11 format=3 uid="uid://y6yngbo8urtf"]
+
+[ext_resource type="Script" path="res://Obstacles/Falling Platforms/Falling Platform.gd" id="1_ehssg"]
+[ext_resource type="Texture2D" uid="uid://dwh2nfnyfq0xo" path="res://Assets/Traps/Falling Platforms/Off.png" id="2_0iyda"]
+[ext_resource type="Texture2D" uid="uid://bpmqmxhx5wnp0" path="res://Assets/Traps/Falling Platforms/On (32x10).png" id="3_l20ec"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4n82f"]
+size = Vector2(32, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhy2l"]
+atlas = ExtResource("3_l20ec")
+region = Rect2(0, 0, 32, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mrtx7"]
+atlas = ExtResource("3_l20ec")
+region = Rect2(32, 0, 32, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yr31t"]
+atlas = ExtResource("3_l20ec")
+region = Rect2(64, 0, 32, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ysntl"]
+atlas = ExtResource("3_l20ec")
+region = Rect2(96, 0, 32, 10)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uoexy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_0iyda")
+}],
+"loop": true,
+"name": &"off",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bhy2l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mrtx7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yr31t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ysntl")
+}],
+"loop": true,
+"name": &"on",
+"speed": 16.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b14bk"]
+size = Vector2(29, 4.5)
+
+[node name="Falling Platform" type="RigidBody2D"]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ehssg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_4n82f")
+one_way_collision = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_uoexy")
+animation = &"on"
+autoplay = "on"
+frame_progress = 0.277743
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -8)
+shape = SubResource("RectangleShape2D_b14bk")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

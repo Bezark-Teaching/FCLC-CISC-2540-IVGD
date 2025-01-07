@@ -1,0 +1,31 @@
+- Magic Circle
+- Lecture: Nodes to know
+  - CharacterBody
+  - Staticbody
+  - Area2D
+  - Collision shape
+  - Button
+  - Sound
+  - Path
+
+  - Dspliscussion: Narrative Design in 2D Games
+  - Assets
+    - Figma
+    - Asperite
+    - Krita
+  - Lecture:
+    - Control structures and logic
+    - If/Then
+    - && || not
+    - Match
+    - Loops
+      - for
+      - while
+      - UI
+      - Methods
+      - Signals
+      - Functions
+      - The Role of Sound and Music in 2D Games
+
+          - - Magic Circle
+    - Playtesting

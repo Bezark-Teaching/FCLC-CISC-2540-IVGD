@@ -1,0 +1,2 @@
+- [Magic Circle](https://en.wikipedia.org/wiki/Magic_circle_(virtual_worlds))
+- [Jerked Around by the Magic Circle](https://www.gamedeveloper.com/design/jerked-around-by-the-magic-circle---clearing-the-air-ten-years-later)

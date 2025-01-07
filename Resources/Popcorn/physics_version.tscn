@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://bdr6si5pwu76n"]
+
+[ext_resource type="Texture2D" uid="uid://dmeb7tiyco377" path="res://icon.svg" id="1_jnwr4"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_m64vh"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wmhoi"]
+radius = 75.06
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mf0b4"]
+size = Vector2(210.096, 20)
+
+[node name="PhysicsVersion" type="Node2D"]
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+position = Vector2(533, 54)
+physics_material_override = SubResource("PhysicsMaterial_m64vh")
+
+[node name="Icon" type="Sprite2D" parent="RigidBody2D"]
+texture = ExtResource("1_jnwr4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("CircleShape2D_wmhoi")
+
+[node name="AnimatableBody2D" type="AnimatableBody2D" parent="."]
+position = Vector2(301, 479)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatableBody2D"]
+position = Vector2(83, 0)
+shape = SubResource("RectangleShape2D_mf0b4")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="AnimatableBody2D"]
+position = Vector2(-68, -83)
+rotation = -2.0944
+shape = SubResource("RectangleShape2D_mf0b4")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="AnimatableBody2D"]
+position = Vector2(234, -88)
+rotation = -1.0472
+shape = SubResource("RectangleShape2D_mf0b4")

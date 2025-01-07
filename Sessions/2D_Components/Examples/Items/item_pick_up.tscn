@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://diog5o2u51yw5"]
+
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Examples/Player/Player.tscn" id="1_ff6b0"]
+[ext_resource type="PackedScene" uid="uid://bbrc4r5uir85h" path="res://Examples/Items/fruit.tscn" id="2_k85xd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a27bq"]
+size = Vector2(860, 41)
+
+[node name="Item PickUp" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_ff6b0")]
+
+[node name="Floor" type="StaticBody2D" parent="."]
+position = Vector2(0, 102)
+
+[node name="ColorRect" type="ColorRect" parent="Floor"]
+offset_right = 859.0
+offset_bottom = 40.0
+color = Color(0.482353, 0.678431, 0.447059, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+position = Vector2(430, 20.5)
+shape = SubResource("RectangleShape2D_a27bq")
+
+[node name="Items" type="Node2D" parent="."]
+
+[node name="Fruit" parent="Items" instance=ExtResource("2_k85xd")]
+position = Vector2(189, 76)
+
+[node name="Fruit2" parent="Items" instance=ExtResource("2_k85xd")]
+position = Vector2(264, 76)
+
+[node name="Fruit3" parent="Items" instance=ExtResource("2_k85xd")]
+position = Vector2(348, 76)

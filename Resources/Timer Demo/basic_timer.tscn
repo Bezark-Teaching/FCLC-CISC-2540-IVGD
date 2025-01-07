@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://2w3h70shvk55"]
+
+[ext_resource type="Script" path="res://BasicTimer.gd" id="1_5aspw"]
+
+[node name="BasicTimer" type="Node2D"]
+script = ExtResource("1_5aspw")

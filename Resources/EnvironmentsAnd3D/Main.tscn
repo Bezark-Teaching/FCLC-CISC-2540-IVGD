@@ -1,0 +1,101 @@
+[gd_scene load_steps=15 format=3 uid="uid://cjky7rvskccaw"]
+
+[ext_resource type="Texture2D" uid="uid://b1wtd2prq4sjf" path="res://BrickMaterial/Bricks075A_4K-PNG_Color.png" id="1_0sp0l"]
+[ext_resource type="Script" path="res://CharacterBody3D.gd" id="1_cxdoy"]
+[ext_resource type="Texture2D" uid="uid://cpqfdfdf8dsyl" path="res://BrickMaterial/Bricks075A_4K-PNG_AmbientOcclusion.png" id="2_0xbtk"]
+[ext_resource type="Texture2D" uid="uid://d3o5ies8jksbf" path="res://BrickMaterial/Bricks075A_4K-PNG_Displacement.png" id="3_idyv8"]
+[ext_resource type="Texture2D" uid="uid://cpbr8y4da1uhc" path="res://BrickMaterial/Bricks075A_4K-PNG_NormalGL.png" id="4_kfunl"]
+[ext_resource type="Texture2D" uid="uid://ckf1htbybmomr" path="res://BrickMaterial/Bricks075A_4K-PNG_Roughness.png" id="5_kmvcv"]
+[ext_resource type="ArrayMesh" uid="uid://bbnl6yuymn1ya" path="res://tree.obj" id="8_xnak8"]
+[ext_resource type="PackedScene" uid="uid://dladxpxxuab2s" path="res://PRINCIPALOFFICEdesk.glb" id="9_44uyl"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_vite7"]
+sky_top_color = Color(0.0313726, 0.117647, 0.0784314, 1)
+sky_horizon_color = Color(0.0352941, 0.14902, 0.152941, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_xqqai"]
+sky_material = SubResource("ProceduralSkyMaterial_vite7")
+
+[sub_resource type="Environment" id="Environment_cjiwa"]
+background_mode = 1
+sky = SubResource("Sky_xqqai")
+tonemap_mode = 2
+glow_enabled = true
+fog_light_energy = 1.89
+fog_density = 0.039
+fog_sky_affect = 0.5
+volumetric_fog_albedo = Color(0.419608, 1, 0.552941, 1)
+volumetric_fog_emission = Color(0.513726, 0, 0.168627, 1)
+volumetric_fog_emission_energy = 370.78
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gjid4"]
+albedo_texture = ExtResource("1_0sp0l")
+roughness_texture = ExtResource("5_kmvcv")
+normal_enabled = true
+normal_texture = ExtResource("4_kfunl")
+ao_enabled = true
+ao_texture = ExtResource("2_0xbtk")
+heightmap_enabled = true
+heightmap_scale = 0.555
+heightmap_texture = ExtResource("3_idyv8")
+uv1_scale = Vector3(0.1, 0.1, 0.1)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 0.535887
+uv2_triplanar = true
+uv2_world_triplanar = true
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sbmnr"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_s20o5"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_cjiwa")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.119371, -0.847094, -0.517864, -0.727516, -0.280312, 0.626216, -0.675627, 0.451506, -0.582813, 2.87233, 6.49245, 3.05705)
+light_color = Color(0.619608, 0.611765, 0.780392, 1)
+light_energy = 0.1
+shadow_enabled = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(100, 1, 100)
+material = SubResource("StandardMaterial3D_gjid4")
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.60632, 3.45163, -22.3931)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.75402, 0)
+script = ExtResource("1_cxdoy")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+shape = SubResource("CapsuleShape3D_sbmnr")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+mesh = SubResource("CapsuleMesh_s20o5")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.613796, 0.00954485)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="CharacterBody3D/Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 0.997066, 0.0765449, 0, -0.0765449, 0.997066, -0.108119, -1.22547, -0.410979)
+light_color = Color(0.517647, 0.517647, 0.447059, 1)
+light_energy = 9.505
+spot_range = 8.10586
+spot_angle = 49.1255
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.69169, -22.2126)
+light_color = Color(0.494118, 0.466667, 1, 1)
+shadow_enabled = true
+
+[node name="UploadsFiles3176920Lemon+trees+without+fruits" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.35021, 0.5, -20.2562)
+mesh = ExtResource("8_xnak8")
+
+[node name="PRINCIPALOFFICEdesk2" parent="." instance=ExtResource("9_44uyl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.08882, 2.49258, -16.7125)

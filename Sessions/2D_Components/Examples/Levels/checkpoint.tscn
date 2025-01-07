@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://by0o0t4ypfr7x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s0rcx"]
+size = Vector2(20, 58)
+
+[node name="Checkpoint" type="Node2D"]
+
+[node name="Flag" type="ColorRect" parent="."]
+offset_left = -10.0
+offset_top = -58.0
+offset_right = 9.0
+offset_bottom = -1.0
+
+[node name="Point" type="Marker2D" parent="."]
+position = Vector2(0, -77)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -29)
+shape = SubResource("RectangleShape2D_s0rcx")

@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://dlp5extcsal7a"]
+
+[ext_resource type="Texture2D" uid="uid://dmeb7tiyco377" path="res://icon.svg" id="1_btjh8"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="2_0oxnx"]
+[ext_resource type="Script" path="res://Bucket.gd" id="3_40vvn"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ifsfl"]
+radius = 77.3692
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4ak8q"]
+size = Vector2(210, 148)
+
+[node name="Reparenting Version" type="Node2D"]
+
+[node name="Sprite2D" type="CharacterBody2D" parent="."]
+position = Vector2(301, 18)
+script = ExtResource("2_0oxnx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D"]
+shape = SubResource("CircleShape2D_ifsfl")
+
+[node name="Icon" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(-2, -4)
+texture = ExtResource("1_btjh8")
+
+[node name="Sprite2D2" type="CharacterBody2D" parent="."]
+position = Vector2(567, -124)
+script = ExtResource("2_0oxnx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D2"]
+shape = SubResource("CircleShape2D_ifsfl")
+
+[node name="Icon" type="Sprite2D" parent="Sprite2D2"]
+position = Vector2(-2, -4)
+texture = ExtResource("1_btjh8")
+
+[node name="Bucket" type="Node2D" parent="."]
+position = Vector2(209, 324)
+script = ExtResource("3_40vvn")
+
+[node name="Area2D" type="Area2D" parent="Bucket"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bucket/Area2D"]
+position = Vector2(95, 64)
+shape = SubResource("RectangleShape2D_4ak8q")
+
+[connection signal="body_entered" from="Bucket/Area2D" to="Bucket" method="_on_area_2d_body_entered"]

@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://citockahpvdsb"]
+
+[ext_resource type="Texture2D" uid="uid://bi1snir15xw6o" path="res://kidpix-1709235641966.png" id="1_k1554"]
+[ext_resource type="Texture2D" uid="uid://bgqbanp5v7jpx" path="res://Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Objects/Egg_item.png" id="2_m25p5"]
+[ext_resource type="Texture2D" uid="uid://d2t2q7behnotn" path="res://Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Objects/Free_Chicken_House.png" id="3_d0wqc"]
+[ext_resource type="Texture2D" uid="uid://b7ou8rfcs7abb" path="res://Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Objects/Basic_tools_and_meterials.png" id="4_yhahe"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(560, 266)
+metadata/_edit_vertical_guides_ = [115.0]
+
+[node name="Kidpix-1709235641966" type="Sprite2D" parent="."]
+position = Vector2(466, 233)
+texture = ExtResource("1_k1554")
+
+[node name="EggItem" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-380, -42)
+texture = ExtResource("2_m25p5")
+
+[node name="FreeChickenHouse" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-343, -46)
+texture = ExtResource("3_d0wqc")
+
+[node name="BasicToolsAndMeterials" type="Sprite2D" parent="."]
+position = Vector2(-371, -21)
+texture = ExtResource("4_yhahe")

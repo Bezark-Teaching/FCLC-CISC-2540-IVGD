@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dr8ej7jps4gbj"]
+
+[ext_resource type="Script" path="res://TimerNode.gd" id="1_mthmg"]
+
+[node name="Timer" type="Timer"]
+script = ExtResource("1_mthmg")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 206.0
+offset_bottom = 118.0
+theme_override_font_sizes/font_size = 32
+
+[connection signal="timeout" from="." to="." method="_on_timeout"]
