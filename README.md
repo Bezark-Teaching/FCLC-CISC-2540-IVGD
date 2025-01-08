@@ -5,6 +5,7 @@
 - **Instructor:** John Bezark
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
+
 ## **Course Description:**
 An introductory course exploring the fundamentals of digital game design and development. This course will use Godot 4 as the primary game creation tool, and it wil cover the basics of game development, coding fundamentals, and game design principles. Students will engage in hands-on projects to develop practical skills in both 2D and 3D game design. Students are not expected to have any prior programming or game design experience.
 
