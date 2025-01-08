@@ -1,7 +1,7 @@
-# FCLC Introduction to Video Game Design Syllabus
+# Introduction to Game Design Syllabus
 
-**Course Code:** CISC 2540
-**Schedule:** Tuesdays and Fridays, 1:00 - 2:15 PM
+**Course Code:** 
+**Schedule:** 
 **Instructor:** John Bezark
 **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
