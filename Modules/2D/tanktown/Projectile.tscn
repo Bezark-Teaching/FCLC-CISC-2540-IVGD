@@ -1,0 +1,62 @@
+[gd_scene load_steps=10 format=3 uid="uid://ctu7nr0oyffpq"]
+
+[ext_resource type="Script" path="res://projectile.gd" id="1_1322k"]
+[ext_resource type="Texture2D" uid="uid://crxkihkqf8h0b" path="res://Assets/PNG/Default size/bulletBlue1.png" id="2_k78nx"]
+[ext_resource type="Texture2D" uid="uid://c8ueu07t5d2d6" path="res://Assets/PNG/Default size/explosion1.png" id="3_nr1nc"]
+[ext_resource type="Texture2D" uid="uid://bx33iniygtbb8" path="res://Assets/PNG/Default size/explosion2.png" id="4_ymvrp"]
+[ext_resource type="Texture2D" uid="uid://b3e1p40jnnv42" path="res://Assets/PNG/Default size/explosion3.png" id="5_hl6yv"]
+[ext_resource type="Texture2D" uid="uid://c47rkfyipnnc5" path="res://Assets/PNG/Default size/explosion4.png" id="6_vvjgw"]
+[ext_resource type="Texture2D" uid="uid://d22mt0wti40ke" path="res://Assets/PNG/Default size/explosion5.png" id="7_v3bxx"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ujem8"]
+radius = 7.0
+height = 42.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g5s75"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_k78nx")
+}],
+"loop": false,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_nr1nc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ymvrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_hl6yv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vvjgw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_v3bxx")
+}],
+"loop": false,
+"name": &"explode",
+"speed": 10.0
+}]
+
+[node name="Projectile" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 6
+script = ExtResource("1_1322k")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_ujem8")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_g5s75")
+animation = &"explode"
+autoplay = "default"
+frame = 4
+frame_progress = 1.0
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_sprite_2d_animation_finished"]

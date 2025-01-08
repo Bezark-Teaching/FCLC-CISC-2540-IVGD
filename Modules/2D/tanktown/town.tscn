@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://1wabythm4hl8"]
+
+[ext_resource type="PackedScene" uid="uid://cmgbulgtiqk5c" path="res://PlayerTank.tscn" id="2_j7ry1"]
+[ext_resource type="PackedScene" uid="uid://3lcw6efiq63m" path="res://Wall.tscn" id="2_u3wri"]
+
+[node name="Town" type="Node2D"]
+
+[node name="ColorRect" parent="." instance=ExtResource("2_u3wri")]
+offset_left = -77.0
+offset_top = -37.0
+offset_right = 17.0
+offset_bottom = 599.0
+
+[node name="Tank" parent="." instance=ExtResource("2_j7ry1")]
+position = Vector2(373, 330)

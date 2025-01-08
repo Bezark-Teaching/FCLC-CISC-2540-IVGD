@@ -1,0 +1,77 @@
+[gd_scene load_steps=8 format=3 uid="uid://bbi1gfu4je20h"]
+
+[ext_resource type="Script" path="res://npc.gd" id="1_v8vkk"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5i0a8"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_bthc0"]
+sky_material = SubResource("ProceduralSkyMaterial_5i0a8")
+
+[sub_resource type="Environment" id="Environment_pnbov"]
+background_mode = 2
+sky = SubResource("Sky_bthc0")
+tonemap_mode = 2
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_hosgg"]
+vertices = PackedVector3Array(-5.5, 1, -9, -4.5, 1, -9, -4.5, 1, -49.5, -6, 1, -7.75, -49.5, 1, -49.5, -49.5, 1, -7.75, -3, 1, -8.5, 3, 1, -9, 3, 1, -10.5, 4.5, 1, -11.25, 4.5, 1, -49.5, 5.5, 1, -11, 6, 1, -9.75, 49.5, 1, -9.75, 49.5, 1, -49.5, 4, 2.75, -9.25, 5, 2.75, -9.5, 4.75, 2.75, -10, 4, 2.75, -10, 4.5, 1, -8, 4.5, 1, -0.75, 5.25, 1, -0.75, 5.75, 1, -8.5, 6, 1, 0, 6, 1, 0.75, 49.5, 1, 0.75, 1.5, 1, -0.75, 1.5, 1, 0.25, 3, 1, 0.25, 3.5, 1, -0.75, 0.75, 1, -1.5, -3, 1, -6.75, 3.5, 1, -8.25, -3.75, 1, -6.25, -1.5, 1, -0.5, -0.75, 1, -1.5, -4.75, 2.75, -7.25, -4, 2.75, -7.25, -4, 2.75, -8, -5, 2.75, -7.75, -2, 1, 2, -1, 1, 1.25, -1.5, 1, 0.75, -3.75, 1, 1.75, -5.5, 1, -6.25, -4.5, 1, 3.5, -4.5, 1, 2.5, -49.5, 1, 3.5, -0.5, 2.75, -0.25, -0.25, 2.75, 0.5, 0.5, 2.75, 0.25, 0.25, 2.75, -0.5, 3, 1, 1.5, 0.75, 1, 1.5, 3.5, 1, 2, -1.5, 1, 4, -2.25, 1, 4.75, -3.25, 1, 4.75, -3.25, 1, 49.5, 5.5, 1, 49.5, 5.5, 1, 2, 4, 2.75, 1, 5, 2.75, 0.75, 4.75, 2.75, 0.25, 4, 2.75, 0.25, 49.5, 1, 49.5, -3.5, 2.75, 3, -3.5, 2.75, 3.75, -2.5, 2.75, 3.5, -3, 2.75, 2.75, -4.5, 1, 4.25, -49.5, 1, 49.5)
+polygons = [PackedInt32Array(2, 1, 0), PackedInt32Array(0, 3, 2), PackedInt32Array(2, 3, 5), PackedInt32Array(2, 5, 4), PackedInt32Array(8, 7, 6), PackedInt32Array(6, 1, 8), PackedInt32Array(8, 1, 9), PackedInt32Array(9, 1, 10), PackedInt32Array(10, 1, 2), PackedInt32Array(11, 9, 10), PackedInt32Array(11, 10, 12), PackedInt32Array(12, 10, 13), PackedInt32Array(13, 10, 14), PackedInt32Array(17, 16, 18), PackedInt32Array(18, 16, 15), PackedInt32Array(20, 19, 21), PackedInt32Array(21, 19, 22), PackedInt32Array(25, 24, 23), PackedInt32Array(21, 22, 23), PackedInt32Array(23, 22, 12), PackedInt32Array(23, 12, 13), PackedInt32Array(23, 13, 25), PackedInt32Array(28, 27, 26), PackedInt32Array(28, 26, 29), PackedInt32Array(29, 26, 30), PackedInt32Array(7, 32, 6), PackedInt32Array(6, 32, 31), PackedInt32Array(29, 30, 20), PackedInt32Array(20, 30, 19), PackedInt32Array(19, 30, 32), PackedInt32Array(32, 30, 31), PackedInt32Array(35, 34, 33), PackedInt32Array(33, 31, 35), PackedInt32Array(35, 31, 30), PackedInt32Array(36, 39, 37), PackedInt32Array(37, 39, 38), PackedInt32Array(42, 41, 40), PackedInt32Array(42, 40, 34), PackedInt32Array(34, 40, 43), PackedInt32Array(34, 43, 33), PackedInt32Array(33, 43, 44), PackedInt32Array(46, 45, 44), PackedInt32Array(44, 45, 3), PackedInt32Array(3, 45, 5), PackedInt32Array(5, 45, 47), PackedInt32Array(44, 43, 46), PackedInt32Array(51, 50, 48), PackedInt32Array(48, 50, 49), PackedInt32Array(27, 28, 52), PackedInt32Array(52, 54, 27), PackedInt32Array(27, 54, 53), PackedInt32Array(41, 53, 40), PackedInt32Array(40, 53, 55), PackedInt32Array(55, 53, 54), PackedInt32Array(58, 57, 56), PackedInt32Array(55, 54, 56), PackedInt32Array(56, 54, 60), PackedInt32Array(56, 60, 59), PackedInt32Array(56, 59, 58), PackedInt32Array(63, 62, 64), PackedInt32Array(64, 62, 61), PackedInt32Array(24, 25, 60), PackedInt32Array(60, 25, 59), PackedInt32Array(59, 25, 65), PackedInt32Array(66, 69, 67), PackedInt32Array(67, 69, 68), PackedInt32Array(47, 45, 70), PackedInt32Array(57, 58, 70), PackedInt32Array(70, 58, 71), PackedInt32Array(70, 71, 47)]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_qkwol"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_1hto6"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_pnbov")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
+shadow_enabled = true
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("NavigationMesh_hosgg")
+
+[node name="Level" type="CSGBox3D" parent="NavigationRegion3D"]
+use_collision = true
+size = Vector3(100, 1, 100)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="NavigationRegion3D/Level"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.49462, 0)
+radius = 0.90016
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="NavigationRegion3D/Level"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.42739, 1.49462, -9.60041)
+radius = 0.90016
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="NavigationRegion3D/Level"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.42739, 1.49462, 0.666409)
+radius = 0.90016
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="NavigationRegion3D/Level"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.42291, 1.49462, -7.59079)
+radius = 0.90016
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="NavigationRegion3D/Level"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.05051, 1.49462, 3.31502)
+radius = 0.90016
+
+[node name="NPC" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.4275, 3.43303, 0)
+script = ExtResource("1_v8vkk")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NPC"]
+shape = SubResource("CapsuleShape3D_qkwol")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NPC"]
+mesh = SubResource("CapsuleMesh_1hto6")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="NPC"]
+
+[node name="Destination" type="Marker3D" parent="NPC"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.8561, -2.44406, -10.3037)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.964544, 0.263924, 0, -0.263924, 0.964544, 0, 10.5926, 17.9178)

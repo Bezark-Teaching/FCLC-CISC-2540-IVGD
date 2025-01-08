@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsjuhw1ppaeg5"]
+
+[ext_resource type="PackedScene" uid="uid://3lcw6efiq63m" path="res://Wall.tscn" id="1_41cjs"]
+[ext_resource type="PackedScene" uid="uid://bo1gc606nktg7" path="res://vehicle.tscn" id="2_fify0"]
+
+[node name="Level" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_fify0")]
+position = Vector2(536, 533)
+turn_speed = 0.05
+
+[node name="ColorRect" parent="." instance=ExtResource("1_41cjs")]
+offset_left = 179.0
+offset_top = -296.0
+offset_right = 273.0
+offset_bottom = 340.0
+
+[node name="ColorRect3" parent="." instance=ExtResource("1_41cjs")]
+offset_left = 185.0
+offset_top = -1086.0
+offset_right = 279.0
+offset_bottom = -450.0
+
+[node name="ColorRect5" parent="." instance=ExtResource("1_41cjs")]
+offset_left = 865.0
+offset_top = -1469.0
+offset_right = 959.0
+offset_bottom = -833.0
+rotation = 1.5708
+
+[node name="ColorRect6" parent="." instance=ExtResource("1_41cjs")]
+offset_left = 1608.0
+offset_top = -1069.0
+offset_right = 1702.0
+offset_bottom = -433.0
+rotation = 1.5708
+
+[node name="ColorRect7" parent="." instance=ExtResource("1_41cjs")]
+offset_left = 1641.0
+offset_top = -1480.0
+offset_right = 1735.0
+offset_bottom = -844.0
+rotation = 1.5708
+
+[node name="ColorRect2" parent="." instance=ExtResource("1_41cjs")]
+offset_left = 743.0
+offset_top = -303.0
+offset_right = 837.0
+offset_bottom = 333.0
+
+[node name="ColorRect4" parent="." instance=ExtResource("1_41cjs")]
+offset_left = 745.0
+offset_top = -1065.0
+offset_right = 839.0
+offset_bottom = -429.0

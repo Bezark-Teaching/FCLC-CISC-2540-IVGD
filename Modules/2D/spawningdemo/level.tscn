@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2y1tqct0l40v"]
+
+[ext_resource type="Script" path="res://objects.gd" id="1_siiwf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b47hm"]
+size = Vector2(1026, 56)
+
+[node name="Level" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(0, 534)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(503, 18)
+shape = SubResource("RectangleShape2D_b47hm")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D"]
+offset_right = 1017.0
+offset_bottom = 44.0
+
+[node name="Objects" type="Node2D" parent="."]
+script = ExtResource("1_siiwf")
+
+[node name="Timer" type="Timer" parent="Objects"]
+autostart = true
+
+[connection signal="timeout" from="Objects/Timer" to="Objects" method="_on_timer_timeout"]

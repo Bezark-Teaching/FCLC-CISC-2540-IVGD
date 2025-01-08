@@ -1,5 +1,5 @@
 ## Lab 1
-Using [this project from class as an example](https://github.com/bezark/FCLC-in-class-lab-demo-2), please complete the following exercise:
+Using [this project from class as an example](https://github.com/bezark/John-Bezark-Labs), please complete the following exercise:
 
   Create a 2D godot project that has:
   - A main scene

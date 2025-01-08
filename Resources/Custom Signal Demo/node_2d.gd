@@ -1,15 +1,8 @@
 extends Node2D
 
+# You can connect a node to signals from any other node.
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
+#The two functions below are connected to the Sender node. CLick on the green arrow to verify.
 
 func _on_icon_counter_max_reached():
 	print("the counter is done")

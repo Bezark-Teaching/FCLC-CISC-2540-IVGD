@@ -2,7 +2,7 @@
 
 Please complete the following exercise:
 
-Create a 2D godot project that has:
+Create a 3D godot project that has:
   - A godot project in a github repository (can be the same repository from last week)
   - A 3D Scene with:
     - A Camera

@@ -1,7 +1,5 @@
 ### Assignment Prompt: Tabletop Group Project
 
-DUE: 2/1
-
 #### Objective:
 Design and create a tabletop game that can be played within the classroom environment. The game should be engaging, clear in its objectives and rules, and designed to be completed within a 15-minute timeframe.
 
@@ -16,11 +14,11 @@ Design and create a tabletop game that can be played within the classroom enviro
 - **Ruleset:** Submit a written set of rules for your game. The ruleset should explain the objective, gameplay, and any other necessary information for players. Plaintext or Markdown files are preferred.
 
 #### Grading Criteria: (Total 10 Points)
-- **Submission (4 points):** Points are awarded for playtesting a game prototype and submitting a ruleset.
+- **Submission (2 points):** Points are awarded for playtesting a game prototype and submitting a ruleset.
 - **Clarity and Completeness of Rules (0-2 points):** Evaluated based on how clear, understandable, and easily accessible the rules are for new players. Are the rules sufficient enough to create a complete game-play experience?
 - **Meeting Design Goals (0-2 points):** Assessed on how well your game meets the your own stated design goals. Do the mechanics create the aesthetic experience you were going for?
 - **Working within Constraints (0-2 points):** Points awarded for effectively working within the given constraints (classroom suitability, duration, and rule clarity).
-- 0-2 Bonus points for "Polish"
+- **Polish and Theme(0-2 Bonus points ):** Awarded for making your prototype look pretty and giving it an interesting narrative theme.
 
 #### Tips for Success:
 - **Test Your Game:** Ensure that your game can be played to completion within the 15-minute limit. Internal playtesting is crucial.

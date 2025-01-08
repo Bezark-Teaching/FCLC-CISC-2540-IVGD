@@ -1,0 +1,113 @@
+[gd_scene load_steps=6 format=3 uid="uid://boifxc5ieyfik"]
+
+[ext_resource type="Texture2D" uid="uid://ymf03uorpfre" path="res://icon.svg" id="2_s23n3"]
+
+[sub_resource type="Curve2D" id="Curve2D_mv1r2"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 248, -12, 0, 0, 0, 0, 412, 37, 0, 0, 0, 0, 624, 65, 0, 0, 0, 0, 913, 122, 0, 0, 0, 0, 1098, 244, 0, 0, 0, 0, 155, 270, 0, 0, 0, 0, 248, -12)
+}
+point_count = 7
+
+[sub_resource type="Animation" id="Animation_p54a6"]
+resource_name = "looponce and run"
+length = 4.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Path2D/PathFollow2D:progress_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 1.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Path2D/PathFollow2D/Icon:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(2.16667, 2.96667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(2.05645, -0.128983), Vector2(295.353, 793.414)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Path2D/PathFollow2D/Icon:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(1.23333, 3.63333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(10, 10)]
+}
+
+[sub_resource type="Animation" id="Animation_wd8bj"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Path2D/PathFollow2D:progress_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Path2D/PathFollow2D/Icon:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(2.05645, -0.128983)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Path2D/PathFollow2D/Icon:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_t2bo6"]
+_data = {
+"RESET": SubResource("Animation_wd8bj"),
+"looponce and run": SubResource("Animation_p54a6")
+}
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Path2D" type="Path2D" parent="."]
+position = Vector2(-124, 126)
+curve = SubResource("Curve2D_mv1r2")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+position = Vector2(248, -12)
+rotation = 0.290338
+
+[node name="Icon" type="Sprite2D" parent="Path2D/PathFollow2D"]
+position = Vector2(2.05645, -0.128983)
+texture = ExtResource("2_s23n3")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_t2bo6")
+}

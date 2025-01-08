@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://c10bv65km5joj"]
+
+[ext_resource type="PackedScene" uid="uid://m7fbogrf877j" path="res://advanced_player.tscn" id="1_6ahbd"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -183.0
+offset_top = 436.0
+offset_right = 386.0
+offset_bottom = 716.0
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = 1032.0
+offset_top = 87.0
+offset_right = 1307.0
+offset_bottom = 664.0
+
+[node name="SimplePlayer" parent="." instance=ExtResource("1_6ahbd")]

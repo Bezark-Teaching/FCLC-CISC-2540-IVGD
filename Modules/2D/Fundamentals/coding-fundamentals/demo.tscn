@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbb5eob0kj8ex"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_88qbi"]
+load_path = "res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
+
+[sub_resource type="GDScript" id="GDScript_ak4qn"]
+script/source = "extends Sprite2D
+
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
+		print(\"click\")
+		
+
+func _input(event):
+	if event is InputEventMouseMotion:
+		print(event.relative)
+		position += event.relative
+"
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+texture = SubResource("CompressedTexture2D_88qbi")
+script = SubResource("GDScript_ak4qn")

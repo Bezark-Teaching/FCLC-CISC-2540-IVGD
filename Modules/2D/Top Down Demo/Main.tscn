@@ -1,0 +1,168 @@
+[gd_scene load_steps=10 format=4 uid="uid://bdqq2xyub0bwm"]
+
+[ext_resource type="Texture2D" uid="uid://ke8pia43wb42" path="res://Assets/Objects/Basic Grass Biom things 1.png" id="1_0oal2"]
+[ext_resource type="Texture2D" uid="uid://cj53cpeaq5vb1" path="res://Assets/Tilesets/Grass.png" id="2_qp8pw"]
+[ext_resource type="PackedScene" uid="uid://cwlj2hrxrd77r" path="res://Player.tscn" id="3_bjtlw"]
+[ext_resource type="PackedScene" uid="uid://d4lmuw3mag3ps" path="res://tree.tscn" id="4_cvrj6"]
+[ext_resource type="PackedScene" uid="uid://cmh7tm3ed3mqr" path="res://Apple.tscn" id="5_4sr76"]
+[ext_resource type="PackedScene" uid="uid://c6v8oxd5i8wvm" path="res://area_2d_item.tscn" id="6_13jut"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tdxou"]
+texture = ExtResource("1_0oal2")
+0:0/size_in_atlas = Vector2i(1, 2)
+0:0/0 = 0
+1:0/size_in_atlas = Vector2i(2, 2)
+1:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+3:0/size_in_atlas = Vector2i(2, 2)
+3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.76758, 8, -11.8616, 6.49266, -11.7367, -10.613, 0.749153, -15.8571, 11.9865, -11.1124, 11.8616, 6.24294, 4.85587, 8, 5.29732, 12.8018, -4.85587, 12.7136)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_axk87"]
+texture = ExtResource("2_qp8pw")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+5:1/0 = 0
+4:1/0 = 0
+3:1/0 = 0
+2:1/0 = 0
+1:1/0 = 0
+0:1/0 = 0
+0:2/0 = 0
+0:3/0 = 0
+0:4/0 = 0
+0:5/0 = 0
+0:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+3:6/0 = 0
+2:6/0 = 0
+1:6/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+4:4/0 = 0
+3:4/0 = 0
+2:4/0 = 0
+1:4/0 = 0
+2:5/0 = 0
+1:5/0 = 0
+1:3/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+2:3/0 = 0
+5:3/0 = 0
+5:4/0 = 0
+5:5/0 = 0
+5:6/0 = 0
+5:7/0 = 0
+4:6/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+7:5/0 = 0
+7:4/0 = 0
+6:4/0 = 0
+6:5/0 = 0
+8:4/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+9:4/0 = 0
+9:3/0 = 0
+9:2/0 = 0
+8:2/0 = 0
+8:3/0 = 0
+7:3/0 = 0
+7:2/0 = 0
+6:2/0 = 0
+6:3/0 = 0
+6:1/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_mxg55"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_tdxou")
+sources/1 = SubResource("TileSetAtlasSource_axk87")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Grass" type="TileMapLayer" parent="."]
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAD4//v/AQABAAMAAAD4//z/AQABAAQAAAD4//3/AQABAAQAAAD4//7/AQABAAQAAAD4////AQABAAQAAAD4/wAAAQABAAQAAAD4/wEAAQABAAQAAAD4/wIAAQABAAQAAAD4/wMAAQABAAUAAAD5//v/AQACAAMAAAD5//z/AQACAAQAAAD5//3/AQACAAQAAAD5//7/AQACAAQAAAD5////AQACAAQAAAD5/wAAAQACAAQAAAD5/wEAAQACAAQAAAD5/wIAAQACAAQAAAD5/wMAAQACAAUAAAD6//v/AQACAAMAAAD6//z/AQAAAAAAAAD6//3/AQAAAAAAAAD6//7/AQAAAAAAAAD6////AQACAAQAAAD6/wAAAQAAAAAAAAD6/wEAAQAAAAAAAAD6/wIAAQAAAAAAAAD6/wMAAQACAAUAAAD7//v/AQACAAMAAAD7//z/AQAAAAAAAAD7//3/AQAAAAAAAAD7//7/AQAAAAAAAAD7////AQAAAAAAAAD7/wAAAQAAAAAAAAD7/wEAAQACAAQAAAD7/wIAAQAAAAAAAAD7/wMAAQACAAUAAAD8//v/AQACAAMAAAD8//z/AQACAAQAAAD8//3/AQAAAAAAAAD8//7/AQAAAAAAAAD8////AQAAAAAAAAD8/wAAAQAAAAAAAAD8/wEAAQAAAAAAAAD8/wIAAQAAAAAAAAD8/wMAAQACAAUAAAD9//v/AQACAAMAAAD9//z/AQAAAAAAAAD9//3/AQAAAAAAAAD9//7/AQAAAAAAAAD9////AQAAAAAAAAD9/wAAAQACAAQAAAD9/wEAAQAAAAAAAAD9/wIAAQAAAAAAAAD9/wMAAQACAAUAAAD+//v/AQACAAMAAAD+//z/AQAAAAAAAAD+//3/AQAAAAAAAAD+//7/AQAAAAAAAAD+////AQAAAAAAAAD+/wAAAQAAAAAAAAD+/wEAAQAAAAAAAAD+/wIAAQAAAAAAAAD+/wMAAQACAAUAAAD///v/AQACAAMAAAD///z/AQACAAQAAAD///3/AQAAAAAAAAD///7/AQAAAAAAAAD/////AQAAAAAAAAD//wAAAQAAAAAAAAD//wEAAQAAAAAAAAD//wIAAQAAAAAAAAD//wMAAQACAAUAAAAAAPv/AQACAAMAAAAAAPz/AQAAAAAAAAAAAP3/AQAAAAAAAAAAAP7/AQAAAAAAAAAAAP//AQACAAQAAAAAAAAAAQAAAAAAAAAAAAEAAQAAAAAAAAAAAAIAAQAAAAAAAAAAAAMAAQACAAUAAAABAPv/AQACAAMAAAABAPz/AQAAAAAAAAABAP3/AQAAAAAAAAABAP7/AQAAAAAAAAABAP//AQAAAAAAAAABAAAAAQAAAAAAAAABAAEAAQAAAAAAAAABAAIAAQAAAAAAAAABAAMAAQACAAUAAAACAPv/AQACAAMAAAACAPz/AQAAAAAAAAACAP3/AQAAAAAAAAACAP7/AQAAAAAAAAACAP//AQACAAQAAAACAAAAAQACAAQAAAACAAEAAQAAAAAAAAACAAIAAQAAAAAAAAACAAMAAQACAAUAAAADAPv/AQACAAMAAAADAPz/AQAAAAAAAAADAP3/AQAAAAAAAAADAP7/AQAAAAAAAAADAP//AQAAAAAAAAADAAAAAQAAAAAAAAADAAEAAQAAAAAAAAADAAIAAQAAAAAAAAADAAMAAQACAAUAAAAEAPv/AQACAAMAAAAEAPz/AQAAAAAAAAAEAP3/AQAAAAAAAAAEAP7/AQACAAQAAAAEAP//AQAAAAAAAAAEAAAAAQACAAQAAAAEAAEAAQAAAAAAAAAEAAIAAQAAAAAAAAAEAAMAAQACAAUAAAAFAPv/AQACAAMAAAAFAPz/AQAAAAAAAAAFAP3/AQAAAAAAAAAFAP7/AQAAAAAAAAAFAP//AQAAAAAAAAAFAAAAAQAAAAAAAAAFAAEAAQAAAAAAAAAFAAIAAQAAAAAAAAAFAAMAAQACAAUAAAAGAPv/AQACAAMAAAAGAPz/AQAAAAAAAAAGAP3/AQAAAAAAAAAGAP7/AQACAAQAAAAGAP//AQACAAQAAAAGAAAAAQAAAAAAAAAGAAEAAQAAAAAAAAAGAAIAAQACAAQAAAAGAAMAAQACAAUAAAAHAPv/AQACAAMAAAAHAPz/AQAAAAAAAAAHAP3/AQACAAQAAAAHAP7/AQAAAAAAAAAHAP//AQACAAEAAAAHAAAAAQAAAAAAAAAHAAEAAQACAAQAAAAHAAIAAQAAAAAAAAAHAAMAAQACAAUAAAAIAPv/AQACAAMAAAAIAPz/AQAAAAAAAAAIAP3/AQAAAAAAAAAIAP7/AQAAAAAAAAAIAP//AQAAAAAAAAAIAAAAAQACAAEAAAAIAAEAAQACAAEAAAAIAAIAAQAAAAAAAAAIAAMAAQACAAUAAAAJAPv/AQACAAMAAAAJAPz/AQACAAQAAAAJAP3/AQACAAQAAAAJAP7/AQACAAQAAAAJAP//AQACAAQAAAAJAAAAAQACAAEAAAAJAAEAAQACAAEAAAAJAAIAAQACAAEAAAAJAAMAAQACAAUAAAAKAPv/AQADAAMAAAAKAPz/AQADAAQAAAAKAP3/AQADAAQAAAAKAP7/AQADAAQAAAAKAP//AQADAAQAAAAKAAAAAQADAAQAAAAKAAEAAQADAAQAAAAKAAIAAQADAAQAAAAKAAMAAQADAAUAAAA=")
+tile_set = SubResource("TileSet_mxg55")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_bjtlw")]
+
+[node name="Trees" type="Node2D" parent="."]
+
+[node name="Tree" parent="Trees" instance=ExtResource("4_cvrj6")]
+position = Vector2(56, -19)
+
+[node name="Tree2" parent="Trees" instance=ExtResource("4_cvrj6")]
+position = Vector2(92, 14)
+
+[node name="Tree3" parent="Trees" instance=ExtResource("4_cvrj6")]
+position = Vector2(-42, -39)
+
+[node name="Tree4" parent="Trees" instance=ExtResource("4_cvrj6")]
+position = Vector2(-82, 22)
+
+[node name="Eggs" type="Node2D" parent="."]
+
+[node name="Egg" parent="Eggs" instance=ExtResource("5_4sr76")]
+position = Vector2(116, -29)
+
+[node name="Egg2" parent="Eggs" instance=ExtResource("5_4sr76")]
+position = Vector2(60, 34)
+
+[node name="Area2D" parent="Eggs" instance=ExtResource("6_13jut")]
+position = Vector2(19, -37)
+scale = Vector2(0.1, 0.1)

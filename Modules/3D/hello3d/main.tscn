@@ -1,0 +1,61 @@
+[gd_scene load_steps=8 format=3 uid="uid://s8rp7o22t3w8"]
+
+[ext_resource type="Script" path="res://character_body_3d.gd" id="1_emf6w"]
+[ext_resource type="PackedScene" uid="uid://bilaohdlj3mx5" path="res://addons/kaykit_halloween_bits/Assets/gltf/crypt.gltf" id="2_ngn2w"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_o3f4e"]
+sky_top_color = Color(0.0705882, 0.87451, 0.568627, 1)
+sky_horizon_color = Color(0.536345, 0.756413, 0.737283, 1)
+ground_bottom_color = Color(0.0747933, 0.151144, 0.380503, 1)
+ground_horizon_color = Color(0.536345, 0.756413, 0.737283, 1)
+
+[sub_resource type="Sky" id="Sky_ma3bp"]
+sky_material = SubResource("ProceduralSkyMaterial_o3f4e")
+
+[sub_resource type="Environment" id="Environment_wa8d3"]
+background_mode = 2
+sky = SubResource("Sky_ma3bp")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_y5ln0"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_bsowi"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.829268, -0.270511, 0.489018, 0.330619, 0.468009, 0.819548, -0.450561, 0.841304, -0.298669, 3.17331, 0.840727, 0.907932)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_wa8d3")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.809881, 0)
+use_collision = true
+size = Vector3(1000, 1, 1000)
+
+[node name="CSGTorus3D" type="CSGTorus3D" parent="."]
+transform = Transform3D(0.267423, 0.952423, 0.146201, 0, 0.151727, -0.988423, -0.963579, 0.264327, 0.0405752, 0, 0.965271, 0)
+use_collision = true
+inner_radius = 3.784
+outer_radius = 1.40204
+sides = 26
+ring_sides = 9
+
+[node name="crypt2" parent="." instance=ExtResource("2_ngn2w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.68835, 0.224339, 0.501583)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.10731, 3.35736, 0)
+script = ExtResource("1_emf6w")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+shape = SubResource("CapsuleShape3D_y5ln0")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+mesh = SubResource("CapsuleMesh_bsowi")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 0.976646, 0.214855, 0, -0.214855, 0.976646, 0, 1.10195, 2.02715)

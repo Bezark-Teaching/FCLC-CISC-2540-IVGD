@@ -1,29 +1,69 @@
-# Capstone Concept Paper
+### Assignment: Capstone Game Concept Presentation
 
+#### Objective:
+Present your game concept to the class in a 10-minute group presentation. This presentation will serve as an opportunity to articulate your design ideas, inspirations, chosen mechanics, and plan for execution. Focus on communicating your vision clearly and demonstrating your approach to creating a minimum viable product (MVP).
 
-Write a 500-750 word paper that:
+#### Presentation Structure (10 minutes total):
 
- - Describes the design goals for your game.
+1. **Game Concept Overview (2 minutes)**
+   - Briefly introduce your game idea
+   - Describe the core gameplay and key mechanics
+   - Explain your primary design goals
 
- - Describes the core gameplay you hope to accomplish.
+2. **Inspirations and Influences (2 minutes)**
+   - Discuss 2-3 games that serve as inspiration
+   - Explain how these inspirations inform your design choices
 
- - References any games that serve as inspiration.
+3. **Mechanics and Gameplay Demo (3 minutes)**
+   - Present a visual representation of your core mechanics (e.g., sketches, diagrams, or simple prototypes)
+   - Explain how these mechanics will create the intended player experience
 
- - Outlines your development process going forward (How are you planning on making the game with the time you have? How are you splitting up the work?)
+4. **Development Plan (2 minutes)**
+   - Outline your process for creating the MVP within the given timeframe
+   - Describe how you're dividing tasks among team members
+   - Identify key milestones in your development timeline
 
- - What major challenges do you anticipate? Mistakes from lastime you want to avoid?
+5. **Challenges and Learning Objectives (1 minute)**
+   - Discuss anticipated challenges and how you plan to address them
+   - Identify skills or knowledge the team needs to acquire to create the prototype
 
- - What do you need to learn in order to create a playable prototype?
+#### Submission Requirements:
+- **Presentation Time:** 10 minutes (strict limit)
+- **Format:** Live presentation with visual aids (e.g., slides, sketches, diagrams)
+- **Team Participation:** All team members should have a speaking role
 
+#### Grading Rubric: (Total 10 Points)
 
-This will be worth 6 points. 1 point will be awarded for answering each of the above questions.
+1. **Game Concept Clarity (2 points)**
+   - Clearly communicates the game idea and core gameplay
+   - Design goals are well-defined and achievable
 
+2. **Inspiration and Originality (2 points)**
+   - Effectively references inspirations and explains their influence
+   - Demonstrates how the concept builds upon or diverges from inspirations
 
-This will serve as the "Inspiration and Intention" section of your next process paper!
+3. **Mechanics Presentation (2 points)**
+   - Clearly explains core mechanics and how they create the intended experience
+   - Visual aids effectively illustrate the gameplay concepts
 
+4. **Development Planning (2 points)**
+   - Presents a realistic and well-thought-out development plan
+   - Demonstrates effective task division among team members
 
-Due on 4/12 at 11:59pm. Since this is intented to guide your design process, it must be submitted on the deadline.
+5. **Challenge Awareness and Learning Goals (1 point)**
+   - Shows awareness of potential obstacles and has strategies to address them
+   - Identifies relevant learning objectives for creating the MVP
 
+6. **Presentation Quality (1 point)**
+   - Well-organized and engaging presentation
+   - Effective use of the allotted time
+   - All team members contribute meaningfully
 
- **Late submissions will not be accepted.**
-**If you are working in a group make sure to write all the names of your group members on the paper!!**
+#### Tips for Success:
+- **Focus on Clarity:** Ensure your concept is easy to understand within the time limit.
+- **Be Realistic:** Your plans should be achievable given your current skills and the time available.
+- **Show, Don't Just Tell:** Use visual aids to illustrate your concepts and mechanics.
+- **Practice:** Rehearse your presentation to ensure smooth delivery within the time limit.
+- **Be Prepared for Questions:** The class or instructor may have a brief Q&A after your presentation.
+
+Remember, the goal is to articulate your ideas clearly and demonstrate your approach to creating an MVP, not to present a fully polished game concept.

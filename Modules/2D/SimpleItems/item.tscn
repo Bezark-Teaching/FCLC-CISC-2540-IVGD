@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bp5bpanpc75yl"]
+
+[ext_resource type="Script" path="res://item.gd" id="1_p1f4w"]
+[ext_resource type="Texture2D" uid="uid://b2j46kl43vw4i" path="res://icon.svg" id="2_lohpx"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3grdt"]
+radius = 139.743
+
+[node name="item" type="Node2D"]
+modulate = Color(1, 1, 0, 1)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_p1f4w")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="Icon" type="Sprite2D" parent="Area2D"]
+position = Vector2(1, -3)
+texture = ExtResource("2_lohpx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_3grdt")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

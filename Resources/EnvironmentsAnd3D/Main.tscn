@@ -56,8 +56,6 @@ environment = SubResource("Environment_cjiwa")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.119371, -0.847094, -0.517864, -0.727516, -0.280312, 0.626216, -0.675627, 0.451506, -0.582813, 2.87233, 6.49245, 3.05705)
-light_color = Color(0.619608, 0.611765, 0.780392, 1)
-light_energy = 0.1
 shadow_enabled = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
