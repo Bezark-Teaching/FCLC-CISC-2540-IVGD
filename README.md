@@ -26,7 +26,7 @@ The  work of the class consists of the following:
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Attendance                                                                     | 4 unexcused absences. 0 points after that.                                 |                              | 14            |
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 14            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/2                         | 8 EC          |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/2                         |  8            |
 | [Tabletop Game](/Assignments//Tabletop/Tabletop.md)                            | A playable prototype of a tabletop game                                    | 9/17                         | 10            |
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 9/27                         |  8            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/30, 10/11, 10/15 and 11/15 | 24            |
@@ -34,7 +34,7 @@ The  work of the class consists of the following:
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 11/4                         | 20            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               | 11/22 & 11/26                | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
-| **Total Points Possible**                                                      |                                                                            |                              | **142**       |
+| **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until 12/3.**
