@@ -1,16 +1,4 @@
 
-# Top of Mind
-JOIN THE [CAPSTONE GAME JAM](https://itch.io/jam/sva-design-jam)
-
-
-[Jobs in Game Design](https://docs.google.com/presentation/d/1m_Pme4QIolADS6MawXt3hmFRhTdkEl4ggMznYDdsHCk/edit?usp=sharing)
-
-
-## Capstone Project
-- **The in class playtest for the [Capstone Game](/Assignments/Capstone/Capstone_Game.md) will be next week 12/9!**
-
-![Dog](DOG.webp)
-
 # SVA Introduction to Game Design Syllabus - Fall 2024
 
 **Course Code:** DSD-4721-A
