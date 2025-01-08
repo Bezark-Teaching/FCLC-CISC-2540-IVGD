@@ -281,12 +281,12 @@ NO IN PERSON
 
 ### Final
 
-Capstone Project
+- DUE: Capstone Project
 
 
 
 # **Necessary Materials:**
-- [Godot 4](https://godotengine.org/) : An [open source](https://en.wikipedia.org/wiki/Open_source) 2D, 3D and XR game engine.
+- [Godot 4.3](https://godotengine.org/) : An [open source](https://en.wikipedia.org/wiki/Open_source) 2D, 3D and XR game engine.
 <!-- - [Blender](https://www.blender.org/) : an open source 3D modeling and animation program. -->
 - [Github Desktop](https://desktop.github.com/): an industry standard [version control](https://en.wikipedia.org/wiki/Version_control) system
 
@@ -300,7 +300,7 @@ Capstone Project
 ### Godot
 
 
-Code](https://github.com/godotengine/godot)
+- [Source Code](https://github.com/godotengine/godot)
 - [Docs](https://docs.godotengine.org/en/stable/)
 - [Demo Projects](https://github.com/godotengine/godot-demo-projects)
 - [Forums](https://forum.godotengine.org/)
