@@ -178,7 +178,6 @@ Break
 - Hello 3D
 
 ---
-- **DUE: 2D Game**
 
 ## Week 10 - 3D Environments
 
