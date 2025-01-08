@@ -61,8 +61,8 @@ Break
 - Group Work
 
 
-- ASSIGN: [Game Review](/Assignments/Game_Review.md)
-- ASSIGN: [Tabletop Game](/Assignments/Tabletop.md) 
+- **Homework: [Game Review](/Assignments/Game_Review.md)**
+- **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 
 ## Week 2 - Prototyping and Iteration
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
@@ -79,7 +79,7 @@ Break
 - Nodes and Scenes
 - [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo)
 
-- DUE: Tabletop Game
+- **DUE: Tabletop Game**
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 
 ---
@@ -93,7 +93,7 @@ Break
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
 
-- DUE: Process Paper
+- **DUE: Process Paper**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
@@ -105,9 +105,9 @@ Break
   - Scripts and properties
   - Variables
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-- DUE: Lab 1
+- **DUE: Lab 1**
 
-- **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
+- ****DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)****
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 
@@ -127,8 +127,8 @@ Break
 
 - Functions/Signals
 
-- DUE: Lab 2
-- DUE: 2D Concept
+- **DUE: Lab 2**
+- **DUE: 2D Concept**
 
 ## Week 7 - Level and Environment Design
 
@@ -173,11 +173,11 @@ Break
 
 ## Week 9 - Playtesting / Hello 3D
 - Playtesting
-- DUE: 2D Game
+- **DUE: 2D Game**
 - Hello 3D
 
 ---
-- DUE: 2D Game
+- **DUE: 2D Game**
 
 ## Week 10 - 3D Environments
 
@@ -210,7 +210,7 @@ Break
 - XR
 
 - Physics/Sandbox
-- DUE: Lab 4
+- **DUE: Lab 4**
 
 ## Week 12 Review and Capstone Presentations
 
@@ -230,12 +230,12 @@ Break
 
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 
-- DUE: Final project playtest
+- **DUE: Final project playtest**
 - Review 
 
 ## Week 15 - Playtesting and Beyond
 
-- DUE: Capstone Project
+- **DUE: Capstone Project**
 - Preparing for the Game Industry: Portfolio and Career Paths
 
 
