@@ -24,20 +24,20 @@ The  work of the class consists of the following:
 
 | Assignment                                                                     | Description                                                                | Due Date                     | Points        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
-| Attendance                                                                     | 4 unexcused absences. 0 points after that.                                 |                              | 14            |
-| Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 14            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             |                              |  8            |
-| [Tabletop Game](/Assignments//Tabletop/Tabletop.md)                            | A playable prototype of a tabletop game                                    |                              | 10            |
-| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  |                              |  8            |
+| Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             |                              | 10            |
+| [Tabletop Game](/Assignments//Tabletop/Tabletop.md)                            | A playable prototype of a tabletop game                                    |                              | 16            |
+| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  |                              | 10            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   |                              | 24            |
 | [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      |                              | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          |                              | 20            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          |                              | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               |                              | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
+All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
 
-All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until 12/3.**
+**Attendence:** Students are allowed 3 unexcused absences. After this, each unexcused absence will lower your final grade by 1/2 a letter, i.e. B+ -> B or A -> A-
 
 # **Course Outline**
 
@@ -50,174 +50,137 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 1 - What is a Game?
 
 - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
-
-### Friday 
-
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
-- Syllabus Reviews
+
+- Who are you/Syllabus Review
 - Professor John
 - Game Design Fundamentals
+Break
+- The Iterative Game Design Process 20
+- Prototyping
+- Playtesting
+- Group Work
+
+
 - ASSIGN: [Game Review](/Assignments/Game_Review.md)
 - ASSIGN: [Tabletop Game](/Assignments/Tabletop.md) 
 
-### Tuesday 
-
-- Game Design Fundamentals
-- Prototyping
-- Group Work
-
-### Friday 
-
-- Housekeeping - 10
-- Internal Playtesting - 15 min
-- Group Work
-- Playtesting
-
 ## Week 2 - Prototyping and Iteration
-- [Week 2 Slides](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
-### Tuesday 
-
+- [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
 - Reading: MDA 
 - MDA Framework
 - Systems, Loops and Balance
 
-### Friday 
-
-- NO IN PERSON CLASS
-- Group work
-
 ## Week 3  Playtesting/Hello Godot
-### Tuesday 
 
 - Playtesting
-- [Git Init](/Modules/2D/GitInit.md)
+- Getting started with Godot
+- [Git Init](/Modules/2D/Fundamentals/GitInit.md)
+- Nodes and Scenes
+- [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo)
+
 - DUE: Tabletop Game
-- **Homework:** [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)
-
-
-### Friday 
-
-WOMP
-- Please watch the [video turotial on Github and Godot!](https://www.youtube.com/watch?v=E1srposxZWo)
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 
 ---
 
-
 ## Week 4 - Getting Started in 2D
-### Tuesday 
-
-- Playtesting
-  - Please complete the anonymous [Collaboration Feedback Form](https://forms.gle/QBnY4zG3JcwLGzmT6). Doing so will provide invaluable feedback to your peers. It will also impact your participation grade.
-
-- Getting started with Godot
-- [Git Init](/Modules/2D/GitInit.md)
-
-### Friday 
-
 - Hello Godot
-- Nodes and Scenes
+  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+  - Lab 1 review
+  - Nodes and Scenes
+
+- [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
+  - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
+
 - DUE: Process Paper
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
 ## Week 5 - Coding Fundamentals
-### Tuesday 
 
-- [Genres in 2D](https://docs.google.com/presentation/d/1epZvoxa8-Eh5HPYWXpxj3MeUmB9lS5cF5hOpd9-qbqw/edit?usp=sharing)
-  - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
-
-- DUE: Lab 1
-
-
-
-### Friday 
-
+- [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
+- [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
-- Variables
+  - Variables
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+- DUE: Lab 1
+
+- **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
+
 
 ## Week 6 – Input and Interactions
 
-### Tuesday 
+- [Lecture](https://youtube.com/live/hgKD1UNwm_k)
+- Lab Review - 20
+
+- Input map
 
 - Using Nodes together
   - Area2D
   - Camera2D
   - Timer 
-- Signals
-- Git Branches
+  - ChgaracterBody
+  - CollisionShapes
 
-### Friday 
-
-- Lab Review
-- Characterbody, Collisions
 - Functions/Signals
-- Area2D Review
-- Sprite Sheets
 
 - DUE: Lab 2
 - DUE: 2D Concept
 
 ## Week 7 - Level and Environment Design
-### Tuesday 
+
+- Area2D Review
 
 - Assets
-- Tilemaps
-- [2D Components](/Modules/2D/2D_Components/)
-- Area2D Review
-- Sprite Sheets
+  - Tilemaps
+  - Sprite Sheets
+  - Paralax layers
+  - Where to find assets
+    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
+    - [Kenny](https://kenney.nl/assets)
+    - [Noun Project](https://thenounproject.com/)
+    - [Dotown](https://dotown.maeda-design-room.net/)
+    - [Open Game Art](https://opengameart.org/)
 
-- Git Collaboration
+- Sound
+- Lighting
+
+- Git Collaboration and Branches
+
+- Common Patterns (Time permitting)
+  - Items 
+  - Enemies
+  - Checkpoints
+  - Respawns
+  - Killboxes
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
-### Friday 
-
-- Where to find other assets
-  - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
-  - [Kenny](https://kenney.nl/assets)
-  - [Noun Project](https://thenounproject.com/)
-  - [Dotown](https://dotown.maeda-design-room.net/)
-  - [Open Game Art](https://opengameart.org/)
-- Better paralx (autoscroll)
-- Water tiles animated
-- Sound
-- Common Patterns: Levels, Checkpoints and Respawns
-
-
-## Week 8 - UI
-
-### Tuesday 
-
+## Week 8 - UI and Patterns
+- [2D Components](/Modules/2D/2D_Components/)
 - Control Nodes
-- Common Patterns – Items and Enemies
-- [Characters, Levels and Items](/Sessions/Characters_Levels_Items)
+- Common Patterns
+  - Items 
+  - Enemies
+  - Checkpoints
+  - Respawns
+  - Killboxes
 
-### Friday 
 
 - Project Development
 
-## Week 9
-### Tuesday 
-
+## Week 9 - Playtesting / Hello 3D
 - Playtesting
+- DUE: 2D Game
+- Hello 3D
 
 ---
- 
-### Friday 
-
 - DUE: 2D Game
 
-## Week 10 - Environments
-
-### Tuesday 
-
-NO CLASS: GO VOTE!
-
-### Friday 
+## Week 10 - 3D Environments
 
 - Capstone Brainstorming
 
@@ -225,63 +188,56 @@ NO CLASS: GO VOTE!
   - Introduction to 3D in Godot
   - Lighting and Camera Techniques in 3D Games
 
-## Week 11
-*There will be no in person class this week, instead there will be a video recording.*
-### Tuesday 
+## Week 10 - 3D Environments
 
+- [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
+
+- Introduction to 3D in Godot
+- Lighting and Camera Techniques in 3D Games
 - Materials, Models
-NO IN PERSON
-
-### Friday 
-
-NO IN PERSON
 - Light, Sound
+
+- **Homework: [Lab 3](/Assignments/Labs/Lab_4.md)**
+- **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
+- **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
+
+## Week 11 - Advanced 3D Topics
+- Materials, Models, Lights, Fog, Camera Attrributes
+
+- Animated Characters
+  - [Mixamo](https://www.mixamo.com)
+  - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
+
+- XR
+
+- Physics/Sandbox
 - DUE: Lab 4
 
 ## Week 12 Review and Capstone Presentations
-### Tuesday 
+
 
 - Review
 - Advanced Topics
   - Exporting
   - NPCs, Classes and Inheritance...
 
-
-### Friday 
-
 - Capstone presentations 
 
 ## Week 13 - Capstone Presentations
-### Tuesday 
 
 - Capstone presentations 
 
-### Friday 
-
-- NO CLASS: BUY A NEW TV?
-
 ## Week 14 - Review
 
-### Tuesday 
-
-
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
-
-
-### Friday 
 
 - DUE: Final project playtest
 - Review 
 
-## Week 15 
-
-### Tuesday 
-
-- Preparing for the Game Industry: Portfolio and Career Paths
-
-### Final
+## Week 15 - Playtesting and Beyond
 
 - DUE: Capstone Project
+- Preparing for the Game Industry: Portfolio and Career Paths
 
 
 
