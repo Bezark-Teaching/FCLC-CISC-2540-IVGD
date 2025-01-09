@@ -111,7 +111,8 @@ Break
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 
-## Week 6 – Input and Interactions
+ 
+## Week 6 – Input, Interactions and Patterns
 
 - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
 - Lab Review - 20
@@ -127,10 +128,20 @@ Break
 
 - Functions/Signals
 
+- Git Collaboration and Branches
+
+- [2D Components](/Modules/2D/2D_Components/)
+- Common Patterns (Time permitting)
+  - Items 
+  - Enemies
+  - Checkpoints
+  - Respawns
+  - Killboxes
+- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 - **DUE: Lab 2**
 - **DUE: 2D Concept**
 
-## Week 7 - Level and Environment Design
+## Week 7 - Level, Environment and UI Design
 
 - Area2D Review
 
@@ -147,46 +158,17 @@ Break
 
 - Sound
 - Lighting
-
-- Git Collaboration and Branches
-
-- Common Patterns (Time permitting)
-  - Items 
-  - Enemies
-  - Checkpoints
-  - Respawns
-  - Killboxes
-- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
-
-## Week 8 - UI and Patterns
-- [2D Components](/Modules/2D/2D_Components/)
 - Control Nodes
-- Common Patterns
-  - Items 
-  - Enemies
-  - Checkpoints
-  - Respawns
-  - Killboxes
-
-
 - Project Development
 
-## Week 9 - Playtesting / Hello 3D
+## Week 8 - Playtesting / Hello 3D
 - Playtesting
 - **DUE: 2D Game**
 - Hello 3D
 
 ---
 
-## Week 10 - 3D Environments
-
-- Capstone Brainstorming
-
-- Hello 3D
-  - Introduction to 3D in Godot
-  - Lighting and Camera Techniques in 3D Games
-
-## Week 10 - 3D Environments
+## Week 9 - 3D Environments
 
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 
@@ -199,19 +181,18 @@ Break
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
 
-## Week 11 - Advanced 3D Topics
-- Materials, Models, Lights, Fog, Camera Attrributes
+## Week 10 - Advanced 3D Topics
+- Materials, Models, Lights, Fog, Camera Attributes
 
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
   - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
 
-- XR
 
 - Physics/Sandbox
 - **DUE: Lab 4**
 
-## Week 12 Review and Capstone Presentations
+## Week 11 Review and Capstone Presentations
 
 
 - Review
@@ -221,10 +202,12 @@ Break
 
 - Capstone presentations 
 
-## Week 13 - Capstone Presentations
+## Week 12 - Capstone Presentations
 
 - Capstone presentations 
 
+## Week 13 XR
+- XR
 ## Week 14 - Review
 
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
@@ -236,6 +219,7 @@ Break
 
 - **DUE: Capstone Project**
 - Preparing for the Game Industry: Portfolio and Career Paths
+
 
 
 
