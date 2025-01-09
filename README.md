@@ -1,7 +1,7 @@
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
 - **Course Code:** CISC 2540
-- **Schedule:** Tuesdays and Fridays, 1:00 - 2:15 PM
+- **Schedule:** Tuesdays and Fridays, 11:30 - 12:45 PM
 - **Instructor:** John Bezark
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
@@ -49,14 +49,18 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 1 - What is a Game?
 
+
+### Tuesday 1/14
+
 - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
 
 - Who are you/Syllabus Review
 - Professor John
 - Game Design Fundamentals
-Break
 - The Iterative Game Design Process 20
+
+### Friday 1/17
 - Prototyping
 - Playtesting
 - Group Work
@@ -66,48 +70,64 @@ Break
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 
 ## Week 2 - Prototyping and Iteration
+### Tuesday 1/21
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
 - Reading: MDA 
 - MDA Framework
 - Systems, Loops and Balance
 
+### Friday 1/24
+- Playtesting
+- Group Work
+
 ## Week 3  Playtesting/Hello Godot
 
+### Tuesday 1/28
 - Playtesting
-- Getting started with Godot
 - [Git Init](/Modules/2D/Fundamentals/GitInit.md)
+- **DUE: Tabletop Game**
+
+### Friday 1/31
 - Nodes and Scenes
 - [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo)
+- Getting started with Godot
 
-- **DUE: Tabletop Game**
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 
 ---
 
 ## Week 4 - Getting Started in 2D
+
+### Tuesday 2/3
 - Hello Godot
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
   - Lab 1 review
   - Nodes and Scenes
+- **DUE: Process Paper**
 
+### Friday 2/7
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
 
-- **DUE: Process Paper**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
 ## Week 5 - Coding Fundamentals
 
+### Tuesday 2/10
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
-- [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-- **DUE: Lab 1**
 
+
+
+### Friday 2/14
+- [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+
+- **DUE: Lab 1**
 - ****DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)****
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
@@ -115,6 +135,9 @@ Break
  
 ## Week 6 – Input, Interactions and Patterns
 
+### Tuesday 2/18 - NO CLASS!
+
+### Friday 2/21
 - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
 - Lab Review - 20
 
@@ -131,6 +154,9 @@ Break
 
 - Git Collaboration and Branches
 
+## Week 7 - Level, Environment and UI Design
+
+### Tuesday 2/25
 - [2D Components](/Modules/2D/2D_Components/)
 - Common Patterns (Time permitting)
   - Items 
@@ -142,8 +168,7 @@ Break
 - **DUE: Lab 2**
 - **DUE: 2D Concept**
 
-## Week 7 - Level, Environment and UI Design
-
+### Friday 2/28
 - Area2D Review
 
 - Assets
@@ -156,25 +181,33 @@ Break
     - [Noun Project](https://thenounproject.com/)
     - [Dotown](https://dotown.maeda-design-room.net/)
     - [Open Game Art](https://opengameart.org/)
+- Control Nodes
 
 - Sound
 - Lighting
-- Control Nodes
 - Project Development
 
 ## Week 8 - Playtesting / Hello 3D
-- Playtesting
-- **DUE: 2D Game**
-- Hello 3D
 
+### Tuesday 3/3
+
+- Playtesting
+
+### Friday 3/7
+- Hello 3D
+- **DUE: 2D Game**
 ---
 
 ## Week 9 - 3D Environments
+
+### Tuesday 3/11
 
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 
 - Introduction to 3D in Godot
 - Lighting and Camera Techniques in 3D Games
+
+### Friday 3/14
 - Materials, Models
 - Light, Sound
 
@@ -182,9 +215,14 @@ Break
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
 
+## SPRING BREAK
+
 ## Week 10 - Advanced 3D Topics
+
+### Tuesday 3/25 
 - Materials, Models, Lights, Fog, Camera Attributes
 
+### Friday 3/28
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
   - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
@@ -193,33 +231,48 @@ Break
 - Physics/Sandbox
 - **DUE: Lab 4**
 
-## Week 11 Review and Capstone Presentations
+## Week 11 Capstone Presentations
 
 
-- Review
+### Tuesday 4/1
+- Capstone presentations 
+
+### Friday 4/4
+
+- Capstone presentations 
+
+## Week 12 Advanced Topics 
+### Tuesday 4/8
 - Advanced Topics
   - Exporting
   - NPCs, Classes and Inheritance...
 
-- Capstone presentations 
-
-## Week 12 - Capstone Presentations
-
-- Capstone presentations 
-
-## Week 13 XR
+### Friday 4/10
 - XR
+
+## Week 13  
+
+### Tuesday 4/15
+- Review
+### Friday 4/18 NO CLASS EASTER
+
+
 ## Week 14 - Review
 
+### Tuesday 4/22
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
-
-- **DUE: Final project playtest**
+### Friday 4/25
 - Review 
+- **DUE: Final project playtest**
 
 ## Week 15 - Playtesting and Beyond
 
-- **DUE: Capstone Project**
+### Tuesday 4/29
+### Friday 5/1
 - Preparing for the Game Industry: Portfolio and Career Paths
+
+## Final
+- **DUE: Capstone Project**
 
 
 
