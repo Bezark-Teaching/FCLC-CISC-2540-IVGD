@@ -18,7 +18,7 @@ Design and create a tabletop game that can be played within the classroom enviro
 - **Clarity and Completeness of Rules (0-4 points):** Evaluated based on how clear, understandable, and easily accessible the rules are for new players. Are the rules sufficient enough to create a complete game-play experience?
 - **Meeting Design Goals (0-4 points):** Assessed on how well your game meets the your own stated design goals. Do the mechanics create the aesthetic experience you were going for?
 - **Working within Constraints (0-4 points):** Points awarded for effectively working within the given constraints (classroom suitability, duration, and rule clarity).
-- **Polish and Theme(0-4 Bonus points ):** Awarded for making your prototype look pretty and giving it an interesting narrative theme.
+- **Polish and Theme(0-4 points ):** Awarded for making your prototype look pretty and giving it an interesting narrative theme.
 
 #### Tips for Success:
 - **Test Your Game:** Ensure that your game can be played to completion within the 15-minute limit. Internal playtesting is crucial.
