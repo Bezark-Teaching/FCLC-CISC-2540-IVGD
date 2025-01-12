@@ -26,12 +26,12 @@ The  work of the class consists of the following:
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             |                              | 10            |
-| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    |                              | 16            |
-| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  |                              | 10            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   |                              | 24            |
-| [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      |                              | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          |                              | 25            |
-| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               |                              | 10            |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 1/28                         | 16            |
+| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 2/3                          | 10            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/14, 2/21, 2/25, 3/28       | 24            |
+| [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      | 2/10                         | 10            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/3                          | 25            |
+| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               | 4/1                          | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
@@ -89,9 +89,10 @@ The course is split into 3 distinct modules each with a unique project:
 - **DUE: Tabletop Game**
 
 ### Friday 1/31
-- Nodes and Scenes
-- [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo)
-- Getting started with Godot
+- Hello Godot
+  - Getting started with Godot
+  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+  - Nodes and Scenes
 
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 
@@ -100,39 +101,35 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 4 - Getting Started in 2D
 
 ### Tuesday 2/3
-- Hello Godot
-  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
-  - Lab 1 review
   - Nodes and Scenes
+
 - **DUE: Process Paper**
+- **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
+- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
 ### Friday 2/7
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
 
-- **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
-- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
 ## Week 5 - Coding Fundamentals
 
 ### Tuesday 2/10
-- [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
-- [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
+- Git Collaboration and Branches
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
 
-
-
-### Friday 2/14
-- [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-
-- **DUE: Lab 1**
 - ****DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)****
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
+### Friday 2/14
+- [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+- [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
+- [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
+ - **DUE: Lab 1**
+- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
- 
 ## Week 6 – Input, Interactions and Patterns
 
 ### Tuesday 2/18 - NO CLASS!
@@ -151,8 +148,7 @@ The course is split into 3 distinct modules each with a unique project:
   - CollisionShapes
 
 - Functions/Signals
-
-- Git Collaboration and Branches
+- **DUE: Lab 2**
 
 ## Week 7 - Level, Environment and UI Design
 
@@ -164,9 +160,8 @@ The course is split into 3 distinct modules each with a unique project:
   - Checkpoints
   - Respawns
   - Killboxes
-- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
-- **DUE: Lab 2**
-- **DUE: 2D Concept**
+
+- **DUE: Lab 3**
 
 ### Friday 2/28
 - Area2D Review
@@ -184,7 +179,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Control Nodes
 
 - Sound
-- Lighting
+  - Lighting
 - Project Development
 
 ## Week 8 - Playtesting / Hello 3D
@@ -192,10 +187,10 @@ The course is split into 3 distinct modules each with a unique project:
 ### Tuesday 3/3
 
 - Playtesting
+- **DUE: 2D Game**
 
 ### Friday 3/7
 - Hello 3D
-- **DUE: 2D Game**
 ---
 
 ## Week 9 - 3D Environments
@@ -211,7 +206,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Materials, Models
 - Light, Sound
 
-- **Homework: [Lab 3](/Assignments/Labs/Lab_4.md)**
+- **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
 

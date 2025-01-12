@@ -29,12 +29,12 @@ Document and reflect on your group's process in designing and developing the tab
 - **Format:** Plaintext or Markdown.
 - **Submission:** One process paper for the tabletop game project.
 
-#### Grading Rubric: (Total 8 Points)
-- **Inspiration and Intention (1 point):** Effectively communicates the game's inspiration and intended player experience.
+#### Grading Rubric: (Total 10 Points)
+- **Inspiration and Intention (2 point):** Effectively communicates the game's inspiration and intended player experience.
 - **Design Process (2 points):** Provides a detailed and reflective overview of the design process, including problem-solving and iterations.
 - **Individual Contributions (2 points):** Each group member clearly articulates their role and contributions.
 - **Playtesting Experience (2 points):** Insightful analysis of playtesting outcomes and their impact on the game design.
-- **Future Development (1 point):** Offers well-considered ideas for future game enhancements.
+- **Future Development (2 point):** Offers well-considered ideas for future game enhancements.
 
 #### Tips for Success:
 - **Engage in Reflection:** Focus on narrating your team's journey, including both successes and challenges.
