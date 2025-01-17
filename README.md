@@ -58,9 +58,9 @@ The course is split into 3 distinct modules each with a unique project:
 - Who are you/Syllabus Review
 - Professor John
 - Game Design Fundamentals
-- The Iterative Game Design Process 20
 
 ### Friday 1/17
+- The Iterative Game Design Process 20
 - Prototyping
 - Playtesting
 - Group Work
