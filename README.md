@@ -1,6 +1,6 @@
 # Top of Mind
 - Please begin work on your [Tabletop Game](/Assignments/Tabletop/Tabletop)
-- Please read [this articel](/Readings/MDA.pdf) for next class.
+- Please read [this article](/Readings/MDA.pdf) for next class.
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
