@@ -1,6 +1,5 @@
 # Top of Mind
 - Please begin work on your [Tabletop Game](/Assignments/Tabletop/Tabletop)
-- Please read [this article](/Readings/MDA.pdf) for next class.
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
@@ -77,7 +76,7 @@ The course is split into 3 distinct modules each with a unique project:
 ### Tuesday 1/21
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
-- Reading: MDA 
+- Reading: [MDA](/Readings/MDA.pdf)
 - MDA Framework
 - Systems, Loops and Balance
 
