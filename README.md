@@ -1,5 +1,5 @@
 # Top of Mind
-- Please begin work on your [Tabletop Game](/Assignments/Tabletop/Tabletop)
+- Please finish your process papers!
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
