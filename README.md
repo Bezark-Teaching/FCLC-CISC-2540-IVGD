@@ -1,6 +1,6 @@
 # Top of Mind
 - Please finish your process papers!
-  - Also make sure you have a great day!
+  - Also make sure you stay hydrated.
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
