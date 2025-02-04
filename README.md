@@ -299,6 +299,7 @@ The course is split into 3 distinct modules each with a unique project:
 - [Demo Projects](https://github.com/godotengine/godot-demo-projects)
 - [Forums](https://forum.godotengine.org/)
 - [Godot Discord](https://discord.com/invite/zH7NUgz)
+- [Learn GDScript From Zero](https://gdquest.github.io/learn-gdscript/?ref=godot-docs)
 
 - **[TUTORIALS](https://docs.godotengine.org/en/stable/community/tutorials.html)**
 
