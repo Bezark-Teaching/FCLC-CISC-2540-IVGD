@@ -30,8 +30,8 @@ The  work of the class consists of the following:
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 1/28                         | 16            |
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 2/7                          | 10            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/14, 2/21, 2/25, 3/28       | 24            |
-| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 2/10                         | 10            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/10, 2/21, 2/25, 3/28       | 24            |
+| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 2/14                         | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/11                         | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               | 4/1                          | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/22                         | 10            |
@@ -124,15 +124,14 @@ The course is split into 3 distinct modules each with a unique project:
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
-- **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
-
+- **DUE: Lab 1**
 ### Friday 2/14
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
-- **DUE: Lab 1**
+- **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 
 ## Week 6 – Input, Interactions and Patterns
 
