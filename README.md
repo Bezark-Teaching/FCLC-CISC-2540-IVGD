@@ -1,7 +1,6 @@
 # Top of Mind
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
-- Please finish your process papers!
-  - Also make sure you stay hydrated.
+  - [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
