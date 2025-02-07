@@ -111,19 +111,13 @@ The course is split into 3 distinct modules each with a unique project:
 
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 
----
-
-## Week 4 - Getting Started in 2D
-
-### Tuesday 2/4
-  - Nodes and Scenes
-
 
 ### Friday 2/7
 - Nodes and Scenes
 
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
+
 - **DUE: Process Paper**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
