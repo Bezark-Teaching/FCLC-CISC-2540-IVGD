@@ -14,7 +14,6 @@ Design and create a tabletop game that can be played within the classroom enviro
 - **Ruleset:** Submit a written set of rules for your game. The ruleset should explain the objective, gameplay, and any other necessary information for players. Plaintext or Markdown files are preferred.
 
 #### Grading Criteria: (Total 16 Points)
-<!-- - **Submission (4 points):** Points are awarded for playtesting a game prototype and submitting a ruleset. -->
 - **Clarity and Completeness of Rules (0-4 points):** Evaluated based on how clear, understandable, and easily accessible the rules are for new players. Are the rules sufficient enough to create a complete game-play experience?
 - **Meeting Design Goals (0-4 points):** Assessed on how well your game meets the your own stated design goals. Do the mechanics create the aesthetic experience you were going for?
 - **Working within Constraints (0-4 points):** Points awarded for effectively working within the given constraints (classroom suitability, duration, and rule clarity).
