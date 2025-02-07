@@ -6,9 +6,21 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Elephant2" type="Sprite2D" parent="."]
-position = Vector2(889, 458)
-scale = Vector2(0.666368, 0.666369)
+position = Vector2(961, 542)
+scale = Vector2(0.365385, 0.365385)
 texture = ExtResource("2_15dnx")
 
 [node name="Tree" parent="." instance=ExtResource("2_6x0j5")]
-position = Vector2(183, 361)
+position = Vector2(173.813, 473.409)
+
+[node name="Tree2" parent="." instance=ExtResource("2_6x0j5")]
+position = Vector2(425, 484)
+
+[node name="Tree5" parent="." instance=ExtResource("2_6x0j5")]
+position = Vector2(552.813, 464.409)
+
+[node name="Tree4" parent="." instance=ExtResource("2_6x0j5")]
+position = Vector2(1010.19, 111.591)
+
+[node name="Tree3" parent="." instance=ExtResource("2_6x0j5")]
+position = Vector2(533.187, 97.5914)
