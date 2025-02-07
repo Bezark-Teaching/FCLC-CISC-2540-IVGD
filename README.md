@@ -1,4 +1,5 @@
 # Top of Mind
+  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
 - Please finish your process papers!
   - Also make sure you stay hydrated.
 
