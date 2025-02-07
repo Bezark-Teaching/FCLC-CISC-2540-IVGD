@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://8la3eimy31y7"]
+
+[ext_resource type="PackedScene" uid="uid://brdpsihmqj0h6" path="res://tree.tscn" id="2_6x0j5"]
+[ext_resource type="Texture2D" uid="uid://vqeau62w37rl" path="res://Elephant2.png" id="2_15dnx"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Elephant2" type="Sprite2D" parent="."]
+position = Vector2(889, 458)
+scale = Vector2(0.666368, 0.666369)
+texture = ExtResource("2_15dnx")
+
+[node name="Tree" parent="." instance=ExtResource("2_6x0j5")]
+position = Vector2(183, 361)
