@@ -1,6 +1,6 @@
 # Top of Mind
-- Please begin work on your [Tabletop Game](/Assignments/Tabletop/Tabletop)
-- Please read [this article](/Readings/MDA.pdf) for next class.
+- Please finish your process papers!
+  - Also make sure you stay hydrated.
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
@@ -30,10 +30,10 @@ The  work of the class consists of the following:
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 1/28                         | 16            |
-| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 2/3                          | 10            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/14, 2/21, 2/25, 3/28       | 24            |
-| [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      | 2/11                         | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/7                          | 25            |
+| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 2/7                          | 10            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/10, 2/21, 2/25, 3/28       | 24            |
+| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 2/14                         | 10            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/11                         | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               | 4/1                          | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/22                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
@@ -77,7 +77,7 @@ The course is split into 3 distinct modules each with a unique project:
 ### Tuesday 1/21
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
-- Reading: MDA 
+- Reading: [MDA](/Readings/MDA.pdf)
 - MDA Framework
 - Systems, Loops and Balance
 
@@ -85,7 +85,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Playtesting
 - Group Work
 
-## Week 3  Playtesting/Hello Godot
+## Week 3  Playtesting
 
 ### Tuesday 1/28
 - Playtesting
@@ -93,6 +93,17 @@ The course is split into 3 distinct modules each with a unique project:
 - **DUE: Tabletop Game**
 
 ### Friday 1/31
+- Playtesting
+- [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+- [Git Init](/Modules/2D/Fundamentals/GitInit.md)
+- **Homework: [Tabletop Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)**
+
+
+---
+
+## Week 4 - Hello Godot Getting Started in 2D
+
+### Tuesday 2/4
 - Hello Godot
   - Getting started with Godot
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
@@ -107,16 +118,15 @@ The course is split into 3 distinct modules each with a unique project:
 ### Tuesday 2/4
   - Nodes and Scenes
 
-- **DUE: Process Paper**
-- **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
-- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
 ### Friday 2/7
 - Nodes and Scenes
 
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
-
+- **DUE: Process Paper**
+- **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
+- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
 ## Week 5 - Coding Fundamentals
 
@@ -125,16 +135,15 @@ The course is split into 3 distinct modules each with a unique project:
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
-
-- ****DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)****
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
+- **DUE: Lab 1**
 
 ### Friday 2/14
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
- - **DUE: Lab 1**
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
+- **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 
 ## Week 6 – Input, Interactions and Patterns
 
@@ -188,14 +197,14 @@ The course is split into 3 distinct modules each with a unique project:
   - Lighting
 - Project Development
 
-## Week 8 - Playtesting 
+## Week 8 - Project Development/Playtesting 
 
 ### Tuesday 3/4
-
+- Project Development
 - Playtesting
 
 ### Friday 3/7
-- **DUE: 2D Game**
+- Playtesting
 ---
 
 ## Week 9 - Hello 3D 
@@ -204,9 +213,9 @@ The course is split into 3 distinct modules each with a unique project:
 
 - Hello 3D
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
-
 - Introduction to 3D in Godot
-- Lighting and Camera Techniques in 3D Games
+
+- **DUE: 2D Game**
 
 ### Friday 3/14
 - Materials, Models
@@ -298,6 +307,7 @@ The course is split into 3 distinct modules each with a unique project:
 - [Demo Projects](https://github.com/godotengine/godot-demo-projects)
 - [Forums](https://forum.godotengine.org/)
 - [Godot Discord](https://discord.com/invite/zH7NUgz)
+- [Learn GDScript From Zero](https://gdquest.github.io/learn-gdscript/?ref=godot-docs)
 
 - **[TUTORIALS](https://docs.godotengine.org/en/stable/community/tutorials.html)**
 
