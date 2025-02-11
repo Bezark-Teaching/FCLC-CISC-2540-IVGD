@@ -129,13 +129,13 @@ The course is split into 3 distinct modules each with a unique project:
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
-- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 - **DUE: Lab 1**
 
 ### Friday 2/14
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
+- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 - **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 
