@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://by2n1ntmce31j"]
+
+[ext_resource type="Texture2D" uid="uid://b65t72m7vb270" path="res://icon.svg" id="1_3q53y"]
+[ext_resource type="PackedScene" uid="uid://cok8pvl6bkt62" path="res://tree.tscn" id="2_mffs5"]
+
+[node name="Icon" type="Sprite2D"]
+position = Vector2(31, 413)
+texture = ExtResource("1_3q53y")
+
+[node name="Tree" parent="." instance=ExtResource("2_mffs5")]
+offset_left = 231.0
+offset_top = -263.0
+offset_right = 401.0
+offset_bottom = -119.0
+
+[node name="Tree2" parent="." instance=ExtResource("2_mffs5")]
+offset_left = 660.0
+offset_top = -128.0
+offset_right = 830.0
+offset_bottom = 16.0
+
+[node name="Tree3" parent="." instance=ExtResource("2_mffs5")]
+offset_left = 759.0
+offset_top = -423.0
+offset_right = 929.0
+offset_bottom = -279.0
+
+[node name="Tree4" parent="." instance=ExtResource("2_mffs5")]
+offset_left = 58.0
+offset_top = -466.0
+offset_right = 228.0
+offset_bottom = -322.0

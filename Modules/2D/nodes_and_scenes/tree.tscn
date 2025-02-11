@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://cok8pvl6bkt62"]
+
+[ext_resource type="PackedScene" uid="uid://vgdw7xlxlh0b" path="res://flower.tscn" id="1_vk3sm"]
+
+[node name="Tree" type="ColorRect"]
+offset_left = -82.0
+offset_top = -152.0
+offset_right = 88.0
+offset_bottom = -8.0
+color = Color(0.936209, 0.484894, 0.415015, 1)
+
+[node name="Trunk" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 124.0
+offset_right = 110.0
+offset_bottom = 220.0
+color = Color(0.501961, 0.352941, 0.137255, 1)
+
+[node name="MoreLeaves" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 75.0
+offset_right = 149.0
+offset_bottom = 162.0
+color = Color(0.492324, 0.351869, 0.234882, 1)
+
+[node name="Flower" parent="." instance=ExtResource("1_vk3sm")]
+position = Vector2(35, 37)
+
+[node name="Flower2" parent="." instance=ExtResource("1_vk3sm")]
+position = Vector2(163, 40)
