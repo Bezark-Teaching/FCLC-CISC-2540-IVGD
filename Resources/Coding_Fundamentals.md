@@ -36,7 +36,7 @@ func make_a_pizza() -> pizza:
 	add sauce
 	add cheese
 	cook it
-  return pizza
+  	return pizza
 ```
 
 Things that are **indented** are considered part of the function or the block.
@@ -57,7 +57,7 @@ func make_a_pizza(toppings):
 	spin it around in the air for fun
 	add sauce
 	add cheese
-  add topping
+  	add topping
 	cook it
 
 make_a_pizza(peperoni)
