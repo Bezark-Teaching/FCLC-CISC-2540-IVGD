@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://bwjhb56ffin8d"]
-
-[ext_resource type="Texture2D" uid="uid://bwyvuw8cv0bv0" path="res://icon.svg" id="1_hm2ra"]
-[ext_resource type="Script" path="res://simple_character.gd" id="2_6wclt"]
-
-[node name="SimpleCharacter" type="Sprite2D"]
-texture = ExtResource("1_hm2ra")
-script = ExtResource("2_6wclt")
-speed = 4.0

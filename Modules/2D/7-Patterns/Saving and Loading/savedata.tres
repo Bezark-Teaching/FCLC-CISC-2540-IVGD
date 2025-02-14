@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="SaveData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://save_data.gd" id="1_sqwo2"]
+
+[resource]
+script = ExtResource("1_sqwo2")
+position = Vector2(90, 120)

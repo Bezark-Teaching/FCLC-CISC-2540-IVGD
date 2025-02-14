@@ -132,6 +132,7 @@ The course is split into 3 distinct modules each with a unique project:
 - **DUE: Lab 1**
 
 ### Friday 2/14
+
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)

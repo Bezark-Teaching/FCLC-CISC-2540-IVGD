@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://dcsi7cqao7dnh"]
+
+[ext_resource type="Texture2D" uid="uid://1xpt8w5ou6fw" path="res://icon.svg" id="1_ducjm"]
+[ext_resource type="Script" path="res://node_2d.gd" id="1_i2d8d"]
+[ext_resource type="Script" path="res://Icon.gd" id="2_21bey"]
+
+[node name="Reciever" type="Node2D"]
+script = ExtResource("1_i2d8d")
+
+[node name="Sender" type="Sprite2D" parent="."]
+position = Vector2(175, 130)
+texture = ExtResource("1_ducjm")
+script = ExtResource("2_21bey")
+
+[connection signal="counter_max_reached" from="Sender" to="." method="_on_icon_counter_max_reached"]
+[connection signal="scored_a_point" from="Sender" to="." method="_on_icon_scored_a_point"]
