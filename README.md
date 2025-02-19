@@ -1,5 +1,8 @@
 # Top of Mind
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+  - [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)
+  - [Conditionals and Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+  
   - [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
