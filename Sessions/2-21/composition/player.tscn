@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://ujuh51a7n4fk"]
+
+[ext_resource type="Texture2D" uid="uid://bqgrfy1lyflse" path="res://icon.svg" id="1_i1dkw"]
+[ext_resource type="Script" path="res://player.gd" id="2_3lejc"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_82re5"]
+font_size = 64
+font_color = Color(1, 0.427451, 1, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q61kc"]
+size = Vector2(147, 138)
+
+[node name="Player" type="Sprite2D"]
+position = Vector2(306, 167)
+texture = ExtResource("1_i1dkw")
+script = ExtResource("2_3lejc")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Label" type="Label" parent="."]
+offset_left = -501.0
+offset_top = -277.0
+offset_right = -432.0
+offset_bottom = -250.0
+text = "My Health"
+label_settings = SubResource("LabelSettings_82re5")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_q61kc")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
