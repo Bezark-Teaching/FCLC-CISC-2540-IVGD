@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4el6nrpqvdwt"]
+
+[ext_resource type="Script" path="res://conditionals_example.gd" id="1_4q562"]
+[ext_resource type="Texture2D" uid="uid://bvpjdrmaim7so" path="res://icon.svg" id="2_1n8hu"]
+
+[node name="ConditionalsExample" type="Node2D"]
+script = ExtResource("1_4q562")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(33, 47)
+texture = ExtResource("2_1n8hu")

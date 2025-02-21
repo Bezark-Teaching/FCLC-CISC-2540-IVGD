@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7vrfburjym3h"]
+
+[ext_resource type="PackedScene" uid="uid://r3q7bl3jnn5v" path="res://robot_racer.tscn" id="1_lkw3r"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RobotRacer" parent="." instance=ExtResource("1_lkw3r")]
+position = Vector2(80, 160)
+speed = 1
+character_name = "Susan"
+
+[node name="RobotRacer2" parent="." instance=ExtResource("1_lkw3r")]
+position = Vector2(183, 549)
+speed = 2
+character_name = "Frog"
+
+[node name="RobotRacer3" parent="." instance=ExtResource("1_lkw3r")]
+position = Vector2(118, 366)
+character_name = "Blog"

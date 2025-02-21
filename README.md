@@ -161,6 +161,8 @@ The course is split into 3 distinct modules each with a unique project:
   - CollisionShapes
 
 - Functions/Signals
+
+
 - **DUE: Lab 2**
 
 ## Week 7 - Level, Environment and UI Design

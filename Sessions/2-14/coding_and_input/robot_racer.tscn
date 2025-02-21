@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://r3q7bl3jnn5v"]
+
+[ext_resource type="Texture2D" uid="uid://bvpjdrmaim7so" path="res://icon.svg" id="1_gxcmx"]
+[ext_resource type="Script" path="res://basic_coding.gd" id="2_nxqqf"]
+
+[node name="RobotRacer" type="Sprite2D"]
+position = Vector2(1, -5)
+texture = ExtResource("1_gxcmx")
+script = ExtResource("2_nxqqf")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -46.0
+offset_top = 42.0
+offset_right = 109.0
+offset_bottom = 82.0
+color = Color(1, 0.121569, 0.0470588, 1)
