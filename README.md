@@ -166,17 +166,6 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 7 - Level, Environment and UI Design
 
 ### Tuesday 2/25
-- [2D Components](/Modules/2D/2D_Components/)
-- Common Patterns (Time permitting)
-  - Items 
-  - Enemies
-  - Checkpoints
-  - Respawns
-  - Killboxes
-
-- **DUE: Lab 3**
-
-### Friday 2/28
 - Area2D Review
 
 - Assets
@@ -189,6 +178,17 @@ The course is split into 3 distinct modules each with a unique project:
     - [Noun Project](https://thenounproject.com/)
     - [Dotown](https://dotown.maeda-design-room.net/)
     - [Open Game Art](https://opengameart.org/)
+
+### Friday 2/28
+- [2D Components](/Modules/2D/2D_Components/)
+- Common Patterns (Time permitting)
+  - Items 
+  - Enemies
+  - Checkpoints
+  - Respawns
+  - Killboxes
+
+- **DUE: Lab 3**
 - Control Nodes
 
 - Sound
