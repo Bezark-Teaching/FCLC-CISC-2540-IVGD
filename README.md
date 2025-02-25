@@ -157,8 +157,6 @@ The course is split into 3 distinct modules each with a unique project:
   - Area2D
   - Camera2D
   - Timer 
-  - ChgaracterBody
-  - CollisionShapes
 
 - Functions/Signals
 
@@ -169,6 +167,9 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Tuesday 2/25
 - Area2D Review
+
+- CharacterBody
+- CollisionShapes
 
 - Assets
   - Tilemaps
@@ -195,15 +196,14 @@ The course is split into 3 distinct modules each with a unique project:
 
 - Sound
   - Lighting
-- Project Development
 
 ## Week 8 - Project Development/Playtesting 
 
 ### Tuesday 3/4
 - Project Development
-- Playtesting
 
 ### Friday 3/7
+- Project Development
 - Playtesting
 ---
 
