@@ -1,0 +1,82 @@
+[gd_scene load_steps=7 format=3 uid="uid://cqyjfnwtscd6h"]
+
+[ext_resource type="Texture2D" uid="uid://cfwwxodn0550v" path="res://icon.svg" id="1_8pker"]
+[ext_resource type="Script" path="res://baby_charcter.gd" id="2_ye74i"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_knp3m"]
+friction = 0.44
+rough = true
+bounce = 1.0
+absorbent = true
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r4lhu"]
+radius = 82.0366
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mxxv0"]
+size = Vector2(492, 66)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_junyr"]
+size = Vector2(127, 128)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+position = Vector2(404, 161)
+physics_material_override = SubResource("PhysicsMaterial_knp3m")
+
+[node name="Icon" type="Sprite2D" parent="RigidBody2D"]
+position = Vector2(-3, -2)
+texture = ExtResource("1_8pker")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("CircleShape2D_r4lhu")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(218, 434)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(236, 23)
+shape = SubResource("RectangleShape2D_mxxv0")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D"]
+offset_left = 1.0
+offset_top = -3.0
+offset_right = 479.0
+offset_bottom = 47.0
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(785, 591)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(236, 23)
+shape = SubResource("RectangleShape2D_mxxv0")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D2"]
+offset_left = 1.0
+offset_top = -3.0
+offset_right = 479.0
+offset_bottom = 47.0
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="."]
+position = Vector2(1281, 441)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
+position = Vector2(236, 23)
+shape = SubResource("RectangleShape2D_mxxv0")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D3"]
+offset_left = 1.0
+offset_top = -3.0
+offset_right = 479.0
+offset_bottom = 47.0
+
+[node name="BabyCharcter" type="CharacterBody2D" parent="."]
+position = Vector2(404, 318)
+script = ExtResource("2_ye74i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BabyCharcter"]
+position = Vector2(-1.5, -1)
+shape = SubResource("RectangleShape2D_junyr")
+
+[node name="Icon" type="Sprite2D" parent="BabyCharcter"]
+texture = ExtResource("1_8pker")

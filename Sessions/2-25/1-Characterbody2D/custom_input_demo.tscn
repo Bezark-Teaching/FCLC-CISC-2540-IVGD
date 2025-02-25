@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://ck775f7yv5866"]
 
-[ext_resource type="Texture2D" uid="uid://dgceyfak8xgg6" path="res://icon.svg" id="1_tslg5"]
+[ext_resource type="Texture2D" uid="uid://cfwwxodn0550v" path="res://icon.svg" id="1_tslg5"]
 [ext_resource type="Script" path="res://very_simple_character.gd" id="2_raupx"]
 
 [node name="CustomInputDemo" type="Node2D"]

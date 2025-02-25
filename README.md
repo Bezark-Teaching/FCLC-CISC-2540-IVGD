@@ -1,4 +1,7 @@
 # Top of Mind
+ - [Class Recording](https://www.youtube.com/live/LREOPvO_CyA)
+
+
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
   - [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)
   - [Conditionals and Input](https://www.youtube.com/watch?v=PyADIUsLobs)
