@@ -1,7 +1,7 @@
 ### Assignment Prompt: Video Game Analysis through MDA Framework and Magic Circle
 
 #### Objective:
-Play one of the suggested video games and write a critical analysis paper reviewing it through the lens of the MDA (Mechanics, Dynamics, Aesthetics) framework and the concept of the magic circle. This assignment will enhance your understanding of game design principles and how they contribute to player experience. PLEASE PICK A GAME YOU HAVEN'T PLAYED BEFORE- literally when else is "Play a videogame" your homework???
+Play one of the suggested video games and write a critical analysis paper reviewing it through the lens of the MDA (Mechanics, Dynamics, Aesthetics) framework and the concept of [the magic circle](https://www.youtube.com/watch?v=kx8UHeNHa8M). This assignment will enhance your understanding of game design principles and how they contribute to player experience. PLEASE PICK A GAME YOU HAVEN'T PLAYED BEFORE- literally when else is "Play a videogame" your homework???
 Suggested Games (choose one):
 
 - "Journey" (thatgamecompany)
