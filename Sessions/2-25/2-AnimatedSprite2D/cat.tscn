@@ -271,7 +271,7 @@ position = Vector2(329.5, 314.5)
 scale = Vector2(19.5312, 19.5312)
 sprite_frames = SubResource("SpriteFrames_q8nrj")
 autoplay = "default"
-frame_progress = 0.402133
+frame_progress = 0.777876
 
 [node name="Player" type="CharacterBody2D" parent="."]
 script = ExtResource("2_kt02f")
@@ -281,7 +281,7 @@ scale = Vector2(6.75, 6.75)
 sprite_frames = SubResource("SpriteFrames_e613d")
 animation = &"run"
 autoplay = "idle"
-frame_progress = 0.872333
+frame_progress = 0.174123
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(-1, 20)

@@ -186,6 +186,18 @@ The course is split into 3 distinct modules each with a unique project:
     - [Open Game Art](https://opengameart.org/)
 
 ### Friday 2/28
+
+- Assets
+  - Tilemaps
+  - Sprite Sheets
+  - Paralax layers
+  - Where to find assets
+    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
+    - [Kenny](https://kenney.nl/assets)
+    - [Noun Project](https://thenounproject.com/)
+    - [Dotown](https://dotown.maeda-design-room.net/)
+    - [Open Game Art](https://opengameart.org/)
+
 - [2D Components](/Modules/2D/2D_Components/)
 - Common Patterns (Time permitting)
   - Items 
@@ -195,14 +207,13 @@ The course is split into 3 distinct modules each with a unique project:
   - Killboxes
 
 - **DUE: Lab 3**
-- Control Nodes
-
-- Sound
-  - Lighting
 
 ## Week 8 - Project Development/Playtesting 
 
 ### Tuesday 3/4
+- Control Nodes
+- Sound
+- Lighting
 - Project Development
 
 ### Friday 3/7
