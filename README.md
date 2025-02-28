@@ -1,12 +1,7 @@
 # Top of Mind
- - [Class Recording](https://www.youtube.com/live/LREOPvO_CyA)
 
-
-  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
-  - [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)
-  - [Conditionals and Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-  
-  - [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
+- [Class Recording](https://youtu.be/XVfVvY9WECU)
+- [Instantiating Objects](https://www.youtube.com/watch?v=Qs8oSGmhx-U) 
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
@@ -169,6 +164,7 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 7 - Level, Environment and UI Design
 
 ### Tuesday 2/25
+- [Class Recording](https://www.youtube.com/live/LREOPvO_CyA)
 - Area2D Review
 
 - CharacterBody
@@ -313,6 +309,15 @@ The course is split into 3 distinct modules each with a unique project:
 - [Blender](https://www.blender.org/) : an open source 3D modeling and animation program.
 - [Github Desktop](https://desktop.github.com/): an industry standard [version control](https://en.wikipedia.org/wiki/Version_control) system
 
+# Resources and Tutorials
+
+- [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+- [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)
+- [Conditionals and Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+
+- [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
+- [Resources](https://www.youtube.com/watch?v=h5vpjCDNa-w)
+- [Where do game ideas come from](https://www.youtube.com/watch?v=0m60QbT85Tc)
 ### Godot
 
 
@@ -328,7 +333,6 @@ The course is split into 3 distinct modules each with a unique project:
 ## Git & Github
 
 - [Dan Shiffman's Github for Poets](https://www.youtube.com/watch?v=BCQHnlnPusY)
-
 
 ## **Instructor Details**
 
