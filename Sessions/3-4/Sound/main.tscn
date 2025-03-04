@@ -1,0 +1,72 @@
+[gd_scene load_steps=8 format=3 uid="uid://csipwgfy03rel"]
+
+[ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_km8iq"]
+[ext_resource type="Texture2D" uid="uid://dqla7n6gpe8fh" path="res://Assets/icon.svg" id="2_q24wf"]
+[ext_resource type="AudioStream" uid="uid://dhkwg5m5mflpw" path="res://Assets/woosh.mp3" id="3_cplck"]
+[ext_resource type="PackedScene" uid="uid://bbrc4r5uir85h" path="res://Assets/Items/fruit.tscn" id="3_ww4ir"]
+[ext_resource type="AudioStream" uid="uid://b0b8f05u6jxmg" path="res://Assets/music.mp3" id="4_jrgdm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u7sp8"]
+size = Vector2(128, 130)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nnpyx"]
+size = Vector2(810, 128)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_km8iq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_u7sp8")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+
+[node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("2_q24wf")
+
+[node name="Jump" type="AudioStreamPlayer2D" parent="CharacterBody2D"]
+stream = ExtResource("3_cplck")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(0, 366)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(225, 63)
+shape = SubResource("RectangleShape2D_nnpyx")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D"]
+offset_left = -177.0
+offset_top = -2.0
+offset_right = 613.0
+offset_bottom = 128.0
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(0, 366)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(1078, 54)
+shape = SubResource("RectangleShape2D_nnpyx")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D2"]
+offset_left = 678.0
+offset_top = -8.0
+offset_right = 1468.0
+offset_bottom = 122.0
+
+[node name="Fruit" parent="." instance=ExtResource("3_ww4ir")]
+position = Vector2(408, 292)
+scale = Vector2(3.71875, 3.71875)
+
+[node name="Fruit2" parent="." instance=ExtResource("3_ww4ir")]
+position = Vector2(240, 294)
+scale = Vector2(3.71875, 3.71875)
+
+[node name="Fruit3" parent="." instance=ExtResource("3_ww4ir")]
+position = Vector2(665, 101)
+scale = Vector2(3.71875, 3.71875)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_jrgdm")
+volume_db = -15.898
+autoplay = true
