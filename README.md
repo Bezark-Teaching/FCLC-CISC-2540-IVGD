@@ -1,8 +1,14 @@
 # Top of Mind
 
-- [Class Recording](https://youtu.be/XVfVvY9WECU)
-- [Instantiating Objects](https://www.youtube.com/watch?v=Qs8oSGmhx-U) 
-
+- We have a playtest on Friday! Bring in something others can play!
+- Helpful Videos:
+  - [AnimatedSprite2D and TilemapLayer](https://youtu.be/XVfVvY9WECU)
+  - [Spawning and UI (older video)](https://www.youtube.com/live/hFXZkFinWXU)
+  - [GWizz Main Menu Tutorial (very simple)](https://www.youtube.com/watch?v=vsKxB66_ngw)
+- Previous Videos
+  - [Class Recording](https://youtu.be/XVfVvY9WECU)
+  - [Instantiating Objects](https://www.youtube.com/watch?v=Qs8oSGmhx-U) 
+- **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
 - **Course Code:** CISC 2540

@@ -27,6 +27,7 @@ texture = ExtResource("2_q24wf")
 
 [node name="Jump" type="AudioStreamPlayer2D" parent="CharacterBody2D"]
 stream = ExtResource("3_cplck")
+bus = &"CaveSounds"
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(0, 366)
@@ -69,4 +70,9 @@ scale = Vector2(3.71875, 3.71875)
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_jrgdm")
 volume_db = -15.898
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1336, 280)
+stream = ExtResource("4_jrgdm")
+volume_db = -9.0
 autoplay = true

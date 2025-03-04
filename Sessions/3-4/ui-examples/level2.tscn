@@ -1,42 +1,42 @@
 [gd_scene load_steps=5 format=3 uid="uid://bq1su3sdmgjcb"]
 
-[ext_resource type="PackedScene" uid="uid://ishqo8c65him" path="res://player.tscn" id="1_1g3ob"]
-[ext_resource type="PackedScene" uid="uid://bp5bpanpc75yl" path="res://item.tscn" id="2_qol06"]
-[ext_resource type="Script" path="res://Sign.gd" id="3_0xrel"]
+[ext_resource type="PackedScene" uid="uid://ishqo8c65him" path="res://player.tscn" id="1_rin82"]
+[ext_resource type="PackedScene" uid="uid://bp5bpanpc75yl" path="res://item.tscn" id="2_18xc5"]
+[ext_resource type="Script" path="res://Sign.gd" id="3_8nvwk"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_6ghkr"]
 radius = 164.438
 
 [node name="TopDownMovement" type="Node2D"]
 
-[node name="TopDownCharacter" parent="." instance=ExtResource("1_1g3ob")]
+[node name="TopDownCharacter" parent="." instance=ExtResource("1_rin82")]
 
 [node name="Items" type="Node" parent="."]
 
-[node name="item" parent="Items" instance=ExtResource("2_qol06")]
+[node name="item" parent="Items" instance=ExtResource("2_18xc5")]
 position = Vector2(331, 308)
 
-[node name="item2" parent="Items" instance=ExtResource("2_qol06")]
+[node name="item2" parent="Items" instance=ExtResource("2_18xc5")]
 position = Vector2(899, 424)
 
-[node name="item3" parent="Items" instance=ExtResource("2_qol06")]
+[node name="item3" parent="Items" instance=ExtResource("2_18xc5")]
 position = Vector2(991, 202)
 
-[node name="item4" parent="Items" instance=ExtResource("2_qol06")]
+[node name="item4" parent="Items" instance=ExtResource("2_18xc5")]
 position = Vector2(760, 174)
 
-[node name="item5" parent="Items" instance=ExtResource("2_qol06")]
+[node name="item5" parent="Items" instance=ExtResource("2_18xc5")]
 position = Vector2(375, 133)
 
-[node name="item6" parent="Items" instance=ExtResource("2_qol06")]
+[node name="item6" parent="Items" instance=ExtResource("2_18xc5")]
 position = Vector2(519, 214)
 
-[node name="item7" parent="Items" instance=ExtResource("2_qol06")]
+[node name="item7" parent="Items" instance=ExtResource("2_18xc5")]
 position = Vector2(592, 371)
 
 [node name="Sign" type="Area2D" parent="."]
 position = Vector2(217, 154)
-script = ExtResource("3_0xrel")
+script = ExtResource("3_8nvwk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sign"]
 shape = SubResource("CircleShape2D_6ghkr")
