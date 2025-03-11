@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://ddroq2depcpis"]
+
+[ext_resource type="PackedScene" uid="uid://dqhhcfchvx36i" path="res://Platform.tscn" id="1_wttq3"]
+[ext_resource type="Script" path="res://killbox.gd" id="2_8d2t1"]
+[ext_resource type="PackedScene" uid="uid://c7c1rk3hn231t" path="res://player.tscn" id="3_drvqu"]
+[ext_resource type="PackedScene" uid="uid://ba3skd3ynab02" path="res://enemy.tscn" id="4_3andg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wk5rf"]
+size = Vector2(3395, 386.5)
+
+[node name="Main" type="Node2D"]
+
+[node name="Platform" parent="." instance=ExtResource("1_wttq3")]
+position = Vector2(-130, 70)
+
+[node name="Platform2" parent="." instance=ExtResource("1_wttq3")]
+position = Vector2(665, 245)
+
+[node name="Platform3" parent="." instance=ExtResource("1_wttq3")]
+position = Vector2(1438, 37)
+
+[node name="SpawnPoint" type="Marker2D" parent="."]
+position = Vector2(39, 8)
+
+[node name="Killbox" type="Area2D" parent="."]
+script = ExtResource("2_8d2t1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox"]
+position = Vector2(840, 735.25)
+shape = SubResource("RectangleShape2D_wk5rf")
+
+[node name="Player" parent="." instance=ExtResource("3_drvqu")]
+position = Vector2(70, -122)
+
+[node name="Enemy" parent="." instance=ExtResource("4_3andg")]
+position = Vector2(1665, -70)
+
+[connection signal="body_entered" from="Killbox" to="Killbox" method="_on_body_entered"]
