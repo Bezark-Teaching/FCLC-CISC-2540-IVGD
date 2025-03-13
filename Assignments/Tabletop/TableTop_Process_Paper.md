@@ -26,6 +26,7 @@ Document and reflect on your group's process in designing and developing the tab
 
 #### Submission Requirements:
 - **Total Length:** Approximately 1500-2000 words.
+- **Format:** PDF
 - **Submission:** One process paper for the tabletop game project.
 
 #### Grading Rubric: (Total 10 Points)
