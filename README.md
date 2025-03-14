@@ -40,7 +40,7 @@ The  work of the class consists of the following:
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 2/7                          | 10            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/10, 2/21, 2/25, 3/28       | 24            |
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 2/14                         | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/11                         | 25            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/14                         | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               | 4/1                          | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/22                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
@@ -223,38 +223,37 @@ The course is split into 3 distinct modules each with a unique project:
 - Playtesting
 ---
 
-## Week 9 - Hello 3D 
+## Week 9 - Project Development
 
 ### Tuesday 3/11
+- Project Development
 
-- Hello 3D
-- [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
-- Introduction to 3D in Godot
+### Friday 3/14
+- Playtesting day! Woo hoo!
 
 - **DUE: 2D Game**
 
-### Friday 3/14
-- Materials, Models
-- Light, Sound
-
-- **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
 
 ## SPRING BREAK
 
-## Week 10 - 3D Environments/Advanced 3D Topics
+## Week 10 - Hello 3D 
 
 ### Tuesday 3/25 
-- Materials, Models, Lights, Fog, Camera Attributes
+- [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
+
+- Hello 3D
+- **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 
 ### Friday 3/28
+- Materials, Models
+- Light, Sound
+
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
   - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
 
-
-- Physics/Sandbox
 - **DUE: Lab 4**
 
 ## Week 11 Capstone Presentations
