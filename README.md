@@ -236,7 +236,7 @@ Break
 - [Github Desktop](https://desktop.github.com/): an industry standard [version control](https://en.wikipedia.org/wiki/Version_control) system
 
 ### Godot
-
+- [GDScript Cheat Sheet](https://godot.community/topic/78/gdscript-cheatsheet)
 
 - [Source Code](https://github.com/godotengine/godot)
 - [Docs](https://docs.godotengine.org/en/stable/)
