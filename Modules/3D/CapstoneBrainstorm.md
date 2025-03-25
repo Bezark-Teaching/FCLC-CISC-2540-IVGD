@@ -26,7 +26,6 @@ Each student creates three cards, one for each category:
 3. For the next 8 minutes:
    - Students can trade any card one-for-one with other students
    - Students can return any card and draw a new one (once per category)
-   - Everyone must end with exactly three cards (one of each color)
 
 ## Phase 3: Concept Generation (10 minutes)
 1. Students write down a game concept using at least two of their final cards
