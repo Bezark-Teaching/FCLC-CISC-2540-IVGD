@@ -1,14 +1,15 @@
 # Top of Mind
+- We are beginning our [Capstone Game](/Assignments/Capstone/Capstone_Game.md), and the first milestone is the  [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md) which will be NEXT WEEK on Tuesday 4/1. Please add your information to the [Capstone Whiteboard](https://www.tldraw.com/f/P9qfg-BWc097_ZC79jK0P?d=v0.0.1169.807.u4-DIKmpFn6gSOH6wnTjM)
 
-- We have a playtest on Friday! Bring in something others can play!
-- Helpful Videos:
+- Previous Videos
   - [AnimatedSprite2D and TilemapLayer](https://youtu.be/XVfVvY9WECU)
   - [Spawning and UI (older video)](https://www.youtube.com/live/hFXZkFinWXU)
   - [GWizz Main Menu Tutorial (very simple)](https://www.youtube.com/watch?v=vsKxB66_ngw)
-- Previous Videos
   - [Class Recording](https://youtu.be/XVfVvY9WECU)
   - [Instantiating Objects](https://www.youtube.com/watch?v=Qs8oSGmhx-U) 
+
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
+
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
 - **Course Code:** CISC 2540
