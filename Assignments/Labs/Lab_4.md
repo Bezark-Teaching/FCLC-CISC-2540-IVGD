@@ -1,4 +1,4 @@
-## Lab 2: Hello 3D
+## Lab 4: Hello 3D
 
 Please complete the following exercise:
 
