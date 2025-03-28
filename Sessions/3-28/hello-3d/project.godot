@@ -14,8 +14,3 @@ config/name="Hello 3D"
 run/main_scene="uid://xcf04tutjgmy"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
-
-[rendering]
-
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
