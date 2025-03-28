@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://4a0qerp53py0"]
 
-[ext_resource type="Texture2D" uid="uid://4o2r4fbecg7h" path="res://icon.svg" id="1_x4wxs"]
-[ext_resource type="Script" path="res://mousedemo.gd" id="2_iq0qy"]
+[ext_resource type="Texture2D" uid="uid://brs32hkuokfm0" path="res://icon.svg" id="1_x4wxs"]
+[ext_resource type="Script" uid="uid://cplmnlseocvlb" path="res://mousedemo.gd" id="2_iq0qy"]
 
 [node name="Node2D" type="Node2D"]
 

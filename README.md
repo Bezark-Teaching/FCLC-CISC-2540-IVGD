@@ -1,5 +1,12 @@
 # Top of Mind
+
 - We are beginning our [Capstone Game](/Assignments/Capstone/Capstone_Game.md), and the first milestone is the  [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md) which will be NEXT WEEK on Tuesday 4/1. Please add your information to the [Capstone Whiteboard](https://www.tldraw.com/f/P9qfg-BWc097_ZC79jK0P?d=v0.0.1169.807.u4-DIKmpFn6gSOH6wnTjM)
+
+- Intro to 3D Videos:
+  - [Hello 3D Pt. 1](https://www.youtube.com/live/YKmOb1VFDsQ)
+  - [Hello 3D Pt. 2](https://www.youtube.com/live/fMbfi5HR-uc)
+
+
 
 - Previous Videos
   - [AnimatedSprite2D and TilemapLayer](https://youtu.be/XVfVvY9WECU)
