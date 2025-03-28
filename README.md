@@ -245,17 +245,18 @@ The course is split into 3 distinct modules each with a unique project:
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 
 - Hello 3D
-- **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 
 ### Friday 3/28
+- Hello 3D
+
 - Materials, Models
 - Light, Sound
 
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
-  - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
+  - [Character Animation Combiner](https://nilooy.github.io/character-animation-combiner/)
 
-- **DUE: Lab 4**
+- **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 
 ## Week 11 Capstone Presentations
 
@@ -266,6 +267,7 @@ The course is split into 3 distinct modules each with a unique project:
 ### Friday 4/4
 
 - Capstone presentations 
+- **DUE: Lab 4**
 
 ## Week 12 Advanced Topics 
 ### Tuesday 4/8
