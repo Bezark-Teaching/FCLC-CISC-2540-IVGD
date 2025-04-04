@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://drtdur85bmn4"]
+
+[ext_resource type="Texture2D" uid="uid://k1onuj2bimqj" path="res://icon.svg" id="1_y2yqg"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
+shadow_enabled = true
+
+[node name="CSGTorus3D" type="CSGTorus3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.00218169, -0.999998, 0, 0.999998, -0.00218169, 0, 0, -1.24591)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.51048)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(169, 98)
+texture = ExtResource("1_y2yqg")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 598.0
+offset_top = 223.0
+offset_right = 659.0
+offset_bottom = 254.0
+text = "button"

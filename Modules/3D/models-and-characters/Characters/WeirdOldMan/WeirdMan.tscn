@@ -1,10 +1,10 @@
 [gd_scene load_steps=47 format=4 uid="uid://jcomwnm6dy0w"]
 
-[ext_resource type="Texture2D" uid="uid://b5ckoojrhamcs" path="res://Characters/WeirdOldMan/WeirdOldMan_0.png" id="1_rfi7i"]
-[ext_resource type="Texture2D" uid="uid://csus2n7v53i2g" path="res://Characters/WeirdOldMan/WeirdOldMan_1.png" id="2_l5m2c"]
-[ext_resource type="Texture2D" uid="uid://b8ucj3381qql2" path="res://Characters/WeirdOldMan/WeirdOldMan_2.png" id="3_iyn2i"]
-[ext_resource type="Texture2D" uid="uid://surdr6e6qe2w" path="res://Characters/WeirdOldMan/WeirdOldMan_3.png" id="4_bawq4"]
-[ext_resource type="Texture2D" uid="uid://4xwilt45hbx2" path="res://Characters/WeirdOldMan/WeirdOldMan_4.png" id="5_3q26p"]
+[ext_resource type="Texture2D" uid="uid://cv8rc7ety212f" path="res://Characters/WeirdOldMan/WeirdOldMan_0.png" id="1_rfi7i"]
+[ext_resource type="Texture2D" uid="uid://deijab4qqntfn" path="res://Characters/WeirdOldMan/WeirdOldMan_1.png" id="2_l5m2c"]
+[ext_resource type="Texture2D" uid="uid://dy8ilq1x7ciki" path="res://Characters/WeirdOldMan/WeirdOldMan_2.png" id="3_iyn2i"]
+[ext_resource type="Texture2D" uid="uid://bxhtpitdpsj5d" path="res://Characters/WeirdOldMan/WeirdOldMan_3.png" id="4_bawq4"]
+[ext_resource type="Texture2D" uid="uid://b5ilr72oryyef" path="res://Characters/WeirdOldMan/WeirdOldMan_4.png" id="5_3q26p"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_514b0"]
 resource_name = "Clothes_MAT"
@@ -3359,8 +3359,8 @@ tracks/52/keys = PackedFloat32Array(0, 1, 0.460537, 0.0199051, -0.0563294, 0.885
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_upbam"]
 _data = {
-"CrouchToStand": SubResource("Animation_qybp8"),
-"Idle": SubResource("Animation_ehu8f")
+&"CrouchToStand": SubResource("Animation_qybp8"),
+&"Idle": SubResource("Animation_ehu8f")
 }
 
 [node name="Node3D" type="Node3D"]
