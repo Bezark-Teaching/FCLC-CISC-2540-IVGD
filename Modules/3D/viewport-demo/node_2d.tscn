@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://dcjpx5pbtg3ye"]
+
+[ext_resource type="Script" uid="uid://bsm5hi7ljx57e" path="res://node_2d.gd" id="1_0e48y"]
+[ext_resource type="PackedScene" uid="uid://drtdur85bmn4" path="res://3d.tscn" id="2_epypp"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_0hol4"]
+viewport_path = NodePath("SubViewport")
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_0e48y")
+
+[node name="SubViewport" type="SubViewport" parent="."]
+
+[node name="Node3D" parent="SubViewport" instance=ExtResource("2_epypp")]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(738, 272)
+scale = Vector2(0.583984, 0.576172)
+texture = SubResource("ViewportTexture_0hol4")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 252.0
+offset_top = 193.0
+offset_right = 480.0
+offset_bottom = 322.0
+text = "3d!"
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
