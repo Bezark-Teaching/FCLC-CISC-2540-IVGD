@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://kubisgrhndyx"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_cbx31"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_x8fbi"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_41u45"]
+
+[node name="Ball" type="RigidBody3D"]
+physics_material_override = SubResource("PhysicsMaterial_cbx31")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_x8fbi")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_41u45")

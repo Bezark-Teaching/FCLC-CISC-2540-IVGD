@@ -1,14 +1,28 @@
 # Top of Mind
 
-- We are beginning our [Capstone Game](/Assignments/Capstone/Capstone_Game.md), and the first milestone is the  [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md) which will be NEXT WEEK on Tuesday 4/1. Please add your information to the [Capstone Whiteboard](https://www.tldraw.com/f/P9qfg-BWc097_ZC79jK0P?d=v0.0.1169.807.u4-DIKmpFn6gSOH6wnTjM)
+## Priorities for the rest of the semester
 
-- Intro to 3D Videos:
+ [Capstone Whiteboard](https://www.tldraw.com/f/P9qfg-BWc097_ZC79jK0P?d=v0.0.1169.807.u4-DIKmpFn6gSOH6wnTjM)
+- animations
+- mixamo
+- gridmap
+- FSM
+- Audio effects
+- shaders and lighting
+- Resources
+- Navigation Agents
+- path
+
+
+- Continue developing your [Capstone Game](/Assignments/Capstone/Capstone_Game.md) 
+
+
+
+
+
+## Previous Content
   - [Hello 3D Pt. 1](https://www.youtube.com/live/YKmOb1VFDsQ)
   - [Hello 3D Pt. 2](https://www.youtube.com/live/fMbfi5HR-uc)
-
-
-
-- Previous Videos
   - [AnimatedSprite2D and TilemapLayer](https://youtu.be/XVfVvY9WECU)
   - [Spawning and UI (older video)](https://www.youtube.com/live/hFXZkFinWXU)
   - [GWizz Main Menu Tutorial (very simple)](https://www.youtube.com/watch?v=vsKxB66_ngw)
@@ -278,16 +292,19 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 12 Advanced Topics 
 ### Tuesday 4/8
-- Advanced Topics
-  - Exporting
-  - NPCs, Classes and Inheritance...
+- Finish Presentations
+
+- Classes, Resources
+- Debugging
+- NPCs
 
 ### Friday 4/10
-- XR
+- Exporting
 
 ## Week 13  
 
 ### Tuesday 4/15
+- XR
 - Review
 ### Friday 4/18 NO CLASS EASTER
 
