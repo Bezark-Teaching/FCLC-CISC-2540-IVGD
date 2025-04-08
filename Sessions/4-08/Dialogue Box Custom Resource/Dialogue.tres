@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Dialogue" load_steps=7 format=3 uid="uid://cymn1xfbmg7au"]
+[gd_resource type="Resource" script_class="Dialogue" load_steps=8 format=3 uid="uid://cymn1xfbmg7au"]
 
 [ext_resource type="Texture2D" uid="uid://dc26un0nsh3ra" path="res://icon.svg" id="1_3kpjg"]
 [ext_resource type="Script" uid="uid://cs72j564uqk6" path="res://dialogue.gd" id="1_qugkr"]
@@ -17,6 +17,13 @@ line = "Tha's great for you"
 character_name = "Mean robot"
 portrait = ExtResource("3_0dc5c")
 
+[sub_resource type="Resource" id="Resource_l4r3b"]
+script = ExtResource("2_ttxcf")
+line = "Wowowow"
+character_name = "me"
+portrait = ExtResource("1_3kpjg")
+metadata/_custom_type_script = "uid://diqjbw735mvo"
+
 [resource]
 script = ExtResource("1_qugkr")
-lines_of_dialogue = Array[ExtResource("2_ttxcf")]([SubResource("Resource_5m0h0"), SubResource("Resource_4savp")])
+lines_of_dialogue = Array[ExtResource("2_ttxcf")]([SubResource("Resource_5m0h0"), SubResource("Resource_4savp"), SubResource("Resource_l4r3b")])

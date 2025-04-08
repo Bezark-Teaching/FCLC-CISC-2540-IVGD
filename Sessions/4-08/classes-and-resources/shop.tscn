@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwul2dxyr8bcr"]
+
+[ext_resource type="Script" uid="uid://ba0nct68ri50g" path="res://shop.gd" id="1_e7rdd"]
+[ext_resource type="Script" uid="uid://cgqfw2ve6hftv" path="res://item.gd" id="1_viryw"]
+
+[node name="Shop" type="Node2D"]
+script = ExtResource("1_e7rdd")
+
+[node name="Item" type="Node2D" parent="."]
+script = ExtResource("1_viryw")
+item_name = "rock"
+metadata/_custom_type_script = "uid://cgqfw2ve6hftv"
+
+[node name="Item2" type="Node2D" parent="."]
+script = ExtResource("1_viryw")
+item_name = "dog"
+value = 1000
+metadata/_custom_type_script = "uid://cgqfw2ve6hftv"
+
+[node name="Item3" type="Node2D" parent="."]
+script = ExtResource("1_viryw")
+item_name = "apple"
+value = 1
+metadata/_custom_type_script = "uid://cgqfw2ve6hftv"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
