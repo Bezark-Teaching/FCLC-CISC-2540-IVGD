@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Fruit" load_steps=3 format=3 uid="uid://daglorx2somuu"]
+
+[ext_resource type="Script" uid="uid://dkelwo70qhs88" path="res://Fruit.gd" id="1_6g8en"]
+[ext_resource type="Texture2D" uid="uid://b3x1vx3gxvi1b" path="res://icon.svg" id="2_qhvxk"]
+
+[resource]
+script = ExtResource("1_6g8en")
+fruit_name = "banaanaanan"
+cost = 2
+sprite = ExtResource("2_qhvxk")
+metadata/_custom_type_script = "uid://dkelwo70qhs88"
