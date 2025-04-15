@@ -1,26 +1,6 @@
 # Top of Mind
-
-## Priorities for the rest of the semester
-
- [Capstone Whiteboard](https://www.tldraw.com/f/P9qfg-BWc097_ZC79jK0P?d=v0.0.1169.807.u4-DIKmpFn6gSOH6wnTjM)
-- animations
-- mixamo
-- gridmap
-- FSM
-
-- Audio effects
-- shaders and lighting
-- Resources
-
-- Navigation Agents
-- path
-
-
 - Continue developing your [Capstone Game](/Assignments/Capstone/Capstone_Game.md) 
-
-
-
-
+- **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 ## Previous Content
   - [Hello 3D Pt. 1](https://www.youtube.com/live/YKmOb1VFDsQ)
@@ -31,7 +11,6 @@
   - [Class Recording](https://youtu.be/XVfVvY9WECU)
   - [Instantiating Objects](https://www.youtube.com/watch?v=Qs8oSGmhx-U) 
 
-- **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
@@ -301,12 +280,13 @@ The course is split into 3 distinct modules each with a unique project:
 - NPCs
 
 ### Friday 4/10
-- Exporting
+- Cancelled
 
 ## Week 13  
+- Exporting
+  - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 
 ### Tuesday 4/15
-- XR
 - Review
 ### Friday 4/18 NO CLASS EASTER
 
@@ -314,7 +294,7 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 14 - Review
 
 ### Tuesday 4/22
-- [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
+- XR
 ### Friday 4/25
 - Review 
 - **DUE: Final project playtest**
@@ -329,19 +309,11 @@ The course is split into 3 distinct modules each with a unique project:
 - **DUE: Capstone Project**
 
 
-
-
 # **Necessary Materials:**
-- [Godot 4.3](https://godotengine.org/) : An [open source](https://en.wikipedia.org/wiki/Open_source) 2D, 3D and XR game engine.
+- [Godot 4.4](https://godotengine.org/) : An [open source](https://en.wikipedia.org/wiki/Open_source) 2D, 3D and XR game engine.
 <!-- - [Blender](https://www.blender.org/) : an open source 3D modeling and animation program. -->
 - [Github Desktop](https://desktop.github.com/): an industry standard [version control](https://en.wikipedia.org/wiki/Version_control) system
 
-
-## Tools Used
-
-- [Godot 4.3](https://godotengine.org/) : An [open source](https://en.wikipedia.org/wiki/Open_source) 2D, 3D and XR game engine.
-- [Blender](https://www.blender.org/) : an open source 3D modeling and animation program.
-- [Github Desktop](https://desktop.github.com/): an industry standard [version control](https://en.wikipedia.org/wiki/Version_control) system
 
 # Resources and Tutorials
 
@@ -352,8 +324,8 @@ The course is split into 3 distinct modules each with a unique project:
 - [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
 - [Resources](https://www.youtube.com/watch?v=h5vpjCDNa-w)
 - [Where do game ideas come from](https://www.youtube.com/watch?v=0m60QbT85Tc)
-### Godot
 
+### Godot
 
 - [Source Code](https://github.com/godotengine/godot)
 - [Docs](https://docs.godotengine.org/en/stable/)
