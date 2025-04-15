@@ -1,4 +1,5 @@
 # Top of Mind
+- [Game Jam](https://itch.io/jam/fclc-ivgd-2540-spring-game-jam)
 - Continue developing your [Capstone Game](/Assignments/Capstone/Capstone_Game.md) 
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
