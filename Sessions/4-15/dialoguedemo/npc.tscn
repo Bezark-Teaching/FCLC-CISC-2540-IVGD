@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2oxcvp0jnp3p"]
+
+[ext_resource type="Texture2D" uid="uid://c1s7kml1rcsis" path="res://icon.svg" id="1_xxcha"]
+[ext_resource type="Script" uid="uid://cponble6v86ja" path="res://npc.gd" id="2_kh24r"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cm0pq"]
+radius = 198.728
+
+[node name="NPC" type="Sprite2D"]
+texture = ExtResource("1_xxcha")
+script = ExtResource("2_kh24r")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_cm0pq")
+
+[node name="DialogueBox" type="PanelContainer" parent="."]
+visible = false
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = -64.0
+offset_top = -166.0
+offset_right = -64.0
+offset_bottom = -64.0
+grow_horizontal = 2
+
+[node name="Label" type="Label" parent="DialogueBox"]
+layout_mode = 2
+text = "HELLO ADVENTURER"
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

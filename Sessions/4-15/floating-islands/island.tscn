@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://du4kf7i02lt7g"]
+
+[ext_resource type="Texture2D" uid="uid://qwru6pyowi2b" path="res://icon.svg" id="1_0iamf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hdtfb"]
+size = Vector2(241, 96)
+
+[node name="Island" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(110.5, 38)
+shape = SubResource("RectangleShape2D_hdtfb")
+
+[node name="Icon" type="Sprite2D" parent="."]
+modulate = Color(1, 0.305882, 1, 1)
+position = Vector2(166, 35)
+scale = Vector2(1.14062, 0.71875)
+texture = ExtResource("1_0iamf")

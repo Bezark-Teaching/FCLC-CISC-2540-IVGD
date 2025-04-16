@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bm1udkwvcncyw"
+path="res://.godot/imported/post_lantern.obj-af27ae5129df3f03df583c9a6c48fe56.mesh"
+
+[deps]
+
+files=["res://.godot/imported/post_lantern.obj-af27ae5129df3f03df583c9a6c48fe56.mesh"]
+
+source_file="res://addons/kaykit_halloween_bits/Assets/obj/post_lantern.obj"
+dest_files=["res://.godot/imported/post_lantern.obj-af27ae5129df3f03df583c9a6c48fe56.mesh", "res://.godot/imported/post_lantern.obj-af27ae5129df3f03df583c9a6c48fe56.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
