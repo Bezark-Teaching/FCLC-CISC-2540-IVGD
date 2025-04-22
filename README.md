@@ -1,6 +1,6 @@
 # Top of Mind
 - **Our final will be on Thursday 5/8 1:30- 3:30. Attendance is mandatory.**
-- OWe will conduct our in class playtest on our last class Tuesday 4/29! 
+- One will conduct our in class playtest on our last class Tuesday 4/29! 
 - Continue developing your [Capstone Game](/Assignments/Capstone/Capstone_Game.md)
   - [Submit your project to the game jam](https://itch.io/jam/fclc-ivgd-2540-spring-game-jam)
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
