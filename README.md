@@ -1,6 +1,8 @@
 # Top of Mind
-- [Game Jam](https://itch.io/jam/fclc-ivgd-2540-spring-game-jam)
-- Continue developing your [Capstone Game](/Assignments/Capstone/Capstone_Game.md) 
+- Our final will be on Thursday 5/8 1:30- 3:30. Attendance is mandatory. 
+- [Submit your project to the game jam](https://itch.io/jam/fclc-ivgd-2540-spring-game-jam)
+- Continue developing your [Capstone Game](/Assignments/Capstone/Capstone_Game.md)
+- We will NOT meet on Tuesday 5/6! 
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 ## Previous Content
@@ -289,24 +291,26 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Tuesday 4/15
 - Review
+
 ### Friday 4/18 NO CLASS EASTER
 
 
 ## Week 14 - Review
 
 ### Tuesday 4/22
-- XR
+- Review
 ### Friday 4/25
 - Review 
 - **DUE: Final project playtest**
 
 ## Week 15 - Playtesting and Beyond
 
-### Tuesday 4/29
+### Tuesday 4/29 
+- Review
 ### Friday 5/1
 - Preparing for the Game Industry: Portfolio and Career Paths
 
-## Final
+## Thursday 5/8 1:30 - 3:30 Final
 - **DUE: Capstone Project**
 
 
