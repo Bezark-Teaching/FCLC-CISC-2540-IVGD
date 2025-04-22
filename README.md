@@ -307,11 +307,11 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Tuesday 4/29 
 - Review
-### Friday 5/1
-- Preparing for the Game Industry: Portfolio and Career Paths
+
 
 ## Thursday 5/8 1:30 - 3:30 Final
 - **DUE: Capstone Project**
+- Preparing for the Game Industry: Portfolio and Career Paths
 
 
 # **Necessary Materials:**
