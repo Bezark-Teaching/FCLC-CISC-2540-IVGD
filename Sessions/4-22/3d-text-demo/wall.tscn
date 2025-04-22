@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://di4sabb74ldqc"]
+
+[ext_resource type="Script" uid="uid://brvgnxw8wbypa" path="res://wall.gd" id="1_y4f30"]
+[ext_resource type="FontFile" uid="uid://cilixne32jsuv" path="res://Random Wednesday.ttf" id="2_iuee5"]
+
+[node name="Wall" type="CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.63545, 0.457413, 0.179804)
+size = Vector3(3.68213, 1.98254, 1)
+script = ExtResource("1_y4f30")
+text = "hello my name is john"
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 0, 0, 0.506178)
+text = "HELLO Cool stuff!"
+font = ExtResource("2_iuee5")
+font_size = 256

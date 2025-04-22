@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://ch5esi0dcjwu1"]
+
+[ext_resource type="PackedScene" uid="uid://di4sabb74ldqc" path="res://wall.tscn" id="1_a202f"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_a202f"]
+sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+
+[sub_resource type="Sky" id="Sky_noarx"]
+sky_material = SubResource("ProceduralSkyMaterial_a202f")
+
+[sub_resource type="Environment" id="Environment_a0tk4"]
+background_mode = 2
+sky = SubResource("Sky_noarx")
+tonemap_mode = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a202f"]
+
+[sub_resource type="TextMesh" id="TextMesh_noarx"]
+material = SubResource("StandardMaterial3D_a202f")
+text = "Wow 3D Text!"
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_a0tk4")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0.346216, -0.158583, 0.924654, -0.360741, 0.887328, 0.287253, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Wall" parent="." instance=ExtResource("1_a202f")]
+
+[node name="Wall2" parent="." instance=ExtResource("1_a202f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.54577, 0.457413, 0.179804)
+text = "got this way ->"
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.82379)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.07864)
+mesh = SubResource("TextMesh_noarx")
