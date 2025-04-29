@@ -1,7 +1,8 @@
 # Top of Mind
 - **Our final will be on Thursday 5/8 1:30- 3:30. Attendance is mandatory.**
-- One will conduct our in class playtest on our last class Tuesday 4/29! 
-- Continue developing your [Capstone Game](/Assignments/Capstone/Capstone_Game.md)
+-  Please submit any missing work by midnight tonight (4/29)!
+-  There is a new [extra credit assignement](/Assignments/WalkingSim.md) you can turn in by the final (5/8)
+- Continue developing your [Capstone Games](/Assignments/Capstone/Capstone_Game.md) and turn them in by 11:59pm 5/8
   - [Submit your project to the game jam](https://itch.io/jam/fclc-ivgd-2540-spring-game-jam)
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
