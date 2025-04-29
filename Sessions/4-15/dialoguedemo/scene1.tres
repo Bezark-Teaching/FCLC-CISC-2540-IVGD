@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=6 format=3 uid="uid://cexsp6rb2g1rg"]
+
+[ext_resource type="Script" uid="uid://bs7xjajiiqbf6" path="res://lineofdialogue.gd" id="1_ns117"]
+[ext_resource type="Texture2D" uid="uid://c1s7kml1rcsis" path="res://icon.svg" id="2_8v2wk"]
+[ext_resource type="Script" uid="uid://c6rq6vcsnhffa" path="res://dialogue.gd" id="3_eb15v"]
+
+[sub_resource type="Resource" id="Resource_vl4xm"]
+script = ExtResource("1_ns117")
+text = "hello"
+speaker = "Dr Doctor"
+icon = ExtResource("2_8v2wk")
+metadata/_custom_type_script = "uid://bs7xjajiiqbf6"
+
+[sub_resource type="Resource" id="Resource_ns117"]
+script = ExtResource("1_ns117")
+text = "hello!!!"
+speaker = "Dr Nurse"
+icon = ExtResource("2_8v2wk")
+metadata/_custom_type_script = "uid://bs7xjajiiqbf6"
+
+[resource]
+script = ExtResource("3_eb15v")
+normal_dialgoue = Array[String]([])
+quest_complete_dialogue = Array[String]([])
+fancy_dialogue = Array[ExtResource("1_ns117")]([SubResource("Resource_vl4xm"), SubResource("Resource_ns117")])
+metadata/_custom_type_script = "uid://c6rq6vcsnhffa"

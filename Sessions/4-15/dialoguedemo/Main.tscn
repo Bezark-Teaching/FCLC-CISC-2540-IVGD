@@ -2,14 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://d2oxcvp0jnp3p" path="res://npc.tscn" id="1_r0du0"]
 [ext_resource type="Texture2D" uid="uid://c1s7kml1rcsis" path="res://icon.svg" id="1_uu6xs"]
-[ext_resource type="Script" uid="uid://c6rq6vcsnhffa" path="res://dialogue.gd" id="2_cm0pq"]
 [ext_resource type="Script" uid="uid://cw57gkpmauls3" path="res://character_body_2d.gd" id="2_r0du0"]
-
-[sub_resource type="Resource" id="Resource_fos0i"]
-script = ExtResource("2_cm0pq")
-normals_dialgoue = Array[String](["Hey help me!", "please!"])
-quest_complete_dialogue = Array[String](["Oh gosh you did it!"])
-metadata/_custom_type_script = "uid://c6rq6vcsnhffa"
+[ext_resource type="Resource" uid="uid://cexsp6rb2g1rg" path="res://scene1.tres" id="4_cm0pq"]
+[ext_resource type="PackedScene" uid="uid://bwxcwqf7fpjtq" path="res://conversation.tscn" id="5_fos0i"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_fos0i"]
 radius = 78.8543
@@ -18,7 +13,6 @@ radius = 78.8543
 
 [node name="NPC" parent="." instance=ExtResource("1_r0du0")]
 position = Vector2(559, 165)
-dialogue = SubResource("Resource_fos0i")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 script = ExtResource("2_r0du0")
@@ -33,3 +27,10 @@ texture = ExtResource("1_uu6xs")
 
 [node name="NPC2" parent="." instance=ExtResource("1_r0du0")]
 position = Vector2(178, 634)
+dialogue = ExtResource("4_cm0pq")
+
+[node name="Conversation" parent="." instance=ExtResource("5_fos0i")]
+offset_left = 749.0
+offset_top = 496.0
+offset_right = 749.0
+offset_bottom = 496.0
