@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwxcwqf7fpjtq"]
+
+[ext_resource type="Script" uid="uid://b8d0etlkfu7hy" path="res://conversation.gd" id="1_jdrsm"]
+[ext_resource type="Resource" uid="uid://cexsp6rb2g1rg" path="res://scene1.tres" id="2_18aax"]
+[ext_resource type="Texture2D" uid="uid://c1s7kml1rcsis" path="res://icon.svg" id="3_mk1n6"]
+
+[node name="Conversation" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jdrsm")
+dialogue = ExtResource("2_18aax")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Portrait" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("3_mk1n6")
+
+[node name="Name" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "Dr Docter:"
+
+[node name="Text" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "Placeholder text!"
