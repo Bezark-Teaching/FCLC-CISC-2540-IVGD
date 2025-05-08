@@ -1,4 +1,5 @@
 # Top of Mind
+- https://bit.ly/xrmvp
 - **Our final will be on Thursday 5/8 1:30- 3:30. Attendance is mandatory.**
 -  Please submit any missing work by midnight tonight (4/29)!
 -  There is a new [extra credit assignement](/Assignments/WalkingSim.md) you can turn in by the final (5/8)
