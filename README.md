@@ -333,7 +333,9 @@ The course is split into 3 distinct modules each with a unique project:
 - [Resources](https://www.youtube.com/watch?v=h5vpjCDNa-w)
 - [Where do game ideas come from](https://www.youtube.com/watch?v=0m60QbT85Tc)
 
+
 ### Godot
+- [GDScript Cheat Sheet](https://godot.community/topic/78/gdscript-cheatsheet)
 
 - [Source Code](https://github.com/godotengine/godot)
 - [Docs](https://docs.godotengine.org/en/stable/)
