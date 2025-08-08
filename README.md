@@ -1,27 +1,12 @@
 # Top of Mind
 - [Go make games!](https://docs.google.com/presentation/d/1i-RZGlzN65DgH-2sKYvK31pYVswlGjqj9AYbDTiazo0/edit?usp=drivesdk)
-- https://bit.ly/xrmvp
-- **Our final will be on Thursday 5/8 1:30- 3:30. Attendance is mandatory.**
--  Please submit any missing work by midnight tonight (4/29)!
--  There is a new [extra credit assignement](/Assignments/WalkingSim.md) you can turn in by the final (5/8)
-- Continue developing your [Capstone Games](/Assignments/Capstone/Capstone_Game.md) and turn them in by 11:59pm 5/8
-  - [Submit your project to the game jam](https://itch.io/jam/fclc-ivgd-2540-spring-game-jam)
-- **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
-
-## Previous Content
-  - [Hello 3D Pt. 1](https://www.youtube.com/live/YKmOb1VFDsQ)
-  - [Hello 3D Pt. 2](https://www.youtube.com/live/fMbfi5HR-uc)
-  - [AnimatedSprite2D and TilemapLayer](https://youtu.be/XVfVvY9WECU)
-  - [Spawning and UI (older video)](https://www.youtube.com/live/hFXZkFinWXU)
-  - [GWizz Main Menu Tutorial (very simple)](https://www.youtube.com/watch?v=vsKxB66_ngw)
-  - [Class Recording](https://youtu.be/XVfVvY9WECU)
-  - [Instantiating Objects](https://www.youtube.com/watch?v=Qs8oSGmhx-U) 
+- **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours) 
 
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
 - **Course Code:** CISC 2540
-- **Schedule:** Tuesdays and Fridays, 11:30 - 12:45 PM
+- **Schedule:** Tuesdays and Fridays, 1:00 - 2:15 PM
 - **Instructor:** John Bezark
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
@@ -45,13 +30,13 @@ The  work of the class consists of the following:
 | Assignment                                                                     | Description                                                                | Due Date                     | Points        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
-| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 1/28                         | 16            |
-| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 2/7                          | 10            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/10, 2/21, 2/25, 3/28       | 24            |
-| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 2/14                         | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/14                         | 25            |
-| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game               | 4/1                          | 10            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/22                         | 10            |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 9/13                         | 16            |
+| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 9/20                         | 10            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/24, 10/1, 10/11, 11/8     | 24            |
+| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 9/27                         | 10            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 10/25                        | 25            |
+| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game               | 11/5                         | 10            |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/3                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
@@ -69,57 +54,50 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 1 - What is a Game?
 
-
-### Tuesday 1/14
+### Friday 8/29 (First class)
 
 - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
-- [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
+- [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I'm giving you too much homework!
 
 - Who are you/Syllabus Review
 - Professor John
 - Game Design Fundamentals
 
-### Friday 1/17
-- The Iterative Game Design Process 20
+### Tuesday 9/2
+- The Iterative Game Design Process
 - Prototyping
 - Playtesting
 - Group Work
-
 
 - **Homework: [Game Review](/Assignments/Game_Review.md)**
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 
 ## Week 2 - Prototyping and Iteration
-### Tuesday 1/21
+### Friday 9/6
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
 - Reading: [MDA](/Readings/MDA.pdf)
 - MDA Framework
 - Systems, Loops and Balance
 
-### Friday 1/24
+## Week 3 - Playtesting
+
+### Tuesday 9/10
 - Playtesting
 - Group Work
 
-## Week 3  Playtesting
-
-### Tuesday 1/28
+### Friday 9/13
 - Playtesting
 - [Git Init](/Modules/2D/Fundamentals/GitInit.md)
-- **DUE: Tabletop Game**
-
-### Friday 1/31
-- Playtesting
 - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
-- [Git Init](/Modules/2D/Fundamentals/GitInit.md)
+- **DUE: Tabletop Game**
 - **Homework: [Tabletop Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)**
-
 
 ---
 
 ## Week 4 - Hello Godot Getting Started in 2D
 
-### Tuesday 2/4
+### Tuesday 9/17
 - Hello Godot
   - Getting started with Godot
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
@@ -127,8 +105,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 
-
-### Friday 2/7
+### Friday 9/20
 - Nodes and Scenes
 
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
@@ -140,15 +117,14 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 5 - Coding Fundamentals
 
-### Tuesday 2/11
+### Tuesday 9/24
 - Git Collaboration and Branches
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
 - **DUE: Lab 1**
 
-### Friday 2/14
-
+### Friday 9/27
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
@@ -158,11 +134,9 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 6 – Input, Interactions and Patterns
 
-### Tuesday 2/18 - NO CLASS!
-
-### Friday 2/21
+### Tuesday 10/1
 - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
-- Lab Review - 20
+- Lab Review
 
 - Input map
 
@@ -173,31 +147,20 @@ The course is split into 3 distinct modules each with a unique project:
 
 - Functions/Signals
 
-
 - **DUE: Lab 2**
+
+### Friday 10/4
+- Continue with nodes and interactions
+- Project development time
 
 ## Week 7 - Level, Environment and UI Design
 
-### Tuesday 2/25
-- [Class Recording](https://www.youtube.com/live/LREOPvO_CyA)
+### Tuesday 10/8
 - Area2D Review
-
 - CharacterBody
 - CollisionShapes
 
-- Assets
-  - Tilemaps
-  - Sprite Sheets
-  - Paralax layers
-  - Where to find assets
-    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
-    - [Kenny](https://kenney.nl/assets)
-    - [Noun Project](https://thenounproject.com/)
-    - [Dotown](https://dotown.maeda-design-room.net/)
-    - [Open Game Art](https://opengameart.org/)
-
-### Friday 2/28
-
+### Friday 10/11
 - Assets
   - Tilemaps
   - Sprite Sheets
@@ -210,7 +173,7 @@ The course is split into 3 distinct modules each with a unique project:
     - [Open Game Art](https://opengameart.org/)
 
 - [2D Components](/Modules/2D/2D_Components/)
-- Common Patterns (Time permitting)
+- Common Patterns
   - Items 
   - Enemies
   - Checkpoints
@@ -221,23 +184,22 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 8 - Project Development/Playtesting 
 
-### Tuesday 3/4
+### Tuesday 10/15
 - Control Nodes
 - Sound
 - Lighting
 - Project Development
 
-### Friday 3/7
+### Friday 10/18
 - Project Development
 - Playtesting
----
 
 ## Week 9 - Project Development
 
-### Tuesday 3/11
+### Tuesday 10/22
 - Project Development
 
-### Friday 3/14
+### Friday 10/25
 - Playtesting day! Woo hoo!
 
 - **DUE: 2D Game**
@@ -245,18 +207,14 @@ The course is split into 3 distinct modules each with a unique project:
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
 
-## SPRING BREAK
-
 ## Week 10 - Hello 3D 
 
-### Tuesday 3/25 
+### Tuesday 10/29
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
-
 - Hello 3D
 
-### Friday 3/28
+### Friday 11/1
 - Hello 3D
-
 - Materials, Models
 - Light, Sound
 
@@ -266,55 +224,53 @@ The course is split into 3 distinct modules each with a unique project:
 
 - **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 
-## Week 11 Capstone Presentations
+## Week 11 - Capstone Presentations
 
-
-### Tuesday 4/1
+### Tuesday 11/5
 - Capstone presentations 
 
-### Friday 4/4
-
+### Friday 11/8
 - Capstone presentations 
 - **DUE: Lab 4**
 
-## Week 12 Advanced Topics 
-### Tuesday 4/8
+## Week 12 - Advanced Topics 
+### Tuesday 11/12
 - Finish Presentations
-
 - Classes, Resources
 - Debugging
 - NPCs
 
-### Friday 4/10
-- Cancelled
-
-## Week 13  
+### Friday 11/15
 - Exporting
   - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
-
-### Tuesday 4/15
 - Review
 
-### Friday 4/18 NO CLASS EASTER
+## Week 13 - Thanksgiving Week
+### Tuesday 11/19
+- Review
 
+### Friday 11/22 - NO CLASS (Thanksgiving Break)
 
 ## Week 14 - Review
 
-### Tuesday 4/22
+### Tuesday 11/26
 - Review
-### Friday 4/25
-- Review 
+
+### Friday 11/29 - NO CLASS (Thanksgiving Break)
+
+## Week 15 - Final Projects
+
+### Tuesday 12/3
 - **DUE: Final project playtest**
+- Review 
 
-## Week 15 - Playtesting and Beyond
-
-### Tuesday 4/29 
+### Friday 12/6
 - Review
-
-
-## Thursday 5/8 1:30 - 3:30 Final
-- **DUE: Capstone Project**
 - Preparing for the Game Industry: Portfolio and Career Paths
+
+## Finals Week
+### TBD - Final Exam Period
+- **DUE: Capstone Project**
 
 
 # **Necessary Materials:**
