@@ -47,12 +47,11 @@ All assignments will be graded on the due date. Students are always allowed to r
 # **Course Outline**
 
 The course is split into 3 distinct modules each with a unique project:
-- Week 1-3: Game Design Fundamentals and tabletop design
-- Week 4-10: 2D Game Design
-- Week 10-14: 3D Game Design/Final Project Development
+- Week 1-2: Game Design Fundamentals and tabletop design
+- Week 3-8: 2D Game Design
+- Week 9-14: 3D Game Design/Final Project Development
 
 
-## Week 1 - What is a Game?
 
 ### Friday 8/29 (First class)
 
@@ -63,6 +62,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Professor John
 - Game Design Fundamentals
 
+## Week 1 - What is a Game?
 ### Tuesday 9/2
 - The Iterative Game Design Process
 - Prototyping
@@ -72,7 +72,6 @@ The course is split into 3 distinct modules each with a unique project:
 - **Homework: [Game Review](/Assignments/Game_Review.md)**
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 
-## Week 2 - Prototyping and Iteration
 ### Friday 9/5
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
@@ -80,7 +79,7 @@ The course is split into 3 distinct modules each with a unique project:
 - MDA Framework
 - Systems, Loops and Balance
 
-## Week 3 - Playtesting
+## Week 2 - Prototyping,  Iteration and Playtesting
 
 ### Tuesday 9/10
 - Playtesting
@@ -95,7 +94,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 ---
 
-## Week 4 - Hello Godot Getting Started in 2D
+## Week 3 - Hello Godot Getting Started in 2D
 
 ### Tuesday 9/17
 - Hello Godot
@@ -115,7 +114,7 @@ The course is split into 3 distinct modules each with a unique project:
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
-## Week 5 - Coding Fundamentals
+## Week 4 - Coding Fundamentals
 
 ### Tuesday 9/24
 - Git Collaboration and Branches
@@ -132,7 +131,7 @@ The course is split into 3 distinct modules each with a unique project:
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 - **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 
-## Week 6 – Input, Interactions and Patterns
+## Week 5 – Input, Interactions and Patterns
 
 ### Tuesday 10/1
 - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
@@ -153,7 +152,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Continue with nodes and interactions
 - Project development time
 
-## Week 7 - Level, Environment and UI Design
+## Week 6 - Level, Environment and UI Design
 
 ### Tuesday 10/8
 - Area2D Review
@@ -182,7 +181,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 - **DUE: Lab 3**
 
-## Week 8 - Project Development/Playtesting 
+## Week 7 - Project Development/Playtesting 
 
 ### Tuesday 10/15
 - Control Nodes
@@ -194,7 +193,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Project Development
 - Playtesting
 
-## Week 9 - Project Development
+## Week 8 - Project Development
 
 ### Tuesday 10/22
 - Project Development
@@ -207,7 +206,7 @@ The course is split into 3 distinct modules each with a unique project:
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
 
-## Week 10 - Hello 3D 
+## Week 9 - Hello 3D 
 
 ### Tuesday 10/29
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
@@ -224,7 +223,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 - **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 
-## Week 11 - Capstone Presentations
+## Week 10 - Capstone Presentations
 
 ### Tuesday 11/5
 - Capstone presentations 
@@ -233,7 +232,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Capstone presentations 
 - **DUE: Lab 4**
 
-## Week 12 - Advanced Topics 
+## Week 11 - Advanced Topics 
 ### Tuesday 11/12
 - Finish Presentations
 - Classes, Resources
@@ -245,20 +244,20 @@ The course is split into 3 distinct modules each with a unique project:
   - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 - Review
 
-## Week 13 - Thanksgiving Week
+## Week 12 - Thanksgiving Week
 ### Tuesday 11/19
 - Review
 
 ### Friday 11/22 - NO CLASS (Thanksgiving Break)
 
-## Week 14 - Review
+## Week 13 - Review
 
 ### Tuesday 11/26
 - Review
 
 ### Friday 11/29 - NO CLASS (Thanksgiving Break)
 
-## Week 15 - Final Projects
+## Week 14 - Final Projects
 
 ### Tuesday 12/3
 - **DUE: Final project playtest**
