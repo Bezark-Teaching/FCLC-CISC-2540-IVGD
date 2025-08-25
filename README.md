@@ -32,10 +32,10 @@ The  work of the class consists of the following:
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 9/13                         | 16            |
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 9/20                         | 10            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/24, 10/1, 10/11, 11/8     | 24            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/24, 10/1, 10/11, 11/8      | 24            |
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 9/27                         | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 10/25                        | 25            |
-| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game               | 11/5                         | 10            |
+| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | 11/5                         | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/3                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
@@ -73,7 +73,7 @@ The course is split into 3 distinct modules each with a unique project:
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 
 ## Week 2 - Prototyping and Iteration
-### Friday 9/6
+### Friday 9/5
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
 - Reading: [MDA](/Readings/MDA.pdf)
