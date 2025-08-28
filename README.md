@@ -30,8 +30,8 @@ The  work of the class consists of the following:
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/23, 9/30, 10/10, 11/7      | 24            |
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 9/26                         | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 10/24                        | 25            |
-| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | 11/5                         | 10            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/3                         | 10            |
+| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | 11/11                        | 10            |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/5                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
@@ -275,6 +275,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Friday 12/5
 - **DUE: Final project playtest**
+- **DUE: Game Review**
 
 ## Final 
 ### Friday 12/12
