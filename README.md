@@ -1,3 +1,7 @@
+# Top of Mind
+- Please read [this brief article](/Readings/MDA.pdf) before next class.
+- Continue working in your groups on your tabtleop game project!
+
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
 - **Course Code:** CISC 2540
