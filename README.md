@@ -1,5 +1,5 @@
 # Top of Mind
-- I have extended the due date fo your [Process papers](/Assignments/Tabletop/TableTop_Process_Paper) to 9/23 but please begin writing them!
+- I have extended the due date for your [Process papers](/Assignments/Tabletop/TableTop_Process_Paper) to 9/23 but please begin writing them!
 - Please download and install the [Godot Game Engine](https://godotengine.org/download/) and bring in a computer to class on friday.
   - If you don't have access to a laptop you can use the computers that are hidden in our classroom!
   - If you would rather use an iPad or even an iPhone you should download [Xogot](https://xogot.com/). This is an iPad port of Godot and can do everything the regular engine can, even though it looks substantially different from the regular editor. Just know that it will probably be easier to learn the engine on a standard installation because it will look closer to what I am demonstrating.
