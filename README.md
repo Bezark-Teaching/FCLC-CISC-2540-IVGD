@@ -1,6 +1,8 @@
 # Top of Mind
-- Please read [this brief article](/Readings/MDA.pdf) before next class.
-- Continue working in your groups on your tabtleop game project!
+- I have extended the due date fo your [Process papers](/Assignments/Tabletop/TableTop_Process_Paper) to 9/23 but please begin writing them!
+- Please download and install the [Godot Game Engine](https://godotengine.org/download/) and bring in a computer to class on friday.
+  - If you don't have access to a laptop you can use the computers that are hidden in our classroom!
+  - If you would rather use an iPad or even an iPhone you should download [Xogot](https://xogot.com/). This is an iPad port of Godot and can do everything the regular engine can, even though it looks substantially different from the regular editor. Just know that 
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
@@ -30,7 +32,7 @@ The  work of the class consists of the following:
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 9/12                         | 16            |
-| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 9/19                         | 10            |
+| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 9/23                         | 10            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/23, 9/30, 10/10, 11/7      | 24            |
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 9/26                         | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 10/24                        | 25            |
