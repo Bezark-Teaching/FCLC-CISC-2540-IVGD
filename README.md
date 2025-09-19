@@ -2,6 +2,7 @@
 - [Process papers](/Assignments/Tabletop/TableTop_Process_Paper.md) are due on 9/23!
 - [Lab 1](/Assignments/Labs/Lab_1.md) is due on 9/26.
 - Feel free to review today's lecture in this [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). It was recorded before 4.5 so is missing the game tab stuff, but is otherwise still relevant
+- If you're confused by anything, swing by my remote **Office Hours** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
