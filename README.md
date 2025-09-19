@@ -1,8 +1,7 @@
 # Top of Mind
-- I have extended the due date for your [Process papers](/Assignments/Tabletop/TableTop_Process_Paper) to 9/23 but please begin writing them!
-- Please download and install the [Godot Game Engine](https://godotengine.org/download/) and bring in a computer to class on friday.
-  - If you don't have access to a laptop you can use the computers that are hidden in our classroom!
-  - If you would rather use an iPad or even an iPhone you should download [Xogot](https://xogot.com/). This is an iPad port of Godot and can do everything the regular engine can, even though it looks substantially different from the regular editor. Just know that it will probably be easier to learn the engine on a standard installation because it will look closer to what I am demonstrating.
+- [Process papers](/Assignments/Tabletop/TableTop_Process_Paper.md) are due on 9/23!
+- [Lab 1](/Assignments/Labs/Lab_1.md) is due on 9/26.
+- Feel free to review today's lecture in this [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). It was recorded before 4.5 so is missing the game tab stuff, but is otherwise still relevant
 
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
@@ -33,7 +32,7 @@ The  work of the class consists of the following:
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 9/12                         | 16            |
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 9/23                         | 10            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/23, 9/30, 10/10, 11/7      | 24            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/26, 9/30, 10/10, 11/7      | 24            |
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 9/26                         | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 10/24                        | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | 11/11                        | 10            |
@@ -98,6 +97,9 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 3 - Hello Godot Getting Started in 2D
 
 ### Tuesday 9/16 - Nodes and Scenes Demo
+- Playtesting
+
+### Friday 9/19 - Nodes and Scenes Workshop
 - Hello Godot - **Live Demo (Students Follow Along)**
   - Getting started with Godot
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
@@ -106,45 +108,35 @@ The course is split into 3 distinct modules each with a unique project:
 
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 
-### Friday 9/19 - Nodes and Scenes Workshop
-- **In-Class Exercise**: Modify Tuesday's scene
-  - Nodes and Scenes practice
-  - Add your own sprites and experiment with node hierarchy
-  - Mini-presentations: "Show what you changed"
+## Week 4 - Coding Fundamentals
 
+### Tuesday 9/23 - Coding Fundamentals Demo
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
 
+- Git Collaboration and Branches
 - **DUE: Process Paper**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
-## Week 4 - Coding Fundamentals
-
-### Tuesday 9/23 - Coding Fundamentals Demo
-- Git Collaboration and Branches
-- **Live Coding Demo (Students Follow Along)**
-  - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
+### Friday 9/26 - Coding Fundamentals Workshop
+- [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
   - Create a moving character together using simple_character example
 - [GDScript in 1 Hour](https://www.youtube.com/watch?v=e1zJS31tr88)
-- **DUE: Lab 1**
 
-### Friday 9/26 - Coding Fundamentals Workshop
-- **In-Class Coding Exercise**: Expand your character
-  - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-  - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
-  - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
-  - Challenge: "Make your character do something new"
-  - Pairs
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 - **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
+- **DUE: Lab 1**
 
 ## Week 5 – Input, Interactions and Patterns
 
 ### Tuesday 9/30 - Input and Interactions Demo
+  - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+  - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
+  - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
 - **Live Demo (Students Follow Along)**
   - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
   - Lab Review

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b3yj25vpji538"]
+
+[node name="Tree" type="ColorRect"]
+offset_left = -136.0
+offset_top = -113.0
+offset_right = 188.0
+offset_bottom = 103.0
+color = Color(0.07452249, 0.21283141, 0.11828736, 1)
+
+[node name="Trunk" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 131.0
+offset_top = 202.0
+offset_right = 201.0
+offset_bottom = 432.0
+color = Color(0.5058824, 0.3529412, 0.28235295, 1)

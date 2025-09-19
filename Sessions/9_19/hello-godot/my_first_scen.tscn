@@ -1,0 +1,59 @@
+[gd_scene load_steps=4 format=3 uid="uid://b2akquc4xdldb"]
+
+[ext_resource type="Texture2D" uid="uid://d1itfl2mlmr53" path="res://baby-cat-png-12.png" id="1_36k0o"]
+[ext_resource type="Texture2D" uid="uid://dccey7tg0736" path="res://icon.svg" id="2_n3uyj"]
+[ext_resource type="PackedScene" uid="uid://b3yj25vpji538" path="res://tree.tscn" id="3_sqaj0"]
+
+[node name="Cat" type="Sprite2D"]
+position = Vector2(190, 265)
+texture = ExtResource("1_36k0o")
+
+[node name="Robot" type="Sprite2D" parent="."]
+position = Vector2(375, -70)
+texture = ExtResource("2_n3uyj")
+
+[node name="Robot2" type="Sprite2D" parent="Robot"]
+position = Vector2(-42, 196)
+texture = ExtResource("2_n3uyj")
+
+[node name="Robot2" type="Sprite2D" parent="."]
+position = Vector2(671, -32)
+texture = ExtResource("2_n3uyj")
+
+[node name="Robot2" type="Sprite2D" parent="Robot2"]
+position = Vector2(-42, 196)
+texture = ExtResource("2_n3uyj")
+
+[node name="Tree" parent="." instance=ExtResource("3_sqaj0")]
+offset_left = 765.0
+offset_top = -412.0
+offset_right = 1089.0
+offset_bottom = -196.0
+
+[node name="Tree2" parent="." instance=ExtResource("3_sqaj0")]
+offset_left = -371.0
+offset_top = -512.0
+offset_right = -47.0
+offset_bottom = -296.0
+
+[node name="Tree3" parent="." instance=ExtResource("3_sqaj0")]
+offset_left = 376.0
+offset_top = -607.0
+offset_right = 700.0
+offset_bottom = -391.0
+
+[node name="Tree5" parent="." instance=ExtResource("3_sqaj0")]
+offset_left = -703.0
+offset_top = -433.0
+offset_right = -379.0
+offset_bottom = -217.0
+
+[node name="Camera2D" type="Camera2D" parent="Tree5"]
+position = Vector2(841, 278)
+zoom = Vector2(0.4, 0.4)
+
+[node name="Tree4" parent="." instance=ExtResource("3_sqaj0")]
+offset_left = -514.0
+offset_top = 16.0
+offset_right = -190.0
+offset_bottom = 232.0
