@@ -115,7 +115,10 @@ The course is split into 3 distinct modules each with a unique project:
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Modules/2D/2D_Brainstorming.md)
 
-- Git Collaboration and Branches
+- Github Accounts
+- Cloning
+- Comitting and pushing
+- Repo Creation
 - **DUE: Process Paper**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
