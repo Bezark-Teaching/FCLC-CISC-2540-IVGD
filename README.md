@@ -34,7 +34,7 @@ The  work of the class consists of the following:
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 9/12                         | 16            |
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 9/23                         | 10            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/26, 9/30, 10/10, 11/7      | 24            |
-| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 9/26                         | 10            |
+| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 9/30                         | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 10/24                        | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | 11/11                        | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/5                         | 10            |
@@ -111,16 +111,16 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 4 - Coding Fundamentals
 
-### Tuesday 9/23 - Coding Fundamentals Demo
+### Tuesday 9/23 - Github and Genres
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
-  - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
+  - [2D Game Brainstorming](/Modules/2D/2D_Brainstorming.md)
 
 - Git Collaboration and Branches
 - **DUE: Process Paper**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
-### Friday 9/26 - Coding Fundamentals Workshop
+### Friday 9/26 - Coding Fundamentals 
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
