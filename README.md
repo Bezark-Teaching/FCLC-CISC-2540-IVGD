@@ -1,9 +1,14 @@
 # Top of Mind
-- [Process papers](/Assignments/Tabletop/TableTop_Process_Paper.md) are due on 9/23!
-- [Lab 1](/Assignments/Labs/Lab_1.md) is due on 9/26.
-- Feel free to review today's lecture in this [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). It was recorded before 4.5 so is missing the game tab stuff, but is otherwise still relevant
-- If you're confused by anything, swing by my remote **Office Hours** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
+- Your [Concept Papers](/Assignments/2D/2D_Concept.md) are due on Tuesday.
+- [Lab 2](/Assignments/Labs/Lab_3.md) is due on 10/3.
+- Helpful Video Tutorials
+  - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+  - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
+  - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
+  - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
 
+- If you're confused by anything, swing by my remote **Office Hours** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
+  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). It was recorded before 4.5 so is missing the game tab stuff, but is otherwise still relevant
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
 - **Course Code:** CISC 2540
@@ -33,7 +38,7 @@ The  work of the class consists of the following:
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 9/12                         | 16            |
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 9/23                         | 10            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/26, 9/30, 10/10, 11/7      | 24            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/26, 10/3, 10/10, 11/7      | 24            |
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 9/30                         | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 10/24                        | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | 11/11                        | 10            |
@@ -140,7 +145,6 @@ The course is split into 3 distinct modules each with a unique project:
   - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
   - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
   - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
-- **Live Demo (Students Follow Along)**
   - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
   - Lab Review
   - Input map
