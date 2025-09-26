@@ -27,14 +27,21 @@ You can always:
 
 ```gdscript
 var x = 1
+print(x)
+
+#will print out "1"
+```
+
+---
+
+```gdscript
+var x = 1
 x = x + 1
 print(x)
 
 #will print out "2"
 ```
-
 ---
-
 #### Functions
 - If Nodes are nouns, functions are verbs
   - they *do* things.
@@ -99,6 +106,8 @@ You can make your own functions, or use functions built in to your environment.
 - In Godot we use a language called gd-script.
    This is custom made for godot, but is very similar to python.
 - Scripts are attached to nodes.
+
+---
 
 #### There are 3 fundamental functions that all nodes have.
    _ready()

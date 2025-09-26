@@ -124,14 +124,13 @@ The course is split into 3 distinct modules each with a unique project:
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
 ### Friday 9/26 - Coding Fundamentals 
-- [Coding Fundamentals](Resources/Coding_Fundamentals.md)
+- [Coding Fundamentals](/Modules/2D/2-CodingFundamentals/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
   - Create a moving character together using simple_character example
 - [GDScript in 1 Hour](https://www.youtube.com/watch?v=e1zJS31tr88)
 
-- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
-- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
+- **Homework: [Lab 2](/Assignments/Labs/Lab_3.md)**
 - **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **DUE: Lab 1**
 
@@ -151,6 +150,7 @@ The course is split into 3 distinct modules each with a unique project:
     - Timer 
   - Functions/Signals
 - **DUE: Lab 2**
+- **Homework: [Lab 3](/Assignments/Labs/Lab_2.md)**
 
 ### Friday 10/3 - Input and Interactions Workshop
 - **In-Class Exercise**: Choose and implement a game pattern
