@@ -1,18 +1,14 @@
-## Lab 2: Scripts and Conditionals
+## Lab 3: Collective Edits
+The following lab is a group project to be completed with you 2D game design group. The lab will be graded pass fail and everyone in the group will receive the same grade. Work together!
 
-Please complete the following exercise:
+Please create a Github Repository that:
+- Lists each group member as a collaborator
+- Has a godot project with a scene created by each collaborator. 
+- Has at least one branch (optional) 
 
-Create a 2D godot project that has:
-  - A godot project in a github repository (can be the same repository from last week)
-  - A node with a script that:
-    - Has an exported variable
-    - Uses conditional logic (`if`, `else`, or `elif`)
-    - Responds to user input with `Input`
+Submit the link to the repository page on blackboard.
 
-Upload that project to github and submit the link to the repository page here on blackboard
+This repository can (and probably should!) evolve into your 2D game repository. Getting this workflow established will really help you with that project.
 
 ## Grading
-- 1 Point for submitting anything on Github
-- 1 Point for having an exported variable
-- 2 point for a node with conditional logic
-- 2 point for a node that responds to user input (key press, mouse press, mouse move etc.)
+- 6 points for meeting the above criteria

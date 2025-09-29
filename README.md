@@ -1,6 +1,6 @@
 # Top of Mind
 - Your [Concept Papers](/Assignments/2D/2D_Concept.md) are due on Tuesday.
-- [Lab 2](/Assignments/Labs/Lab_3.md) is due on 10/3.
+- [Lab 2](/Assignments/Labs/Lab_2.md) is due on 10/3.
 - Helpful Video Tutorials
   - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
   - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
