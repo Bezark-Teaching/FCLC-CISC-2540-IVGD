@@ -142,19 +142,19 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 5 – Input, Interactions and Patterns
 
 ### Tuesday 9/30 - Input and Interactions Demo
-  - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-  - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
-  - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
-  - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
-  - Lab Review
+  - Coding Input and Conditional Review
+    - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+    - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
+    - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
+    - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
   - Input map
+
   - Using Nodes together - build item pickup mechanic together
     - Area2D
     - Camera2D
     - Timer 
-  - Functions/Signals
-- **DUE: Lab 2**
-- **Homework: [Lab 3](/Assignments/Labs/Lab_2.md)**
+
+  - Shared Repos
 
 ### Friday 10/3 - Input and Interactions Workshop
 - **In-Class Exercise**: Choose and implement a game pattern
@@ -162,6 +162,10 @@ The course is split into 3 distinct modules each with a unique project:
   - Options: Timer challenges, Camera following, or Enemy behavior
   - Use existing demo projects as reference
   - Project development time
+
+  - Functions/Signals
+- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
+- **DUE: Lab 2**
 
 ## Week 6 - Level, Environment and UI Design
 
