@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://bv262y8eyxc0r"]
+
+[ext_resource type="Texture2D" uid="uid://daxpolymj1jk1" path="res://Mossy Tileset/Mossy - Decorations&Hazards.png" id="1_nmjpi"]
+[ext_resource type="PackedScene" uid="uid://c4a86lt1w2ko3" path="res://player.tscn" id="2_xdadj"]
+
+[node name="Level2" type="Node2D"]
+
+[node name="Background" type="Node2D" parent="."]
+modulate = Color(1, 0.18431373, 0.62352943, 1)
+position = Vector2(216, 156.99998)
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="MossyDecorations&hazards" type="Sprite2D" parent="Background"]
+position = Vector2(289.00006, 197.00005)
+scale = Vector2(0.27081192, 0.27081192)
+texture = ExtResource("1_nmjpi")
+region_enabled = true
+region_rect = Rect2(2863.5, -18.367188, 1232.5, 973.89844)
+
+[node name="MossyDecorations&hazards2" type="Sprite2D" parent="Background"]
+position = Vector2(504.00012, -86.999985)
+scale = Vector2(0.27081192, 0.27081192)
+texture = ExtResource("1_nmjpi")
+region_enabled = true
+region_rect = Rect2(2863.5, -18.367188, 1232.5, 973.89844)
+
+[node name="MossyDecorations&hazards3" type="Sprite2D" parent="Background"]
+position = Vector2(669, 147.00005)
+scale = Vector2(0.27081192, 0.27081192)
+texture = ExtResource("1_nmjpi")
+region_enabled = true
+region_rect = Rect2(2863.5, -18.367188, 1232.5, 973.89844)
+
+[node name="MossyDecorations&hazards4" type="Sprite2D" parent="Background"]
+position = Vector2(36.000122, 1.0000229)
+scale = Vector2(0.27081192, 0.27081192)
+texture = ExtResource("1_nmjpi")
+region_enabled = true
+region_rect = Rect2(2863.5, -18.367188, 1232.5, 973.89844)
+
+[node name="Player" parent="." instance=ExtResource("2_xdadj")]
+position = Vector2(502, 257)
