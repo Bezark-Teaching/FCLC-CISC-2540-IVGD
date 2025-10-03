@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://d4k0bab2j7u5"]
-
-[ext_resource type="PackedScene" uid="uid://boyo18icjibb3" path="res://robot.tscn" id="1_ig7tw"]
-
-[node name="Main" type="Node2D"]
-
-[node name="Robot" parent="." instance=ExtResource("1_ig7tw")]
-position = Vector2(624, 510)
-speed = 5

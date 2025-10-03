@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://c4a86lt1w2ko3"]
+
+[ext_resource type="Texture2D" uid="uid://mbc1wd6epac6" path="res://icon.svg" id="1_i3pqv"]
+[ext_resource type="Script" uid="uid://dti4yjxxv8ial" path="res://icon.gd" id="2_hqtel"]
+[ext_resource type="Texture2D" uid="uid://ee8mskj7blyc" path="res://heart-png--3100.png" id="3_sweqy"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_0hol4"]
+font_size = 45
+outline_size = 9
+outline_color = Color(0.12408299, 0.12408296, 0.12408296, 1)
+shadow_size = 23
+shadow_color = Color(0, 0, 0, 0.9254902)
+
+[node name="Player" type="Sprite2D"]
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("1_i3pqv")
+script = ExtResource("2_hqtel")
+
+[node name="Heart" type="Sprite2D" parent="."]
+position = Vector2(-517.99994, -263.99994)
+scale = Vector2(0.027985716, 0.027985709)
+texture = ExtResource("3_sweqy")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Label" type="Label" parent="."]
+offset_left = -449.00003
+offset_top = -299.0
+offset_right = -153.00006
+offset_bottom = -228.00002
+text = "Score = 100"
+label_settings = SubResource("LabelSettings_0hol4")

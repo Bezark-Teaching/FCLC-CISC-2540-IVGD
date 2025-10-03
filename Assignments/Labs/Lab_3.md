@@ -4,7 +4,7 @@ The following lab is a group project to be completed with you 2D game design gro
 Please create a Github Repository that:
 - Lists each group member as a collaborator
 - Has a godot project with a scene created by each collaborator. 
-- Has at least one branch (optional) 
+- Has a commit from each project member.
 
 Submit the link to the repository page on blackboard.
 

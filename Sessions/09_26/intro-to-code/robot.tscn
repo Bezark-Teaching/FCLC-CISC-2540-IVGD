@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://boyo18icjibb3"]
+
+[ext_resource type="Texture2D" uid="uid://dfi4oh15ie4ke" path="res://icon.svg" id="1_dfm56"]
+[ext_resource type="Script" uid="uid://bujjhdypm27wl" path="res://icon.gd" id="2_yhfw1"]
+
+[node name="Robot" type="Sprite2D"]
+texture = ExtResource("1_dfm56")
+script = ExtResource("2_yhfw1")

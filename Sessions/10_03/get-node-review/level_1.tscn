@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1fbap1bthojt"]
+
+[ext_resource type="PackedScene" uid="uid://c4a86lt1w2ko3" path="res://player.tscn" id="2_0e48y"]
+[ext_resource type="Texture2D" uid="uid://daxpolymj1jk1" path="res://Mossy Tileset/Mossy - Decorations&Hazards.png" id="3_epypp"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="Background" type="Node2D" parent="."]
+position = Vector2(216, 156.99998)
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="MossyDecorations&hazards" type="Sprite2D" parent="Background"]
+position = Vector2(290.99994, -51.000015)
+scale = Vector2(0.27081192, 0.27081192)
+texture = ExtResource("3_epypp")
+region_enabled = true
+region_rect = Rect2(2863.5, -18.367188, 1232.5, 973.89844)
+
+[node name="MossyDecorations&hazards2" type="Sprite2D" parent="Background"]
+position = Vector2(600, -56.999985)
+scale = Vector2(0.27081192, 0.27081192)
+texture = ExtResource("3_epypp")
+region_enabled = true
+region_rect = Rect2(2863.5, -18.367188, 1232.5, 973.89844)
+
+[node name="MossyDecorations&hazards3" type="Sprite2D" parent="Background"]
+position = Vector2(897, -56.999985)
+scale = Vector2(0.27081192, 0.27081192)
+texture = ExtResource("3_epypp")
+region_enabled = true
+region_rect = Rect2(2863.5, -18.367188, 1232.5, 973.89844)
+
+[node name="MossyDecorations&hazards4" type="Sprite2D" parent="Background"]
+position = Vector2(1194.0001, -80.999985)
+scale = Vector2(0.27081192, 0.27081192)
+texture = ExtResource("3_epypp")
+region_enabled = true
+region_rect = Rect2(2863.5, -18.367188, 1232.5, 973.89844)
+
+[node name="Player" parent="." instance=ExtResource("2_0e48y")]
+position = Vector2(216, 156.99998)
