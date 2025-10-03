@@ -1,6 +1,6 @@
 # Top of Mind
-- Your [Concept Papers](/Assignments/2D/2D_Concept.md) are due on Tuesday.
-- [Lab 2](/Assignments/Labs/Lab_2.md) is due on 10/3.
+- I have graded your concept papers. Please read my comments!
+- [Lab 3](/Assignments/Labs/Lab_3.md) is due on 10/10.
 - Helpful Video Tutorials
   - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
   - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
@@ -149,21 +149,22 @@ The course is split into 3 distinct modules each with a unique project:
     - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
   - Input map
 
+
+### Friday 10/3 - Input and Interactions Workshop
+  - Shared Repos
+    - Create
+    - Invite
+    - Clone
+    - Pull and Push
+    - Conflicts
+
   - Using Nodes together - build item pickup mechanic together
     - Area2D
     - Camera2D
     - Timer 
 
-  - Shared Repos
+  - Functions vs Signals
 
-### Friday 10/3 - Input and Interactions Workshop
-- **In-Class Exercise**: Choose and implement a game pattern
-  - Continue with nodes and interactions
-  - Options: Timer challenges, Camera following, or Enemy behavior
-  - Use existing demo projects as reference
-  - Project development time
-
-  - Functions/Signals
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 - **DUE: Lab 2**
 
@@ -174,7 +175,6 @@ The course is split into 3 distinct modules each with a unique project:
   - Area2D Review
   - CharacterBody
   - CollisionShapes
-  - Build a level with tilemap together using Platformer-Tilemap example
 
 ### Friday 10/10 - Level Design Workshop
 - **In-Class Exercise**: Add polish to your scenes

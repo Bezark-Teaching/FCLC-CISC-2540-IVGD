@@ -1,0 +1,66 @@
+[gd_scene load_steps=4 format=3 uid="uid://b2akquc4xdldb"]
+
+[ext_resource type="Texture2D" uid="uid://dccey7tg0736" path="res://icon.svg" id="2_n3uyj"]
+[ext_resource type="PackedScene" uid="uid://byo7f3j5he6gy" path="res://cat.tscn" id="3_sfl1o"]
+[ext_resource type="PackedScene" uid="uid://b3yj25vpji538" path="res://tree.tscn" id="3_sqaj0"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Robot" type="Sprite2D" parent="."]
+position = Vector2(565, 195)
+texture = ExtResource("2_n3uyj")
+
+[node name="Robot2" type="Sprite2D" parent="Robot"]
+position = Vector2(-42, 196)
+texture = ExtResource("2_n3uyj")
+
+[node name="Robot2" type="Sprite2D" parent="."]
+position = Vector2(861, 233)
+texture = ExtResource("2_n3uyj")
+
+[node name="Robot2" type="Sprite2D" parent="Robot2"]
+position = Vector2(-42, 196)
+texture = ExtResource("2_n3uyj")
+
+[node name="Tree" parent="." instance=ExtResource("3_sqaj0")]
+offset_left = 955.0
+offset_top = -147.0
+offset_right = 1279.0
+offset_bottom = 69.0
+
+[node name="Tree2" parent="." instance=ExtResource("3_sqaj0")]
+offset_left = 190.0
+offset_top = 265.0
+offset_right = 190.0
+offset_bottom = 265.0
+
+[node name="Tree3" parent="." instance=ExtResource("3_sqaj0")]
+offset_left = 566.0
+offset_top = -342.0
+offset_right = 890.0
+offset_bottom = -126.0
+
+[node name="Tree5" parent="." instance=ExtResource("3_sqaj0")]
+offset_left = -513.0
+offset_top = -168.0
+offset_right = -189.0
+offset_bottom = 48.0
+
+[node name="Camera2D" type="Camera2D" parent="Tree5"]
+position = Vector2(841, 278)
+zoom = Vector2(0.4, 0.4)
+
+[node name="Tree4" parent="." instance=ExtResource("3_sqaj0")]
+offset_left = -324.0
+offset_top = 281.0
+offset_right = 0.0
+offset_bottom = 497.0
+
+[node name="Cat" parent="." instance=ExtResource("3_sfl1o")]
+position = Vector2(1, 79)
+
+[node name="Cat2" parent="." instance=ExtResource("3_sfl1o")]
+position = Vector2(663, 317)
+
+[node name="Cat3" parent="." instance=ExtResource("3_sfl1o")]
+position = Vector2(-7, 615)
