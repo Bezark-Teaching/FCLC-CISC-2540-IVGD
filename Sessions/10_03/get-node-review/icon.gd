@@ -29,11 +29,30 @@ func _process(delta: float) -> void:
 		print("I jumped!")
 		score += 1
 		print(score)
-		var score_label = get_node("Label")
-		score_label.text = str("Score = ",score)
+		#var score_label = get_node("Label")
+		#score_label.text = str("Score = ",score)
+		
+		$Label.text = "woo hoo!"
 		
 		$Heart.hide()
 
 	
 	#if position.x >= screen_width or position.x <= 0 or position.y >= screen_height or position.y <= 0:
 		print("i'm off screen")
+
+
+func _on_collectible_area_entered(area: Area2D) -> void:
+	score += 1
+	print(score)
+	var score_label = get_node("Label")
+	score_label.text = str("Score = ",score)
+		
+
+
+func _on_collectible_2_area_entered(area: Area2D) -> void:
+	print('I found the second thing!')
+	pass # Replace with function body.
+
+
+func _on_collectible_item_collected() -> void:
+	print('i collected something')
