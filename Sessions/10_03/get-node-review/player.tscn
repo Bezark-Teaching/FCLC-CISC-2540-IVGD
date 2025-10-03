@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://c4a86lt1w2ko3"]
+[gd_scene load_steps=6 format=3 uid="uid://c4a86lt1w2ko3"]
 
 [ext_resource type="Texture2D" uid="uid://mbc1wd6epac6" path="res://icon.svg" id="1_i3pqv"]
 [ext_resource type="Script" uid="uid://dti4yjxxv8ial" path="res://icon.gd" id="2_hqtel"]
@@ -10,6 +10,9 @@ outline_size = 9
 outline_color = Color(0.12408299, 0.12408296, 0.12408296, 1)
 shadow_size = 23
 shadow_color = Color(0, 0, 0, 0.9254902)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i3pqv"]
+size = Vector2(130, 120)
 
 [node name="Player" type="Sprite2D"]
 scale = Vector2(0.99999994, 0.99999994)
@@ -30,3 +33,10 @@ offset_right = -153.00006
 offset_bottom = -228.00002
 text = "Score = 100"
 label_settings = SubResource("LabelSettings_0hol4")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(2.0000055, -2.0000017)
+scale = Vector2(0.9999999, 0.9999999)
+shape = SubResource("RectangleShape2D_i3pqv")
