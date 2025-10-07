@@ -1,4 +1,8 @@
 # Top of Mind
+- The 2D Game is now due on 10/31
+  - We will do a playtest on 10/24
+  - There will be no in person class on 10/28
+
 - I have graded your concept papers. Please read my comments!
 - [Lab 3](/Assignments/Labs/Lab_3.md) is due on 10/10.
 - Helpful Video Tutorials
@@ -40,7 +44,7 @@ The  work of the class consists of the following:
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | 9/23                         | 10            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/26, 10/3, 10/10, 11/7      | 24            |
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 9/30                         | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 10/24                        | 25            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 10/31                        | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | 11/11                        | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/5                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
@@ -171,23 +175,26 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 6 - Level, Environment and UI Design
 
 ### Tuesday 10/7 - Level Design Demo
-- **Live Demo (Students Follow Along)**
   - Area2D Review
-  - CharacterBody
   - CollisionShapes
+  - StaticBody
+  - RigidBody
 
-### Friday 10/10 - Level Design Workshop
-- **In-Class Exercise**: Add polish to your scenes
   - Assets
     - Tilemaps
     - Sprite Sheets
-    - Paralax layers
     - Where to find assets
+      - [Itc.io](https://itch.io)
       - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
       - [Kenny](https://kenney.nl/assets)
       - [Noun Project](https://thenounproject.com/)
       - [Dotown](https://dotown.maeda-design-room.net/)
       - [Open Game Art](https://opengameart.org/)
+
+  - CharacterBody?
+
+### Friday 10/10 - Level Design Workshop
+  - Paralax layers
 
   - [2D Components](/Modules/2D/2D_Components/)
   - Common Patterns
@@ -202,9 +209,14 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 7 - Project Development/Playtesting 
 
 ### Tuesday 10/14
-- Control Nodes
-- Sound
-- Lighting
+- User Interface
+  - Control Nodes
+
+- Polish
+  - Sound
+  - Lighting
+  - Particles
+
 - Project Development
 
 ### Friday 10/17
@@ -219,41 +231,35 @@ The course is split into 3 distinct modules each with a unique project:
 ### Friday 10/24
 - Playtesting day! Woo hoo!
 
-- **DUE: 2D Game**
-
-
 ## Week 9 - Hello 3D 
 
-### Tuesday 10/28
+### Tuesday 10/28 - NO IN PERSON CLASS
+
+### Friday 10/31 SPOOOOKY HALLOWEEN!!! SPOOOOKY 3DDDDDD!!!!!
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 - Hello 3D
+- Materials, Models
 
 - **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
+- **DUE: 2D Game**
 
-### Friday 10/31 SPOOOOKY HALLOWEEN!!! (Maybe no class???)
-- Hello 3D
-- Materials, Models
+## Week 10 - Advanced 3D Topics
+
+### Tuesday 11/4
 - Light, Sound
 - [Lighting in Godot](https://www.youtube.com/watch?v=aRdiiWpA0AA)
 
+
+### Friday 11/7
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
   - [Character Animation Combiner](https://nilooy.github.io/character-animation-combiner/)
 
-
-## Week 10 - XR Advanced Topics
-
-### Tuesday 11/4
-- XR workshop
-
-### Friday 11/7
-- XR workshop
-- **DUE: Lab 4**
-
 ## Week 11 -  Capstone Presentations
 ### Tuesday 11/11
+- **DUE: Lab 4**
 - **DUE: Capstone Presentation**
 
 ### Friday 11/14
@@ -263,17 +269,20 @@ The course is split into 3 distinct modules each with a unique project:
 - Exporting
   - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 - Review
+
 ### Tuesday 11/18
 - Classes, Resources
 - Debugging
 - NPCs
 
 ### Friday 11/21
+- XR workshop
 - Review
 
 ## Week 13 - Review
 
 ### Tuesday 11/25
+- XR workshop
 - Project Development
 
 ### Friday 11/28 - NO CLASS (Thanksgiving Break)
