@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="animated-sprite-and-tiles"
-run/main_scene="res://Example/level.tscn"
+run/main_scene="uid://di57ldju47s01"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
