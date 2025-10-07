@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c740qdf0ummmv"]
+
+[ext_resource type="PackedScene" uid="uid://c6crv0w8wplqg" path="res://Example/animated_character.tscn" id="1_ka0d6"]
+[ext_resource type="PackedScene" uid="uid://t053rd7gj4e3" path="res://Example/platform.tscn" id="2_it4ux"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Platform" parent="." instance=ExtResource("2_it4ux")]
+position = Vector2(1, 74)
+
+[node name="Platform2" parent="." instance=ExtResource("2_it4ux")]
+position = Vector2(80, 76)
+
+[node name="Platform3" parent="." instance=ExtResource("2_it4ux")]
+position = Vector2(167, 74)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_ka0d6")]
