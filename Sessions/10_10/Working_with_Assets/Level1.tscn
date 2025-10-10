@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://di57ldju47s01"]
+
+[ext_resource type="Texture2D" uid="uid://b4eo3tddgrwog" path="res://icon.svg" id="1_mc20k"]
+[ext_resource type="PackedScene" uid="uid://blx6nl2uvvd0u" path="res://Player.tscn" id="2_cove1"]
+[ext_resource type="PackedScene" uid="uid://03i117rnpi7r" path="res://fruit.tscn" id="2_dwyiq"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(102, 197)
+texture = ExtResource("1_mc20k")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(225, 40)
+texture = ExtResource("1_mc20k")
+
+[node name="Fruit" parent="." instance=ExtResource("2_dwyiq")]
+position = Vector2(139, 53)
+
+[node name="Fruit2" parent="." instance=ExtResource("2_dwyiq")]
+position = Vector2(198, 53)
+
+[node name="Player" parent="." instance=ExtResource("2_cove1")]
+position = Vector2(66, 53)

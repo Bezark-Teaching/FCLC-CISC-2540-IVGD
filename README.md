@@ -3,7 +3,8 @@
   - We will do a playtest on 10/24
   - There will be no in person class on 10/28
 
-- I have graded your concept papers. Please read my comments!
+- I have graded your concept papers, process papers, lab 1 and lab 2! Reach out with any questions. For the labs, feel free to make changes and resubmit for a higher grade.
+
 - [Lab 3](/Assignments/Labs/Lab_3.md) is due on 10/10.
 - Helpful Video Tutorials
   - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
@@ -181,7 +182,6 @@ The course is split into 3 distinct modules each with a unique project:
   - RigidBody
 
   - Assets
-    - Tilemaps
     - Sprite Sheets
     - Where to find assets
       - [Itc.io](https://itch.io)
@@ -191,10 +191,16 @@ The course is split into 3 distinct modules each with a unique project:
       - [Dotown](https://dotown.maeda-design-room.net/)
       - [Open Game Art](https://opengameart.org/)
 
-  - CharacterBody?
 
 ### Friday 10/10 - Level Design Workshop
-  - Paralax layers
+  - Review
+    - CollisionShapes
+    - StaticBody
+    - RigidBody
+
+  - CharacterBody
+
+  - Tilemaps
 
   - [2D Components](/Modules/2D/2D_Components/)
   - Common Patterns

@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://t053rd7gj4e3"]
+
+[ext_resource type="Texture2D" uid="uid://nk8330w2paum" path="res://Assets/Terrain (16x16).png" id="1_8nodq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k4yqt"]
+size = Vector2(53, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_184kd"]
+atlas = ExtResource("1_8nodq")
+region = Rect2(96, 0, 48.6667, 45.6663)
+
+[node name="Platform" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_k4yqt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_184kd")
