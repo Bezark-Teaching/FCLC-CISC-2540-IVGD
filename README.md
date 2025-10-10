@@ -7,13 +7,13 @@
 
 - [Lab 3](/Assignments/Labs/Lab_3.md) is due on 10/10.
 - Helpful Video Tutorials
+  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). It was recorded before 4.5 so is missing the game tab stuff, but is otherwise still relevant
   - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-  - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
-  - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
-  - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
+  - [Coding Fundamentals Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
+  - [Coding Fundamentals Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
+  - [CharacterBody and COllisions Lecture](https://youtube.com/live/hgKD1UNwm_k)
 
 - If you're confused by anything, swing by my remote **Office Hours** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
-  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). It was recorded before 4.5 so is missing the game tab stuff, but is otherwise still relevant
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
 
 - **Course Code:** CISC 2540
