@@ -11,7 +11,7 @@
   - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
   - [Coding Fundamentals Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
   - [Coding Fundamentals Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
-  - [CharacterBody and COllisions Lecture](https://youtube.com/live/hgKD1UNwm_k)
+  - [CharacterBody and Collisions Lecture](https://youtube.com/live/hgKD1UNwm_k)
 
 - If you're confused by anything, swing by my remote **Office Hours** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 # FCLC Undergradutate Introduction to Video Game Design Syllabus

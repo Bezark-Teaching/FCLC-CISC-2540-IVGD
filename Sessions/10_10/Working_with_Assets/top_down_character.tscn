@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://byaw6f83sbdm2"]
+
+[ext_resource type="Script" uid="uid://bogiegnhcggij" path="res://OverHead_Character_body_2d.gd" id="1_4imau"]
+[ext_resource type="Texture2D" uid="uid://b4eo3tddgrwog" path="res://icon.svg" id="2_bixe5"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ofpxc"]
+
+[node name="TopDownCharacter" type="CharacterBody2D"]
+script = ExtResource("1_4imau")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_ofpxc")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(-4.7683716e-07, 0)
+scale = Vector2(0.13671875, 0.20703126)
+texture = ExtResource("2_bixe5")
+
+[node name="Camera2D" type="Camera2D" parent="Icon"]
+zoom = Vector2(2.5, 2.5)
