@@ -16,6 +16,7 @@ texture = ExtResource("1_mc20k")
 
 [node name="Fruit" parent="." instance=ExtResource("2_dwyiq")]
 position = Vector2(139, 53)
+animation = &"Pineapple"
 
 [node name="Fruit2" parent="." instance=ExtResource("2_dwyiq")]
 position = Vector2(198, 53)
