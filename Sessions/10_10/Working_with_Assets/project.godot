@@ -1,16 +1,8 @@
-; Engine configuration file.
-; It's best edited using the editor UI and not directly,
-; since the parameters that go here are not all obvious.
-;
-; Format:
-;   [section] ; section goes between []
-;   param=value ; assign values to parameters
-
 config_version=5
 
 [application]
 
-config/name="animated-sprite-and-tiles"
+config/name="In-Class-Demos"
 run/main_scene="uid://di57ldju47s01"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
