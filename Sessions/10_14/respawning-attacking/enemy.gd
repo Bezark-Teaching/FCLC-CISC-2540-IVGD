@@ -34,13 +34,15 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 	if can_attack and player_in_range:
-		print("attacking player")
-		attack_target.health -= 1
-		$AttackCooldown.start()
-		can_attack = false
+		attack()
 
 
-
+func attack():
+	
+	print("attacking player")
+	attack_target.health -= 1
+	$AttackCooldown.start()
+	can_attack = false
 
 func spawn():
 	health = max_health

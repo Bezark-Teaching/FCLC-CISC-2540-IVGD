@@ -1,10 +1,10 @@
 [gd_scene load_steps=7 format=3 uid="uid://ddroq2depcpis"]
 
 [ext_resource type="PackedScene" uid="uid://dqhhcfchvx36i" path="res://Platform.tscn" id="1_wttq3"]
-[ext_resource type="Script" path="res://killbox.gd" id="2_8d2t1"]
+[ext_resource type="Script" uid="uid://byd6x3e2s4nd" path="res://killbox.gd" id="2_8d2t1"]
 [ext_resource type="PackedScene" uid="uid://c7c1rk3hn231t" path="res://player.tscn" id="3_drvqu"]
 [ext_resource type="PackedScene" uid="uid://ba3skd3ynab02" path="res://enemy.tscn" id="4_3andg"]
-[ext_resource type="Script" path="res://enemies.gd" id="5_j7xso"]
+[ext_resource type="Script" uid="uid://bl3k1jothdend" path="res://enemies.gd" id="5_j7xso"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wk5rf"]
 size = Vector2(3395, 386.5)
@@ -24,6 +24,7 @@ position = Vector2(1438, 37)
 position = Vector2(39, 8)
 
 [node name="Killbox" type="Area2D" parent="."]
+position = Vector2(0, 593)
 script = ExtResource("2_8d2t1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox"]
@@ -35,6 +36,9 @@ position = Vector2(70, -122)
 
 [node name="Enemy" parent="." instance=ExtResource("4_3andg")]
 position = Vector2(1665, -70)
+
+[node name="Enemy2" parent="." instance=ExtResource("4_3andg")]
+position = Vector2(1776, -261)
 
 [node name="Enemies" type="Node" parent="."]
 script = ExtResource("5_j7xso")
