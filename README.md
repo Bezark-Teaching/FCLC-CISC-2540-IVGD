@@ -202,6 +202,12 @@ The course is split into 3 distinct modules each with a unique project:
 
   - Tilemaps
 
+
+- **DUE: Lab 3**
+
+## Week 7 - Project Development/Playtesting 
+
+### Tuesday 10/14
   - [2D Components](/Modules/2D/2D_Components/)
   - Common Patterns
     - Items 
@@ -210,11 +216,6 @@ The course is split into 3 distinct modules each with a unique project:
     - Respawns
     - Killboxes
 
-- **DUE: Lab 3**
-
-## Week 7 - Project Development/Playtesting 
-
-### Tuesday 10/14
 - User Interface
   - Control Nodes
 
