@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://bweboxijdiuak"]
+
+[ext_resource type="Texture2D" uid="uid://dqlon1omwircu" path="res://Assets/Other/Dust Particle.png" id="1_oyhul"]
+[ext_resource type="Script" path="res://ProjectileAttacking/Projectile.gd" id="2_wm4kl"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_dh22j"]
+radius = 6.08276
+
+[node name="Projectile" type="Sprite2D"]
+texture = ExtResource("1_oyhul")
+script = ExtResource("2_wm4kl")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_dh22j")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="screen_entered" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
