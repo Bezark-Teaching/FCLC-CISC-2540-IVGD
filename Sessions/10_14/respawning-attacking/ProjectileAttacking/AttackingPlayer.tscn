@@ -1,10 +1,10 @@
 [gd_scene load_steps=48 format=3 uid="uid://bkkw0oxrb4p44"]
 
-[ext_resource type="Script" path="res://ProjectileAttacking/AttackingPlayer.gd" id="1_3cc00"]
-[ext_resource type="Texture2D" uid="uid://dhbrrocwo285g" path="res://Assets/Main Characters/Desappearing (96x96).png" id="2_6qkvf"]
-[ext_resource type="Texture2D" uid="uid://b1khtdw7qhqsh" path="res://Assets/Main Characters/Virtual Guy/Hit (32x32).png" id="3_5uc4h"]
-[ext_resource type="Texture2D" uid="uid://i45eb0760gtj" path="res://Assets/Main Characters/Virtual Guy/Idle (32x32).png" id="3_8l5gf"]
-[ext_resource type="Texture2D" uid="uid://7qyvotnp6qy4" path="res://Assets/Main Characters/Virtual Guy/Run (32x32).png" id="4_wbg0s"]
+[ext_resource type="Script" uid="uid://dqysxn6h4h7i5" path="res://ProjectileAttacking/AttackingPlayer.gd" id="1_3cc00"]
+[ext_resource type="Texture2D" uid="uid://t4n0oexhqd0l" path="res://Assets/Main Characters/Desappearing (96x96).png" id="2_6qkvf"]
+[ext_resource type="Texture2D" uid="uid://cdajpdfqb06i5" path="res://Assets/Main Characters/Virtual Guy/Hit (32x32).png" id="3_5uc4h"]
+[ext_resource type="Texture2D" uid="uid://jce8qq3oax2j" path="res://Assets/Main Characters/Virtual Guy/Idle (32x32).png" id="3_8l5gf"]
+[ext_resource type="Texture2D" uid="uid://bhnkyfxqyowmd" path="res://Assets/Main Characters/Virtual Guy/Run (32x32).png" id="4_wbg0s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ekp6u"]
 size = Vector2(24, 27)
@@ -334,8 +334,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_puno5"]
 _data = {
-"RESET": SubResource("Animation_tihwn"),
-"damage": SubResource("Animation_xdl53")
+&"RESET": SubResource("Animation_tihwn"),
+&"damage": SubResource("Animation_xdl53")
 }
 
 [node name="HealthyPlayer" type="CharacterBody2D"]
@@ -358,7 +358,7 @@ zoom = Vector2(3, 3)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_puno5")
+&"": SubResource("AnimationLibrary_puno5")
 }
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

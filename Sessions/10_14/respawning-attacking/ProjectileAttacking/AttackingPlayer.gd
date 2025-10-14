@@ -64,6 +64,7 @@ func kill():
 
 
 func _on_animated_sprite_2d_animation_finished():
+	
 	if animated_sprite_2d.animation == "death":
 		animated_sprite_2d.play("idle")
 		position = $"../Respawn".position
