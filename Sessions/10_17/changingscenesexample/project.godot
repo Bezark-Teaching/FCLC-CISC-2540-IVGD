@@ -10,13 +10,20 @@ config_version=5
 
 [application]
 
-config/name="Paralax"
-run/main_scene="res://ParalaxDemo.tscn"
+config/name="ChangingScenesExample"
+run/main_scene="res://home_base.tscn"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Stats="*res://Stats.gd"
+
+[display]
+
+window/stretch/mode="canvas_items"
+
 [rendering]
 
-textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
