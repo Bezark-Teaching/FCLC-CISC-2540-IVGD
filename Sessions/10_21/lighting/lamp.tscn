@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://ysl0qnkh72jj"]
+
+[ext_resource type="Texture2D" uid="uid://ci7i6hlnpabt3" path="res://assets/City/Sprites/CityAssets.png" id="1_0048n"]
+
+[sub_resource type="Gradient" id="Gradient_c0xu3"]
+colors = PackedColorArray(0, 0, 0, 1, 0.999999, 0.621632, 0.438101, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_en0ba"]
+gradient = SubResource("Gradient_c0xu3")
+fill_from = Vector2(0.480122, 0.981651)
+fill_to = Vector2(0.501529, 0)
+repeat = 2
+
+[node name="Lamp" type="Node2D"]
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(-1, 4)
+scale = Vector2(0.359375, 1.3125)
+texture = SubResource("GradientTexture2D_en0ba")
+
+[node name="CityAssets" type="Sprite2D" parent="."]
+z_index = 1
+texture = ExtResource("1_0048n")
+region_enabled = true
+region_rect = Rect2(187.646, 45.3828, 40.3539, 98.6172)

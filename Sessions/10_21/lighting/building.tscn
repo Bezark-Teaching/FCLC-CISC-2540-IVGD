@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfcgqbwgq0j8r"]
+
+[ext_resource type="Texture2D" uid="uid://ci7i6hlnpabt3" path="res://assets/City/Sprites/CityAssets.png" id="1_1yiu5"]
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_ybhip"]
+closed = false
+cull_mode = 1
+polygon = PackedVector2Array(-29, -16, 25, -16, 25, 10, 35, 10, 35, 21, -29, 21)
+
+[node name="Building" type="Node2D"]
+
+[node name="CityAssets" type="Sprite2D" parent="."]
+texture = ExtResource("1_1yiu5")
+region_enabled = true
+region_rect = Rect2(90.3166, 53.0235, 69.0697, 43.9985)
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="."]
+occluder = SubResource("OccluderPolygon2D_ybhip")
