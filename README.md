@@ -1,4 +1,5 @@
 # Top of Mind
+- Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
 - The 2D Game is now due on 10/31
   - We will do a playtest on 10/24
   - There will be no in person class on 10/28

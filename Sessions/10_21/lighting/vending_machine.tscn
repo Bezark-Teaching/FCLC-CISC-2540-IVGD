@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://cgt31nrdus3pc"]
+
+[ext_resource type="Texture2D" uid="uid://ci7i6hlnpabt3" path="res://assets/City/Sprites/CityAssets.png" id="1_rpydv"]
+[ext_resource type="Texture2D" uid="uid://82jqktpr5tv8" path="res://assets/FREE Textures Of Light/256x256/256x256 textures (35).png" id="2_o2c65"]
+
+[sub_resource type="Gradient" id="Gradient_6eoh3"]
+interpolation_mode = 2
+colors = PackedColorArray(0.482353, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_qlss0"]
+gradient = SubResource("Gradient_6eoh3")
+fill = 2
+fill_from = Vector2(0.492355, 0.495413)
+
+[node name="VendingMachine" type="Node2D"]
+
+[node name="CityAssets" type="Sprite2D" parent="."]
+texture = ExtResource("1_rpydv")
+region_enabled = true
+region_rect = Rect2(33.7283, 64.0358, 20.711, 33.1971)
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(8, -3)
+scale = Vector2(0.202149, 0.177734)
+color = Color(0.233372, 0.459217, 0.314625, 1)
+energy = 1.71
+texture = ExtResource("2_o2c65")
+texture_scale = 0.1
+
+[node name="PointLight2D2" type="PointLight2D" parent="."]
+position = Vector2(-1, -2.5)
+scale = Vector2(0.1875, 0.359375)
+energy = 1.62
+texture = SubResource("GradientTexture2D_qlss0")
