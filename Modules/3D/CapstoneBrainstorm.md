@@ -12,11 +12,11 @@ Each student creates three cards, one for each category:
 - Write one interesting game mechanic you'd like to explore
 - Examples: "Wall jumping", "Shrinking/growing", "Time rewinding", "Building bridges", "Swinging physics"
 
-**RED CARDS: Themes/Feelings**
+**GREEN CARDS: Themes/Feelings**
 - Write one theme or emotion you want your game to convey
 - Examples: "Loneliness", "Wonder", "Nostalgia", "Growing up", "Environmental care"
 
-**YELLOW CARDS: Worlds/Settings**
+**TEAL CARDS: Worlds/Settings**
 - Write one specific place, time, or situation where your game takes place
 - Examples: "Abandoned space station", "Inside a storm cloud", "Microscopic world", "Ancient library", "Child's bedroom"
 
