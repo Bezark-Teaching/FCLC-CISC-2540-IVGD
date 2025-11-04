@@ -244,6 +244,10 @@ The course is split into 3 distinct modules each with a unique project:
 ### Tuesday 10/28 - NO IN PERSON CLASS
 
 ### Friday 10/31 SPOOOOKY HALLOWEEN!!! SPOOOOKY 3DDDDDD!!!!!
+
+## Week 10 - Advanced 3D Topics
+
+### Tuesday 11/4
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 - Hello 3D
 - Materials, Models
@@ -253,35 +257,34 @@ The course is split into 3 distinct modules each with a unique project:
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
 - **DUE: 2D Game**
 
-## Week 10 - Advanced 3D Topics
-
-### Tuesday 11/4
-- Light, Sound
-- [Lighting in Godot](https://www.youtube.com/watch?v=aRdiiWpA0AA)
 
 
 ### Friday 11/7
+
+- Light, Sound
+- [Lighting in Godot](https://www.youtube.com/watch?v=aRdiiWpA0AA)
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
   - [Character Animation Combiner](https://nilooy.github.io/character-animation-combiner/)
 
-## Week 11 -  Capstone Presentations
+## Week 11 - Advanced Topics and Capstone Presentations
 ### Tuesday 11/11
+- Classes, Resources
+- Debugging
+- NPCs
 - **DUE: Lab 4**
-- **DUE: Capstone Presentation**
 
 ### Friday 11/14
 - **DUE: Capstone Presentation**
 
-## Week 12 - Review and Advanced Topics
+## Week 12 - Capstone Presentations and Review
+
+### Tuesday 11/18
+- **DUE: Capstone Presentation**
+
 - Exporting
   - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 - Review
-
-### Tuesday 11/18
-- Classes, Resources
-- Debugging
-- NPCs
 
 ### Friday 11/21
 - XR workshop
