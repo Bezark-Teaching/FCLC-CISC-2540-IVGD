@@ -1,12 +1,8 @@
 # Top of Mind
+- [CAPSTONE BOARD](https://www.tldraw.com/f/P9qfg-BWc097_ZC79jK0P?d=v-2634.1098.3237.2133.u4-DIKmpFn6gSOH6wnTjM)
+- [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 - Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
-- The 2D Game is now due on 10/31
-  - We will do a playtest on 10/24
-  - There will be no in person class on 10/28
 
-- I have graded your concept papers, process papers, lab 1 and lab 2! Reach out with any questions. For the labs, feel free to make changes and resubmit for a higher grade.
-
-- [Lab 3](/Assignments/Labs/Lab_3.md) is due on 10/10.
 - Helpful Video Tutorials
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). It was recorded before 4.5 so is missing the game tab stuff, but is otherwise still relevant
   - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)

@@ -1,0 +1,64 @@
+[gd_scene load_steps=9 format=3 uid="uid://c54hajt7yx810"]
+
+[ext_resource type="Script" uid="uid://3j1tuob5w0ak" path="res://character_body_3d.gd" id="1_ig7tw"]
+
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_7dm0k"]
+
+[sub_resource type="Sky" id="Sky_ig7tw"]
+sky_material = SubResource("PhysicalSkyMaterial_7dm0k")
+
+[sub_resource type="Environment" id="Environment_0xm2m"]
+background_mode = 2
+sky = SubResource("Sky_ig7tw")
+tonemap_mode = 2
+glow_enabled = true
+volumetric_fog_enabled = true
+volumetric_fog_albedo = Color(0.27265528, 0.2726553, 0.2726553, 1)
+adjustment_brightness = 1.03
+adjustment_saturation = 0.01
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_7dm0k"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_ig7tw"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7dm0k"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_ig7tw"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_0xm2m")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.7392316, -0.023503112, 0.6730411, 0, 0.9993907, 0.03489949, -0.6734513, 0.025798805, -0.73878115, -7.5193014, 2.4323504, 0)
+light_color = Color(0.5294118, 1, 0.4392157, 1)
+light_energy = 32.55
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.9816172, 0.19086039, 0, -0.19086039, 0.9816172, 0, 2.6746664, 4.503746)
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.726993, 1.3363276)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("SphereShape3D_7dm0k")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D"]
+mesh = SubResource("SphereMesh_ig7tw")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4868164, 0, 0)
+use_collision = true
+size = Vector3(20, 1, 20)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1977472, 0)
+script = ExtResource("1_ig7tw")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+shape = SubResource("CapsuleShape3D_7dm0k")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+mesh = SubResource("CapsuleMesh_ig7tw")
