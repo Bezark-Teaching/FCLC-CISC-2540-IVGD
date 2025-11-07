@@ -246,7 +246,6 @@ The course is split into 3 distinct modules each with a unique project:
 ### Tuesday 11/4
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 - Hello 3D
-- Materials, Models
 
 - **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
@@ -257,14 +256,17 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Friday 11/7
 
+- Materials, Models
 - Light, Sound
 - [Lighting in Godot](https://www.youtube.com/watch?v=aRdiiWpA0AA)
+
+
+## Week 11 - Advanced Topics and Capstone Presentations
+### Tuesday 11/11
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
   - [Character Animation Combiner](https://nilooy.github.io/character-animation-combiner/)
 
-## Week 11 - Advanced Topics and Capstone Presentations
-### Tuesday 11/11
 - Classes, Resources
 - Debugging
 - NPCs
