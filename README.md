@@ -1,6 +1,6 @@
 # Top of Mind
 - [CAPSTONE BOARD](https://www.tldraw.com/f/P9qfg-BWc097_ZC79jK0P?d=v-2634.1098.3237.2133.u4-DIKmpFn6gSOH6wnTjM)
-- [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
+  - [capstone brainstorm](/modules/3d/capstonebrainstorm.md)
 - Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
 
 - Helpful Video Tutorials
