@@ -265,7 +265,6 @@ The course is split into 3 distinct modules each with a unique project:
 ### Tuesday 11/11
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
-  - [Character Animation Combiner](https://nilooy.github.io/character-animation-combiner/)
 
 - Classes, Resources
 - Debugging
