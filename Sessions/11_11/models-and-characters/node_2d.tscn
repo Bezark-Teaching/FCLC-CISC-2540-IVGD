@@ -1,0 +1,98 @@
+[gd_scene load_steps=8 format=3 uid="uid://btec75q3651rg"]
+
+[ext_resource type="Script" uid="uid://bodk8bifr77co" path="res://node_2d.gd" id="1_wtcfe"]
+
+[sub_resource type="Animation" id="Animation_0e48y"]
+resource_name = "Spinning"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [-0.7347836, 2.2026055]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Sprite2D:texture:noise:offset")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.18, 2.31),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, -34.88, 372.09), Vector3(0, -837.21, 372.09)]
+}
+
+[sub_resource type="Animation" id="Animation_epypp"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.7347836]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Sprite2D:texture:noise:offset")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, -34.88, 372.09)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0hol4"]
+_data = {
+&"RESET": SubResource("Animation_epypp"),
+&"Spinning": SubResource("Animation_0e48y")
+}
+
+[sub_resource type="Gradient" id="Gradient_q6r6c"]
+offsets = PackedFloat32Array(0, 0.7602459, 1)
+colors = PackedColorArray(0.7529412, 0, 0, 1, 0.99215686, 0.972549, 0.29411766, 1, 1, 1, 1, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_kdubu"]
+noise_type = 2
+frequency = 0.0011
+offset = Vector3(0, -34.88, 372.09)
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_d21ai"]
+noise = SubResource("FastNoiseLite_kdubu")
+color_ramp = SubResource("Gradient_q6r6c")
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_wtcfe")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../ColorRect")
+libraries = {
+&"": SubResource("AnimationLibrary_0hol4")
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 310.0
+offset_top = 79.0
+offset_right = 760.0
+offset_bottom = 429.0
+rotation = -0.7347836
+color = Color(1, 0.40392157, 1, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(803, 296)
+texture = SubResource("NoiseTexture2D_d21ai")
