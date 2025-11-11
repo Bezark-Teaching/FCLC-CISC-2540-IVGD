@@ -1,0 +1,67 @@
+[gd_scene load_steps=5 format=3 uid="uid://enw4nj74pt5p"]
+
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Assets/Player/Player.tscn" id="1_xknmx"]
+[ext_resource type="PackedScene" uid="uid://bm37c3vlntpfp" path="res://Complicated Enemy Demo/complex_enemy.tscn" id="2_dx3dt"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_hxr41"]
+vertices = PackedVector2Array(-412.46875, 466.72656, -421.89063, 483, -501.45313, 483, -688.03906, 375, -570.9531, 375, 1351.7734, 290.6172, 1996, 355, -565.59375, 355, 518.52344, 290.6172, 2171, -772.84375, 2171, 1682.4766, 1996, 503, -1155.7266, 127.40625, -762.52344, 355, -1918, 355, -2068.3438, 1469.5234, -434.5625, 544.8281, -1923.6328, -712.1328, 1351.7734, 191.96094, 518.52344, 191.96094, -1106.3203, 42.03125, -1918, 503, -506.8203, 503, -410.35938, 503)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3, 4), PackedInt32Array(5, 6, 7, 8), PackedInt32Array(9, 10, 11, 6), PackedInt32Array(12, 13, 14), PackedInt32Array(11, 10, 15, 16), PackedInt32Array(17, 9, 6, 18), PackedInt32Array(17, 19, 8, 7, 20), PackedInt32Array(6, 5, 18), PackedInt32Array(17, 18, 19), PackedInt32Array(17, 20, 12, 14), PackedInt32Array(15, 17, 14, 21), PackedInt32Array(15, 21, 22, 16), PackedInt32Array(11, 16, 23)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-1933, -722, 2181, -783, 2181, 1693, -2079, 1479)])
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6aedd"]
+size = Vector2(3894, 128)
+
+[node name="Complicated Enemy Demo" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." groups=["player"] instance=ExtResource("1_xknmx")]
+
+[node name="Complex Enemy" parent="." instance=ExtResource("2_dx3dt")]
+position = Vector2(410, 330)
+
+[node name="NavigationRegion2D2" type="NavigationRegion2D" parent="."]
+navigation_polygon = SubResource("NavigationPolygon_hxr41")
+
+[node name="Level" type="StaticBody2D" parent="NavigationRegion2D2"]
+position = Vector2(0, 366)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D2/Level"]
+position = Vector2(39, 63)
+shape = SubResource("RectangleShape2D_6aedd")
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D2/Level"]
+offset_left = -1892.0
+offset_top = -2.0
+offset_right = 1984.0
+offset_bottom = 128.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Level2" type="StaticBody2D" parent="NavigationRegion2D2"]
+position = Vector2(927, 280)
+scale = Vector2(0.20885, -0.614451)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D2/Level2"]
+position = Vector2(39, 63)
+shape = SubResource("RectangleShape2D_6aedd")
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D2/Level2"]
+offset_left = -1892.0
+offset_top = -2.0
+offset_right = 1984.0
+offset_bottom = 128.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Level3" type="StaticBody2D" parent="NavigationRegion2D2"]
+position = Vector2(-744, 264)
+rotation = -2.61691
+scale = Vector2(0.20885, -0.614451)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D2/Level3"]
+position = Vector2(39, 63)
+shape = SubResource("RectangleShape2D_6aedd")
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D2/Level3"]
+offset_left = -1892.0
+offset_top = -2.0
+offset_right = 1984.0
+offset_bottom = 128.0
+metadata/_edit_use_anchors_ = true
