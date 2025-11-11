@@ -1,0 +1,67 @@
+[gd_scene load_steps=8 format=3 uid="uid://dlu6ai5f346mr"]
+
+[ext_resource type="Script" uid="uid://bqxdtfiw5d2by" path="res://Simple Enemy Demo/SimpleEnemy.gd" id="1_quxav"]
+[ext_resource type="Texture2D" uid="uid://c8s3msd0lbp7s" path="res://Simple Enemy Demo/icon.svg" id="2_a027e"]
+[ext_resource type="Texture2D" uid="uid://s7nq2fdobqvf" path="res://Assets/Other/Dust Particle.png" id="3_6gh44"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5sx8t"]
+size = Vector2(126, 119)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7lrgi"]
+radius = 374.342
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ji7qj"]
+size = Vector2(141, 128)
+
+[sub_resource type="LabelSettings" id="LabelSettings_mwih3"]
+font_size = 24
+font_color = Color(0, 0, 0, 1)
+
+[node name="SimpleEnemy" type="CharacterBody2D"]
+script = ExtResource("1_quxav")
+dialogue = Array[String](["Hii", "woo hoo", "party"])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -0.5)
+shape = SubResource("RectangleShape2D_5sx8t")
+
+[node name="Icon" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0.388235, 0.34902, 1)
+texture = ExtResource("2_a027e")
+
+[node name="Vision" type="Area2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Vision"]
+shape = SubResource("CircleShape2D_7lrgi")
+metadata/_edit_lock_ = true
+
+[node name="hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(-0.5, -2)
+shape = SubResource("RectangleShape2D_ji7qj")
+
+[node name="DBox" type="TextureRect" parent="."]
+visible = false
+offset_left = -266.0
+offset_top = -270.0
+offset_right = 254.0
+offset_bottom = -25.0
+texture = ExtResource("3_6gh44")
+
+[node name="Label" type="Label" parent="DBox"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.31500003
+anchor_bottom = 0.29700002
+offset_left = 224.0
+offset_top = 104.0
+offset_right = 136.19998
+offset_bottom = 65.23499
+text = "HELLO"
+label_settings = SubResource("LabelSettings_mwih3")
+
+[connection signal="body_entered" from="Vision" to="." method="_on_vision_body_entered"]
+[connection signal="body_exited" from="Vision" to="." method="_on_vision_body_exited"]
+[connection signal="body_entered" from="hitbox" to="." method="_on_hitbox_body_entered"]

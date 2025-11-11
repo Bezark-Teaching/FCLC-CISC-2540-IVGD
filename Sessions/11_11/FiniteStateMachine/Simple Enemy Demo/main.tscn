@@ -1,0 +1,66 @@
+[gd_scene load_steps=6 format=3 uid="uid://crn6gg0m31uhm"]
+
+[ext_resource type="Script" uid="uid://dy747c6ph3ya" path="res://Simple Enemy Demo/CharacterBody2D.gd" id="1_km8iq"]
+[ext_resource type="Texture2D" uid="uid://foma01xyusmg" path="res://Assets/icon.svg" id="2_q24wf"]
+[ext_resource type="PackedScene" uid="uid://dlu6ai5f346mr" path="res://Simple Enemy Demo/simple_enemy.tscn" id="4_txhhl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u7sp8"]
+size = Vector2(128, 130)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nnpyx"]
+size = Vector2(3894, 128)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." groups=["character", "player"]]
+script = ExtResource("1_km8iq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_u7sp8")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+
+[node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("2_q24wf")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(0, 366)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(39, 63)
+shape = SubResource("RectangleShape2D_nnpyx")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D"]
+offset_left = -1892.0
+offset_top = -2.0
+offset_right = 1984.0
+offset_bottom = 128.0
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect2" type="ColorRect" parent="StaticBody2D"]
+offset_left = -597.0
+offset_top = -404.0
+offset_right = -557.0
+offset_bottom = -238.0
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect3" type="ColorRect" parent="StaticBody2D"]
+offset_left = 221.0
+offset_top = -437.0
+offset_right = 261.0
+offset_bottom = -271.0
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect4" type="ColorRect" parent="StaticBody2D"]
+offset_left = 1283.0
+offset_top = -366.0
+offset_right = 1323.0
+offset_bottom = -200.0
+metadata/_edit_use_anchors_ = true
+
+[node name="SimpleEnemy" parent="." instance=ExtResource("4_txhhl")]
+position = Vector2(686, 237)
+
+[node name="SimpleEnemy2" parent="." instance=ExtResource("4_txhhl")]
+position = Vector2(-680, 169)
+dialogue = Array[String](["Booo", "Go away", "party"])
