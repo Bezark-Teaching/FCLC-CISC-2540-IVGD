@@ -279,19 +279,14 @@ The course is split into 3 distinct modules each with a unique project:
 ### Tuesday 11/18
 - **DUE: Capstone Presentation**
 
+### Friday 11/21
 - Exporting
   - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 - Review
 
-### Friday 11/21
-- XR workshop
-- Review
+## Week 13 - Turkey
 
-## Week 13 - Review
-
-### Tuesday 11/25
-- XR workshop
-- Project Development
+### Tuesday - NO CLASS (Thanksgiving Break)- XR workshop
 
 ### Friday 11/28 - NO CLASS (Thanksgiving Break)
 
