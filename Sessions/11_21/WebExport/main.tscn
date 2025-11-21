@@ -20,6 +20,6 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 64
 theme_override_styles/normal = SubResource("StyleBoxFlat_l8fvp")
-text = "Welcome to this game!!!"
+text = "Welcome to this game :)"
 horizontal_alignment = 1
 vertical_alignment = 1
