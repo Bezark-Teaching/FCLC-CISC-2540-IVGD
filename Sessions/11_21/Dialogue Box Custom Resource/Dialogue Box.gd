@@ -1,6 +1,6 @@
 extends Panel
 
-@export var lines : Dialogue
+@export var lines : Array[LineOfDialogue]
 var current_line = -1
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -11,8 +11,8 @@ func _ready():
 func _process(delta):
 	if Input.is_action_just_pressed("ui_accept"):
 		current_line += 1
-		if lines.lines_of_dialogue.size()>current_line:
-			display(lines.lines_of_dialogue[current_line])
+		if lines.size()>current_line:
+			display(lines[current_line])
 
 
 @onready var portrait = $Portrait

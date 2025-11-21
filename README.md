@@ -1,7 +1,5 @@
 # Top of Mind
-- [CAPSTONE BOARD](https://www.tldraw.com/f/P9qfg-BWc097_ZC79jK0P?d=v-2634.1098.3237.2133.u4-DIKmpFn6gSOH6wnTjM)
-  - [capstone brainstorm](/modules/3d/capstonebrainstorm.md)
-- Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
+- Submit your [Capstone Game](/Assignments/Capstone/Capstone_Game.md) to the [Capstone Game Jam](https://itch.io/jam/411903/preview)
 
 - Helpful Video Tutorials
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). It was recorded before 4.5 so is missing the game tab stuff, but is otherwise still relevant
@@ -9,6 +7,7 @@
   - [Coding Fundamentals Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
   - [Coding Fundamentals Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
   - [CharacterBody and Collisions Lecture](https://youtube.com/live/hgKD1UNwm_k)
+  - [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
 
 - If you're confused by anything, swing by my remote **Office Hours** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 # FCLC Undergradutate Introduction to Video Game Design Syllabus
