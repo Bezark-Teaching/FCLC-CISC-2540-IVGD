@@ -1,6 +1,6 @@
 # Top of Mind
 - Submit your [Capstone Game](/Assignments/Capstone/Capstone_Game.md) to the [Capstone Game Jam](https://itch.io/jam/411903/preview)
-
+- There is a new [extra credit lab assignment](/Assignments/Labs/Xtra_Lab) due by the final and worth up to 7 points
 - Helpful Video Tutorials
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). It was recorded before 4.5 so is missing the game tab stuff, but is otherwise still relevant
   - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
