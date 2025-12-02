@@ -43,11 +43,12 @@ The  work of the class consists of the following:
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | 9/30                         | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 10/31                        | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | 11/17                        | 10            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/5                         | 10            |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/9                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
+
 
 **Attendence:** Students are allowed 3 unexcused absences. After this, each unexcused absence will lower your final grade by 1/2 a letter, i.e. B+ -> B or A -> A-
 
@@ -292,9 +293,12 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 14 - Playtesting
 
 ### Tuesday 12/2
-- **DUE: Final project playtest**
+- Project Development
+- **DUE: Final project playtest?**
 
-### Friday 12/5
+### Friday 12/5 - XR Workshop
+
+### Tuesday 12/9
 - **DUE: Final project playtest**
 - **DUE: Game Review**
 
