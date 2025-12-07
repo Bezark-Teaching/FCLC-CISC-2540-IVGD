@@ -1,4 +1,5 @@
 # Top of Mind
+- Our last session is Friday 12/12 1:30-3:30
 - Submit your [Capstone Game](/Assignments/Capstone/Capstone_Game.md) to the [Capstone Game Jam](https://itch.io/jam/411903/preview)
 - There is a new [extra credit lab assignment](/Assignments/Labs/Xtra_Lab) due by the final and worth up to 7 points
 - Helpful Video Tutorials
@@ -303,7 +304,7 @@ The course is split into 3 distinct modules each with a unique project:
 - **DUE: Game Review**
 
 ## Final 
-### Friday 12/12
+### Friday 12/12 1:30-3:30
 - Preparing for the Game Industry: Portfolio and Career Paths
 - Playtest party!
 - **DUE: Capstone Project**
