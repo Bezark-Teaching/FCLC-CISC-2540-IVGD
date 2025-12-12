@@ -1,4 +1,5 @@
 # Top of Mind
+- [Working in the Games Industry](https://docs.google.com/presentation/d/1i-RZGlzN65DgH-2sKYvK31pYVswlGjqj9AYbDTiazo0/edit?usp=sharing)
 - Submit your [Capstone Game](/Assignments/Capstone/Capstone_Game.md) to the [Capstone Game Jam](https://itch.io/jam/411903/preview)
 - There is a new [extra credit lab assignment](/Assignments/Labs/Xtra_Lab) due by the final and worth up to 7 points
 - Helpful Video Tutorials
