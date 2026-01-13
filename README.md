@@ -53,6 +53,7 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 1 - Game Design Fundamentals
 
 ### Tuesday 1/13 (First class)
+- [What type of gamer are you?](https://www.tldraw.com/f/W52xAF7TZZnniFZaYSZPP?d=v402.46.773.588.page)
 - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I'm giving you too much homework!
 - Who are you/Syllabus Review
