@@ -69,7 +69,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Group Work
 
 **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
-**Homework: [Read MDA Article](/Readings/MDA.pdf)**
+**Homework: [Read MDA Article](/Readings/MDA_annotated.pdf)**
 
 ## Week 2 - Prototyping, Iteration and Playtesting
 
