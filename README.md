@@ -74,7 +74,7 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 2 - Prototyping, Iteration and Playtesting
 
 ### Tuesday 1/20
-- MDA Framework - Systems, Loops and Balance
+- [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
 - Reading: MDA
 - MDA Framework
