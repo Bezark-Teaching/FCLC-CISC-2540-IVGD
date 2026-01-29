@@ -41,7 +41,7 @@ The work of the class consists of the following:
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
 
-**Attendance:** Students are allowed 6 absences. After this, each unexcused absence will lower your final grade by 1/2 a letter, i.e. B+ -> B or A -> A-
+**Attendance:** Students are allowed 5 absences. After this, each unexcused absence will lower your final grade by 1/2 a letter, i.e. B+ -> B or A -> A-
 
 # **Course Outline**
 
@@ -53,6 +53,9 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 1 - Game Design Fundamentals
 
 ### Tuesday 1/13 (First class)
+- [What type of gamer are you?](https://www.tldraw.com/f/W52xAF7TZZnniFZaYSZPP?d=v402.46.773.588.page)
+- [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
+- [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I'm giving you too much homework!
 - Who are you/Syllabus Review
 - Professor John
 - Game Design Fundamentals
@@ -65,12 +68,13 @@ The course is split into 3 distinct modules each with a unique project:
 - Playtesting
 - Group Work
 
-**Homework: [Tabletop Game](/Assignments/Tabletop.md)**
+**Homework: [Tabletop Game](/Assignments/Tabletop/Tabletop.md)**
+**Homework: [Read MDA Article](/Readings/MDA_annotated.pdf)**
 
 ## Week 2 - Prototyping, Iteration and Playtesting
 
 ### Tuesday 1/20
-- MDA Framework - Systems, Loops and Balance
+- [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
 - Reading: MDA
 - MDA Framework
