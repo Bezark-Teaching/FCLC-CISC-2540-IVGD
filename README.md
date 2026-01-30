@@ -88,11 +88,10 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 3 - Hello Godot Getting Started in 2D
 
 ### Tuesday 1/27
-- Playtesting
+- Snowwww
 
 ### Friday 1/30
 - Playtesting
-- Git Init
 
 **DUE: Tabletop Game**
 **Homework: [Tabletop Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)**
@@ -102,6 +101,9 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 4 - Nodes and Scenes
 
 ### Tuesday 2/3 - Nodes and Scenes Demo
+- Playtesting
+- Git Init
+
 - Hello Godot - Live Demo (Students Follow Along)
   - Getting started with Godot
   - Nodes and Scenes - build a simple scene together
