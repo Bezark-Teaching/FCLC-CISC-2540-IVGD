@@ -1,6 +1,6 @@
 # Top of Mind
 - **First class:** Tuesday, January 13, 2026
-- **Cancelled classes:** Friday 1/23, Friday 3/6
+- **Cancelled classes:** Friday 1/23 
 - **Office Hours:** Thursday 12-4pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
@@ -30,7 +30,7 @@ The work of the class consists of the following:
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | Fri 1/30                     | 16            |
-| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | Fri 2/6                      | 10            |
+| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | Fri 2/10                     | 10            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/17, 2/20, 2/27, 3/31       | 24            |
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | Fri 2/13                     | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Fri 3/20                     | 25            |
@@ -93,8 +93,6 @@ The course is split into 3 distinct modules each with a unique project:
 ### Friday 1/30
 - Playtesting
 
-**DUE: Tabletop Game**
-**Homework: [Tabletop Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)**
 
 ---
 
@@ -108,6 +106,9 @@ The course is split into 3 distinct modules each with a unique project:
   - Getting started with Godot
   - Nodes and Scenes - build a simple scene together
   - Everyone ends class with the same working foundation
+
+**DUE: Tabletop Game**
+**Homework: [Tabletop Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)**
 
 **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 
@@ -187,10 +188,8 @@ The course is split into 3 distinct modules each with a unique project:
 - Project Development
 
 
-### Friday 3/6 - CLASS CANCELLED
-- **Asynchronous project work day**
+### Friday 3/6  
 - Continue 2D game development independently
-- Optional: Post questions/progress in class Discord/forum
 
 ## Week 9 - Spring Break!
 
