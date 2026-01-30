@@ -1,7 +1,7 @@
 # Top of Mind
 - **First class:** Tuesday, January 13, 2026
 - **Cancelled classes:** Friday 1/23, Friday 3/6
-- **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
+- **Office Hours:** Thursday 12-4pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
 
