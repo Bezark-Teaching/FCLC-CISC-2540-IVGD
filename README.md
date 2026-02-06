@@ -85,7 +85,7 @@ The course is split into 3 distinct modules each with a unique project:
 - **Work on tabletop prototypes asynchronously**
 - Continue playtesting and iteration outside of class
 
-## Week 3 - Hello Godot Getting Started in 2D
+## Week 3 - Playtesting
 
 ### Tuesday 1/27
 - Snowwww
@@ -96,45 +96,44 @@ The course is split into 3 distinct modules each with a unique project:
 
 ---
 
-## Week 4 - Nodes and Scenes
-
-### Tuesday 2/3 - Nodes and Scenes Demo
+## Week 4 - Hello Godot Getting Started in 2D
+### Tuesday 2/3 
 - Playtesting
-- Git Init
 
-- Hello Godot - Live Demo (Students Follow Along)
-  - Getting started with Godot
-  - Nodes and Scenes - build a simple scene together
-  - Everyone ends class with the same working foundation
 
 **DUE: Tabletop Game**
-**Homework: [Tabletop Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)**
 
+### Friday 2/6 - Nodes and Scenes Demo
+- Hello Godot 
+  - Getting started with Godot
+
+**Homework: [Tabletop Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)**
 **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 
-### Friday 2/6 - Genres in 2D
-  - 2D Game Brainstorming
+## Week 5 - Nodes, Scenes and Coding Fundamentals
 
-**DUE: Process Paper**
+
+### Tuesday 2/10 - Genres in 2D Github and nodes
+- Genres
+
+- 2D Game Brainstorming
+
 **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
-
-## Week 5 - Coding Fundamentals
-
-### Tuesday 2/10 - Github and nodes
-- Nodes and Scenes Workshop
-- Github Review
-- Github Accounts, Cloning, Committing and pushing, Repo Creation
-
 ### Friday 2/13 - Coding Fundamentals
+- Git Init
+  - Github Accounts, Cloning, Committing and pushing, Repo Creation
+
+- Nodes and Scenes Workshop
+
 - Coding Fundamentals
   - Scripts and properties
   - Variables
   - Create a moving character together using simple_character example
 
-**DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
+**DUE: Process Paper**
 
 ## Week 6 - Input, Interactions and Patterns
 
@@ -142,6 +141,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Coding Input and Conditional Review
 - Input map
 
+**DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 **DUE: Lab 1**
 
 ### Friday 2/20 - Input and Interactions Workshop
