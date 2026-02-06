@@ -104,6 +104,8 @@ The course is split into 3 distinct modules each with a unique project:
 **DUE: Tabletop Game**
 
 ### Friday 2/6 - Nodes and Scenes Demo
+- Playtesting
+
 - Hello Godot 
   - Getting started with Godot
 
