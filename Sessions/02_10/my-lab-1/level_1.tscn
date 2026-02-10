@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://cmp1fipqlici"]
+
+[ext_resource type="Texture2D" uid="uid://3ts2heq4ftmk" path="res://Pictures/icon.svg" id="1_hbghi"]
+[ext_resource type="Texture2D" uid="uid://dly8e8npsbvb3" path="res://Pictures/Bullwinke_J._Moose.png" id="2_hn12h"]
+[ext_resource type="PackedScene" uid="uid://b2c52o5fsw2wv" path="res://tree.tscn" id="3_hn12h"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hn12h"]
+load_path = "res://.godot/imported/Circle.png-c9c1fadd8736fbb3719f612bf2efa5d1.ctex"
+
+[node name="Level1" type="Node2D" unique_id=459949664]
+
+[node name="Robot" type="Sprite2D" parent="." unique_id=1241066877]
+modulate = Color(0.7822765, 0.0006896174, 0.82090145, 1)
+position = Vector2(172, 213)
+scale = Vector2(2.18, 2.18)
+texture = ExtResource("2_hn12h")
+
+[node name="LitlleRobot" type="Sprite2D" parent="Robot" unique_id=168293376]
+modulate = Color(1, 1, 0, 1)
+position = Vector2(-174.31192, 50.91743)
+scale = Vector2(0.671875, 0.671875)
+texture = ExtResource("1_hbghi")
+
+[node name="Bullwinkle" type="Sprite2D" parent="." unique_id=428055122]
+position = Vector2(662, 179)
+texture = ExtResource("2_hn12h")
+
+[node name="Tree" parent="." unique_id=1664696420 instance=ExtResource("3_hn12h")]
+offset_left = 855.0
+offset_top = -172.0
+offset_right = 1252.0
+offset_bottom = 69.0
+
+[node name="Tree2" parent="." unique_id=2033541676 instance=ExtResource("3_hn12h")]
+offset_left = 731.0
+offset_top = 355.0
+offset_right = 1128.0
+offset_bottom = 596.0
+color = Color(0.73006713, 0.71382636, 0.19404268, 1)
+
+[node name="Tree3" parent="." unique_id=842750891 instance=ExtResource("3_hn12h")]
+offset_left = 359.0
+offset_top = -446.0
+offset_right = 756.0
+offset_bottom = -205.0
+color = Color(0.80684334, 0.52860683, 0.25238866, 1)
+
+[node name="Tree4" parent="." unique_id=1015435862 instance=ExtResource("3_hn12h")]
+offset_left = -445.0
+offset_top = -400.0
+offset_right = -48.0
+offset_bottom = -159.0
+
+[node name="Tree5" parent="." unique_id=1688710181 instance=ExtResource("3_hn12h")]
+offset_left = -25.0
+offset_top = 725.0
+offset_right = 372.0
+offset_bottom = 966.0
+
+[node name="Circle" type="Sprite2D" parent="." unique_id=1744676529]
+position = Vector2(-438, 794)
+texture = SubResource("CompressedTexture2D_hn12h")

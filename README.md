@@ -1,6 +1,10 @@
 # Top of Mind
-- **First class:** Tuesday, January 13, 2026
-- **Cancelled classes:** Friday 1/23 
+- Begin Working on your [2D Games](/Assignments/2D/2DGame.md)
+  - **Complete the [2D Game Design Document](/Assignments/2D/2D_Concept.md) by next class!**
+  - [Watch 9 Tips for Getting Game Dev Done on Time](https://www.youtube.com/watch?v=pAYi-kbayYY) for help with the process
+  - [2D Brainstorming](https://www.tldraw.com/f/GXTD63O4soKhQfKmLZF5t?d=v0.0.1620.858.page)
+- Begin Working on [Lab 1](/Assignments/Labs/Lab_1.md)
+  - [Video turotial on Github and Godot Covering all of Lab 1](https://www.youtube.com/watch?v=E1srposxZWo)
 - **Office Hours:** Thursday 12-4pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
