@@ -30,9 +30,9 @@ The work of the class consists of the following:
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | Tue 2/3                      | 16            |
-| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | Tue 2/10                     | 10            |
+| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | Tue 2/13                     | 10            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/17, 2/20, 2/27, 3/31       | 24            |
-| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | Fri 2/13                     | 10            |
+| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | Fri 2/17                     | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Fri 3/20                     | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | Tue 4/7 or Fri 4/10          | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | Tue 4/21                     | 10            |
@@ -116,9 +116,9 @@ The course is split into 3 distinct modules each with a unique project:
 
 
 ### Tuesday 2/10 - Genres in 2D Github and nodes
-- Genres
 
-- 2D Game Brainstorming
+- [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
+  - [2D Game Brainstorming](/Modules/2D/2D_Brainstorming.md)
 
 **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 **Homework: [2D Game](/Assignments/2D/2DGame.md)**
