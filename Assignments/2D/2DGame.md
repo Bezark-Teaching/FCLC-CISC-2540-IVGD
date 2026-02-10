@@ -17,7 +17,6 @@ Design and create a 2D game using Godot 4 that can be played and completed withi
     - References any games that serve as inspiration.
     - Outlines your development process going forward (How are you planning on making the game with the time you have? How are you splitting up the work?)
     - What major challenges do you anticipate? What do you need to learn in order to create a playable prototype?
-  - Outlines your development process going forward (How are you planning on making the game with the time you have?)
 - **2D Game Prototype** - Submit a digital version of your 2D game developed in Godot 4.
 
 #### Grading Criteria: (Total 25 Points)
