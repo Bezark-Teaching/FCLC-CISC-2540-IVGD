@@ -1,6 +1,6 @@
 # Top of Mind
 - Begin Working on your [2D Games](/Assignments/2D/2DGame.md)
-  - **Complete the [2D Game Design Document](/Assignments/2D/2D_Concept.md) by next class!**
+  - **Complete the [2D Game Design Document](/Assignments/2D/2D_Concept.md) by 2/17!**
   - [Watch 9 Tips for Getting Game Dev Done on Time](https://www.youtube.com/watch?v=pAYi-kbayYY) for help with the process
   - [2D Brainstorming](https://www.tldraw.com/f/GXTD63O4soKhQfKmLZF5t?d=v0.0.1620.858.page)
 - Begin Working on [Lab 1](/Assignments/Labs/Lab_1.md)
@@ -36,7 +36,7 @@ The work of the class consists of the following:
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | Tue 2/3                      | 16            |
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | Tue 2/13                     | 10            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/17, 2/20, 2/27, 3/31       | 24            |
-| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | Fri 2/17                     | 10            |
+| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | Tue 2/17                     | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Fri 3/20                     | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | Tue 4/7 or Fri 4/10          | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | Tue 4/21                     | 10            |
