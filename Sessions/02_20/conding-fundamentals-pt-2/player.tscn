@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bpsxvn7fp581h"]
+
+[ext_resource type="Texture2D" uid="uid://dbex5ij2h825" path="res://icon.svg" id="1_1cao2"]
+[ext_resource type="Script" uid="uid://do8dtgn58gaem" path="res://player.gd" id="2_lrtcl"]
+
+[node name="Player2" type="Sprite2D" unique_id=9500175]
+texture = ExtResource("1_1cao2")
+script = ExtResource("2_lrtcl")
+speed = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1169050634]
+offset_left = -22.0
+offset_top = -97.0
+offset_right = 18.0
+offset_bottom = -57.0

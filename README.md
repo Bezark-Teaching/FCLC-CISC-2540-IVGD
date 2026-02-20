@@ -1,10 +1,8 @@
 # Top of Mind
 - Begin Working on your [2D Games](/Assignments/2D/2DGame.md)
-  - **Complete the [2D Game Design Document](/Assignments/2D/2D_Concept.md) by 2/17!**
-  - [Watch 9 Tips for Getting Game Dev Done on Time](https://www.youtube.com/watch?v=pAYi-kbayYY) for help with the process
-  - [2D Brainstorming](https://www.tldraw.com/f/GXTD63O4soKhQfKmLZF5t?d=v0.0.1620.858.page)
-- Begin Working on [Lab 1](/Assignments/Labs/Lab_1.md)
+- Keep Working on [Lab 2](/Assignments/Labs/Lab_2.md) and [Lab 3](/Assignments/Labs/Lab_3.md)
   - [Video turotial on Github and Godot Covering all of Lab 1](https://www.youtube.com/watch?v=E1srposxZWo)
+
 - **Office Hours:** Thursday 12-4pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
@@ -143,63 +141,68 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 6 - Input, Interactions and Patterns
 
-### Tuesday 2/17 - Input and Interactions Demo
-- Coding Input and Conditional Review
-- Input map
+### Tuesday 2/17 - Presidents Day
 
 **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 **DUE: Lab 1**
 
-### Friday 2/20 - Input and Interactions Workshop
+### Friday 2/20 - Input and Interactions 
+- Coding Input and Conditional Review
+- Input map
+
 - Shared Repos
   - Create, Invite, Clone
   - Pull and Push
   - Conflicts
-- Using Nodes together - build item pickup mechanic together
-  - Area2D
-  - Camera2D
-  - Timer
-- Functions vs Signals
 
 **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 **DUE: Lab 2**
 
-## Week 7 - Level, Environment and UI Design
+## Week 7 - 
 
-### Tuesday 2/24 - Level Design Demo
-- Area2D Review
-- CollisionShapes
-- StaticBody
-- RigidBody
+### Tuesday 2/24 - Assets and Animations
+- Conditional Logic Review
+
+- Using Nodes together 
+  - Calling Down
+
+  - Area2D
+  - Timer
+  - Camera
+  - Sound
+
 - Assets
   - Sprite Sheets
-  - Where to find assets
 
-### Friday 2/27 - Level Design Workshop
-- Review
+### Friday 2/27 - Composing with Nodes
+
+- Functions vs Signals
   - CollisionShapes
   - StaticBody
   - RigidBody
+
+- Physics Objects
 - CharacterBody
-- Tilemaps
 
 **DUE: Lab 3**
-## Week 8 - Project Development/Playtesting
+## Week 8 - Level, Environment and UI Design
 ### Tuesday 3/3 - Patterns
 
+- Tilemaps
+- UI
+- Sounds 
+
+
+### Friday 3/6  
 - 2D Components and Polish
   - Common Patterns: Items, Enemies, Checkpoints, Respawns, Killboxes
   - User Interface (Control Nodes)
   - Polish: Sound, Lighting, Particles
 - Project Development
 
-
-### Friday 3/6  
-- Continue 2D game development independently
-
 ## Week 9 - Spring Break!
 
-## Week 10 - Project Development
+## Week 10 - Project Development/Playtesting
 
 ### Tuesday 3/17
 - Project Development
