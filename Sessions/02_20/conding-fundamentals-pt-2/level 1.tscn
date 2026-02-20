@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cs50l7s3sqgv0"]
+
+[ext_resource type="PackedScene" uid="uid://bpsxvn7fp581h" path="res://player.tscn" id="1_glv2v"]
+
+[node name="Level1" type="Node2D" unique_id=1941014388]
+
+[node name="Background" type="ColorRect" parent="." unique_id=61363064]
+offset_right = 1133.0
+offset_bottom = 598.0
+color = Color(0.19898328, 0.19898331, 0.19898331, 1)
+
+[node name="Player2" parent="." unique_id=9500175 instance=ExtResource("1_glv2v")]
+position = Vector2(429, 184)
+
+[node name="Player3" parent="." unique_id=1363774494 instance=ExtResource("1_glv2v")]
+position = Vector2(600, 184)
+
+[node name="Player4" parent="." unique_id=717870285 instance=ExtResource("1_glv2v")]
+position = Vector2(788, 173)
