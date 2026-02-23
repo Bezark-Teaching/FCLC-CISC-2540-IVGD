@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dcfrsj2wkwofp"]
+
+[ext_resource type="PackedScene" uid="uid://bohjrh2isff1i" path="res://block.tscn" id="1_kncqt"]
+[ext_resource type="PackedScene" uid="uid://dxpl65ulpguh8" path="res://squeaky/physics_player.tscn" id="2_uilyf"]
+
+[node name="Level" type="Node2D" unique_id=923636528]
+
+[node name="Block" parent="." unique_id=477682912 instance=ExtResource("1_kncqt")]
+
+[node name="Block2" parent="." unique_id=946884691 instance=ExtResource("1_kncqt")]
+position = Vector2(764, -187)
+
+[node name="Block3" parent="." unique_id=490385324 instance=ExtResource("1_kncqt")]
+position = Vector2(1175, 284)
+
+[node name="Block4" parent="." unique_id=848208364 instance=ExtResource("1_kncqt")]
+position = Vector2(843, 617)
+
+[node name="CharacterBody2D" parent="." unique_id=823999463 instance=ExtResource("2_uilyf")]
+position = Vector2(583, 295)
