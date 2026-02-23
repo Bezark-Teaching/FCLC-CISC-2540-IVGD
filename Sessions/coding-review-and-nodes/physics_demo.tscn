@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://8xki62vnsorw"]
+
+[ext_resource type="Texture2D" uid="uid://csdg08gj135yr" path="res://squeaky/img/squeaky_poster07.png" id="1_0pas4"]
+[ext_resource type="Texture2D" uid="uid://d1smswbm1opx3" path="res://icon.svg" id="2_ofpxc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ks4tp"]
+size = Vector2(933, 199)
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_0pas4"]
+bounce = 0.76
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tx1ni"]
+radius = 71.063354
+
+[node name="PhysicsDemo" type="Node2D" unique_id=1384204349]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1453403020]
+position = Vector2(70, 515)
+
+[node name="SqueakyPoster07" type="Sprite2D" parent="StaticBody2D" unique_id=1051495532]
+position = Vector2(457.75, 90.75003)
+scale = Vector2(0.25176245, 0.101138785)
+texture = ExtResource("1_0pas4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=189070717]
+position = Vector2(456.5, 89.5)
+shape = SubResource("RectangleShape2D_ks4tp")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="." unique_id=755757915]
+position = Vector2(471, 118)
+mass = 17.531
+physics_material_override = SubResource("PhysicsMaterial_0pas4")
+gravity_scale = 5.518
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D" unique_id=376047147]
+position = Vector2(3, -8)
+shape = SubResource("CircleShape2D_tx1ni")
+
+[node name="Icon" type="Sprite2D" parent="RigidBody2D" unique_id=584086916]
+position = Vector2(5, -7)
+texture = ExtResource("2_ofpxc")
