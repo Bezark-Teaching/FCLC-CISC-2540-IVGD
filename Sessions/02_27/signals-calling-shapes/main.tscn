@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://cbx36of8hepwk"]
+
+[ext_resource type="Script" uid="uid://cwbim88swxvla" path="res://main.gd" id="1_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://bohjrh2isff1i" path="res://block.tscn" id="1_h2yge"]
+[ext_resource type="PackedScene" uid="uid://ccivvo5fswgnq" path="res://Player.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://diqjk680pf52s" path="res://squeaky_pickup.tscn" id="2_0xm2m"]
+
+[node name="Main" type="Node2D" unique_id=371767802]
+script = ExtResource("1_1bvp3")
+
+[node name="Level" type="Node2D" parent="." unique_id=361967077]
+
+[node name="Block" parent="Level" unique_id=477682912 instance=ExtResource("1_h2yge")]
+
+[node name="Block2" parent="Level" unique_id=938117762 instance=ExtResource("1_h2yge")]
+position = Vector2(764, -187)
+
+[node name="Block3" parent="Level" unique_id=250967428 instance=ExtResource("1_h2yge")]
+position = Vector2(1175, 284)
+
+[node name="Block4" parent="Level" unique_id=1643100765 instance=ExtResource("1_h2yge")]
+position = Vector2(843, 617)
+
+[node name="Icon" parent="." unique_id=1755447899 instance=ExtResource("1_ig7tw")]
+position = Vector2(419, 234)
+
+[node name="SqueakyPickup" parent="." unique_id=294475205 instance=ExtResource("2_0xm2m")]
+position = Vector2(165, 746)
+
+[node name="SqueakyPickup2" parent="." unique_id=117438182 instance=ExtResource("2_0xm2m")]
+position = Vector2(659, 477)
+
+[node name="SqueakyPickup3" parent="." unique_id=574884731 instance=ExtResource("2_0xm2m")]
+position = Vector2(482, 743)
+
+[node name="SqueakyPickup4" parent="." unique_id=2076592793 instance=ExtResource("2_0xm2m")]
+position = Vector2(346, 520)
+
+[connection signal="player_died" from="Icon" to="." method="_on_icon_player_died"]

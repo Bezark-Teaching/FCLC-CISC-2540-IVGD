@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://qeljih7mttk3"]
+
+[ext_resource type="Script" uid="uid://skkqo777xtnb" path="res://CharacterBody2D.gd" id="1_ognto"]
+[ext_resource type="Texture2D" uid="uid://2ufhteu85xop" path="res://Assets/icon.svg" id="2_p004i"]
+[ext_resource type="AudioStream" uid="uid://b6pcpx7xubqha" path="res://Assets/woosh.mp3" id="3_7tap8"]
+[ext_resource type="AudioStream" uid="uid://73eonsdfp3b1" path="res://Assets/music.mp3" id="4_jeulf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1xajh"]
+size = Vector2(128, 130)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hgmo0"]
+size = Vector2(810, 128)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_ognto")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_1xajh")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+
+[node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("2_p004i")
+
+[node name="Jump" type="AudioStreamPlayer2D" parent="CharacterBody2D"]
+stream = ExtResource("3_7tap8")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(0, 366)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(225, 63)
+shape = SubResource("RectangleShape2D_hgmo0")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D"]
+offset_left = -177.0
+offset_top = -2.0
+offset_right = 613.0
+offset_bottom = 128.0
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(407, 222)
+stream = ExtResource("4_jeulf")
+volume_db = -29.259
+autoplay = true
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(414, 221)
+texture = ExtResource("2_p004i")

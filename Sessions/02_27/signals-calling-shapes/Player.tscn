@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://ccivvo5fswgnq"]
+
+[ext_resource type="Texture2D" uid="uid://d1smswbm1opx3" path="res://icon.svg" id="1_kpjcp"]
+[ext_resource type="Script" uid="uid://eojeqsf6hqeh" path="res://icon.gd" id="2_kne1u"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_kpjcp"]
+font_size = 87
+font_color = Color(1, 0.32941177, 1, 1)
+outline_size = 13
+outline_color = Color(1, 1, 0.08235294, 1)
+shadow_size = 5
+shadow_color = Color(0, 0, 0, 0.92941177)
+shadow_offset = Vector2(5, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kpjcp"]
+size = Vector2(113, 131)
+
+[node name="Icon" type="Sprite2D" unique_id=1755447899]
+texture = ExtResource("1_kpjcp")
+script = ExtResource("2_kne1u")
+speed = 10
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=748694426]
+offset = Vector2(300, -200)
+zoom = Vector2(0.66, 0.66)
+
+[node name="Score" type="Label" parent="." unique_id=1448279831]
+offset_left = -535.0
+offset_top = -636.0
+offset_right = -411.0
+offset_bottom = -584.0
+text = "0"
+label_settings = SubResource("LabelSettings_kpjcp")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=781946875]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=978130179]
+position = Vector2(1, 0)
+shape = SubResource("RectangleShape2D_kpjcp")
+
+[node name="Timer" type="Timer" parent="." unique_id=69394417]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
