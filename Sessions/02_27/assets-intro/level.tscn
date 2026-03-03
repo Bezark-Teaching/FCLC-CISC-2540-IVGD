@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cyveoxw2knqvr"]
+
+[ext_resource type="PackedScene" uid="uid://dcev330e36ar" path="res://animated_sprite_2d.tscn" id="1_u52ul"]
+
+[node name="Level" type="Node2D" unique_id=1496945185]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1887577463]
+offset_right = 61.0
+offset_bottom = 230.0
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1114570606]
+offset_left = 218.0
+offset_top = -3.0
+offset_right = 279.0
+offset_bottom = 227.0
+
+[node name="AnimatedPlayer" parent="." unique_id=517536621 instance=ExtResource("1_u52ul")]

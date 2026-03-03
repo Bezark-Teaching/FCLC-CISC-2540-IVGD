@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://diqjk680pf52s"]
+
+[ext_resource type="Texture2D" uid="uid://dymdwfybajx6u" path="res://squeaky/img/squeaky_poster01.png" id="1_10yua"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_47tv1"]
+radius = 28.071337
+
+[node name="SqueakyPickup" type="Area2D" unique_id=294475205]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1101874347]
+shape = SubResource("CircleShape2D_47tv1")
+
+[node name="SqueakyPoster01" type="Sprite2D" parent="." unique_id=543501630]
+position = Vector2(-9.536743e-07, -4.7683716e-07)
+scale = Vector2(0.015104167, 0.017881943)
+texture = ExtResource("1_10yua")

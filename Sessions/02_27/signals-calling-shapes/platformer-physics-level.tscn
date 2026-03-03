@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://6tmwrat3x7v3"]
+
+[ext_resource type="PackedScene" uid="uid://bohjrh2isff1i" path="res://block.tscn" id="1_05gry"]
+[ext_resource type="Script" uid="uid://dnl1ekeh11osb" path="res://platformer_character.gd" id="2_ljm55"]
+[ext_resource type="Texture2D" uid="uid://d1smswbm1opx3" path="res://icon.svg" id="3_11tpp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pstgh"]
+size = Vector2(123, 121)
+
+[node name="Level" type="Node2D" unique_id=923636528]
+
+[node name="Block" parent="." unique_id=477682912 instance=ExtResource("1_05gry")]
+position = Vector2(0, 154)
+
+[node name="Block2" parent="." unique_id=946884691 instance=ExtResource("1_05gry")]
+position = Vector2(764, -187)
+
+[node name="Block3" parent="." unique_id=490385324 instance=ExtResource("1_05gry")]
+position = Vector2(1175, 284)
+
+[node name="Block4" parent="." unique_id=848208364 instance=ExtResource("1_05gry")]
+position = Vector2(843, 617)
+
+[node name="PlatformerCharacter" type="CharacterBody2D" parent="." unique_id=1043668099]
+position = Vector2(63, -72)
+script = ExtResource("2_ljm55")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlatformerCharacter" unique_id=2124015101]
+position = Vector2(0.5, 6.5)
+shape = SubResource("RectangleShape2D_pstgh")
+
+[node name="Icon" type="Sprite2D" parent="PlatformerCharacter" unique_id=560535680]
+texture = ExtResource("3_11tpp")
