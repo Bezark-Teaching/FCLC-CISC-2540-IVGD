@@ -1,17 +1,44 @@
-[gd_scene load_steps=3 format=3 uid="uid://c740qdf0ummmv"]
+[gd_scene format=3 uid="uid://c740qdf0ummmv"]
 
 [ext_resource type="PackedScene" uid="uid://c6crv0w8wplqg" path="res://Example/animated_character.tscn" id="1_ka0d6"]
 [ext_resource type="PackedScene" uid="uid://t053rd7gj4e3" path="res://Example/platform.tscn" id="2_it4ux"]
+[ext_resource type="Script" uid="uid://c44ciwi6v6rdh" path="res://Example/killbox.gd" id="3_8857e"]
+[ext_resource type="Texture2D" uid="uid://b4eo3tddgrwog" path="res://icon.svg" id="4_lomcd"]
 
-[node name="Level" type="Node2D"]
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_lomcd"]
 
-[node name="Platform" parent="." instance=ExtResource("2_it4ux")]
+[sub_resource type="CircleShape2D" id="CircleShape2D_8nylt"]
+
+[node name="Level" type="Node2D" unique_id=731152591]
+
+[node name="Platform" parent="." unique_id=419653178 instance=ExtResource("2_it4ux")]
 position = Vector2(1, 74)
 
-[node name="Platform2" parent="." instance=ExtResource("2_it4ux")]
+[node name="Platform2" parent="." unique_id=1222702276 instance=ExtResource("2_it4ux")]
 position = Vector2(80, 76)
 
-[node name="Platform3" parent="." instance=ExtResource("2_it4ux")]
+[node name="Platform3" parent="." unique_id=533471905 instance=ExtResource("2_it4ux")]
 position = Vector2(167, 74)
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("1_ka0d6")]
+[node name="Player" parent="." unique_id=1865634014 instance=ExtResource("1_ka0d6")]
+position = Vector2(-4, -35)
+
+[node name="Killbox" type="Area2D" parent="." unique_id=845270489]
+position = Vector2(0, 221)
+script = ExtResource("3_8857e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox" unique_id=2021050661]
+shape = SubResource("WorldBoundaryShape2D_lomcd")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="." unique_id=585869221]
+position = Vector2(-61, -29)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D" unique_id=1294451542]
+shape = SubResource("CircleShape2D_8nylt")
+
+[node name="Icon" type="Sprite2D" parent="RigidBody2D" unique_id=273035055]
+position = Vector2(6, -6)
+scale = Vector2(0.28125, 0.28125)
+texture = ExtResource("4_lomcd")
+
+[connection signal="body_entered" from="Killbox" to="Killbox" method="_on_body_entered"]

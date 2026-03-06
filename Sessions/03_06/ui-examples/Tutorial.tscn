@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://bng6f50ofi4x6"]
+
+[ext_resource type="Script" uid="uid://dio1xvtqfi5yi" path="res://tutorial.gd" id="1_fr6qw"]
+[ext_resource type="FontFile" uid="uid://cixxnb2d6dxbr" path="res://mexcellent 3d.otf" id="2_oiqhk"]
+[ext_resource type="FontFile" uid="uid://g64tghahmpvm" path="res://mexcellent rg.otf" id="3_p3v23"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4trbc"]
+bg_color = Color(0.909804, 0.6, 0.6, 1)
+border_width_left = 6
+border_width_top = 6
+border_width_right = 6
+border_width_bottom = 6
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="LabelSettings" id="LabelSettings_6wdrn"]
+font = ExtResource("2_oiqhk")
+font_size = 64
+
+[node name="Control" type="Control" unique_id=1953759875]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fr6qw")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=2078071515]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_4trbc")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer" unique_id=1757532906]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="PanelContainer/VBoxContainer" unique_id=1248558820]
+layout_mode = 2
+text = "Press buttons and dont Die"
+label_settings = SubResource("LabelSettings_6wdrn")
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="PanelContainer/VBoxContainer" unique_id=814815522]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_p3v23")
+theme_override_font_sizes/font_size = 32
+text = "Start Game"
+
+[node name="MenuButton" type="Button" parent="PanelContainer/VBoxContainer" unique_id=1189505124]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_p3v23")
+theme_override_font_sizes/font_size = 32
+text = "Back To Main Menu..."
+
+[connection signal="button_down" from="PanelContainer/VBoxContainer/Button" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="PanelContainer/VBoxContainer/MenuButton" to="." method="_on_menu_button_button_down"]

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cxqa0q2xdnb5u"]
+
+[ext_resource type="Script" uid="uid://bjerfqmmcqmv1" path="res://red_robot.gd" id="1_iklbh"]
+[ext_resource type="Texture2D" uid="uid://cn1fxk6j4dlfa" path="res://icon.svg" id="2_1pudh"]
+
+[node name="RedRobot" type="Node2D" unique_id=1604149564]
+script = ExtResource("1_iklbh")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=743590071]
+modulate = Color(1, 0.30980393, 0.12941177, 1)
+position = Vector2(123, 80)
+scale = Vector2(1.296875, 0.2421875)
+texture = ExtResource("2_1pudh")
+
+[node name="Timer" type="Timer" parent="." unique_id=305986099]
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

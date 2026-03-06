@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://ddlpfk13060n3"]
+
+[ext_resource type="Texture2D" uid="uid://b50n03xxt77er" path="res://icon.svg" id="1_1ecij"]
+[ext_resource type="Script" uid="uid://dq3djokan4a6y" path="res://control_demo.gd" id="1_pj54t"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_buk5f"]
+font_size = 72
+font_color = Color(0.3764706, 0.45490196, 1, 1)
+shadow_color = Color(0, 0, 0, 0.88235295)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4m2rc"]
+bg_color = Color(0.7529412, 0.49019608, 0.7607843, 0.5882353)
+
+[node name="Control" type="Control" unique_id=126732763]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_pj54t")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1078354884]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=1157355711]
+layout_mode = 2
+size_flags_vertical = 6
+text = "HELLO!!!"
+label_settings = SubResource("LabelSettings_buk5f")
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=1002495535]
+layout_mode = 2
+alignment = 1
+
+[node name="Button" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=1943115894]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.8234049, 0.0005371392, 0.8245593, 1)
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_4m2rc")
+text = "PRESS MEEE!"
+
+[node name="Button2" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=253990350]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.8234049, 0.0005371392, 0.8245593, 1)
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_4m2rc")
+text = "PRESS MEEE!"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer" unique_id=607860734]
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="VBoxContainer/HBoxContainer2" unique_id=455985080]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8234049, 0.0005371392, 0.8245593, 1)
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_4m2rc")
+text = "PRESS MEEE!"
+
+[node name="Button4" type="Button" parent="VBoxContainer/HBoxContainer2" unique_id=1843931745]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8234049, 0.0005371392, 0.8245593, 1)
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_4m2rc")
+text = "PRESS MEEE!"
+
+[node name="Button5" type="Button" parent="VBoxContainer/HBoxContainer2" unique_id=1868855724]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8234049, 0.0005371392, 0.8245593, 1)
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_4m2rc")
+text = "PRESS MEEE!"
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1811423640]
+position = Vector2(102, 419)
+texture = ExtResource("1_1ecij")
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Button2" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer2/Button3" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer2/Button4" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer2/Button5" to="." method="_on_button_pressed"]
