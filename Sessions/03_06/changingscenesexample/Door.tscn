@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dlqgqjqlyw827"]
+
+[ext_resource type="Script" uid="uid://b5emxyyv8vo50" path="res://checkpoint.gd" id="1_gbd2a"]
+[ext_resource type="Texture2D" uid="uid://cn1fxk6j4dlfa" path="res://icon.svg" id="2_tavui"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ktu0d"]
+size = Vector2(88, 150)
+
+[node name="Door" type="Node2D" unique_id=1120907498]
+script = ExtResource("1_gbd2a")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=381310678]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1069710897]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_ktu0d")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1314394377]
+position = Vector2(4, -0.249998)
+scale = Vector2(0.429688, 1.05859)
+texture = ExtResource("2_tavui")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

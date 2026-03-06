@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://d3lcw6etgdpav"]
+
+[ext_resource type="PackedScene" uid="uid://ishqo8c65him" path="res://player.tscn" id="1_ggj0w"]
+[ext_resource type="PackedScene" uid="uid://dlqgqjqlyw827" path="res://Door.tscn" id="2_pmujw"]
+[ext_resource type="PackedScene" uid="uid://b3mmjx82j13kk" path="res://level_1.tscn" id="3_g1vi2"]
+[ext_resource type="PackedScene" uid="uid://p7r48peodi2k" path="res://level_2.tscn" id="4_6lnj7"]
+[ext_resource type="PackedScene" uid="uid://cjgcl04jkkrwc" path="res://item_pickup.tscn" id="5_n5cug"]
+[ext_resource type="PackedScene" uid="uid://cxqa0q2xdnb5u" path="res://red_robot.tscn" id="6_484xq"]
+
+[node name="HomeBase" type="Node2D" unique_id=1110361027]
+metadata/_edit_horizontal_guides_ = [132.0]
+
+[node name="TopDownCharacter" parent="." unique_id=187801150 instance=ExtResource("1_ggj0w")]
+position = Vector2(124, 225)
+
+[node name="Door" parent="." unique_id=678405627 instance=ExtResource("2_pmujw")]
+position = Vector2(784, 138)
+scene_to_load = ExtResource("3_g1vi2")
+
+[node name="Door2" parent="." unique_id=528589121 instance=ExtResource("2_pmujw")]
+position = Vector2(751, 591)
+scene_to_load = ExtResource("4_6lnj7")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=2097921820]
+position = Vector2(124, 225)
+
+[node name="ItemPickup" parent="." unique_id=1651649007 instance=ExtResource("5_n5cug")]
+position = Vector2(486, 399)
+item_scene = ExtResource("6_484xq")

@@ -5,7 +5,10 @@ const SPEED = 300.0
 const JUMP_VELOCITY = -200.0
 var jumping = false
 
-@onready var animated_sprite_2d = get_node("AnimatedSprite2D")
+var alive = true
+
+@onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+
 
 func _physics_process(delta):
 
@@ -34,7 +37,20 @@ func _physics_process(delta):
 			animated_sprite_2d.flip_h = false
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
-		if not jumping:
-			animated_sprite_2d.play("default")
+		if not jumping and alive:
+			$AnimatedSprite2D.play("default")
 
 	move_and_slide()
+	
+	
+	
+func die():
+	print('i died')
+	alive = false
+	animated_sprite_2d.play("death")
+
+
+func _on_animated_sprite_2d_animation_finished() -> void:
+	print('animation finished')
+	if animated_sprite_2d.animation == "death":
+		get_tree().reload_current_scene()
