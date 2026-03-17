@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://dlkps1yokuqo4"]
+
+[ext_resource type="Script" uid="uid://0ms1wubc6a8l" path="res://simpl_enemy.gd" id="1_ojcoo"]
+[ext_resource type="Texture2D" uid="uid://bmc4bncyu0vb0" path="res://Assets/Traps/Spike Head/Blink (54x52).png" id="2_lcwda"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pyby2"]
+atlas = ExtResource("2_lcwda")
+region = Rect2(0, 0, 54, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8uwkx"]
+atlas = ExtResource("2_lcwda")
+region = Rect2(54, 0, 54, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1m8om"]
+atlas = ExtResource("2_lcwda")
+region = Rect2(108, 0, 54, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hc6o3"]
+atlas = ExtResource("2_lcwda")
+region = Rect2(162, 0, 54, 52)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mhxs7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pyby2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8uwkx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1m8om")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hc6o3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_abl1d"]
+size = Vector2(37, 41)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ojcoo"]
+size = Vector2(53, 52)
+
+[node name="SimplEnemy" type="CharacterBody2D" unique_id=1327586468]
+script = ExtResource("1_ojcoo")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1530744409]
+sprite_frames = SubResource("SpriteFrames_mhxs7")
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1440872045]
+position = Vector2(1.5, 0.5)
+shape = SubResource("RectangleShape2D_abl1d")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1096676806]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1849833678]
+position = Vector2(0, -4)
+shape = SubResource("RectangleShape2D_ojcoo")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

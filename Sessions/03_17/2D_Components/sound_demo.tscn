@@ -1,0 +1,36 @@
+[gd_scene load_steps=6 format=3 uid="uid://dwtppgf4x8ouw"]
+
+[ext_resource type="AudioStream" uid="uid://c1hfi1ryafrrh" path="res://InClassDemo/BrownNoise.mp3" id="1_hbfjk"]
+[ext_resource type="Texture2D" uid="uid://c4oaaav66llsb" path="res://Assets/icon.svg" id="1_pt2cy"]
+[ext_resource type="Script" path="res://SoundPlayer.gd" id="2_if622"]
+[ext_resource type="PackedScene" uid="uid://kjahnpq058g7" path="res://Examples/Levels/level_1.tscn" id="3_nsm5y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v7c6u"]
+size = Vector2(182.154, 342.78)
+
+[node name="Sound Demo" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(72, -38)
+scale = Vector2(0.203125, 0.230469)
+texture = ExtResource("1_pt2cy")
+script = ExtResource("2_if622")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Icon"]
+position = Vector2(-6, 6)
+stream = ExtResource("1_hbfjk")
+bus = &"Echo"
+
+[node name="Area2D" type="Area2D" parent="Icon"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Icon/Area2D"]
+position = Vector2(14.7692, -69.4237)
+shape = SubResource("RectangleShape2D_v7c6u")
+
+[node name="Level1" parent="." instance=ExtResource("3_nsm5y")]
+
+[node name="AudioListener2D" type="AudioListener2D" parent="."]
+position = Vector2(77, -69)
+current = true
+
+[connection signal="body_entered" from="Icon/Area2D" to="Icon" method="_on_area_2d_body_entered"]

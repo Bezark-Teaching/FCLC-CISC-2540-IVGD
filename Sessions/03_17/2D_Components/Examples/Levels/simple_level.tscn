@@ -1,0 +1,99 @@
+[gd_scene format=3 uid="uid://boumkcsiw84um"]
+
+[ext_resource type="PackedScene" uid="uid://bngnx0bsasim5" path="res://Examples/Items/static_box.tscn" id="1_k6wg2"]
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Examples/Player/Player.tscn" id="2_xjsra"]
+[ext_resource type="PackedScene" uid="uid://dohej3k23y176" path="res://Examples/Items/rigidbody_box.tscn" id="3_v6vkm"]
+[ext_resource type="Script" uid="uid://vvguae45q8nl" path="res://Examples/killbox.gd" id="4_c6lld"]
+[ext_resource type="PackedScene" uid="uid://bbrc4r5uir85h" path="res://Examples/Items/fruit.tscn" id="5_nkq3i"]
+[ext_resource type="PackedScene" uid="uid://dlkps1yokuqo4" path="res://simpl_enemy.tscn" id="6_u7wjg"]
+[ext_resource type="PackedScene" uid="uid://by0o0t4ypfr7x" path="res://Examples/Levels/checkpoint.tscn" id="7_4amwf"]
+[ext_resource type="PackedScene" uid="uid://q4cd00bo0v4r" path="res://Examples/Attacking/gun.tscn" id="8_ob4k0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t40yc"]
+size = Vector2(860, 41)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_1kqu1"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_c6lld"]
+normal = Vector2(1, 0)
+
+[node name="Simple-Level" type="Node2D" unique_id=1826711834]
+
+[node name="StaticBoxes" type="Node2D" parent="." unique_id=1257666361]
+position = Vector2(324, 70)
+
+[node name="Box" parent="StaticBoxes" unique_id=166888804 instance=ExtResource("1_k6wg2")]
+
+[node name="Box2" parent="StaticBoxes" unique_id=1165947551 instance=ExtResource("1_k6wg2")]
+position = Vector2(24, 0)
+
+[node name="Box3" parent="StaticBoxes" unique_id=2002649615 instance=ExtResource("1_k6wg2")]
+position = Vector2(51, 0)
+
+[node name="Box4" parent="StaticBoxes" unique_id=946003265 instance=ExtResource("1_k6wg2")]
+position = Vector2(75, 0)
+
+[node name="Player" parent="." unique_id=1439066850 instance=ExtResource("2_xjsra")]
+position = Vector2(36, 37)
+
+[node name="RigidBody Boxes" type="Node2D" parent="." unique_id=1708598497]
+position = Vector2(-144, 10.000002)
+rotation = 0.494464
+
+[node name="Box2" parent="RigidBody Boxes" unique_id=1712604965 instance=ExtResource("3_v6vkm")]
+position = Vector2(59.7708, -64.0347)
+physics_material_override = null
+
+[node name="Box4" parent="RigidBody Boxes" unique_id=1691522219 instance=ExtResource("3_v6vkm")]
+position = Vector2(99.5727, 22.4338)
+physics_material_override = null
+
+[node name="Box5" parent="RigidBody Boxes" unique_id=1260944931 instance=ExtResource("3_v6vkm")]
+position = Vector2(89.6681, -8.58068)
+rotation = -2.25658
+physics_material_override = null
+
+[node name="Box3" parent="RigidBody Boxes" unique_id=506164586 instance=ExtResource("3_v6vkm")]
+position = Vector2(78.5465, -35.5308)
+physics_material_override = null
+
+[node name="Checkpoint" parent="." unique_id=764121030 instance=ExtResource("7_4amwf")]
+position = Vector2(600, 102)
+
+[node name="Floor" type="StaticBody2D" parent="." unique_id=589822899]
+position = Vector2(0, 102)
+
+[node name="ColorRect" type="ColorRect" parent="Floor" unique_id=515356573]
+offset_right = 859.0
+offset_bottom = 40.0
+color = Color(0.482353, 0.678431, 0.447059, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor" unique_id=858987548]
+position = Vector2(430, 20.5)
+shape = SubResource("RectangleShape2D_t40yc")
+
+[node name="Killbox" type="Area2D" parent="." unique_id=796628696]
+position = Vector2(881, 123)
+script = ExtResource("4_c6lld")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox" unique_id=97158110]
+position = Vector2(-1066, 136)
+shape = SubResource("WorldBoundaryShape2D_1kqu1")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1470054338]
+position = Vector2(-185, -10)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=2014905062]
+shape = SubResource("WorldBoundaryShape2D_c6lld")
+
+[node name="Fruit" parent="." unique_id=1531928582 instance=ExtResource("5_nkq3i")]
+position = Vector2(128, 56)
+
+[node name="SimplEnemy" parent="." unique_id=1327586468 instance=ExtResource("6_u7wjg")]
+position = Vector2(162, 28)
+
+[node name="Gun" parent="SimplEnemy" unique_id=776059502 instance=ExtResource("8_ob4k0")]
+position = Vector2(162, 30)
+
+[connection signal="body_entered" from="Killbox" to="Killbox" method="_on_body_entered"]
