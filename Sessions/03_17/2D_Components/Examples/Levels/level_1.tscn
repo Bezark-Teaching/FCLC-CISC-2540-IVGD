@@ -1,0 +1,77 @@
+[gd_scene load_steps=10 format=3 uid="uid://kjahnpq058g7"]
+
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Examples/Player/Player.tscn" id="1_8woy6"]
+[ext_resource type="PackedScene" uid="uid://bqinvgyploi81" path="res://Examples/Platforms/platform.tscn" id="2_2e0yh"]
+[ext_resource type="PackedScene" uid="uid://dleqsmbn50ou" path="res://Examples/Levels/exit.tscn" id="2_7fpkp"]
+[ext_resource type="PackedScene" uid="uid://c72g4k8jv78w0" path="res://Examples/Levels/level_2.tscn" id="3_lyixa"]
+[ext_resource type="PackedScene" uid="uid://diog5o2u51yw5" path="res://Examples/Items/item_pick_up.tscn" id="4_ejtvn"]
+[ext_resource type="Script" path="res://Examples/Levels/HardCodedExit.gd" id="4_idkln"]
+[ext_resource type="PackedScene" uid="uid://babsjd4y120k7" path="res://Examples/Platforms/Moving Platform.tscn" id="6_ofywp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0c3ay"]
+size = Vector2(121, 39)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ksp5b"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_8woy6")]
+position = Vector2(13, -48)
+
+[node name="Platforms" type="Node2D" parent="."]
+
+[node name="Platform" parent="Platforms" instance=ExtResource("2_2e0yh")]
+
+[node name="Platform2" type="StaticBody2D" parent="Platforms"]
+position = Vector2(548, 90)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platforms/Platform2"]
+position = Vector2(60.5, 19.5)
+shape = SubResource("RectangleShape2D_0c3ay")
+
+[node name="ColorRect" type="ColorRect" parent="Platforms/Platform2"]
+offset_right = 122.0
+offset_bottom = 40.0
+color = Color(0.262745, 0.6, 0.47451, 1)
+
+[node name="ModularExit2" parent="Platforms/Platform2" instance=ExtResource("2_7fpkp")]
+position = Vector2(64, 1)
+next_level = ExtResource("4_ejtvn")
+
+[node name="Platform3" type="StaticBody2D" parent="Platforms"]
+position = Vector2(354, 88)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platforms/Platform3"]
+position = Vector2(60.5, 19.5)
+shape = SubResource("RectangleShape2D_0c3ay")
+
+[node name="ColorRect" type="ColorRect" parent="Platforms/Platform3"]
+offset_right = 122.0
+offset_bottom = 40.0
+color = Color(0.262745, 0.6, 0.47451, 1)
+
+[node name="ModularExit" parent="Platforms/Platform3" instance=ExtResource("2_7fpkp")]
+position = Vector2(103, 0)
+next_level = ExtResource("3_lyixa")
+
+[node name="HardCodedExit" type="Area2D" parent="Platforms/Platform3"]
+position = Vector2(24, -19)
+script = ExtResource("4_idkln")
+
+[node name="Box" type="ColorRect" parent="Platforms/Platform3/HardCodedExit"]
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 10.0
+color = Color(1, 0.0431373, 0.0352941, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platforms/Platform3/HardCodedExit"]
+shape = SubResource("RectangleShape2D_ksp5b")
+
+[node name="MP" parent="." instance=ExtResource("6_ofywp")]
+position = Vector2(176, -34)
+
+[node name="MP2" parent="." instance=ExtResource("6_ofywp")]
+position = Vector2(509, -22)
+
+[connection signal="body_entered" from="Platforms/Platform3/HardCodedExit" to="Platforms/Platform3/HardCodedExit" method="_on_body_entered"]

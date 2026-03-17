@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7gqburpjbyeh"]
+
+[ext_resource type="PackedScene" uid="uid://dsdo3161u5apt" path="res://InClassDemo/animated_character.tscn" id="1_b1bbg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8svbh"]
+size = Vector2(121, 39)
+
+[node name="Flipping Annimation Demo" type="Node2D"]
+
+[node name="AnimatedCharacter" parent="." instance=ExtResource("1_b1bbg")]
+position = Vector2(22, -24)
+
+[node name="Platforms" type="Node2D" parent="."]
+
+[node name="Platform" type="StaticBody2D" parent="Platforms"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platforms/Platform"]
+position = Vector2(60.5, 19.5)
+shape = SubResource("RectangleShape2D_8svbh")
+
+[node name="ColorRect" type="ColorRect" parent="Platforms/Platform"]
+offset_right = 122.0
+offset_bottom = 40.0
+color = Color(0.262745, 0.6, 0.47451, 1)
+
+[node name="Platform2" type="StaticBody2D" parent="Platforms"]
+position = Vector2(174, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platforms/Platform2"]
+position = Vector2(60.5, 19.5)
+shape = SubResource("RectangleShape2D_8svbh")
+
+[node name="ColorRect" type="ColorRect" parent="Platforms/Platform2"]
+offset_right = 122.0
+offset_bottom = 40.0
+color = Color(0.262745, 0.6, 0.47451, 1)
+
+[node name="Platform3" type="StaticBody2D" parent="Platforms"]
+position = Vector2(319, 60)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platforms/Platform3"]
+position = Vector2(60.5, 19.5)
+shape = SubResource("RectangleShape2D_8svbh")
+
+[node name="ColorRect" type="ColorRect" parent="Platforms/Platform3"]
+offset_right = 122.0
+offset_bottom = 40.0
+color = Color(0.262745, 0.6, 0.47451, 1)

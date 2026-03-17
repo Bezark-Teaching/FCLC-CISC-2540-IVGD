@@ -1,0 +1,52 @@
+[gd_scene load_steps=6 format=3 uid="uid://c34e34dm6g1oa"]
+
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Examples/Player/Player.tscn" id="1_d7iic"]
+[ext_resource type="PackedScene" uid="uid://bbrc4r5uir85h" path="res://Examples/Items/fruit.tscn" id="2_2q81w"]
+[ext_resource type="Script" path="res://Examples/Levels/PlayerKillbox.gd" id="3_pvrkm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a27bq"]
+size = Vector2(860, 41)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pyoy5"]
+size = Vector2(2927, 177)
+
+[node name="RespawnDemo" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_d7iic")]
+
+[node name="Floor" type="StaticBody2D" parent="."]
+position = Vector2(0, 102)
+
+[node name="ColorRect" type="ColorRect" parent="Floor"]
+offset_right = 859.0
+offset_bottom = 40.0
+color = Color(0.482353, 0.678431, 0.447059, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+position = Vector2(430, 20.5)
+shape = SubResource("RectangleShape2D_a27bq")
+
+[node name="Items" type="Node2D" parent="."]
+
+[node name="Fruit" parent="Items" instance=ExtResource("2_2q81w")]
+position = Vector2(189, 76)
+
+[node name="Fruit2" parent="Items" instance=ExtResource("2_2q81w")]
+position = Vector2(264, 76)
+
+[node name="Fruit3" parent="Items" instance=ExtResource("2_2q81w")]
+position = Vector2(348, 76)
+
+[node name="Killbox" type="Area2D" parent="."]
+position = Vector2(0, 218)
+script = ExtResource("3_pvrkm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox"]
+position = Vector2(1050.5, 78.5)
+shape = SubResource("RectangleShape2D_pyoy5")
+
+[node name="Respawn" type="Marker2D" parent="."]
+position = Vector2(267, -110)
+
+[connection signal="body_entered" from="Killbox" to="Killbox" method="_on_body_entered"]

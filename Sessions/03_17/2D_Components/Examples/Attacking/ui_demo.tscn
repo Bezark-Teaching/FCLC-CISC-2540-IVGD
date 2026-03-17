@@ -1,0 +1,71 @@
+[gd_scene load_steps=5 format=3 uid="uid://cth38uxsdcnxw"]
+
+[ext_resource type="PackedScene" uid="uid://bngnx0bsasim5" path="res://Examples/Items/static_box.tscn" id="1_lyy4t"]
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Examples/Player/Player.tscn" id="2_2ws0m"]
+[ext_resource type="PackedScene" uid="uid://dohej3k23y176" path="res://Examples/Items/rigidbody_box.tscn" id="3_ejpyo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t40yc"]
+size = Vector2(860, 41)
+
+[node name="UI Demo" type="Node2D"]
+
+[node name="Simple-Level" type="Node2D" parent="."]
+
+[node name="StaticBoxes" type="Node2D" parent="Simple-Level"]
+position = Vector2(324, 70)
+
+[node name="Box" parent="Simple-Level/StaticBoxes" instance=ExtResource("1_lyy4t")]
+
+[node name="Box2" parent="Simple-Level/StaticBoxes" instance=ExtResource("1_lyy4t")]
+position = Vector2(24, 0)
+
+[node name="Box3" parent="Simple-Level/StaticBoxes" instance=ExtResource("1_lyy4t")]
+position = Vector2(51, 0)
+
+[node name="Box4" parent="Simple-Level/StaticBoxes" instance=ExtResource("1_lyy4t")]
+position = Vector2(75, 0)
+
+[node name="CharacterBody2D" parent="Simple-Level" instance=ExtResource("2_2ws0m")]
+position = Vector2(29, 0)
+
+[node name="Label" type="Label" parent="Simple-Level/CharacterBody2D"]
+offset_left = -181.0
+offset_top = -123.0
+offset_right = -51.0
+offset_bottom = -100.0
+theme_override_font_sizes/font_size = 24
+text = "Look at this text!"
+
+[node name="RigidBody Boxes" type="Node2D" parent="Simple-Level"]
+position = Vector2(74, 5)
+rotation = 0.494464
+
+[node name="Box2" parent="Simple-Level/RigidBody Boxes" instance=ExtResource("3_ejpyo")]
+position = Vector2(59.7708, -64.0347)
+physics_material_override = null
+
+[node name="Box4" parent="Simple-Level/RigidBody Boxes" instance=ExtResource("3_ejpyo")]
+position = Vector2(99.5727, 22.4338)
+physics_material_override = null
+
+[node name="Box5" parent="Simple-Level/RigidBody Boxes" instance=ExtResource("3_ejpyo")]
+position = Vector2(89.6681, -8.58068)
+rotation = -2.25658
+physics_material_override = null
+
+[node name="Box3" parent="Simple-Level/RigidBody Boxes" instance=ExtResource("3_ejpyo")]
+position = Vector2(78.5465, -35.5308)
+physics_material_override = null
+
+[node name="Floor" type="StaticBody2D" parent="Simple-Level"]
+position = Vector2(0, 102)
+
+[node name="ColorRect" type="ColorRect" parent="Simple-Level/Floor"]
+offset_right = 859.0
+offset_bottom = 40.0
+color = Color(0.482353, 0.678431, 0.447059, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Simple-Level/Floor"]
+position = Vector2(430, 20.5)
+shape = SubResource("RectangleShape2D_t40yc")
