@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://0lkv2bvnbi1q"]
+
+[ext_resource type="Texture2D" uid="uid://osya4qyws2gk" path="res://Legacy_Underwater/sand.png" id="1_lm0ks"]
+[ext_resource type="PackedScene" uid="uid://cj317uaaymaq0" path="res://moving_camera_2d.tscn" id="2_h4f6e"]
+[ext_resource type="Texture2D" uid="uid://qwru6pyowi2b" path="res://icon.svg" id="2_rai36"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" parent="." instance=ExtResource("2_h4f6e")]
+
+[node name="Parallax2D" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.1, 1)
+repeat_size = Vector2(256, 0)
+repeat_times = 7
+
+[node name="Sand" type="Sprite2D" parent="Parallax2D"]
+texture = ExtResource("1_lm0ks")
+
+[node name="Parallax2D2" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.5, 1)
+repeat_size = Vector2(150, 0)
+repeat_times = 7
+
+[node name="Icon" type="Sprite2D" parent="Parallax2D2"]
+position = Vector2(178.5, 186.5)
+scale = Vector2(2.24219, 3.02344)
+texture = ExtResource("2_rai36")

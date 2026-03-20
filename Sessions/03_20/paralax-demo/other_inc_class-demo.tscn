@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://d2t3qw8wn5rs4"]
+
+[ext_resource type="Texture2D" uid="uid://qwru6pyowi2b" path="res://icon.svg" id="1_hhei0"]
+[ext_resource type="PackedScene" uid="uid://cj317uaaymaq0" path="res://moving_camera_2d.tscn" id="2_4cjsc"]
+
+[node name="Node2D" type="Node2D" unique_id=286232352]
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=1610837095]
+scroll_scale = Vector2(0.1, 1)
+repeat_size = Vector2(128, 0)
+repeat_times = 13
+
+[node name="Icon" type="Sprite2D" parent="Parallax2D" unique_id=1692449574]
+position = Vector2(23, 29)
+texture = ExtResource("1_hhei0")
+
+[node name="Parallax2D2" type="Parallax2D" parent="." unique_id=1789569830]
+scroll_scale = Vector2(0.4, 1)
+repeat_size = Vector2(128, 0)
+repeat_times = 13
+
+[node name="Icon" type="Sprite2D" parent="Parallax2D2" unique_id=714255848]
+modulate = Color(1, 0.32941177, 1, 0.6117647)
+position = Vector2(23, 31.000004)
+scale = Vector2(1, 0.43750003)
+texture = ExtResource("1_hhei0")
+
+[node name="Camera2D" parent="." unique_id=998738977 instance=ExtResource("2_4cjsc")]
+position = Vector2(153, 24)
+zoom = Vector2(6, 6)

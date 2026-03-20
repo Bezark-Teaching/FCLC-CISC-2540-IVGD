@@ -17,7 +17,9 @@ var alive = true
 
 
 func _ready() -> void:
+	%ProgressBar.max_value = max_health
 	health = max_health
+	%ProgressBar.value = health
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -51,6 +53,7 @@ func _physics_process(delta):
 func damage(amount):
 	$AnimationPlayer.play("damage")
 	health -= amount
+	%ProgressBar.value = health
 	if health <= 0:
 		kill()
 

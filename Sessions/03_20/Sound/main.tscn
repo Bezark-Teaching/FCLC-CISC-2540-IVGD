@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://csipwgfy03rel"]
+
+[ext_resource type="Script" uid="uid://skkqo777xtnb" path="res://CharacterBody2D.gd" id="1_km8iq"]
+[ext_resource type="Texture2D" uid="uid://bgomkakjc7b0q" path="res://Assets/icon.svg" id="2_q24wf"]
+[ext_resource type="AudioStream" uid="uid://2qhqsk2844vm" path="res://Assets/woosh.mp3" id="3_cplck"]
+[ext_resource type="PackedScene" uid="uid://bbrc4r5uir85h" path="res://Assets/Items/fruit.tscn" id="3_ww4ir"]
+[ext_resource type="AudioStream" uid="uid://baq5qchnadwe0" path="res://Assets/pop.mp3" id="4_7mycd"]
+[ext_resource type="AudioStream" uid="uid://cohinuh7gklx8" path="res://Assets/music.mp3" id="4_jrgdm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u7sp8"]
+size = Vector2(128, 130)
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_lquwl"]
+playback_mode = 1
+random_pitch = 1.9471085
+streams_count = 2
+stream_0/stream = ExtResource("3_cplck")
+stream_1/stream = ExtResource("4_7mycd")
+stream_1/weight = 23.701
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nnpyx"]
+size = Vector2(810, 128)
+
+[node name="Node2D" type="Node2D" unique_id=1943092775]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=944886716]
+script = ExtResource("1_km8iq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1285482839]
+shape = SubResource("RectangleShape2D_u7sp8")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=816362622]
+
+[node name="Icon" type="Sprite2D" parent="CharacterBody2D" unique_id=1353039175]
+texture = ExtResource("2_q24wf")
+
+[node name="Jump" type="AudioStreamPlayer2D" parent="CharacterBody2D" unique_id=1737910650]
+stream = SubResource("AudioStreamRandomizer_lquwl")
+bus = &"Effects"
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1618693587]
+position = Vector2(0, 366)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=949089723]
+position = Vector2(225, 63)
+shape = SubResource("RectangleShape2D_nnpyx")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D" unique_id=634740831]
+offset_left = -177.0
+offset_top = -2.0
+offset_right = 613.0
+offset_bottom = 128.0
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=437256068]
+position = Vector2(0, 366)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=1027670315]
+position = Vector2(1078, 54)
+shape = SubResource("RectangleShape2D_nnpyx")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D2" unique_id=149151636]
+offset_left = 678.0
+offset_top = -8.0
+offset_right = 1468.0
+offset_bottom = 122.0
+
+[node name="Fruit" parent="." unique_id=506682052 instance=ExtResource("3_ww4ir")]
+position = Vector2(408, 292)
+scale = Vector2(3.71875, 3.71875)
+
+[node name="Fruit2" parent="." unique_id=1943831498 instance=ExtResource("3_ww4ir")]
+position = Vector2(240, 294)
+scale = Vector2(3.71875, 3.71875)
+
+[node name="Fruit3" parent="." unique_id=1599973842 instance=ExtResource("3_ww4ir")]
+position = Vector2(665, 101)
+scale = Vector2(3.71875, 3.71875)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=2028860690]
+stream = ExtResource("4_jrgdm")
+volume_db = -10.851
