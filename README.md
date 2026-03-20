@@ -221,7 +221,6 @@ The course is split into 3 distinct modules each with a unique project:
 - Project Development
 
 **DUE: 2D Game**
-
 **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)**
 **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)**

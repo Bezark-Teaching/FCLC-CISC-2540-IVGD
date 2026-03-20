@@ -316,10 +316,8 @@ shape = SubResource("RectangleShape2D_ekp6u")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1495434224]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_ejdjy")
-animation = &"death"
+animation = &"idle"
 autoplay = "idle"
-frame = 6
-frame_progress = 1.0
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1601491858]
 position = Vector2(0, -30)
@@ -327,5 +325,16 @@ zoom = Vector2(3, 3)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=995868646]
 libraries/ = SubResource("AnimationLibrary_xknf4")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1851332071]
+
+[node name="ProgressBar" type="ProgressBar" parent="CanvasLayer" unique_id=1508066279]
+unique_name_in_owner = true
+offset_right = 151.0
+offset_bottom = 27.0
+max_value = 3.0
+step = 0.0
+value = 2.009
+show_percentage = false
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
