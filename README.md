@@ -34,12 +34,12 @@ The work of the class consists of the following:
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | Tue 2/3                      | 16            |
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | Tue 2/13                     | 10            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/17, 2/20, 2/27, 3/31       | 24            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/17, 2/20, 2/27, 4/17       | 24            |
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | Tue 2/17                     | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Fri 3/27                     | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | Tue 4/7 or Fri 4/10          | 10            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | Tue 4/21                     | 10            |
-| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Finals Week (TBD)            | 30            |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | Tue 4/28                     | 10            |
+| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | 5/7                          | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
@@ -216,11 +216,12 @@ The course is split into 3 distinct modules each with a unique project:
 ### Tuesday 3/24
 
 ### Friday 3/27
-- Capstone Brainstorm
+
 - Hello 3D
 - Project Development
 
 **DUE: 2D Game**
+
 **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)**
 **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)**
@@ -229,14 +230,11 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 12 - Advanced Topics and Capstone Presentations
 
 ### Tuesday 3/31
+- Capstone Brainstorm
 - Materials, Models
 - Light, Sound
-- Animated Characters
-- Classes, Resources
-- Debugging
-- NPCs
 
-**DUE: Lab 4**
+
 
 ### Friday 4/3 -Easter
 
@@ -250,28 +248,37 @@ The course is split into 3 distinct modules each with a unique project:
 - Exporting
 - Review
 
-## Week 14 - Playtesting
+## Week 14 - Advanced Topics
 
 ### Tuesday 4/14
+- Animated Characters
+- NPCs
+- Navigation
+
 - Project Development
 
 ### Friday 4/17
 - Project Development
+**DUE: Lab 4**
 
-## Week 15 - Final Projects
-
+## Week 15 - Project Development
 ### Tuesday 4/21
-- **Final project playtest**
+- Classes, Resources
+- Project Development
 
-**DUE: Game Review**
 
 ### Friday 4/24
-- Preparing for the Game Industry: Portfolio and Career Paths
-- Playtest party!
+- Project Development
 
+### Tuesday 4/28
+
+- **Final project playtest**
+**DUE: Game Review**
 ## Finals Week
 
-### TBD - Final Exam Period
+### Capstone and Beyond - 5/7
+- Preparing for the Game Industry: Portfolio and Career Paths
+- Playtest party!
 - **DUE: Capstone Project**
 
 # **Necessary Materials:**
