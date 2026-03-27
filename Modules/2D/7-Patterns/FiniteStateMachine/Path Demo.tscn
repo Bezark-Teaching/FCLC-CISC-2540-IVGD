@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://d26m2e6d8ciym"]
+
+[ext_resource type="PackedScene" uid="uid://dvi1dcgk00h3l" path="res://path_enemy.tscn" id="1_xp7cc"]
+
+[sub_resource type="Curve2D" id="Curve2D_gghjq"]
+_data = {
+"points": PackedVector2Array(-136.74292, 52.7894, 136.74292, -52.7894, 183, 166, -94.814865, -43.904633, 94.814865, 43.904633, 520, 149, 0, 0, 0, 0, 721, 283, 0, 0, 0, 0, 480, 455, 100.95496, 12.970318, -100.95496, -12.970318, 383, 883, 157.02496, 176.61177, -157.02496, -176.61177, -83, 584, -22.696323, 53.243465, 22.696323, -53.243465, 35, 248, -109.99814, 14.107214, 109.99814, -14.107214, 183, 166)
+}
+point_count = 8
+
+[node name="Node2D" type="Node2D" unique_id=2022732620]
+
+[node name="path Enemy" parent="." unique_id=347251450 instance=ExtResource("1_xp7cc")]
+
+[node name="path Enemy2" parent="." unique_id=671095485 instance=ExtResource("1_xp7cc")]
+position = Vector2(824, 28)
+curve = SubResource("Curve2D_gghjq")
