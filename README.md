@@ -1,8 +1,6 @@
 # Top of Mind
-- MO SNO?!?! Here's a [video tutorial to watch in lieu of in person class](https://www.youtube.com/live/zUN2pb6N3uI?si=eGFEQVGbHzK_UThX)
-- Begin Working on your [2D Games](/Assignments/2D/2DGame.md)
-- Keep Working on [Lab 2](/Assignments/Labs/Lab_2.md) and [Lab 3](/Assignments/Labs/Lab_3.md)
-  - [Video turotial on Github and Godot Covering all of Lab 1](https://www.youtube.com/watch?v=E1srposxZWo)
+- Start thinking about the Capstone Project
+- Fill out the [Capstone Board](https://www.tldraw.com/f/EBEoUwxDHRizuJni_LDNC?d=v0.0.788.600.page) with your ideas and groups
 
 - **Office Hours:** Thursday 12-4pm. [Book here](https://bit.ly/bezark-office-hours)
 
@@ -231,6 +229,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Tuesday 3/31
 - Capstone Brainstorm
+
 - Materials, Models
 - Light, Sound
 
