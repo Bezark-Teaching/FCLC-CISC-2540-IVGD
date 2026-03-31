@@ -1,0 +1,124 @@
+[gd_scene format=3 uid="uid://dtrfbb7crcimy"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_30nqb"]
+sky_top_color = Color(0.4271586, 0.45429194, 0.45318037, 1)
+sky_horizon_color = Color(0.674222, 0.6750581, 0.6613391, 1)
+ground_bottom_color = Color(0.19627017, 0.17248115, 0.11871662, 1)
+ground_horizon_color = Color(0.674222, 0.6750581, 0.6613391, 1)
+
+[sub_resource type="Sky" id="Sky_ujptl"]
+sky_material = SubResource("ProceduralSkyMaterial_30nqb")
+
+[sub_resource type="Environment" id="Environment_1o5i1"]
+background_mode = 2
+sky = SubResource("Sky_ujptl")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_jlo7p"]
+size = Vector3(50, 1, 50)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_30nqb"]
+data = PackedVector3Array(-25, 0.5, 25, 25, 0.5, 25, -25, -0.5, 25, 25, 0.5, 25, 25, -0.5, 25, -25, -0.5, 25, 25, 0.5, -25, -25, 0.5, -25, 25, -0.5, -25, -25, 0.5, -25, -25, -0.5, -25, 25, -0.5, -25, 25, 0.5, 25, 25, 0.5, -25, 25, -0.5, 25, 25, 0.5, -25, 25, -0.5, -25, 25, -0.5, 25, -25, 0.5, -25, -25, 0.5, 25, -25, -0.5, -25, -25, 0.5, 25, -25, -0.5, 25, -25, -0.5, -25, 25, 0.5, 25, -25, 0.5, 25, 25, 0.5, -25, -25, 0.5, 25, -25, 0.5, -25, 25, 0.5, -25, -25, -0.5, 25, 25, -0.5, 25, -25, -0.5, -25, 25, -0.5, 25, 25, -0.5, -25, -25, -0.5, -25)
+
+[sub_resource type="GDScript" id="GDScript_30nqb"]
+script/source = "extends CharacterBody3D
+
+
+const SPEED = 5.0
+const JUMP_VELOCITY = 4.5
+
+
+func _physics_process(delta: float) -> void:
+	# Add the gravity.
+	if not is_on_floor():
+		velocity += get_gravity() * delta
+
+	# Handle jump.
+	if Input.is_action_just_pressed(\"ui_accept\") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
+
+	# Get the input direction and handle the movement/deceleration.
+	# As good practice, you should replace UI actions with custom gameplay actions.
+	var input_dir := Input.get_vector(\"ui_left\", \"ui_right\", \"ui_up\", \"ui_down\")
+	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
+	if direction:
+		velocity.x = direction.x * SPEED
+		velocity.z = direction.z * SPEED
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+		velocity.z = move_toward(velocity.z, 0, SPEED)
+
+	move_and_slide()
+"
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_ujptl"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1o5i1"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_30nqb"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_ujptl"]
+
+[node name="Node3D" type="Node3D" unique_id=740567880]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1392413759]
+environment = SubResource("Environment_1o5i1")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1749180723]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4.2700157)
+mesh = SubResource("BoxMesh_jlo7p")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D" unique_id=847052842]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" unique_id=1211947522]
+shape = SubResource("ConcavePolygonShape3D_30nqb")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1298995413]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 2, -6.3978295)
+use_collision = true
+size = Vector3(4, 3, 1)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1211636782]
+transform = Transform3D(0.60186213, 0.3127908, -0.7347952, -0.044582125, 0.9318292, 0.36014843, 0.79735464, -0.18400095, 0.5747776, 0.2216897, 1.7480948, 0)
+visible = false
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=2130421373]
+transform = Transform3D(0.60186213, 0.3127908, -0.73479515, -0.044582125, 0.9318292, 0.3601484, 0.79735464, -0.18400097, 0.57477754, 2.9694061, 1.7480948, -4.829195)
+light_color = Color(2.695322e-06, 0.7205747, 0.94319177, 1)
+omni_range = 2.3737516
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=1074869041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6203435, 1.7985388, -2.3841858e-07)
+light_energy = 16.0
+spot_range = 7.271603
+spot_angle = 12.160977
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=139305499]
+transform = Transform3D(1, 0, 0, 0, 0.9366049, 0.35038722, 0, -0.35038722, 0.9366049, 0.70433617, 0.8646693, -4.532034)
+use_collision = true
+radius = 1.159
+height = 1.646
+cone = true
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1641516380]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9276581, 0)
+script = SubResource("GDScript_30nqb")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=629924984]
+mesh = SubResource("CapsuleMesh_ujptl")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=1901973236]
+shape = SubResource("CapsuleShape3D_1o5i1")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D" unique_id=521888782]
+transform = Transform3D(1, 0, 0, 0, 0.99729526, 0.07349929, 0, -0.07349929, 0.99729526, 0, 0.592731, 0.09794402)
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=366785361]
+transform = Transform3D(1, 0, 0, 0, 0.9366049, 0.35038722, 0, -0.35038722, 0.9366049, 0.70433617, 3.7332797, -4.476469)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=477410242]
+shape = SubResource("SphereShape3D_30nqb")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=311145605]
+mesh = SubResource("SphereMesh_ujptl")
