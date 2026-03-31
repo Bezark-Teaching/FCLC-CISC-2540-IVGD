@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://dprih5l0p3unv"]
+
+[ext_resource type="Texture2D" uid="uid://bi6ssrqyf03aj" path="res://icon.svg" id="1_o4hrx"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_o4hrx"]
+sky_top_color = Color(0.54184574, 0.3234523, 0.7488801, 1)
+sky_horizon_color = Color(0.6295328, 0.608425, 0.70178175, 1)
+ground_bottom_color = Color(0.06970549, 0.2036674, 0.15166679, 1)
+ground_horizon_color = Color(0.6295328, 0.608425, 0.70178175, 1)
+energy_multiplier = 3.55
+
+[sub_resource type="Sky" id="Sky_1sojb"]
+sky_material = SubResource("ProceduralSkyMaterial_o4hrx")
+
+[sub_resource type="Environment" id="Environment_4wrd5"]
+background_mode = 2
+sky = SubResource("Sky_1sojb")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_mwcu0"]
+size = Vector3(10, 10, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o4hrx"]
+size = Vector3(10.136963, 9.912048, 0.97436523)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_1sojb"]
+
+[node name="Node3D" type="Node3D" unique_id=1171718865]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1577463577]
+environment = SubResource("Environment_4wrd5")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=951327524]
+transform = Transform3D(1, 0, 0, 0, 0.712026, 0.7021531, 0, -0.7021531, 0.712026, 0, 0, 0)
+light_color = Color(1, 0.29411766, 0.18039216, 1)
+light_energy = 0.0
+shadow_enabled = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=232230517]
+mesh = SubResource("BoxMesh_mwcu0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D" unique_id=249606519]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" unique_id=158964938]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.017211914, -0.021575928, 0.012817383)
+shape = SubResource("BoxShape3D_o4hrx")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=515090791]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1206679, 2.9849825, 12.072951)
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=2058276784]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14195728, 4.1890473, 4.4232326)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=410533636]
+shape = SubResource("SphereShape3D_1sojb")
+
+[node name="Sprite3D" type="Sprite3D" parent="RigidBody3D" unique_id=104685008]
+texture = ExtResource("1_o4hrx")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1974102647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4482727, -0.5016575, 4.4445076)
+use_collision = true
+size = Vector3(6.440918, 1, 4.2977295)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=1461993515]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4482727, 0.82427883, 4.4445076)
+use_collision = true
+radius = 1.3135909
+radial_segments = 19
+rings = 14
