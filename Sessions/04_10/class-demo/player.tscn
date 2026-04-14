@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://cq7hcf0kclp32"]
+
+[ext_resource type="Script" uid="uid://jjbq651fie8d" path="res://player.gd" id="1_hqtel"]
+[ext_resource type="Script" uid="uid://qtva021jkcf5" path="res://Weapon.gd" id="2_sweqy"]
+[ext_resource type="Script" uid="uid://xclekfixk0cg" path="res://item.gd" id="3_2hs0m"]
+[ext_resource type="Texture2D" uid="uid://c8p5rkqssmcn0" path="res://icon.svg" id="4_1jxqw"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_dw050"]
+
+[node name="Player" type="Node2D" unique_id=617577889 node_paths=PackedStringArray("held_item")]
+script = ExtResource("1_hqtel")
+held_item = NodePath("Robot")
+
+[node name="Sword" type="Node2D" parent="." unique_id=1860222570]
+position = Vector2(274, 73)
+script = ExtResource("2_sweqy")
+title = "Red Robot"
+sprite = SubResource("PlaceholderTexture2D_dw050")
+metadata/_custom_type_script = "uid://xclekfixk0cg"
+
+[node name="Robot" type="Node2D" parent="." unique_id=766656899]
+position = Vector2(92, 73)
+script = ExtResource("3_2hs0m")
+title = "Robot"
+sprite = ExtResource("4_1jxqw")
+metadata/_custom_type_script = "uid://xclekfixk0cg"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1887900133]

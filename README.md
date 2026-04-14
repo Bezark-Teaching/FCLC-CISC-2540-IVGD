@@ -250,6 +250,8 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 14 - Advanced Topics
 
 ### Tuesday 4/14
+- Classes, Resources
+
 - Animated Characters
 - NPCs
 - Navigation
@@ -262,7 +264,6 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 15 - Project Development
 ### Tuesday 4/21
-- Classes, Resources
 - Project Development
 
 

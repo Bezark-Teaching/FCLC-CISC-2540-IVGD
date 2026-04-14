@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://c1c1gjv67yubd"]
+
+[ext_resource type="Texture2D" uid="uid://cxrqth7ketwnh" path="res://icon.svg" id="1_ig7tw"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l8fvp"]
+bg_color = Color(0, 0.634787, 0.959567, 1)
+
+[node name="Control" type="Control" unique_id=1840512373]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=1013975668]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_l8fvp")
+text = "Welcome to this game!!!!!!!!!!!!!!!!!!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=134526721]
+position = Vector2(532, 518)
+scale = Vector2(6.078125, 1)
+texture = ExtResource("1_ig7tw")
