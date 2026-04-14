@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c7fj1mrrkrehq"]
+
+[ext_resource type="Script" uid="uid://xclekfixk0cg" path="res://item.gd" id="1_tnite"]
+[ext_resource type="Texture2D" uid="uid://c8p5rkqssmcn0" path="res://icon.svg" id="2_ttk8k"]
+
+[node name="Item" type="Node2D" unique_id=2140474840]
+script = ExtResource("1_tnite")
+title = "Robot"
+price = 10
+sprite = ExtResource("2_ttk8k")

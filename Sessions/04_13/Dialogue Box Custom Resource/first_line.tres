@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LineOfDialogue" format=3 uid="uid://b7wn8cx43qi3d"]
+
+[ext_resource type="Script" uid="uid://bgrl2bxwo0eyj" path="res://line.gd" id="1_3aqnn"]
+[ext_resource type="Texture2D" uid="uid://bvuk5pq4t7efl" path="res://icon.svg" id="1_d57e8"]
+
+[resource]
+script = ExtResource("1_3aqnn")
+line = "Hello! My Scene is starting"
+character_name = "John"
+portrait = ExtResource("1_d57e8")
+metadata/_custom_type_script = "uid://bgrl2bxwo0eyj"
