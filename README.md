@@ -1,5 +1,7 @@
 # Top of Mind
-- Submit your projects to the [Capstone Game Jam](https://itch.io/jam/fclc-spring-2026-capstone-game-jame)
+- THERE IS AN EXTRA CREDIT ASIGNMENT ON BLACKBOARD
+- Start thinking about the Capstone Project
+- Fill out the [Capstone Board](https://www.tldraw.com/f/EBEoUwxDHRizuJni_LDNC?d=v0.0.788.600.page) with your ideas and groups and prepare for our [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md) on 4/7
 
 - **Office Hours:** Thursday 12-4pm. [Book here](https://bit.ly/bezark-office-hours)
 
