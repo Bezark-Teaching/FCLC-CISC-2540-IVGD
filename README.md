@@ -37,7 +37,7 @@ The work of the class consists of the following:
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | Tue 2/17                     | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Fri 3/27                     | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | Tue 4/7 or Fri 4/10          | 10            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | Tue 5/07                     | 10            |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 5/7                          | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | 5/7                          | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
