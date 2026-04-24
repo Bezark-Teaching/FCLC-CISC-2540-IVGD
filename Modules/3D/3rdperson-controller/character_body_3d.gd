@@ -31,6 +31,12 @@ func _physics_process(delta):
 	move_and_slide()
 	
 func _input(event):
+	if Input.is_action_just_pressed("ui_cancel"):
+		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+		
+
+	
+	
 	if event is InputEventMouseMotion:
 		rotate_y(deg_to_rad(event.relative.x))
 		$Pivot.rotate_x(deg_to_rad(-event.relative.y))
