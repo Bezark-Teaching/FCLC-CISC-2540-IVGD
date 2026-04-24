@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://cia8qogorcc6i"]
+
+[ext_resource type="Script" uid="uid://euo60kxl2xc7" path="res://2d_navigator.gd" id="1_uuvuq"]
+[ext_resource type="Texture2D" uid="uid://b2ynsiti6e1if" path="res://icon.svg" id="2_uup3h"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_uuvuq"]
+vertices = PackedVector2Array(708.39844, 170.3125, 858.9922, -101.3125, 877.96875, 667.1328, 117, 269, 337.9297, 269, 149.07031, 446.77344, 452.67188, 349.14844, 377.2578, 269, 405, 269, 609.9375, 265.54688, 508.17188, -36.710938, -86.09375, -84.6875, 238, -50, 409.71094, 58.546875, 405, 132, 238, 87, 117, 132, -50, 87, 242.96094, 546.52344, -87.89844, 646.8281, -50, -50)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2), PackedInt32Array(3, 4, 5), PackedInt32Array(6, 7, 8), PackedInt32Array(9, 0, 2), PackedInt32Array(1, 0, 10), PackedInt32Array(11, 1, 10, 12), PackedInt32Array(13, 9, 2, 6, 8, 14), PackedInt32Array(13, 14, 15, 12), PackedInt32Array(15, 14, 16, 17), PackedInt32Array(18, 6, 2), PackedInt32Array(18, 2, 19), PackedInt32Array(5, 18, 19), PackedInt32Array(10, 13, 12), PackedInt32Array(11, 12, 20), PackedInt32Array(19, 11, 20, 17), PackedInt32Array(5, 19, 17, 3), PackedInt32Array(3, 17, 16)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-126, -124, 898, -142, 919, 708, -128, 686)])
+agent_radius = 40.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q6jq5"]
+size = Vector2(208, 57)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dqf3b"]
+size = Vector2(60, 64)
+
+[node name="Node2D" type="Node2D" unique_id=1257272038]
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="." unique_id=1013242806]
+navigation_polygon = SubResource("NavigationPolygon_uuvuq")
+
+[node name="Box" type="StaticBody2D" parent="NavigationRegion2D" unique_id=1310755396]
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/Box" unique_id=529987535]
+offset_left = -12.0
+offset_top = -10.0
+offset_right = 197.0
+offset_bottom = 48.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/Box" unique_id=1982029846]
+position = Vector2(94, 18.5)
+shape = SubResource("RectangleShape2D_q6jq5")
+
+[node name="Box2" type="StaticBody2D" parent="NavigationRegion2D" unique_id=409586618]
+position = Vector2(167, 182)
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/Box2" unique_id=1324635414]
+offset_left = -12.0
+offset_top = -10.0
+offset_right = 197.0
+offset_bottom = 48.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/Box2" unique_id=1567704844]
+position = Vector2(94, 18.5)
+shape = SubResource("RectangleShape2D_q6jq5")
+
+[node name="Box3" type="StaticBody2D" parent="NavigationRegion2D" unique_id=1338013478]
+position = Vector2(507, 34)
+rotation = 0.8020357
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/Box3" unique_id=1647828540]
+offset_left = -12.0
+offset_top = -10.0
+offset_right = 197.0
+offset_bottom = 48.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/Box3" unique_id=1982352547]
+position = Vector2(94, 18.5)
+shape = SubResource("RectangleShape2D_q6jq5")
+
+[node name="Box4" type="StaticBody2D" parent="NavigationRegion2D" unique_id=281139472]
+position = Vector2(382, 347)
+rotation = 2.3864665
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/Box4" unique_id=1867690982]
+offset_left = -12.0
+offset_top = -10.0
+offset_right = 197.0
+offset_bottom = 48.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/Box4" unique_id=442951895]
+position = Vector2(94, 18.5)
+shape = SubResource("RectangleShape2D_q6jq5")
+
+[node name="2DNavigator" type="CharacterBody2D" parent="." unique_id=316387794]
+position = Vector2(277, -13)
+script = ExtResource("1_uuvuq")
+
+[node name="Icon" type="Sprite2D" parent="2DNavigator" unique_id=2124460742]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_uup3h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="2DNavigator" unique_id=480431352]
+position = Vector2(1, 0)
+shape = SubResource("RectangleShape2D_dqf3b")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="2DNavigator" unique_id=490129152]
+debug_enabled = true
+
+[node name="Destination" type="Marker2D" parent="." unique_id=145757611]
+position = Vector2(168, 535)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1993944170]
+position = Vector2(348, 261)
+zoom = Vector2(0.5, 0.5)
