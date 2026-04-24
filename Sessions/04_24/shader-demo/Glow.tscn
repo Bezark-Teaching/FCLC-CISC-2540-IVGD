@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://cd0csky8688ho"]
+
+[ext_resource type="Texture2D" uid="uid://cy8h4ofyrtk0u" path="res://Blood-Splatter-PNG-Photo.png" id="1_qv3s1"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_vmeh6"]
+sky_top_color = Color(0, 0, 0, 1)
+sky_horizon_color = Color(0, 0, 0, 1)
+ground_bottom_color = Color(0, 0, 0, 1)
+ground_horizon_color = Color(0, 0, 0, 1)
+energy_multiplier = 1.1
+
+[sub_resource type="Sky" id="Sky_1xref"]
+sky_material = SubResource("ProceduralSkyMaterial_vmeh6")
+
+[sub_resource type="Environment" id="Environment_mmccp"]
+background_mode = 2
+sky = SubResource("Sky_1xref")
+tonemap_mode = 2
+glow_enabled = true
+glow_intensity = 0.87
+glow_strength = 0.68
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pqgb1"]
+emission_enabled = true
+emission = Color(0.80095565, 0.80095565, 0.80095565, 1)
+emission_energy_multiplier = 5.38
+normal_enabled = true
+
+[node name="Node3D" type="Node3D" unique_id=988768813]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1150656590]
+environment = SubResource("Environment_mmccp")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1777569632]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7789298, -0.27671182, 2.0471582)
+size = Vector3(3.529419, 1, 5.3116455)
+material = SubResource("StandardMaterial3D_pqgb1")
+
+[node name="Decal" type="Decal" parent="." unique_id=1150102284]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4831271, 0, 1.530478)
+visible = false
+size = Vector3(2.043518, 2, 2.2114868)
+texture_albedo = ExtResource("1_qv3s1")

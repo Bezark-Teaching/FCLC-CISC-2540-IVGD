@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://dyydqh0du6nin"]
+
+[ext_resource type="Shader" uid="uid://bcyfyb2aakng7" path="res://dissolve.gdshader" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://b62jiydq8nlot" path="res://icon.svg" id="2_epypp"]
+[ext_resource type="Shader" uid="uid://b0b1s4t6oqjyq" path="res://vhs.gdshader" id="3_epypp"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_0hol4"]
+noise_type = 2
+frequency = 0.0043
+fractal_octaves = 4
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_q6r6c"]
+noise = SubResource("FastNoiseLite_0hol4")
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_kdubu"]
+size = Vector2(128, 128)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0hol4"]
+shader = ExtResource("1_0e48y")
+shader_parameter/texture1 = ExtResource("2_epypp")
+shader_parameter/texture2 = SubResource("PlaceholderTexture2D_kdubu")
+shader_parameter/factor = 0.0
+shader_parameter/dissolve_map = SubResource("NoiseTexture2D_q6r6c")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_d21ai"]
+shader = ExtResource("3_epypp")
+shader_parameter/brightness = 1.298000061655
+shader_parameter/contrast = 0.898000042655
+shader_parameter/saturation = 1.02000004845
+shader_parameter/gamma = 1.06000004383023
+shader_parameter/curvature = 0.0630000029925
+shader_parameter/corner_soften = 0.066000003135
+shader_parameter/vignette = 0.7450000353875
+shader_parameter/scanline_strength = 2.0
+shader_parameter/scanline_density = 1.15
+shader_parameter/interlace_strength = 0.2
+shader_parameter/mask_strength = 0.138000006555
+shader_parameter/mask_scale = 4.0
+shader_parameter/chroma_offset_px = 1.93200009177
+shader_parameter/luma_smear_px = 2.2
+shader_parameter/jitter_px = 6.058000287755
+shader_parameter/wobble_px = 8.1590003875525
+shader_parameter/tape_noise = 0.5430000257925
+shader_parameter/tape_lines = 0.3670000174325
+shader_parameter/roll_speed = 0.422000020045
+shader_parameter/roll_strength = 0.482000022895
+shader_parameter/glow_strength = 0.462000021945
+shader_parameter/glow_threshold = 0.65
+
+[node name="Node2D" type="Node2D" unique_id=2096000285]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1473170855]
+material = SubResource("ShaderMaterial_0hol4")
+position = Vector2(252, 132.5)
+scale = Vector2(2.75, 1.9609375)
+texture = ExtResource("2_epypp")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=363612600]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=836534709]
+material = SubResource("ShaderMaterial_d21ai")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
