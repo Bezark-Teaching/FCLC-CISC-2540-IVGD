@@ -1,5 +1,6 @@
 # Top of Mind
 - [Working in Game Design](https://docs.google.com/presentation/d/1m_Pme4QIolADS6MawXt3hmFRhTdkEl4ggMznYDdsHCk/edit?usp=sharing)
+- please keep in touch john-design@bezark.fun
 - Turn in all your stiff!
 - THERE IS AN EXTRA CREDIT ASIGNMENT ON BLACKBOARD
 
