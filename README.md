@@ -190,16 +190,18 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 8 - Level, Environment and UI Design
 
-### Friday 10/16 - Patterns
+### Friday 10/16 - CLASS CANCELLED
+
+- **Work on your 2D games asynchronously**
+- Project Development on your own time
+
+### Tuesday 10/20 - Patterns, Components and Polish
 
 - Physics Objects
 - CharacterBody
 - Tilemaps
 - UI
 - Sounds
-
-### Tuesday 10/20
-
 - 2D Components and Polish
   - Common Patterns: Items, Enemies, Checkpoints, Respawns, Killboxes
   - User Interface (Control Nodes)
@@ -219,7 +221,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 10 - Hello 3D
 
-### Friday 10/30 - SPOOOOKY HALLOWEEN 3D!!!!!
+### Friday 10/30 - SPOOOOKY HALLOWEEN 3D
 
 ### Tuesday 11/3
 
