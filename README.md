@@ -8,7 +8,7 @@
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
 
 - **Course Code:** CISC 2540
-- **Schedule:** Tuesdays and Fridays, 11:30am - 12:45pm
+- **Schedule:** Tuesdays and Fridays, 1:00pm - 2:15pm
 - **Instructor:** John Bezark
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
@@ -38,7 +38,7 @@ The work of the class consists of the following:
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/25, 10/2, 10/9, 11/6       | 24            |
 | [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | Tue 9/29                     | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Fri 10/30                    | 25            |
-| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | Tue 11/17 or Fri 11/20       | 10            |
+| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | Fri 11/13 or Tue 11/17       | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/8                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
@@ -51,9 +51,9 @@ All assignments will be graded on the due date. Students are always allowed to r
 
 The course is split into 3 distinct modules each with a unique project:
 
-- Week 1-2: Game Design Fundamentals and tabletop design
-- Week 3-8: 2D Game Design
-- Week 9-14: 3D Game Design/Final Project Development
+- Week 1-3: Game Design Fundamentals and tabletop design
+- Week 4-9: 2D Game Design
+- Week 10-15: 3D Game Design/Final Project Development
 
 ## Week 1 - Game Design Fundamentals
 
@@ -223,12 +223,13 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Friday 10/30 - SPOOOOKY HALLOWEEN 3D
 
+**DUE: 2D Game**
+
 ### Tuesday 11/3
 
 - Hello 3D
 - Project Development
 
-**DUE: 2D Game**
 **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)**
 **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)**
