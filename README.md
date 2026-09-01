@@ -3,7 +3,6 @@
 - Welcome to Fall 2026!
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I'm giving you too much homework!
 
-
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
 
 - **Course Code:** CISC 2540
@@ -54,7 +53,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Week 4-9: 2D Game Design
 - Week 10-15: 3D Game Design/Final Project Development
 
-## Week 1 - Game Design Fundamentals
+## Welcome Week
 
 ### Friday 8/28 (First class!)
 
@@ -67,6 +66,8 @@ The course is split into 3 distinct modules each with a unique project:
 
 **Homework: [Game Review](/Assignments/Game_Review.md)**
 
+## Week 1 - Game Design Fundamentals
+
 ### Tuesday 9/1
 
 - The Iterative Game Design Process
@@ -75,6 +76,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Group Work
 
 **Homework:
+
 - [Tabletop Game](/Assignments/Tabletop/Tabletop.md)**
 - [Read MDA Article](/Readings/MDA_annotated.pdf)**
 
@@ -100,14 +102,14 @@ The course is split into 3 distinct modules each with a unique project:
 **DUE: Tabletop Game**
 **Homework: [Tabletop Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)**
 
+## Week 3 - Playtesting and Intro to Godot
+
 ### Tuesday 9/15
 
 - Playtesting
 - [Video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
 
 ---
-
-## Week 4 - Hello Godot Getting Started in 2D
 
 ### Friday 9/18 - Nodes and Scenes Workshop
 
@@ -116,6 +118,8 @@ The course is split into 3 distinct modules each with a unique project:
   - Nodes and Scenes - build a simple scene together
 
 **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
+
+## Week 4 - Nodes, Scenes and Coding Fundamentals
 
 ### Tuesday 9/22 - Github and Genres
 
@@ -127,8 +131,6 @@ The course is split into 3 distinct modules each with a unique project:
 **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
-## Week 5 - Nodes, Scenes and Coding Fundamentals
-
 ### Friday 9/25 - Coding Fundamentals
 
 - Coding Fundamentals
@@ -139,13 +141,13 @@ The course is split into 3 distinct modules each with a unique project:
 **DUE: Lab 1**
 **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
+## Week 5 - Input and Interactions
+
 ### Tuesday 9/29
 
 - Coding review and workshop
 
 **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
-
-## Week 6 - Input, Interactions and Patterns
 
 ### Friday 10/2 - Input and Interactions
 
@@ -159,6 +161,8 @@ The course is split into 3 distinct modules each with a unique project:
 **DUE: Lab 2**
 **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
+## Week 6 - Nodes, Assets and Animations
+
 ### Tuesday 10/6 - Using Nodes Together
 
 - Conditional Logic Review
@@ -168,8 +172,6 @@ The course is split into 3 distinct modules each with a unique project:
   - Timer
   - Camera
   - Sound
-
-## Week 7 - Assets and Animations
 
 ### Friday 10/9 - Assets and Animations
 
@@ -182,16 +184,18 @@ The course is split into 3 distinct modules each with a unique project:
 
 **DUE: Lab 3**
 
+## Week 7 - Break Week
+
 ### Tuesday 10/13 - NO CLASS
 
 - Columbus Day observed Monday 10/12; Tuesday classes follow a Monday schedule.
-
-## Week 8 - Level, Environment and UI Design
 
 ### Friday 10/16 - CLASS CANCELLED
 
 - **Work on your 2D games asynchronously**
 - Project Development on your own time
+
+## Week 8 - Level, Environment and UI Design
 
 ### Tuesday 10/20 - Patterns, Components and Polish
 
@@ -206,22 +210,22 @@ The course is split into 3 distinct modules each with a unique project:
   - Polish: Sound, Lighting, Particles
 - Project Development
 
-## Week 9 - Project Development/Playtesting
-
 ### Friday 10/23
 
 - Project Development
+
+## Week 9 - Playtesting and 2D Game Sprint
 
 ### Tuesday 10/27
 
 - Playtesting day!
 - Project Development
 
-## Week 10 - Hello 3D
-
 ### Friday 10/30 - SPOOOOKY HALLOWEEN 3D
 
 **DUE: 2D Game**
+
+## Week 10 - Hello 3D
 
 ### Tuesday 11/3
 
@@ -232,8 +236,6 @@ The course is split into 3 distinct modules each with a unique project:
 **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)**
 **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)**
 
-## Week 11 - Advanced Topics and Capstone Presentations
-
 ### Friday 11/6
 
 - Capstone Brainstorm
@@ -242,6 +244,8 @@ The course is split into 3 distinct modules each with a unique project:
 
 **DUE: Lab 4**
 
+## Week 11 - Advanced Topics and Capstone Presentations
+
 ### Tuesday 11/10
 
 - Classes, Resources
@@ -249,11 +253,11 @@ The course is split into 3 distinct modules each with a unique project:
 - NPCs
 - Navigation
 
-## Week 12 - Capstone Presentations
-
 ### Friday 11/13
 
 - **Capstone Presentations**
+
+## Week 12 - Capstone Presentations and Project Development
 
 ### Tuesday 11/17
 
@@ -261,11 +265,11 @@ The course is split into 3 distinct modules each with a unique project:
 - Exporting
 - Review
 
-## Week 13 - Project Development
-
 ### Friday 11/20
 
 - Project Development
+
+## Week 13 - Project Development
 
 ### Tuesday 11/24
 
