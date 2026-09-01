@@ -74,10 +74,9 @@ The course is split into 3 distinct modules each with a unique project:
 - Playtesting
 - Group Work
 
-**Homework: [Tabletop Game](/Assignments/Tabletop/Tabletop.md)**
-**Homework: [Read MDA Article](/Readings/MDA_annotated.pdf)**
-
-## Week 2 - Prototyping, Iteration and Playtesting
+**Homework:
+- [Tabletop Game](/Assignments/Tabletop/Tabletop.md)**
+- [Read MDA Article](/Readings/MDA_annotated.pdf)**
 
 ### Friday 9/4
 
@@ -87,11 +86,11 @@ The course is split into 3 distinct modules each with a unique project:
 - MDA Framework
 - Systems, Loops and Balance
 
+## Week 2 - Prototyping, Iteration and Playtesting
+
 ### Tuesday 9/8
 
 - Playtesting and Group Work time
-
-## Week 3 - Playtesting
 
 ### Friday 9/11
 
