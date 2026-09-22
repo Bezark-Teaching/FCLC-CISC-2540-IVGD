@@ -1,7 +1,7 @@
 # Top of Mind
-
-- Welcome to Fall 2026!
-- [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I'm giving you too much homework!
+- Please submit your [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) 
+- Continue to work on Lab 1
+- Use the  [video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo) as reference
 
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
 
@@ -105,8 +105,8 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Tuesday 9/15
 
-- Playtesting
 - [Video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+- Playtesting
 
 ---
 
@@ -121,16 +121,18 @@ The course is split into 3 distinct modules each with a unique project:
 ## Week 4 - Nodes, Scenes and Coding Fundamentals
 
 ### Tuesday 9/22 - Github and Genres
+- Github Accounts, Cloning, Committing and pushing, Repo Creation
 
+
+### Friday 9/25 - Coding Fundamentals
+
+- Nodes and Scenes - build a simple scene together
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Modules/2D/2D_Brainstorming.md)
-- Github Accounts, Cloning, Committing and pushing, Repo Creation
 
 **DUE: Process Paper**
 **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 **Homework: [2D Game](/Assignments/2D/2DGame.md)**
-
-### Friday 9/25 - Coding Fundamentals
 
 - Coding Fundamentals
   - Scripts and properties

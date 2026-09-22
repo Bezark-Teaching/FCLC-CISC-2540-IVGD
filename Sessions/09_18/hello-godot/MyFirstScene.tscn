@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://35j5cya18qdt"]
+
+[ext_resource type="Texture2D" uid="uid://dccey7tg0736" path="res://Pictures/icon.svg" id="1_pqr1o"]
+[ext_resource type="Texture2D" uid="uid://d1pvqqw4syqgt" path="res://Pictures/monkey.jpg" id="2_05d46"]
+[ext_resource type="Texture2D" uid="uid://d3lkq7hfakweh" path="res://Pictures/other_monkey.webp" id="3_vqr30"]
+[ext_resource type="PackedScene" uid="uid://b3yj25vpji538" path="res://tree.tscn" id="4_o3ofe"]
+
+[node name="Node2D" type="Node2D" unique_id=1350018834]
+
+[node name="Monkey" type="Sprite2D" parent="." unique_id=265448709]
+position = Vector2(877, 364.00003)
+scale = Vector2(0.20426643, 0.20426644)
+texture = ExtResource("2_05d46")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Monkey" unique_id=1018288684]
+position = Vector2(-562.99005, -523.82574)
+scale = Vector2(4.895567, 4.8955665)
+texture = ExtResource("1_pqr1o")
+
+[node name="TransparentMonkey" type="Sprite2D" parent="." unique_id=135488506]
+position = Vector2(339, 466)
+scale = Vector2(0.47485495, 0.47485495)
+texture = ExtResource("3_vqr30")
+
+[node name="Icon" type="Sprite2D" parent="TransparentMonkey" unique_id=1376513298]
+self_modulate = Color(0.64461774, 0, 0.22889087, 1)
+show_behind_parent = true
+position = Vector2(-237.96739, -61.071304)
+scale = Vector2(1.135215, 1.1187621)
+texture = ExtResource("1_pqr1o")
+
+[node name="Sprite2D" type="Sprite2D" parent="TransparentMonkey/Icon" unique_id=1424805600]
+position = Vector2(-40.811592, 118.58829)
+texture = ExtResource("1_pqr1o")
+
+[node name="Tree" parent="." unique_id=1197144566 instance=ExtResource("4_o3ofe")]
+offset_left = 190.0
+offset_top = 131.0
+offset_right = 312.0
+offset_bottom = 199.0
+
+[node name="Tree2" parent="." unique_id=1239283826 instance=ExtResource("4_o3ofe")]
+offset_left = 63.0
+offset_top = 270.0
+offset_right = 185.0
+offset_bottom = 338.0
+color = Color(0.39620924, 0.9647035, 0.58697313, 1)
+
+[node name="Tree3" parent="." unique_id=1650750269 instance=ExtResource("4_o3ofe")]
+offset_left = 376.0
+offset_top = 43.0
+offset_right = 498.0
+offset_bottom = 111.0
