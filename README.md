@@ -34,7 +34,7 @@ The work of the class consists of the following:
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | Fri 9/11                     | 16            |
 | [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  | Tue 9/22                     | 10            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 9/25, 10/2, 10/9, 11/6       | 24            |
-| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | Tue 9/29                     | 10            |
+| [2D Game Concept Paper](/Assignments/2D/2D_Concept.md)                         | A brief paper describing your concept for the 2D Game                      | Fri 10/02                    | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Fri 10/30                    | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | Fri 11/13 or Tue 11/17       | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/8                         | 10            |
@@ -98,8 +98,8 @@ The course is split into 3 distinct modules each with a unique project:
 - Playtesting
 - [Git Init](/Modules/2D/Fundamentals/GitInit.md)
 
-**DUE: Tabletop Game**
-**Homework: [Tabletop Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)**
+- **DUE: Tabletop Game**
+- **Homework: [Tabletop Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md)**
 
 ## Week 3 - Playtesting and Intro to Godot
 
@@ -120,27 +120,26 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 4 - Nodes, Scenes and Coding Fundamentals
 
-### Tuesday 9/22 - Github and Genres
+### Tuesday 9/22 - Github 
 - Github Accounts, Cloning, Committing and pushing, Repo Creation
-
-
-### Friday 9/25 - Coding Fundamentals
-
 - Nodes and Scenes - build a simple scene together
+
+
+### Friday 9/25 - Genres and Coding Fundamentals
+
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Modules/2D/2D_Brainstorming.md)
-
-**DUE: Process Paper**
-**Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
-**Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
 - Coding Fundamentals
   - Scripts and properties
   - Variables
   - Create a moving character together using simple_character example
 
-**DUE: Lab 1**
-**Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
+- **DUE: Process Paper**
+- **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
+- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
+
+
 
 ## Week 5 - Input and Interactions
 
@@ -148,7 +147,8 @@ The course is split into 3 distinct modules each with a unique project:
 
 - Coding review and workshop
 
-**DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
+-**DUE: Lab 1**
+-**Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 ### Friday 10/2 - Input and Interactions
 
@@ -159,8 +159,9 @@ The course is split into 3 distinct modules each with a unique project:
   - Pull and Push
   - Conflicts
 
-**DUE: Lab 2**
-**Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
+- **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
+- **DUE: Lab 2**
+- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 ## Week 6 - Nodes, Assets and Animations
 
@@ -183,7 +184,7 @@ The course is split into 3 distinct modules each with a unique project:
   - StaticBody
   - RigidBody
 
-**DUE: Lab 3**
+- **DUE: Lab 3**
 
 ## Week 7 - Break Week
 
@@ -224,7 +225,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Friday 10/30 - SPOOOOKY HALLOWEEN 3D
 
-**DUE: 2D Game**
+- **DUE: 2D Game**
 
 ## Week 10 - Hello 3D
 
@@ -233,9 +234,9 @@ The course is split into 3 distinct modules each with a unique project:
 - Hello 3D
 - Project Development
 
-**Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
-**Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)**
-**Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)**
+- **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
+- **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)**
+- **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)**
 
 ### Friday 11/6
 
@@ -243,7 +244,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Materials, Models
 - Light, Sound
 
-**DUE: Lab 4**
+- **DUE: Lab 4**
 
 ## Week 11 - Advanced Topics and Capstone Presentations
 
@@ -295,7 +296,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 - **Final project playtest**
 
-**DUE: Game Review**
+- **DUE: Game Review**
 
 ## Finals Week (12/11 - 12/18)
 
