@@ -130,6 +130,7 @@ The course is split into 3 distinct modules each with a unique project:
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Modules/2D/2D_Brainstorming.md)
 
+- [Coding Fundamentals](/Modules/2D/Fundamentals/)
 - Coding Fundamentals
   - Scripts and properties
   - Variables

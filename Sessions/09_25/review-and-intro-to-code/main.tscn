@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://ffarmh0r67ki"]
+
+[ext_resource type="Texture2D" uid="uid://7wy7jvn0d7o3" path="res://CatPackFree/CatPackFree/Furnitures.png" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://wakfv58eckql" path="res://cat.tscn" id="2_0xm2m"]
+
+[node name="Main" type="Node2D" unique_id=352216391]
+
+[node name="Bed" type="Sprite2D" parent="." unique_id=1276749778]
+position = Vector2(339, 296)
+texture = ExtResource("1_ig7tw")
+region_enabled = true
+region_rect = Rect2(202, 137, 110, 82)
+
+[node name="Cats" type="Node2D" parent="." unique_id=1178216730]
+
+[node name="Cat" parent="Cats" unique_id=1865897082 instance=ExtResource("2_0xm2m")]
+position = Vector2(471, 298)
+
+[node name="Cat3" parent="Cats" unique_id=1675134363 instance=ExtResource("2_0xm2m")]
+position = Vector2(183, 209)
+
+[node name="Cat2" parent="Cats" unique_id=1108804779 instance=ExtResource("2_0xm2m")]
+position = Vector2(337, 230)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=150956489]
+position = Vector2(291, 241)
+zoom = Vector2(2, 2)

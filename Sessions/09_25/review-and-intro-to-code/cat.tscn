@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://wakfv58eckql"]
+
+[ext_resource type="Texture2D" uid="uid://2i47qta5kr0x" path="res://CatPackFree/CatPackFree/Idle.png" id="1_hcucf"]
+
+[node name="Cat" type="Sprite2D" unique_id=1865897082]
+modulate = Color(1, 0.58431375, 1, 1)
+texture = ExtResource("1_hcucf")
+region_enabled = true
+region_rect = Rect2(0, 0, 30.298615, 32)
+
+[node name="Label" type="Label" parent="." unique_id=1492006138]
+offset_left = -26.0
+offset_top = -42.0
+offset_right = 26.0
+offset_bottom = -19.0
+text = "Meow!"
+
+[node name="Button" type="Button" parent="." unique_id=2119272247]
+offset_left = -27.0
+offset_top = 17.0
+offset_right = 23.0
+offset_bottom = 48.0
+text = "Pet"
