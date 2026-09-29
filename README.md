@@ -148,8 +148,8 @@ The course is split into 3 distinct modules each with a unique project:
 
 - Coding review and workshop
 
--**DUE: Lab 1**
--**Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
+- **DUE: Lab 1**
+- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 ### Friday 10/2 - Input and Interactions
 
