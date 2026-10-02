@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dhcqvblrmuftw"]
+
+[ext_resource type="Texture2D" uid="uid://c8fub5iv5guo0" path="res://icon.svg" id="1_dfm56"]
+[ext_resource type="Script" uid="uid://dvwck2l5bcbg3" path="res://robot.gd" id="2_yhfw1"]
+
+[node name="Robot" type="Sprite2D" unique_id=207365808]
+texture = ExtResource("1_dfm56")
+script = ExtResource("2_yhfw1")

@@ -130,11 +130,6 @@ The course is split into 3 distinct modules each with a unique project:
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Modules/2D/2D_Brainstorming.md)
 
-- [Coding Fundamentals](/Modules/2D/Fundamentals/)
-- Coding Fundamentals
-  - Scripts and properties
-  - Variables
-  - Create a moving character together using simple_character example
 
 - **DUE: Process Paper**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
@@ -146,35 +141,42 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Tuesday 9/29
 
-- Coding review and workshop
+- [Coding Fundamentals](/Modules/2D/Fundamentals/)
+- Coding Fundamentals
+  - Scripts and properties
+  - Variables
+  - Create a moving character together using simple_character example
 
 - **DUE: Lab 1**
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 ### Friday 10/2 - Input and Interactions
 
-- Coding Input and Conditional Review
-- Input map
-- Shared Repos
-  - Create, Invite, Clone
-  - Pull and Push
-  - Conflicts
+- Coding review 
+- Input
+- Conditionals
 
 - **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **DUE: Lab 2**
-- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 ## Week 6 - Nodes, Assets and Animations
 
 ### Tuesday 10/6 - Using Nodes Together
 
-- Conditional Logic Review
+- Shared Repos
+  - Create, Invite, Clone
+  - Pull and Push
+  - Conflicts
+
+- Input map
 - Using Nodes together
   - Calling Down
   - Area2D
   - Timer
   - Camera
   - Sound
+
+- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 ### Friday 10/9 - Assets and Animations
 
