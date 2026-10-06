@@ -6,12 +6,15 @@
 
 [node name="Node2D" type="Node2D" unique_id=2015547758]
 
+[node name="Robot2" parent="." unique_id=586373378 instance=ExtResource("1_glv2v")]
+modulate = Color(1, 1, 0.31764707, 1)
+position = Vector2(369, 295)
+speed = 0
+health = 400
+
 [node name="Robot" parent="." unique_id=207365808 instance=ExtResource("1_glv2v")]
 position = Vector2(144, 106)
-
-[node name="Robot2" parent="." unique_id=586373378 instance=ExtResource("1_glv2v")]
-position = Vector2(369, 295)
-speed = 3
+speed = 4
 
 [node name="EvilRobot" type="Sprite2D" parent="." unique_id=1024522405]
 modulate = Color(1, 0.09803922, 0.23529412, 1)
@@ -19,3 +22,4 @@ position = Vector2(403, 90.5)
 scale = Vector2(1, 0.4609375)
 texture = ExtResource("2_r0du0")
 script = ExtResource("3_cm0pq")
+spin_speed = 0
