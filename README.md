@@ -161,14 +161,25 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 6 - Nodes, Assets and Animations
 
-### Tuesday 10/6 - Using Nodes Together
+### Tuesday 10/6 - Collaboration, Assets and Animations 
 
 - Shared Repos
   - Create, Invite, Clone
   - Pull and Push
   - Conflicts
 
+- Assets
+  - Sprite Sheets
+  - Animated Sprites
+  - Tilemaps
+
+
+- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
+
+### Friday 10/9 - Using Nodes Together
+
 - Input map
+
 - Using Nodes together
   - Calling Down
   - Area2D
@@ -176,12 +187,6 @@ The course is split into 3 distinct modules each with a unique project:
   - Camera
   - Sound
 
-- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
-
-### Friday 10/9 - Assets and Animations
-
-- Assets
-  - Sprite Sheets
 - Functions vs Signals
   - CollisionShapes
   - StaticBody
