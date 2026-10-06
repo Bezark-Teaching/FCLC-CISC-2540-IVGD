@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://gt4fyyx7pxku"]
+
+[ext_resource type="Texture2D" uid="uid://cidkgq63cxkam" path="res://MysticAcid_basics_PetricakeGames.png" id="1_vonw3"]
+[ext_resource type="PackedScene" uid="uid://bksb7ows73tnx" path="res://Rat.tscn" id="2_oi3di"]
+
+[node name="Level" type="Node2D" unique_id=1335059938]
+
+[node name="MysticAcidBasicsPetricakeGames" type="Sprite2D" parent="." unique_id=565116735]
+texture_filter = 1
+position = Vector2(89.99999, 78)
+scale = Vector2(2.5875, 2.5875)
+texture = ExtResource("1_vonw3")
+
+[node name="Rat" parent="." unique_id=667086209 instance=ExtResource("2_oi3di")]
+position = Vector2(13, 10)
