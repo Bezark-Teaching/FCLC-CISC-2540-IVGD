@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://b0qgx28ri5n8u"]
+
+[ext_resource type="Script" uid="uid://bjn1ehqn4km8m" path="res://Signals/player.gd" id="1_2gh7x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dlepv"]
+
+[node name="SignalDemo" type="Node2D" unique_id=253724941]
+
+[node name="Player" type="Sprite2D" parent="." unique_id=959579690]
+script = ExtResource("1_2gh7x")
+
+[node name="Area2D" type="Area2D" parent="Player" unique_id=1016010041]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/Area2D" unique_id=591488009]
+shape = SubResource("RectangleShape2D_dlepv")
+
+[node name="Timer" type="Timer" parent="Player" unique_id=2023989813]
+autostart = true
+
+[node name="orea" type="Area2D" parent="." unique_id=1702660836]
+position = Vector2(12, 8)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="orea" unique_id=1715656657]
+shape = SubResource("RectangleShape2D_dlepv")
