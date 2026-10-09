@@ -1,6 +1,5 @@
 # Top of Mind
-- Please submit your [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) 
-- Continue to work on Lab 1
+- THERE IS NO CLASS UNTIL 10/20! Stay tuned for a video tutorial and continue to work on your games.
 - Use the  [video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo) as reference
 
 # FCLC Undergraduate Introduction to Video Game Design Syllabus

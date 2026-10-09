@@ -1,0 +1,97 @@
+[gd_scene format=3 uid="uid://crt2wwh5073vv"]
+
+[ext_resource type="Texture2D" uid="uid://da83hae6ct66w" path="res://Kings and Pigs/Sprites/01-King Human/Idle (78x58).png" id="1_gs1rm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ycl4e"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(0, 0, 78, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_72x6q"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(78, 0, 78, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ixgxj"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(156, 0, 78, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lo88h"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(234, 0, 78, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sk5pk"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(312, 0, 78, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e42gv"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(390, 0, 78, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w3hky"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(468, 0, 78, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i80np"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(546, 0, 78, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x8sy4"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(624, 0, 78, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ncwsm"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(702, 0, 78, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xrojm"]
+atlas = ExtResource("1_gs1rm")
+region = Rect2(780, 0, 78, 58)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dlepv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ycl4e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_72x6q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ixgxj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lo88h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sk5pk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e42gv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w3hky")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i80np")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x8sy4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ncwsm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xrojm")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 18.0
+}]
+
+[node name="King" type="AnimatedSprite2D" unique_id=1550080991]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_dlepv")
+autoplay = "default"
+frame_progress = 0.5141056
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=34789152]
+zoom = Vector2(5, 5)

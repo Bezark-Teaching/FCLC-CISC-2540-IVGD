@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cidkgq63cxkam" path="res://MysticAcid_basics_PetricakeGames.png" id="1_vonw3"]
 [ext_resource type="PackedScene" uid="uid://bksb7ows73tnx" path="res://Rat.tscn" id="2_oi3di"]
+[ext_resource type="PackedScene" uid="uid://gpikfhpcoyhb" path="res://bomb.tscn" id="3_oi3di"]
 
 [node name="Level" type="Node2D" unique_id=1335059938]
 
@@ -12,4 +13,10 @@ scale = Vector2(2.5875, 2.5875)
 texture = ExtResource("1_vonw3")
 
 [node name="Rat" parent="." unique_id=667086209 instance=ExtResource("2_oi3di")]
-position = Vector2(13, 10)
+position = Vector2(-57, -5)
+
+[node name="Bomb" parent="." unique_id=726507992 instance=ExtResource("3_oi3di")]
+fake = true
+
+[node name="Bomb2" parent="." unique_id=1731105755 instance=ExtResource("3_oi3di")]
+position = Vector2(-117, 0)

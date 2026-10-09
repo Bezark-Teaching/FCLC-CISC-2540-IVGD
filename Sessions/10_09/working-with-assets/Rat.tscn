@@ -149,6 +149,9 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dlepv"]
+height = 20.0
+
 [node name="Rat" type="AnimatedSprite2D" unique_id=667086209]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_dlepv")
@@ -158,3 +161,9 @@ script = ExtResource("4_p2c4i")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1923889790]
 zoom = Vector2(4, 4)
+
+[node name="Area2D" type="Area2D" parent="." unique_id=373299699]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1108150853]
+position = Vector2(0, 10)
+shape = SubResource("CapsuleShape2D_dlepv")
