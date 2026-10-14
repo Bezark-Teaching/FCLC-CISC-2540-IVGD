@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://drptm40cfptbj"]
+
+[ext_resource type="PackedScene" uid="uid://03vckvj5kgdf" path="res://phys_box.tscn" id="1_0pas4"]
+[ext_resource type="Texture2D" uid="uid://t6kpj2q1d44x" path="res://icon.svg" id="2_0pas4"]
+[ext_resource type="PackedScene" uid="uid://ctsvnp5rymipf" path="res://character.tscn" id="3_ofpxc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7f61o"]
+size = Vector2(124, 22)
+
+[node name="PhysicsDemo" type="Node2D" unique_id=382184975]
+
+[node name="Box" parent="." unique_id=156530631 instance=ExtResource("1_0pas4")]
+position = Vector2(-6, 0)
+
+[node name="Box2" parent="." unique_id=21974698 instance=ExtResource("1_0pas4")]
+position = Vector2(-10, 42)
+
+[node name="Box3" parent="." unique_id=2019421471 instance=ExtResource("1_0pas4")]
+position = Vector2(21, 2)
+
+[node name="Box4" parent="." unique_id=672261772 instance=ExtResource("1_0pas4")]
+position = Vector2(9, 27)
+
+[node name="Box5" parent="." unique_id=2131682464 instance=ExtResource("1_0pas4")]
+position = Vector2(3, -27)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=379364438]
+zoom = Vector2(3, 3)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1484975777]
+position = Vector2(5, 69)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=2146094319]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_7f61o")
+
+[node name="Icon" type="Sprite2D" parent="StaticBody2D" unique_id=617229001]
+position = Vector2(0, 1.000001)
+scale = Vector2(0.9648438, 0.15624999)
+texture = ExtResource("2_0pas4")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=328733344]
+position = Vector2(-99, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=2086267669]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_7f61o")
+
+[node name="Icon" type="Sprite2D" parent="StaticBody2D2" unique_id=462659463]
+position = Vector2(0, 1.000001)
+scale = Vector2(0.9648438, 0.15624999)
+texture = ExtResource("2_0pas4")
+
+[node name="Character" parent="." unique_id=1719380925 instance=ExtResource("3_ofpxc")]
+position = Vector2(-132, -45)

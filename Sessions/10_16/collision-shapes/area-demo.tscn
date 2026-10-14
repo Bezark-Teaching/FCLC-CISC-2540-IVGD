@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://biroefg88lf7i"]
+
+[ext_resource type="PackedScene" uid="uid://bqlw35m2l470e" path="res://simple_character.tscn" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://da5wphxrg7wit" path="res://box.tscn" id="2_0xm2m"]
+
+[node name="Main" type="Node2D" unique_id=853369845]
+
+[node name="Character" parent="." unique_id=1719380925 instance=ExtResource("1_0xm2m")]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1701821044]
+zoom = Vector2(2, 2)
+
+[node name="Box" parent="." unique_id=1390860506 instance=ExtResource("2_0xm2m")]
+position = Vector2(134, 34)
+
+[node name="Box2" parent="." unique_id=1833732691 instance=ExtResource("2_0xm2m")]
+position = Vector2(100, 73)
+
+[node name="Box3" parent="." unique_id=743310976 instance=ExtResource("2_0xm2m")]
+position = Vector2(187, 0)

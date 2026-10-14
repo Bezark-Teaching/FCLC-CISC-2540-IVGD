@@ -1,5 +1,7 @@
 # Top of Mind
-- THERE IS NO CLASS UNTIL 10/20! Stay tuned for a video tutorial and continue to work on your games.
+- THERE IS NO CLASS UNTIL 10/20!
+- Please watch the following tutorial on [Collision Shapes and Character Bodies](https://www.youtube.com/live/_zZOdU_GirE?si=nrcoy4BzW6CtE3eH)
+- Continue to work on your games.
 - Use the  [video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo) as reference
 
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
@@ -80,6 +82,7 @@ The course is split into 3 distinct modules each with a unique project:
 - [Read MDA Article](/Readings/MDA_annotated.pdf)
 
 ### Friday 9/4
+
 - Playtesting and Group Work time
 
 ## Week 2 - Prototyping, Iteration and Playtesting
@@ -119,22 +122,19 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 4 - Nodes, Scenes and Coding Fundamentals
 
-### Tuesday 9/22 - Github 
+### Tuesday 9/22 - Github
+
 - Github Accounts, Cloning, Committing and pushing, Repo Creation
 - Nodes and Scenes - build a simple scene together
-
 
 ### Friday 9/25 - Genres and Coding Fundamentals
 
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Modules/2D/2D_Brainstorming.md)
 
-
 - **DUE: Process Paper**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
-
-
 
 ## Week 5 - Input and Interactions
 
@@ -151,7 +151,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Friday 10/2 - Input and Interactions
 
-- Coding review 
+- Coding review
 - Input
 - Conditionals
 
@@ -160,7 +160,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 6 - Nodes, Assets and Animations
 
-### Tuesday 10/6 - Collaboration, Assets and Animations 
+### Tuesday 10/6 - Collaboration, Assets and Animations
 
 - Shared Repos
   - Create, Invite, Clone
@@ -171,7 +171,6 @@ The course is split into 3 distinct modules each with a unique project:
   - Sprite Sheets
   - Animated Sprites
   - Tilemaps
-
 
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 

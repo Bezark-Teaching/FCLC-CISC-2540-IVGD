@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://03vckvj5kgdf"]
+
+[ext_resource type="Texture2D" uid="uid://5ygouxslcfrm" path="res://Assets/Items/Boxes/Box1/Idle.png" id="1_qteg3"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_0pas4"]
+bounce = 0.66
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dlepv"]
+
+[node name="Box" type="RigidBody2D" unique_id=156530631]
+mass = 0.022
+physics_material_override = SubResource("PhysicsMaterial_0pas4")
+gravity_scale = 0.832
+
+[node name="Sprite" type="Sprite2D" parent="." unique_id=470125140]
+texture = ExtResource("1_qteg3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1609582598]
+shape = SubResource("RectangleShape2D_dlepv")
