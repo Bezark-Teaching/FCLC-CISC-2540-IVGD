@@ -1,9 +1,9 @@
-[gd_scene load_steps=31 format=3 uid="uid://c6crv0w8wplqg"]
+[gd_scene format=3 uid="uid://c6crv0w8wplqg"]
 
-[ext_resource type="Script" path="res://platformer/character_body_2d.gd" id="1_82agy"]
-[ext_resource type="Texture2D" uid="uid://i45eb0760gtj" path="res://Assets/Virtual Guy/Idle (32x32).png" id="1_x7kjt"]
-[ext_resource type="Texture2D" uid="uid://7qyvotnp6qy4" path="res://Assets/Virtual Guy/Run (32x32).png" id="3_hg654"]
-[ext_resource type="Texture2D" uid="uid://iwdufnjndnm8" path="res://Assets/Virtual Guy/Jump (32x32).png" id="3_xvulp"]
+[ext_resource type="Script" uid="uid://cq7uiy5epwubb" path="res://platformer/character_body_2d.gd" id="1_82agy"]
+[ext_resource type="Texture2D" uid="uid://csxfhk5xuyyo8" path="res://Assets/Virtual Guy/Idle (32x32).png" id="1_x7kjt"]
+[ext_resource type="Texture2D" uid="uid://bkvnwbicks1n7" path="res://Assets/Virtual Guy/Run (32x32).png" id="3_hg654"]
+[ext_resource type="Texture2D" uid="uid://cloxnv1864i1a" path="res://Assets/Virtual Guy/Jump (32x32).png" id="3_xvulp"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i8jno"]
 radius = 12.0
@@ -141,7 +141,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5cdj1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"default",
 "speed": 10.0
 }, {
@@ -149,7 +149,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xjf1i")
 }],
-"loop": true,
+"loop": 1,
 "name": &"jump",
 "speed": 5.0
 }, {
@@ -190,22 +190,22 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nejil")
 }],
-"loop": true,
+"loop": 1,
 "name": &"walk",
 "speed": 12.0
 }]
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1810824214]
 script = ExtResource("1_82agy")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1761059687]
 position = Vector2(0, 4)
 shape = SubResource("CapsuleShape2D_i8jno")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1185580088]
 sprite_frames = SubResource("SpriteFrames_l0ghv")
 animation = &"jump"
 autoplay = "default"
 
-[node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(5, 5)
+[node name="Camera2D" type="Camera2D" parent="." unique_id=27452313]
+zoom = Vector2(2, 2)

@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://dijp8qnedkmb4"]
+
+[ext_resource type="PackedScene" uid="uid://8qn0t66dle00" path="res://Platform.tscn" id="1_ki6xj"]
+[ext_resource type="PackedScene" uid="uid://by5rv72o3aj3m" path="res://ball.tscn" id="2_v1te0"]
+[ext_resource type="PackedScene" uid="uid://c6kmp3d41ih50" path="res://Player.tscn" id="3_v1te0"]
+
+[node name="Node2D" type="Node2D" unique_id=826526108]
+
+[node name="StaticBody2D" parent="." unique_id=94853452 instance=ExtResource("1_ki6xj")]
+position = Vector2(115, 491)
+
+[node name="StaticBody2D2" parent="." unique_id=870558322 instance=ExtResource("1_ki6xj")]
+position = Vector2(479, 365)
+
+[node name="StaticBody2D3" parent="." unique_id=1431984701 instance=ExtResource("1_ki6xj")]
+position = Vector2(765, 230)
+
+[node name="RigidBody2D" parent="." unique_id=438215214 instance=ExtResource("2_v1te0")]
+position = Vector2(273, 44)
+
+[node name="RigidBody2D2" parent="." unique_id=1159034983 instance=ExtResource("2_v1te0")]
+position = Vector2(248, -144)
+
+[node name="RigidBody2D3" parent="." unique_id=1484563646 instance=ExtResource("2_v1te0")]
+position = Vector2(364, -119)
+
+[node name="RigidBody2D4" parent="." unique_id=1826586677 instance=ExtResource("2_v1te0")]
+position = Vector2(446, 185)
+
+[node name="RigidBody2D5" parent="." unique_id=1035393226 instance=ExtResource("2_v1te0")]
+position = Vector2(421, -3)
+
+[node name="RigidBody2D6" parent="." unique_id=1780046485 instance=ExtResource("2_v1te0")]
+position = Vector2(537, 22)
+
+[node name="RigidBody2D7" parent="." unique_id=1407112854 instance=ExtResource("2_v1te0")]
+position = Vector2(499, -207)
+
+[node name="RigidBody2D8" parent="." unique_id=1731245611 instance=ExtResource("2_v1te0")]
+position = Vector2(474, -395)
+
+[node name="RigidBody2D9" parent="." unique_id=1500578798 instance=ExtResource("2_v1te0")]
+position = Vector2(590, -370)
+
+[node name="RigidBody2D10" parent="." unique_id=977698411 instance=ExtResource("2_v1te0")]
+position = Vector2(672, -66)
+
+[node name="RigidBody2D11" parent="." unique_id=746778583 instance=ExtResource("2_v1te0")]
+position = Vector2(647, -254)
+
+[node name="RigidBody2D12" parent="." unique_id=771398170 instance=ExtResource("2_v1te0")]
+position = Vector2(763, -229)
+
+[node name="CharacterBody2D" parent="." unique_id=2111075218 instance=ExtResource("3_v1te0")]
+position = Vector2(888, 82)
