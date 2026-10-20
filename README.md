@@ -1,5 +1,6 @@
 # Top of Mind
-- THERE IS NO CLASS UNTIL 10/20! Stay tuned for a video tutorial and continue to work on your games.
+- Welcome back!
+- [Collision Shapes and Characterbody](https://youtube.com/live/_zZOdU_GirE?feature=share)
 - Use the  [video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo) as reference
 
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
