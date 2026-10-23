@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://q4cd00bo0v4r"]
+
+[ext_resource type="Script" path="res://Examples/Attacking/Gun.gd" id="1_2edbo"]
+
+[node name="Gun" type="Node2D"]
+script = ExtResource("1_2edbo")
+
+[node name="Body" type="CanvasGroup" parent="."]
+modulate = Color(0.337255, 0.341176, 0.298039, 1)
+
+[node name="ColorRect" type="ColorRect" parent="Body"]
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 20.0
+
+[node name="ColorRect2" type="ColorRect" parent="Body"]
+offset_left = 4.0
+offset_top = -40.0
+offset_right = 44.0
+offset_bottom = -24.0
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="Marker" type="Marker2D" parent="."]
+position = Vector2(44, -32)
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

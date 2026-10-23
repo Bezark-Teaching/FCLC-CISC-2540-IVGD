@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://dgpf56x45y3m6"]
+
+[ext_resource type="PackedScene" uid="uid://bqinvgyploi81" path="res://Examples/Platforms/platform.tscn" id="1_otf31"]
+[ext_resource type="PackedScene" uid="uid://babsjd4y120k7" path="res://Examples/Platforms/Moving Platform.tscn" id="2_svr4t"]
+[ext_resource type="PackedScene" uid="uid://bkkw0oxrb4p44" path="res://Examples/Attacking/AttackingPlayer.tscn" id="3_5akc7"]
+[ext_resource type="PackedScene" uid="uid://q4cd00bo0v4r" path="res://Examples/Attacking/gun.tscn" id="4_bxd6g"]
+
+[node name="ProjectileDemo" type="Node2D"]
+
+[node name="Platforms" type="Node2D" parent="."]
+
+[node name="Platform" parent="Platforms" instance=ExtResource("1_otf31")]
+
+[node name="Platform2" parent="Platforms" instance=ExtResource("1_otf31")]
+position = Vector2(159, 5)
+
+[node name="Platform3" parent="Platforms" instance=ExtResource("1_otf31")]
+position = Vector2(316, 7)
+
+[node name="Node2D" parent="Platforms" instance=ExtResource("2_svr4t")]
+position = Vector2(484, 74)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_5akc7")]
+position = Vector2(21, -33)
+
+[node name="Gun" parent="." instance=ExtResource("4_bxd6g")]
+position = Vector2(179, 20)
+
+[node name="Gun2" parent="." instance=ExtResource("4_bxd6g")]
+position = Vector2(789, 86)
+scale = Vector2(-1, 1)
+
+[node name="Respawn" type="Marker2D" parent="."]
+position = Vector2(12, -39)

@@ -1,14 +1,14 @@
-[gd_scene load_steps=8 format=3 uid="uid://cs8cj3stxo346"]
+[gd_scene load_steps=8 format=3 uid="uid://b54yf6tx7il1"]
 
-[ext_resource type="Script" path="res://Examples/GeometryDash/GeoController.gd" id="1_0tjsu"]
-[ext_resource type="Texture2D" uid="uid://c4oaaav66llsb" path="res://Assets/icon.svg" id="2_npfql"]
-[ext_resource type="Texture2D" uid="uid://dpxf7k1ytye7p" path="res://Assets/Terrain/Terrain (16x16).png" id="3_bm6pi"]
+[ext_resource type="Script" path="res://InClassDemo/CharacterBody2D.gd" id="1_ddy82"]
+[ext_resource type="Texture2D" uid="uid://c4oaaav66llsb" path="res://Assets/icon.svg" id="2_wqiv4"]
+[ext_resource type="Texture2D" uid="uid://dpxf7k1ytye7p" path="res://Assets/Terrain/Terrain (16x16).png" id="3_4tm5h"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_62e64"]
 size = Vector2(129, 130)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fgs6r"]
-texture = ExtResource("3_bm6pi")
+texture = ExtResource("3_4tm5h")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -467,10 +467,10 @@ position = Vector2(192, 241)
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 position = Vector2(-115, -155)
-script = ExtResource("1_0tjsu")
+script = ExtResource("1_ddy82")
 
 [node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
-texture = ExtResource("2_npfql")
+texture = ExtResource("2_wqiv4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0.5, -2)
@@ -513,3 +513,6 @@ offset_left = 1047.0
 offset_top = 42.0
 offset_right = 2172.0
 offset_bottom = 228.0
+
+[node name="Checkpoint" type="Marker2D" parent="."]
+position = Vector2(-393, -313)

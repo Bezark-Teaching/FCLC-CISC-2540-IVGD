@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://bp5bpanpc75yl"]
+
+[ext_resource type="Script" uid="uid://dts28umed7uei" path="res://item.gd" id="1_p1f4w"]
+[ext_resource type="Texture2D" uid="uid://b50n03xxt77er" path="res://icon.svg" id="2_lohpx"]
+[ext_resource type="AudioStream" uid="uid://dydve7bnfasbl" path="res://coin.mp3" id="3_kg5e7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3grdt"]
+radius = 139.743
+
+[node name="item" type="Node2D" unique_id=680380874]
+modulate = Color(1, 1, 0, 1)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_p1f4w")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=229793880]
+
+[node name="Icon" type="Sprite2D" parent="Area2D" unique_id=1052360722]
+position = Vector2(1, -3)
+texture = ExtResource("2_lohpx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=441275785]
+shape = SubResource("CircleShape2D_3grdt")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1482249103]
+stream = ExtResource("3_kg5e7")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="finished" from="AudioStreamPlayer2D" to="." method="_on_audio_stream_player_2d_finished"]

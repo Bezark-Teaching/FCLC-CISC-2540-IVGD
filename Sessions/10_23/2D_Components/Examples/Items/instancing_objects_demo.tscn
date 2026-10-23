@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://svneprdmbel8"]
+
+[ext_resource type="Script" path="res://Examples/Items/Item_Killbox.gd" id="1_5q5a2"]
+[ext_resource type="Script" path="res://Examples/Items/Crate Spawner.gd" id="1_llnid"]
+[ext_resource type="PackedScene" uid="uid://dohej3k23y176" path="res://Examples/Items/rigidbody_box.tscn" id="2_dwjmt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pyoy5"]
+size = Vector2(2927, 177)
+
+[node name="Instancing Objects Demo" type="Node2D"]
+
+[node name="Crate Spawner" type="Node2D" parent="."]
+position = Vector2(563, 312)
+script = ExtResource("1_llnid")
+
+[node name="Box" parent="Crate Spawner" instance=ExtResource("2_dwjmt")]
+
+[node name="Boxes" type="Node2D" parent="Crate Spawner"]
+
+[node name="Timer" type="Timer" parent="Crate Spawner"]
+wait_time = 0.5
+autostart = true
+
+[node name="Killbox" type="Area2D" parent="."]
+position = Vector2(0, 476)
+script = ExtResource("1_5q5a2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox"]
+position = Vector2(1050.5, 78.5)
+shape = SubResource("RectangleShape2D_pyoy5")
+
+[connection signal="timeout" from="Crate Spawner/Timer" to="Crate Spawner" method="_on_timer_timeout"]
+[connection signal="body_entered" from="Killbox" to="Killbox" method="_on_body_entered"]

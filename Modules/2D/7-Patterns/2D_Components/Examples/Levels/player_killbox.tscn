@@ -1,15 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://bvy1vul86mb77"]
+[gd_scene format=3 uid="uid://bvy1vul86mb77"]
 
-[ext_resource type="Script" path="res://Examples/Levels/PlayerKillbox.gd" id="1_35mif"]
+[ext_resource type="Script" uid="uid://db8y4b4c2f87r" path="res://Examples/Levels/PlayerKillbox.gd" id="1_35mif"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pyoy5"]
 size = Vector2(2927, 177)
 
-[node name="Killbox" type="Area2D"]
+[node name="Killbox" type="Area2D" unique_id=64146425]
 position = Vector2(0, 218)
 script = ExtResource("1_35mif")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=641564430]
 position = Vector2(1050.5, 78.5)
 shape = SubResource("RectangleShape2D_pyoy5")
 

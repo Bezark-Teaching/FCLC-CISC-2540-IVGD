@@ -70,4 +70,3 @@ func _on_animated_sprite_2d_animation_finished():
 		alive = true
 		health = max_health
 		
-

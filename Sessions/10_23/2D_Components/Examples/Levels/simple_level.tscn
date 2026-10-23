@@ -1,0 +1,61 @@
+[gd_scene load_steps=5 format=3 uid="uid://boumkcsiw84um"]
+
+[ext_resource type="PackedScene" uid="uid://bngnx0bsasim5" path="res://Examples/Items/static_box.tscn" id="1_k6wg2"]
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Examples/Player/Player.tscn" id="2_xjsra"]
+[ext_resource type="PackedScene" uid="uid://dohej3k23y176" path="res://Examples/Items/rigidbody_box.tscn" id="3_v6vkm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t40yc"]
+size = Vector2(860, 41)
+
+[node name="Simple-Level" type="Node2D"]
+
+[node name="StaticBoxes" type="Node2D" parent="."]
+position = Vector2(324, 70)
+
+[node name="Box" parent="StaticBoxes" instance=ExtResource("1_k6wg2")]
+
+[node name="Box2" parent="StaticBoxes" instance=ExtResource("1_k6wg2")]
+position = Vector2(24, 0)
+
+[node name="Box3" parent="StaticBoxes" instance=ExtResource("1_k6wg2")]
+position = Vector2(51, 0)
+
+[node name="Box4" parent="StaticBoxes" instance=ExtResource("1_k6wg2")]
+position = Vector2(75, 0)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_xjsra")]
+position = Vector2(29, 0)
+
+[node name="RigidBody Boxes" type="Node2D" parent="."]
+position = Vector2(74, 5)
+rotation = 0.494464
+
+[node name="Box2" parent="RigidBody Boxes" instance=ExtResource("3_v6vkm")]
+position = Vector2(59.7708, -64.0347)
+physics_material_override = null
+
+[node name="Box4" parent="RigidBody Boxes" instance=ExtResource("3_v6vkm")]
+position = Vector2(99.5727, 22.4338)
+physics_material_override = null
+
+[node name="Box5" parent="RigidBody Boxes" instance=ExtResource("3_v6vkm")]
+position = Vector2(89.6681, -8.58068)
+rotation = -2.25658
+physics_material_override = null
+
+[node name="Box3" parent="RigidBody Boxes" instance=ExtResource("3_v6vkm")]
+position = Vector2(78.5465, -35.5308)
+physics_material_override = null
+
+[node name="Floor" type="StaticBody2D" parent="."]
+position = Vector2(0, 102)
+
+[node name="ColorRect" type="ColorRect" parent="Floor"]
+offset_right = 859.0
+offset_bottom = 40.0
+color = Color(0.482353, 0.678431, 0.447059, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+position = Vector2(430, 20.5)
+shape = SubResource("RectangleShape2D_t40yc")

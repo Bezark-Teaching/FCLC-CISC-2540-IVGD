@@ -212,16 +212,15 @@ The course is split into 3 distinct modules each with a unique project:
 - Physics Objects
 - CharacterBody
 - Tilemaps
-- UI
 - Sounds
+
+### Friday 10/23
+
+- UI
 - 2D Components and Polish
   - Common Patterns: Items, Enemies, Checkpoints, Respawns, Killboxes
   - User Interface (Control Nodes)
   - Polish: Sound, Lighting, Particles
-- Project Development
-
-### Friday 10/23
-
 - Project Development
 
 ## Week 9 - Playtesting and 2D Game Sprint
