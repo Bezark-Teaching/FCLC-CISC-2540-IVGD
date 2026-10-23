@@ -1,34 +1,44 @@
-[gd_scene load_steps=5 format=3 uid="uid://dgpf56x45y3m6"]
+[gd_scene format=3 uid="uid://dgpf56x45y3m6"]
 
 [ext_resource type="PackedScene" uid="uid://bqinvgyploi81" path="res://Examples/Platforms/platform.tscn" id="1_otf31"]
 [ext_resource type="PackedScene" uid="uid://babsjd4y120k7" path="res://Examples/Platforms/Moving Platform.tscn" id="2_svr4t"]
 [ext_resource type="PackedScene" uid="uid://bkkw0oxrb4p44" path="res://Examples/Attacking/AttackingPlayer.tscn" id="3_5akc7"]
 [ext_resource type="PackedScene" uid="uid://q4cd00bo0v4r" path="res://Examples/Attacking/gun.tscn" id="4_bxd6g"]
 
-[node name="ProjectileDemo" type="Node2D"]
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_dlepv"]
 
-[node name="Platforms" type="Node2D" parent="."]
+[node name="ProjectileDemo" type="Node2D" unique_id=1211132717]
 
-[node name="Platform" parent="Platforms" instance=ExtResource("1_otf31")]
+[node name="Platforms" type="Node2D" parent="." unique_id=1983226767]
 
-[node name="Platform2" parent="Platforms" instance=ExtResource("1_otf31")]
+[node name="Platform" parent="Platforms" unique_id=432383164 instance=ExtResource("1_otf31")]
+
+[node name="Platform2" parent="Platforms" unique_id=1166201587 instance=ExtResource("1_otf31")]
 position = Vector2(159, 5)
 
-[node name="Platform3" parent="Platforms" instance=ExtResource("1_otf31")]
+[node name="Platform3" parent="Platforms" unique_id=1422399344 instance=ExtResource("1_otf31")]
 position = Vector2(316, 7)
 
-[node name="Node2D" parent="Platforms" instance=ExtResource("2_svr4t")]
+[node name="Node2D" parent="Platforms" unique_id=464616941 instance=ExtResource("2_svr4t")]
 position = Vector2(484, 74)
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("3_5akc7")]
+[node name="CharacterBody2D" parent="." unique_id=958193733 instance=ExtResource("3_5akc7")]
 position = Vector2(21, -33)
 
-[node name="Gun" parent="." instance=ExtResource("4_bxd6g")]
+[node name="Gun" parent="." unique_id=1546784161 instance=ExtResource("4_bxd6g")]
 position = Vector2(179, 20)
 
-[node name="Gun2" parent="." instance=ExtResource("4_bxd6g")]
+[node name="Gun2" parent="." unique_id=1000599521 instance=ExtResource("4_bxd6g")]
 position = Vector2(789, 86)
 scale = Vector2(-1, 1)
 
-[node name="Respawn" type="Marker2D" parent="."]
+[node name="Respawn" type="Marker2D" parent="." unique_id=589483328]
 position = Vector2(12, -39)
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1494211078]
+position = Vector2(0, 180)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=511163368]
+shape = SubResource("WorldBoundaryShape2D_dlepv")
+
+[connection signal="body_entered" from="Area2D" to="CharacterBody2D" method="_on_area_2d_body_entered"]

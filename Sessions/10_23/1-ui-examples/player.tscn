@@ -1,33 +1,38 @@
-[gd_scene load_steps=4 format=3 uid="uid://ishqo8c65him"]
+[gd_scene format=3 uid="uid://ishqo8c65him"]
 
-[ext_resource type="Script" path="res://top_down_character.gd" id="1_v56iv"]
-[ext_resource type="Texture2D" uid="uid://du11fab0yhca4" path="res://icon.svg" id="2_hvmjb"]
+[ext_resource type="Script" uid="uid://tktkfttkgofq" path="res://top_down_character.gd" id="1_v56iv"]
+[ext_resource type="Texture2D" uid="uid://b50n03xxt77er" path="res://icon.svg" id="2_hvmjb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rpind"]
 size = Vector2(129, 129)
 
-[node name="TopDownCharacter" type="CharacterBody2D"]
+[sub_resource type="LabelSettings" id="LabelSettings_kg5e7"]
+font_size = 24
+
+[node name="TopDownCharacter" type="CharacterBody2D" unique_id=1474853586]
 script = ExtResource("1_v56iv")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1956417752]
 texture = ExtResource("2_hvmjb")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1356156264]
 position = Vector2(0.5, 0.5)
 shape = SubResource("RectangleShape2D_rpind")
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1559844125]
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2046106101]
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=636300029]
 offset_right = 62.0
 offset_bottom = 23.0
 
-[node name="ScoreLabel" type="Label" parent="CanvasLayer/HBoxContainer"]
+[node name="ScoreLabel" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=1521505510]
 layout_mode = 2
 text = "Score:"
+label_settings = SubResource("LabelSettings_kg5e7")
 
-[node name="Score" type="Label" parent="CanvasLayer/HBoxContainer"]
+[node name="Score" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=841450871]
 layout_mode = 2
 text = "0"
+label_settings = SubResource("LabelSettings_kg5e7")

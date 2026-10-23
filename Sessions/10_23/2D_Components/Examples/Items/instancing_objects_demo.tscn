@@ -1,33 +1,32 @@
-[gd_scene load_steps=5 format=3 uid="uid://svneprdmbel8"]
+[gd_scene format=3 uid="uid://svneprdmbel8"]
 
-[ext_resource type="Script" path="res://Examples/Items/Item_Killbox.gd" id="1_5q5a2"]
-[ext_resource type="Script" path="res://Examples/Items/Crate Spawner.gd" id="1_llnid"]
+[ext_resource type="Script" uid="uid://bty8c84gda4pt" path="res://Examples/Items/Item_Killbox.gd" id="1_5q5a2"]
+[ext_resource type="Script" uid="uid://dakjop7mu8x8d" path="res://Examples/Items/Crate Spawner.gd" id="1_llnid"]
 [ext_resource type="PackedScene" uid="uid://dohej3k23y176" path="res://Examples/Items/rigidbody_box.tscn" id="2_dwjmt"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_pyoy5"]
-size = Vector2(2927, 177)
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_dwurj"]
 
-[node name="Instancing Objects Demo" type="Node2D"]
+[node name="Instancing Objects Demo" type="Node2D" unique_id=906800026]
 
-[node name="Crate Spawner" type="Node2D" parent="."]
-position = Vector2(563, 312)
+[node name="Crate Spawner" type="Node2D" parent="." unique_id=324085383]
+position = Vector2(271, 73)
 script = ExtResource("1_llnid")
 
-[node name="Box" parent="Crate Spawner" instance=ExtResource("2_dwjmt")]
+[node name="Box" parent="Crate Spawner" unique_id=431708240 instance=ExtResource("2_dwjmt")]
 
-[node name="Boxes" type="Node2D" parent="Crate Spawner"]
+[node name="Boxes" type="Node2D" parent="Crate Spawner" unique_id=909364797]
 
-[node name="Timer" type="Timer" parent="Crate Spawner"]
+[node name="Timer" type="Timer" parent="Crate Spawner" unique_id=1989394498]
 wait_time = 0.5
 autostart = true
 
-[node name="Killbox" type="Area2D" parent="."]
+[node name="Killbox" type="Area2D" parent="." unique_id=1853397269]
 position = Vector2(0, 476)
 script = ExtResource("1_5q5a2")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox" unique_id=336123986]
 position = Vector2(1050.5, 78.5)
-shape = SubResource("RectangleShape2D_pyoy5")
+shape = SubResource("WorldBoundaryShape2D_dwurj")
 
 [connection signal="timeout" from="Crate Spawner/Timer" to="Crate Spawner" method="_on_timer_timeout"]
 [connection signal="body_entered" from="Killbox" to="Killbox" method="_on_body_entered"]

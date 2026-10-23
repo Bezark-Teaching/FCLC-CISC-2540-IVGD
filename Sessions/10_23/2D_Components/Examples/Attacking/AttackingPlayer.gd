@@ -70,3 +70,7 @@ func _on_animated_sprite_2d_animation_finished():
 		alive = true
 		health = max_health
 		
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	kill()

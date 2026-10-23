@@ -1,9 +1,9 @@
-[gd_scene load_steps=37 format=3 uid="uid://b8qjwo70eklew"]
+[gd_scene format=3 uid="uid://b8qjwo70eklew"]
 
-[ext_resource type="Texture2D" uid="uid://i45eb0760gtj" path="res://Assets/Main Characters/Virtual Guy/Idle (32x32).png" id="1_t4ibs"]
-[ext_resource type="Script" path="res://Examples/Player/Player.gd" id="1_uwvfs"]
-[ext_resource type="Texture2D" uid="uid://dhbrrocwo285g" path="res://Assets/Main Characters/Desappearing (96x96).png" id="2_noveg"]
-[ext_resource type="Texture2D" uid="uid://7qyvotnp6qy4" path="res://Assets/Main Characters/Virtual Guy/Run (32x32).png" id="3_bt07s"]
+[ext_resource type="Texture2D" uid="uid://bjbbwjq1xbtdt" path="res://Assets/Main Characters/Virtual Guy/Idle (32x32).png" id="1_t4ibs"]
+[ext_resource type="Script" uid="uid://4n8lhxom6k1g" path="res://Examples/Player/Player.gd" id="1_uwvfs"]
+[ext_resource type="Texture2D" uid="uid://cw674es7v22n0" path="res://Assets/Main Characters/Desappearing (96x96).png" id="2_noveg"]
+[ext_resource type="Texture2D" uid="uid://bq40nvhj2mmdb" path="res://Assets/Main Characters/Virtual Guy/Run (32x32).png" id="3_bt07s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ekp6u"]
 size = Vector2(24, 27)
@@ -152,12 +152,12 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3fq5h")
 }],
-"loop": false,
+"loop": 0,
 "name": &"death",
 "speed": 10.0
 }, {
 "frames": [],
-"loop": true,
+"loop": 1,
 "name": &"fall",
 "speed": 5.0
 }, {
@@ -195,12 +195,12 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vibbj")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 10.0
 }, {
 "frames": [],
-"loop": true,
+"loop": 1,
 "name": &"jump",
 "speed": 5.0
 }, {
@@ -241,26 +241,26 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kgvku")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 10.0
 }]
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=198906997]
 script = ExtResource("1_uwvfs")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=101987499]
 position = Vector2(0, 3.5)
 shape = SubResource("RectangleShape2D_ekp6u")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1430372701]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_ejdjy")
 animation = &"run"
 autoplay = "idle"
 frame_progress = 0.790593
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1843826761]
 position = Vector2(0, -30)
 zoom = Vector2(3, 3)
 
