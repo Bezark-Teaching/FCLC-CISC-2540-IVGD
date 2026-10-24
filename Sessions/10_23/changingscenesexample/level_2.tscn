@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://p7r48peodi2k"]
+
+[node name="Level 2" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 876.0
+offset_top = 134.0
+offset_right = 916.0
+offset_bottom = 174.0

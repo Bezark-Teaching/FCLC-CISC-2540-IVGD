@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dleqsmbn50ou"]
+
+[ext_resource type="Script" path="res://Examples/Levels/Exit.gd" id="1_d2ydk"]
+[ext_resource type="Texture2D" uid="uid://d2xjkjbhed5bi" path="res://Assets/Items/Checkpoints/Start/Start (Idle).png" id="2_gw6ce"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_021w3"]
+size = Vector2(36, 40)
+
+[node name="Exit" type="Node2D"]
+script = ExtResource("1_d2ydk")
+
+[node name="Finishline" type="Sprite2D" parent="."]
+position = Vector2(-10, -33)
+texture = ExtResource("2_gw6ce")
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(0, -8)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -20)
+shape = SubResource("RectangleShape2D_021w3")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

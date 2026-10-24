@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://c34e34dm6g1oa"]
+
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Examples/Player/Player.tscn" id="1_d7iic"]
+[ext_resource type="PackedScene" uid="uid://bbrc4r5uir85h" path="res://Examples/Items/fruit.tscn" id="2_2q81w"]
+[ext_resource type="Script" uid="uid://db8y4b4c2f87r" path="res://Examples/Levels/PlayerKillbox.gd" id="3_pvrkm"]
+[ext_resource type="PackedScene" uid="uid://by0o0t4ypfr7x" path="res://Examples/Levels/checkpoint.tscn" id="4_yny61"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a27bq"]
+size = Vector2(860, 41)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pyoy5"]
+size = Vector2(2927, 177)
+
+[node name="RespawnDemo" type="Node2D" unique_id=534675514]
+
+[node name="CharacterBody2D" parent="." unique_id=422492589 instance=ExtResource("1_d7iic")]
+
+[node name="Floor" type="StaticBody2D" parent="." unique_id=426895089]
+position = Vector2(0, 102)
+
+[node name="ColorRect" type="ColorRect" parent="Floor" unique_id=293885534]
+offset_right = 859.0
+offset_bottom = 40.0
+color = Color(0.482353, 0.678431, 0.447059, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor" unique_id=1941704800]
+position = Vector2(430, 20.5)
+shape = SubResource("RectangleShape2D_a27bq")
+
+[node name="Items" type="Node2D" parent="." unique_id=1682208820]
+
+[node name="Fruit" parent="Items" unique_id=1745435234 instance=ExtResource("2_2q81w")]
+position = Vector2(189, 76)
+
+[node name="Fruit2" parent="Items" unique_id=1511609398 instance=ExtResource("2_2q81w")]
+position = Vector2(264, 76)
+
+[node name="Fruit3" parent="Items" unique_id=1717312197 instance=ExtResource("2_2q81w")]
+position = Vector2(348, 76)
+
+[node name="Killbox" type="Area2D" parent="." unique_id=1435983008]
+position = Vector2(0, 218)
+script = ExtResource("3_pvrkm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox" unique_id=1740189414]
+position = Vector2(1050.5, 78.5)
+shape = SubResource("RectangleShape2D_pyoy5")
+
+[node name="Respawn" type="Marker2D" parent="." unique_id=796679343]
+position = Vector2(225, 2)
+
+[node name="Checkpoints" type="Node2D" parent="." unique_id=2116835461]
+
+[node name="Checkpoint" parent="Checkpoints" unique_id=1396516096 instance=ExtResource("4_yny61")]
+position = Vector2(113, 99)
+
+[node name="Checkpoint2" parent="Checkpoints" unique_id=445067494 instance=ExtResource("4_yny61")]
+position = Vector2(484, 100)
+
+[connection signal="body_entered" from="Killbox" to="Killbox" method="_on_body_entered"]

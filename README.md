@@ -1,7 +1,6 @@
 # Top of Mind
-- THERE IS NO CLASS UNTIL 10/20!
-- Please watch the following tutorial on [Collision Shapes and Character Bodies](https://www.youtube.com/live/_zZOdU_GirE?si=nrcoy4BzW6CtE3eH)
-- Continue to work on your games.
+- [TileMapLayer Tutorial](https://youtu.be/sbv35boXqac?si=NOcCcgKVSqW4F1Hn)
+- [Collision Shapes and Characterbody](https://youtube.com/live/_zZOdU_GirE?feature=share)
 - Use the  [video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo) as reference
 
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
@@ -210,16 +209,15 @@ The course is split into 3 distinct modules each with a unique project:
 - Physics Objects
 - CharacterBody
 - Tilemaps
-- UI
 - Sounds
+
+### Friday 10/23
+
+- UI
 - 2D Components and Polish
   - Common Patterns: Items, Enemies, Checkpoints, Respawns, Killboxes
   - User Interface (Control Nodes)
   - Polish: Sound, Lighting, Particles
-- Project Development
-
-### Friday 10/23
-
 - Project Development
 
 ## Week 9 - Playtesting and 2D Game Sprint
@@ -306,7 +304,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Finals Week (12/11 - 12/18)
 
-### Capstone and Beyond - Final Exam slot (see Fordham final exam schedule)
+### 12/11 Capstone and Beyond - Final Exam slot (see Fordham final exam schedule)
 
 - Preparing for the Game Industry: Portfolio and Career Paths
 - Playtest party!

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://c6kmp3d41ih50"]
+
+[ext_resource type="Script" uid="uid://sfj4byvkmek2" path="res://character_body_2d.gd" id="1_kpjcp"]
+[ext_resource type="Texture2D" uid="uid://t6kpj2q1d44x" path="res://icon.svg" id="2_kne1u"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2111075218]
+script = ExtResource("1_kpjcp")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=825094994]
+modulate = Color(1, 0.21176471, 1, 1)
+position = Vector2(5, -10)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("2_kne1u")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1693400202]
+polygon = PackedVector2Array(-17, -13, -46, -59, 65, -59, 14, 0, 2, 41, -65, -4)

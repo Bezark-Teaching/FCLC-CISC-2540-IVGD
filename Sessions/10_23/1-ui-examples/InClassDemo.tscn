@@ -1,0 +1,97 @@
+[gd_scene format=3 uid="uid://crggtrnn8qnjc"]
+
+[ext_resource type="Script" uid="uid://bee3ih2ig4m2m" path="res://in_class_demo.gd" id="1_l1g46"]
+[ext_resource type="FontFile" uid="uid://b412cbm7w3qeu" path="res://chomsky/Chomsky.otf" id="1_sy8gb"]
+[ext_resource type="FontFile" uid="uid://g64tghahmpvm" path="res://mexcellent rg.otf" id="2_2w5en"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_cvraj"]
+font = ExtResource("1_sy8gb")
+font_size = 142
+font_color = Color(0.7857827, 0.3669814, 0.3373906, 1)
+outline_size = 6
+outline_color = Color(1, 1, 0.078431375, 1)
+shadow_size = 18
+shadow_color = Color(0, 0.7764706, 1, 0.62352943)
+
+[node name="DemoMenu" type="Control" unique_id=1724698045]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l1g46")
+
+[node name="Main" type="VBoxContainer" parent="." unique_id=715959672]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Main" unique_id=1282267652]
+layout_mode = 2
+size_flags_vertical = 6
+text = "Hello World!"
+label_settings = SubResource("LabelSettings_cvraj")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Main" unique_id=436175098]
+layout_mode = 2
+size_flags_vertical = 2
+
+[node name="Start" type="Button" parent="Main/HBoxContainer" unique_id=2000454384]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+theme_override_fonts/font = ExtResource("2_2w5en")
+theme_override_font_sizes/font_size = 64
+text = "Start Game"
+
+[node name="Tutorial" type="Button" parent="Main/HBoxContainer" unique_id=87939432]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+theme_override_fonts/font = ExtResource("2_2w5en")
+theme_override_font_sizes/font_size = 64
+text = "How To Play"
+
+[node name="HowtoPlay" type="PanelContainer" parent="." unique_id=1287449136]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HowtoPlay" unique_id=1802064660]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HowtoPlay/VBoxContainer" unique_id=640167002]
+layout_mode = 2
+text = "asdgflfk;ajsdf;laksdjfasdlf
+asdfasdflasdkfjasdflkajsdf
+asdf
+asdfasdfAasdgflfk;ajsdf;laksdjfasdlf
+asdfasdflasdkfjasdflkajsdf
+asdf
+asdfasdfAasdgflfk;ajsdf;laksdjfasdlf
+asdfasdflasdkfjasdflkajsdf
+asdf
+asdfasdfAasdgflfk;ajsdf;laksdjfasdlf
+asdfasdflasdkfjasdf kajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acactkajsdf cat cat acact
+asdf
+asdfasdfA"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Back" type="Button" parent="HowtoPlay/VBoxContainer" unique_id=1178762074]
+layout_mode = 2
+text = "Back"
+
+[connection signal="button_down" from="Main/HBoxContainer/Start" to="." method="_on_start_button_down"]
+[connection signal="button_down" from="Main/HBoxContainer/Tutorial" to="." method="_on_tutorial_button_down"]
+[connection signal="button_down" from="HowtoPlay/VBoxContainer/Back" to="." method="_on_back_button_down"]
