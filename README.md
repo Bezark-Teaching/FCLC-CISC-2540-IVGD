@@ -1,4 +1,5 @@
 # Top of Mind
+- [POPULATE the Capstone Whiteboard](https://www.tldraw.com/f/_XoHjdER73TZO7sg7E2U-?d=v-320.-516.2311.1615.page) by Friday!
 - TURN IN YOUR 2D GAMES!!i!
 - [TileMapLayer Tutorial](https://youtu.be/sbv35boXqac?si=NOcCcgKVSqW4F1Hn)
 - [Collision Shapes and Characterbody](https://youtube.com/live/_zZOdU_GirE?feature=share)
