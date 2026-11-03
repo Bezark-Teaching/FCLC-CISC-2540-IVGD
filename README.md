@@ -1,4 +1,5 @@
 # Top of Mind
+- TURN IN YOUR 2D GAMES!!i!
 - [TileMapLayer Tutorial](https://youtu.be/sbv35boXqac?si=NOcCcgKVSqW4F1Hn)
 - [Collision Shapes and Characterbody](https://youtube.com/live/_zZOdU_GirE?feature=share)
 - Use the  [video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo) as reference
@@ -236,7 +237,7 @@ The course is split into 3 distinct modules each with a unique project:
 ### Tuesday 11/3
 
 - Hello 3D
-- Project Development
+- [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 
 - **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)**
@@ -244,11 +245,9 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Friday 11/6
 
-- Capstone Brainstorm
 - Materials, Models
 - Light, Sound
 
-- **DUE: Lab 4**
 
 ## Week 11 - Advanced Topics and Capstone Presentations
 
@@ -258,6 +257,8 @@ The course is split into 3 distinct modules each with a unique project:
 - Animated Characters
 - NPCs
 - Navigation
+
+- **DUE: Lab 4**
 
 ### Friday 11/13
 
