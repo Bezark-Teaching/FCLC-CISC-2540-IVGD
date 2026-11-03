@@ -16,7 +16,7 @@ Each student creates three cards, one for each category:
 - Write one theme or emotion you want your game to convey
 - Examples: "Loneliness", "Wonder", "Nostalgia", "Growing up", "Environmental care"
 
-**TEAL CARDS: Worlds/Settings**
+**PINK CARDS: Worlds/Settings**
 - Write one specific place, time, or situation where your game takes place
 - Examples: "Abandoned space station", "Inside a storm cloud", "Microscopic world", "Ancient library", "Child's bedroom"
 
