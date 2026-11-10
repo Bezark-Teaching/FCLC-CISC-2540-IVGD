@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://cd4oxcqqx7fa2"]
+
+[ext_resource type="Texture2D" uid="uid://48rvgg6sanso" path="res://TinyTex/SBS - Tiny Texture Pack 2 - 512x512/512x512/Brick/Brick_03-512x512.png" id="1_64soo"]
+[ext_resource type="Material" uid="uid://cgcqtnwnhtc8h" path="res://Marble.tres" id="2_umdxf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dlepv"]
+albedo_texture = ExtResource("1_64soo")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0miaj"]
+albedo_texture = ExtResource("1_64soo")
+uv1_triplanar = true
+
+[node name="Node3D" type="Node3D" unique_id=234633446]
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=1213273434]
+radial_segments = 32
+rings = 32
+material = SubResource("StandardMaterial3D_dlepv")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=566985436]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.041015625, -0.6907465, 2.0565796)
+size = Vector3(5.4648438, 1, 5.113159)
+material = SubResource("StandardMaterial3D_0miaj")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=1354327410]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6893898, 2.0506613)
+size = Vector3(1, 1, 2)
+material = ExtResource("2_umdxf")
+
+[node name="CSGTorus3D" type="CSGTorus3D" parent="." unique_id=702215871]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+material = ExtResource("2_umdxf")

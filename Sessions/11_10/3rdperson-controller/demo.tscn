@@ -1,0 +1,70 @@
+[gd_scene load_steps=7 format=3 uid="uid://rshfp2qvjww8"]
+
+[ext_resource type="Script" path="res://character_body_3d.gd" id="1_ng2ph"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rv7vr"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_skutd"]
+sky_material = SubResource("ProceduralSkyMaterial_rv7vr")
+
+[sub_resource type="Environment" id="Environment_5d67t"]
+background_mode = 2
+sky = SubResource("Sky_skutd")
+tonemap_mode = 2
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_8se5i"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_d8myv"]
+
+[node name="Demo" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_5d67t")
+
+[node name="Level" type="CSGCombiner3D" parent="."]
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Level"]
+size = Vector3(100, 1, 100)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Level"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.49962, 3.26285, 2.01788)
+size = Vector3(2, 5.6825, 10.6914)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="Level"]
+transform = Transform3D(0.85954, 0, 0.511068, 0, 1, 0, -0.511068, 0, 0.85954, -5.27185, 2.92599, -10.5219)
+size = Vector3(10.9521, 5.00879, 2)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="Level"]
+transform = Transform3D(0.85954, 0, 0.511068, 0, 1, 0, -0.511068, 0, 0.85954, 20.7092, 2.92599, -2.30827)
+size = Vector3(10.9521, 5.00879, 2)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="Level"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.2832, 2.76657, -10.3278)
+size = Vector3(9.87842, 4.68994, 2)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 4.02523)
+script = ExtResource("1_ng2ph")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+mesh = SubResource("CapsuleMesh_8se5i")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+shape = SubResource("CapsuleShape3D_d8myv")
+
+[node name="Pivot" type="Node3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.526109, 0)
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CharacterBody3D/Pivot"]
+spring_length = 3.0
+margin = 0.05
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/Pivot/SpringArm3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.59706)
