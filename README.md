@@ -1,9 +1,6 @@
 # Top of Mind
+- Capstone presentations begin on friday!
 - [POPULATE the Capstone Whiteboard](https://www.tldraw.com/f/_XoHjdER73TZO7sg7E2U-?d=v-320.-516.2311.1615.page) by Friday!
-- TURN IN YOUR 2D GAMES!!i!
-- [TileMapLayer Tutorial](https://youtu.be/sbv35boXqac?si=NOcCcgKVSqW4F1Hn)
-- [Collision Shapes and Characterbody](https://youtube.com/live/_zZOdU_GirE?feature=share)
-- Use the  [video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo) as reference
 
 # FCLC Undergraduate Introduction to Video Game Design Syllabus
 
@@ -45,7 +42,7 @@ The work of the class consists of the following:
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
 
-**Attendance:** Students are allowed 5 absences. After this, each unexcused absence will lower your final grade by 1/2 a letter, i.e. B+ -> B or A -> A-
+**Attendance:** Students are allowed 5 absences. After this, each unexcused absence will lower your final grade by 1/2 a letter, i.e. B+ -> B or A -> A-. Aerriving 30+ minutes late to class is considered an absence.
 
 # **Course Outline**
 
@@ -246,18 +243,17 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Friday 11/6
 
-- Materials, Models
-- Light, Sound
-
+- Hello 3D
+- Light
 
 ## Week 11 - Advanced Topics and Capstone Presentations
 
 ### Tuesday 11/10
 
-- Classes, Resources
+- Sound
+- Materials, Models
+
 - Animated Characters
-- NPCs
-- Navigation
 
 - **DUE: Lab 4**
 
@@ -275,6 +271,9 @@ The course is split into 3 distinct modules each with a unique project:
 
 ### Friday 11/20
 
+- Classes, Resources
+- NPCs
+- Navigation
 - Project Development
 
 ## Week 13 - Project Development
@@ -318,6 +317,12 @@ The course is split into 3 distinct modules each with a unique project:
 - [Github Desktop](https://desktop.github.com/): an industry standard [version control](https://en.wikipedia.org/wiki/Version_control) system
 
 # Resources and Tutorials
+
+- [TileMapLayer Tutorial](https://youtu.be/sbv35boXqac?si=NOcCcgKVSqW4F1Hn)
+- [Collision Shapes and Characterbody](https://youtube.com/live/_zZOdU_GirE?feature=share)
+- Use the  [video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo) as reference
+
+
 
 - [Video tutorial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
 - [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)

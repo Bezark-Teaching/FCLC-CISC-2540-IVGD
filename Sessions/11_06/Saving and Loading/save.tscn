@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://duxkvwq3fvq6g"]
+
+[ext_resource type="Script" uid="uid://c2he1o1ywowam" path="res://save.gd" id="1_tknle"]
+
+[node name="Save" type="Button" unique_id=362906259]
+offset_right = 213.0
+offset_bottom = 188.0
+text = "Save"
+script = ExtResource("1_tknle")
+
+[node name="Score" type="Label" parent="." unique_id=1757813787]
+layout_mode = 0
+offset_left = 425.0
+offset_top = 16.0
+offset_right = 499.0
+offset_bottom = 84.0
+
+[node name="IncreaseScore" type="Button" parent="." unique_id=1020250133]
+layout_mode = 0
+offset_left = 287.0
+offset_top = 69.0
+offset_right = 343.0
+offset_bottom = 131.0
+text = "+"
+
+[connection signal="button_down" from="." to="." method="_on_button_down"]
+[connection signal="button_down" from="IncreaseScore" to="." method="_on_increase_score_button_down"]
