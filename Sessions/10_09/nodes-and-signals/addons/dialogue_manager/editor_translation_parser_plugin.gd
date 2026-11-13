@@ -1,0 +1,81 @@
+class_name DMTranslationParserPlugin extends EditorTranslationParserPlugin
+
+
+## Cached result of parsing a dialogue file.
+var data: DMCompilerResult
+## List of characters that were added.
+var translated_character_names: PackedStringArray = []
+var translated_lines: Array[Dictionary] = []
+
+
+func _parse_file(path: String) -> Array[PackedStringArray]:
+	var msgs: Array[PackedStringArray] = []
+	var file: FileAccess = FileAccess.open(path, FileAccess.READ)
+	var text: String = file.get_as_text()
+
+	data = DMCompiler.compile_string(text, path)
+
+	var known_keys: PackedStringArray = PackedStringArray([])
+
+	# Add all character names if settings ask for it
+	if DMSettings.get_setting(DMSettings.INCLUDE_CHARACTERS_IN_TRANSLATABLE_STRINGS_LIST, true):
+		translated_character_names = [] as Array[DialogueLine]
+		for character_name: String in data.character_names:
+			if character_name in known_keys: continue
+
+			known_keys.append(character_name)
+
+			translated_character_names.append(character_name)
+			msgs.append(PackedStringArray([character_name.replace('"', '\"'), "dialogue", "", DMConstants.translate("translation_plugin.character_name")]))
+
+	# Add all dialogue lines and responses
+	var dialogue: Dictionary = data.lines
+	for key: String in dialogue.keys():
+		var line: Dictionary = dialogue.get(key)
+
+		if not line.type in [DMConstants.TYPE_DIALOGUE, DMConstants.TYPE_RESPONSE]: continue
+
+		var static_id: String = line.get(&"static_id", line.text)
+		if static_id.is_empty():
+			static_id = line.text
+
+		if static_id in known_keys: continue
+
+		known_keys.append(static_id)
+		translated_lines.append(line)
+
+		var has_static_id: bool = static_id != "" and static_id != line.text
+		var use_static_id_as_key: bool = DMSettings.get_setting(DMSettings.USE_STATIC_IDS_AS_TRANSLATION_KEYS, true)
+
+		var plural: String = ""
+		var extra_details: PackedStringArray = []
+		if line.has("character"):
+			extra_details.append("Character: %s" % line.get("character", ""))
+		if has_static_id and use_static_id_as_key and not line.text.is_empty():
+			extra_details.append("Line: %s" % line.text)
+		if line.has("notes"):
+			extra_details.append("Notes: %s" % line.get("notes", ""))
+		var notes: String = "\n".join(extra_details)
+
+		if use_static_id_as_key:
+			msgs.append(PackedStringArray([
+				static_id.replace('"', '\"') if has_static_id else line.text,
+				"dialogue",
+				plural,
+				notes,
+				key
+			]))
+		else:
+			msgs.append(PackedStringArray([
+				line.text,
+				static_id if has_static_id else "",
+				plural,
+				notes,
+				key
+			]))
+
+	return msgs
+
+
+func _get_recognized_extensions() -> PackedStringArray:
+	return ["dialogue"]

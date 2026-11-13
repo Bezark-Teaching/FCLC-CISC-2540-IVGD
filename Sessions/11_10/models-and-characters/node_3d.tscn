@@ -1,37 +1,26 @@
 [gd_scene format=4 uid="uid://dud701amv0q6d"]
 
 [ext_resource type="Texture2D" uid="uid://cqp00ymudypv6" path="res://[FREE] Gas Station/FREE/gltf/jerry_can_with_nozzle_post-apocalyptic_texture.png" id="1_a0tk4"]
+[ext_resource type="Texture2D" uid="uid://dlnnqh6kue6ie" path="res://[FREE] Gas Station/FREE/gltf/rogland_moonlit_night_4k.hdr" id="1_r3fl7"]
 [ext_resource type="Texture2D" uid="uid://b4bhqm8ugk7e4" path="res://[FREE] Gas Station/FREE/gltf/road_barrier_post-apocalyptic_texture.png" id="2_r3fl7"]
 [ext_resource type="Texture2D" uid="uid://bm0g4udjlebuw" path="res://[FREE] Gas Station/FREE/gltf/pallet_cluster_1_post-apocalyptic_texture.png" id="3_jka67"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_a0tk4"]
-sky_top_color = Color(0.19048968, 0.4614821, 0.7222565, 1)
-sky_horizon_color = Color(0.5939798, 0.6539779, 0.71017146, 1)
-ground_horizon_color = Color(0.5939798, 0.6539779, 0.71017146, 1)
-energy_multiplier = 2.4
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_r3fl7"]
+panorama = ExtResource("1_r3fl7")
 
-[sub_resource type="Sky" id="Sky_r3fl7"]
-sky_material = SubResource("ProceduralSkyMaterial_a0tk4")
+[sub_resource type="Sky" id="Sky_a0tk4"]
+sky_material = SubResource("PanoramaSkyMaterial_r3fl7")
 
 [sub_resource type="Environment" id="Environment_jka67"]
 background_mode = 2
-sky = SubResource("Sky_r3fl7")
+sky = SubResource("Sky_a0tk4")
 ssao_enabled = true
 glow_intensity = 3.46
 glow_bloom = 0.23
 glow_blend_mode = 0
-volumetric_fog_enabled = true
 volumetric_fog_density = 0.3457
 volumetric_fog_albedo = Color(0.4509804, 1, 1, 1)
 volumetric_fog_emission = Color(0.7019608, 0, 0, 1)
-adjustment_enabled = true
-
-[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_i5arm"]
-exposure_multiplier = 1.099
-dof_blur_far_enabled = true
-dof_blur_far_distance = 0.87
-dof_blur_near_enabled = true
-dof_blur_near_distance = 0.86
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yv7vp"]
 resource_name = "Material"
@@ -169,7 +158,6 @@ shadow_mesh = SubResource("ArrayMesh_wxfxv")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=158899932]
 environment = SubResource("Environment_jka67")
-camera_attributes = SubResource("CameraAttributesPractical_i5arm")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=207055282]
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)

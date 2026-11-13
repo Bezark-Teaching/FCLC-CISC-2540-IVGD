@@ -1,4 +1,5 @@
 # Top of Mind
+- [Custom Dialogue Example](https://github.com/Bezark-Teaching/FCLC-CISC-2540-IVGD/tree/main/Modules/2D/7-Patterns/Dialogue%20Box%20Custom%20Resource)
 - Capstone presentations begin on friday!
 - [POPULATE the Capstone Whiteboard](https://www.tldraw.com/f/_XoHjdER73TZO7sg7E2U-?d=v-320.-516.2311.1615.page) by Friday!
 
